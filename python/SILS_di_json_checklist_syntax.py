@@ -26,11 +26,11 @@ file_list_in_directory = os.listdir(sys.argv[1])
 format = sys.argv[3]
 worksheet = load_workbook(sys.argv[2])[format]
 
-current_directory = os.getcwd()
-connection_file = os.path.join(current_directory, "connections.json")
-connection_details = {}
-with open(connection_file, "r+") as connection_data:
-    connection_details = json.load(connection_data)
+# current_directory = os.getcwd()
+# connection_file = os.path.join(current_directory, "connections.json")
+# connection_details = {}
+# with open(connection_file, "r+") as connection_data:
+#     connection_details = json.load(connection_data)
 
 output_azure = False
 output_connection_string = ""
