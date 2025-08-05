@@ -1,0 +1,240 @@
+{
+    "Date": [
+        "Sept 18/2019",
+        0.22
+    ],
+    "Observer(s)": [
+        "N.POWELL",
+        0.587
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.957
+    ],
+    "Survey Time: Start": [
+        "1000",
+        0.975
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.97
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.976
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 75%": [
+        "selected",
+        0.978
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "selected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.98
+    ],
+    "Recoveries Comments": [
+        "GPS PO NTS 011 - 66 SPAWNERS 017- 11 - 27 020 80  25 014- 12  WATER LEVEL STILL TONLY 015- 130 HIGH AND TURBID 016 - 90   VIS. POOR EST. AFTER MOFFAT CK.",
+        0.013
+    ],
+    "SK_Count_data": [
+        {
+            "Live Count (incl. live tags)": [
+                "145",
+                0.964
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "40",
+                0.9
+            ]
+        },
+        {
+            "Area": [
+                "5",
+                0.735
+            ],
+            "% Spawning": [
+                "100",
+                0.899
+            ]
+        },
+        {
+            "Area": [
+                "6",
+                0.912
+            ],
+            "Live Count (incl. live tags)": [
+                "559",
+                0.975
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "50",
+                0.981
+            ],
+            "% Holding / Migrating": [
+                "5",
+                0.896
+            ],
+            "% Spawning": [
+                "95",
+                0.906
+            ]
+        }
+    ],
+    "Stream": [
+        "HORSERy RIVETS",
+        0.365
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.962
+    ],
+    "Survey Time: End": [
+        "1430",
+        0.897
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.974
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.976
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.973
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Temperature": [
+        "1.3",
+        0.231
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.978
+    ],
+    "General Comments": [
+        "Comments PSC SAMPLED 5 M AND 2F FRONTS AREA Cevents 2 M PAYAND 2F FROM AREA 5, RECORDER IN RECOVERY TOTALS",
+        0.073
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "5",
+                0.946
+            ],
+            "Male": [
+                "2",
+                0.914
+            ],
+            "Female": [
+                "2",
+                0.914
+            ],
+            "Female % Spawn: N.R.": [
+                "2",
+                0.808
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "6",
+                0.899
+            ],
+            "Male": [
+                "5",
+                0.832
+            ],
+            "Female": [
+                "2",
+                0.833
+            ],
+            "Female % Spawn: N.R.": [
+                "1",
+                0.215
+            ],
+            "Female % Spawn: 50%": [
+                "1",
+                0.844
+            ]
+        }
+    ]
+}

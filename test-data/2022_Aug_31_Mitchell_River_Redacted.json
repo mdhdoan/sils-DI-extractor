@@ -1,0 +1,292 @@
+{
+    "Date": [
+        "08/31/2022",
+        0.974
+    ],
+    "Observer(s)": [
+        "01500",
+        0.62
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.917
+    ],
+    "Survey Time: Start": [
+        "1135",
+        0.98
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.973
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.975
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.979
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.977
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.98
+    ],
+    "Recoveries Comments": [
+        "Glacial water and counting on step reduce efficiency. Fish are starting to pair up, but Most are just holding in groups. Penfold is also very glacial. Fecundity sample taken in AL, PSC sampled IF Edan AZ, included in totals",
+        0.269
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "1",
+                0.927
+            ],
+            "Live Count (incl. live tags)": [
+                "39",
+                0.96
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "50",
+                0.9
+            ],
+            "% Holding / Migrating": [
+                "90",
+                0.899
+            ],
+            "% Spawned Out": [
+                "10",
+                0.898
+            ]
+        },
+        {
+            "Area": [
+                "2",
+                0.931
+            ],
+            "Live Count (incl. live tags)": [
+                "325",
+                0.965
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "30",
+                0.96
+            ],
+            "% Holding / Migrating": [
+                "90",
+                0.941
+            ],
+            "% Spawning": [
+                "10",
+                0.742
+            ]
+        },
+        {
+            "Area": [
+                "3",
+                0.951
+            ],
+            "Live Count (incl. live tags)": [
+                "548",
+                0.931
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "25",
+                0.865
+            ],
+            "% Holding / Migrating": [
+                "80",
+                0.894
+            ],
+            "% Spawning": [
+                "20",
+                0.641
+            ]
+        },
+        {
+            "Area": [
+                "Mouth",
+                0.908
+            ],
+            "Live Count (incl. live tags)": [
+                "35",
+                0.899
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "15",
+                0.948
+            ],
+            "% Holding / Migrating": [
+                "100",
+                0.751
+            ]
+        }
+    ],
+    "Stream": [
+        "Mitchell River",
+        0.723
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Survey Time: End": [
+        "(74)",
+        0.509
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.97
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.977
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "selected",
+        0.977
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "selected",
+        0.977
+    ],
+    "Water Conditions: Water Temperature": [
+        "16.3",
+        0.889
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "selected",
+        0.98
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "1",
+                0.861
+            ],
+            "Male": [
+                "0",
+                0.536
+            ],
+            "Female": [
+                "1",
+                0.682
+            ],
+            "Female % Spawn: N.R.": [
+                "1",
+                0.522
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "2",
+                0.878
+            ],
+            "Male": [
+                "0",
+                0.541
+            ],
+            "Female": [
+                "1",
+                0.856
+            ],
+            "Female % Spawn: 0%": [
+                "1",
+                0.686
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "3",
+                0.898
+            ],
+            "Male": [
+                "0",
+                0.716
+            ],
+            "Female": [
+                "0",
+                0.817
+            ],
+            "Female % Spawn: 100%": [
+                "1",
+                0.367
+            ]
+        }
+    ]
+}

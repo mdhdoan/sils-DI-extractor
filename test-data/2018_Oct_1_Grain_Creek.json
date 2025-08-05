@@ -1,0 +1,194 @@
+{
+    "Date": [
+        "Oct /04/2018",
+        0.093
+    ],
+    "Observer(s)": [
+        "B. Smith Stede",
+        0.066
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.671
+    ],
+    "Survey Time: Start": [
+        "1405",
+        0.893
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.975
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.973
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Type: Rain": [
+        "selected",
+        0.918
+    ],
+    "Precipitation: Type: None": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.97
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.952
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Mouth 1",
+                0.296
+            ],
+            "Live Count (incl. live tags)": [
+                "204",
+                0.911
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.94
+            ],
+            "% Spawning": [
+                "20",
+                0.931
+            ],
+            "% Spawned Out": [
+                "80",
+                0.987
+            ]
+        }
+    ],
+    "Stream": [
+        "Grain Creek",
+        0.904
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.97
+    ],
+    "Survey Time: End": [
+        "14135",
+        0.664
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.966
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Medium": [
+        "selected",
+        0.976
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.958
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.973
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "selected",
+        0.971
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Temperature": [
+        "4",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.972
+    ],
+    "General Comments": [
+        "Comments Final Survey, Past peak dead many fish) spawned out, no fresh.",
+        0.178
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "1",
+                0.874
+            ],
+            "Male": [
+                "14",
+                0.94
+            ],
+            "Female": [
+                "26",
+                0.919
+            ],
+            "Female % Spawn: 100%": [
+                "26",
+                0.898
+            ]
+        }
+    ]
+}

@@ -1,0 +1,192 @@
+{
+    "Date": [
+        "Sept 17/2014",
+        0.852
+    ],
+    "Observer(s)": [
+        "TiPowell Last Name",
+        0.41
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.956
+    ],
+    "Survey Time: Start": [
+        "1045",
+        0.888
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.977
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.972
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.964
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.969
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.98
+    ],
+    "Recoveries Comments": [
+        "Mouth",
+        0.582
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Mouth",
+                0.859
+            ],
+            "Live Count (incl. live tags)": [
+                "0",
+                0.831
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "50",
+                0.827
+            ]
+        },
+        {
+            "Area": [
+                "1",
+                0.822
+            ],
+            "Live Count (incl. live tags)": [
+                "270",
+                0.841
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80",
+                0.953
+            ],
+            "% Holding / Migrating": [
+                "20",
+                0.897
+            ],
+            "% Spawning": [
+                "80",
+                0.554
+            ]
+        }
+    ],
+    "Stream": [
+        "Summit Creek",
+        0.887
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.97
+    ],
+    "Survey Time: End": [
+        "102",
+        0.61
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.976
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.972
+    ],
+    "Water Conditions: Water Temperature": [
+        "10.0",
+        0.735
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.972
+    ],
+    "General Comments": [
+        "Comments Wird ripples impacted vis at mouth. ditions or events, peak of spawn)",
+        0.427
+    ]
+}

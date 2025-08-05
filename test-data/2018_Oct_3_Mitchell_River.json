@@ -1,0 +1,212 @@
+{
+    "Date": [
+        "004/03/2018",
+        0.729
+    ],
+    "Observer(s)": [
+        "T. Pavel /B. Smith IL. Steck",
+        0.166
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.684
+    ],
+    "Survey Time: Start": [
+        "1050",
+        0.981
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.975
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 75%": [
+        "selected",
+        0.917
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.972
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.98
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "3",
+                0.901
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "60",
+                0.733
+            ],
+            "% Spawning": [
+                "30",
+                0.742
+            ],
+            "% Spawned Out": [
+                "70",
+                0.626
+            ]
+        }
+    ],
+    "Stream": [
+        "Mitchell River",
+        0.815
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.957
+    ],
+    "Survey Time: End": [
+        "1220",
+        0.976
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.975
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Temperature": [
+        "10",
+        0.869
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.978
+    ],
+    "General Comments": [
+        "Comments Final Survey. Observed fresh spawners. Approx, same amount of live as previous survey , Low water lacks walked up from pool below break",
+        0.397
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "3 TP",
+                0.939
+            ],
+            "Male": [
+                "80",
+                0.902
+            ],
+            "Female": [
+                "141",
+                0.893
+            ],
+            "Female % Spawn: 0%": [
+                "2",
+                0.705
+            ],
+            "Female % Spawn: 100%": [
+                "139",
+                0.705
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "3 BS",
+                0.886
+            ],
+            "Male": [
+                "78",
+                0.886
+            ],
+            "Female": [
+                "118",
+                0.873
+            ],
+            "Female % Spawn: 100%": [
+                "118",
+                0.897
+            ]
+        }
+    ]
+}

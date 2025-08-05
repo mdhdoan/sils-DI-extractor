@@ -1,0 +1,182 @@
+{
+    "Date": [
+        "09/21/2022",
+        0.87
+    ],
+    "Observer(s)": [
+        "Einlson",
+        0.582
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.917
+    ],
+    "Survey Time: Start": [
+        "1430",
+        0.963
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.972
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.948
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.978
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.975
+    ],
+    "Recoveries Comments": [
+        "PSC sampled 10M, VIF DNA collected from",
+        0.458
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "deception",
+                0.577
+            ]
+        }
+    ],
+    "Stream": [
+        "Deception Shore",
+        0.754
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.97
+    ],
+    "Survey Time: End": [
+        "15 45",
+        0.956
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.975
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 0%": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.944
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Temperature": [
+        "14.5",
+        0.64
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.98
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "dec.",
+                0.914
+            ],
+            "Male": [
+                "17",
+                0.915
+            ],
+            "Female": [
+                "24",
+                0.873
+            ],
+            "Female % Spawn: 0%": [
+                "3",
+                0.469
+            ],
+            "Female % Spawn: 100%": [
+                "B21",
+                0.242
+            ]
+        }
+    ]
+}

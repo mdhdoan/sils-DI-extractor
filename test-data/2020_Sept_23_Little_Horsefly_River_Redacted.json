@@ -1,0 +1,206 @@
+{
+    "Date": [
+        "09/23/2020",
+        0.956
+    ],
+    "Observer(s)": [
+        "A. Johnston,",
+        0.608
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.951
+    ],
+    "Survey Time: Start": [
+        "art 845-",
+        0.516
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.974
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "selected",
+        0.972
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.97
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.97
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.977
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.969
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.975
+    ],
+    "Recoveries Comments": [
+        "  Remaining Sockeye appeared to still be attempting to spawn Females were in good condition majority were painted up",
+        0.067
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "3",
+                0.972
+            ],
+            "Live Count (incl. live tags)": [
+                "11",
+                0.857
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70-",
+                0.616
+            ],
+            "% Holding / Migrating": [
+                "-",
+                0.309
+            ],
+            "% Spawning": [
+                "90",
+                0.899
+            ],
+            "% Spawned Out": [
+                "10",
+                0.979
+            ]
+        },
+        {
+            "Area": [
+                "4",
+                0.9
+            ]
+        },
+        {
+            "Area": [
+                "5/",
+                0.567
+            ],
+            "Live Count (incl. live tags)": [
+                "0, 0",
+                0.021
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70, 20",
+                0.38
+            ]
+        }
+    ],
+    "Stream": [
+        "Little Horsefly River,",
+        0.43
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.957
+    ],
+    "Visual Surveys Comments": [
+        "DC",
+        0.676
+    ],
+    "Survey Time: End": [
+        "1020",
+        0.977
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.972
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.97
+    ],
+    "Weather: Brightness: Medium": [
+        "selected",
+        0.973
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.976
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Water Temperature": [
+        "15.4",
+        0.952
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.972
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.972
+    ],
+    "General Comments": [
+        "Gusting wind impacting OF in \u00e1rea 5",
+        0.417
+    ]
+}

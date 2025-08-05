@@ -1,0 +1,186 @@
+{
+    "Date": [
+        "09/30/2022",
+        0.972
+    ],
+    "Observer(s)": [
+        "F. Olson/[ VcAula.",
+        0.264
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.957
+    ],
+    "Survey Time: Start": [
+        "1015",
+        0.934
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.97
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.956
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.55
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.971
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.961
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.972
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.96
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.972
+    ],
+    "Recoveries Comments": [
+        "I live CN, ~50 Kokanee in A5 past peak spawn. Dropping Water levels and temps. PSC sartiples 15M, 10F",
+        0.017
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "5 1.1",
+                0.053
+            ],
+            "% Spawning": [
+                "5",
+                0.734
+            ],
+            "% Spawned Out": [
+                "95",
+                0.741
+            ]
+        }
+    ],
+    "Stream": [
+        "Horsefly River",
+        0.87
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.951
+    ],
+    "Survey Time: End": [
+        "1330",
+        0.968
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.971
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.97
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.883
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "selected",
+        0.897
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.855
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Temperature": [
+        "11.90",
+        0.57
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.978
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "5",
+                0.9
+            ],
+            "Male": [
+                "454",
+                0.9
+            ],
+            "Female": [
+                "679",
+                0.887
+            ],
+            "Female % Spawn: 100%": [
+                "679",
+                0.74
+            ]
+        }
+    ]
+}

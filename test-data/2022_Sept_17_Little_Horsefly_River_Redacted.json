@@ -1,0 +1,240 @@
+{
+    "Date": [
+        "04/17/2022",
+        0.831
+    ],
+    "Observer(s)": [
+        "C. MCAdlay.",
+        0.41
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.97
+    ],
+    "Survey Time: Start": [
+        "0900",
+        0.966
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.977
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "selected",
+        0.976
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.975
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.98
+    ],
+    "Recoveries Comments": [
+        "N",
+        0
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Mouth",
+                0.928
+            ],
+            "Live Count (incl. live tags)": [
+                "8",
+                0.972
+            ]
+        },
+        {
+            "Area": [
+                "1",
+                0.759
+            ],
+            "Live Count (incl. live tags)": [
+                "4",
+                0.948
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "10",
+                0.652
+            ],
+            "% Holding / Migrating": [
+                "100",
+                0.826
+            ]
+        },
+        {
+            "Area": [
+                "2",
+                0.891
+            ],
+            "Live Count (incl. live tags)": [
+                "498/983",
+                0.728
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.772
+            ],
+            "% Holding / Migrating": [
+                "75",
+                0.778
+            ],
+            "% Spawning": [
+                "25",
+                0.865
+            ]
+        }
+    ],
+    "Stream": [
+        "Little Horsefly River",
+        0.598
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.977
+    ],
+    "Survey Time: End": [
+        "1010",
+        0.973
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.978
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Temperature": [
+        "14.5",
+        0.624
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.978
+    ],
+    "General Comments": [
+        "Comments Starting to spawn, but still mainly holding",
+        0.574
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "1",
+                0.878
+            ],
+            "Male": [
+                "Q",
+                0.28
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "2",
+                0.875
+            ],
+            "Male": [
+                "6",
+                0.896
+            ],
+            "Female % Spawn: 0%": [
+                "3",
+                0.9
+            ],
+            "Female % Spawn: 100%": [
+                "1",
+                0.869
+            ],
+            "Unsexed": [
+                "1",
+                0.588
+            ]
+        }
+    ]
+}

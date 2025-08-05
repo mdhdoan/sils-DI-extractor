@@ -1,0 +1,306 @@
+{
+    "Date": [
+        "500/01/22",
+        0.934
+    ],
+    "Observer(s)": [
+        "E. ONSO",
+        0.279
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.952
+    ],
+    "Survey Time: Start": [
+        "920",
+        0.982
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.977
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.977
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.979
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.98
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.977
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.963
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.97
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.98
+    ],
+    "Recoveries Comments": [
+        "4. Fecundity Sa. uples taken in A8 DVA & PSC Sampled 20 F. 19M From Alo IM From A8 majority of Female Rd coveries are prespawn -lots of cases in Deep DOOIS",
+        0.303
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "8",
+                0.956
+            ],
+            "Live Count (incl. live tags)": [
+                "6850",
+                0.86
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "60",
+                0.664
+            ],
+            "% Holding / Migrating": [
+                "50",
+                0.678
+            ],
+            "% Spawning": [
+                "50",
+                0.669
+            ]
+        },
+        {
+            "Area": [
+                "9",
+                0.913
+            ],
+            "Live Count (incl. live tags)": [
+                "18620",
+                0.905
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.725
+            ],
+            "% Holding / Migrating": [
+                "50",
+                0.744
+            ],
+            "% Spawning": [
+                "50",
+                0.703
+            ]
+        },
+        {
+            "Area": [
+                "10",
+                0.911
+            ],
+            "Live Count (incl. live tags)": [
+                "13964",
+                0.895
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "75",
+                0.706
+            ],
+            "% Holding / Migrating": [
+                "50",
+                0.757
+            ],
+            "% Spawning": [
+                "50",
+                0.672
+            ]
+        }
+    ],
+    "Stream": [
+        "HorseFly River",
+        0.771
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.959
+    ],
+    "Survey Time: End": [
+        "1305",
+        0.967
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.968
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: Gauge": [
+        "2 CN",
+        0.405
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.979
+    ],
+    "Weather: %Cloudy: 0%": [
+        "selected",
+        0.977
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.979
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.978
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.975
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Water Temperature": [
+        "A8 19",
+        0.343
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.98
+    ],
+    "General Comments": [
+        "Comments Spawn - we Harf have begun Spackning) Fish appar healthy",
+        0.059
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "8",
+                0.972
+            ],
+            "Male": [
+                "62",
+                0.955
+            ],
+            "Female": [
+                "50",
+                0.758
+            ],
+            "Female % Spawn: N.R.": [
+                "48",
+                0.932
+            ],
+            "Female % Spawn: 100%": [
+                "2",
+                0.905
+            ],
+            "Unsexed": [
+                "504",
+                0.751
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "9",
+                0.852
+            ],
+            "Male": [
+                "101",
+                0.704
+            ],
+            "Female": [
+                "63",
+                0.691
+            ],
+            "Female % Spawn: N.R.": [
+                "49",
+                0.9
+            ],
+            "Female % Spawn: 100%": [
+                "14",
+                0.909
+            ],
+            "Unsexed": [
+                "890",
+                0.741
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "10",
+                0.919
+            ],
+            "Male": [
+                "1,627",
+                0.689
+            ],
+            "Female": [
+                "44",
+                0.633
+            ],
+            "Female % Spawn: 0%": [
+                "14/2",
+                0.404
+            ],
+            "Female % Spawn: 100%": [
+                "2.2",
+                0.539
+            ],
+            "Unsexed": [
+                "3.73",
+                0.725
+            ]
+        }
+    ]
+}

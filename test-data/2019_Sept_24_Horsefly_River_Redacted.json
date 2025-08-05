@@ -1,0 +1,226 @@
+{
+    "Date": [
+        "Sept 24/2019",
+        0.918
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.962
+    ],
+    "Survey Time: Start": [
+        "1102",
+        0.891
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.974
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.979
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 75%": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Type: Rain": [
+        "selected",
+        0.98
+    ],
+    "Precipitation: Type: None": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.96
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "selected",
+        0.975
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.98
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "9",
+                0.883
+            ],
+            "Live Count (incl. live tags)": [
+                "128",
+                0.906
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "15",
+                0.916
+            ],
+            "% Spawning": [
+                "100",
+                0.9
+            ],
+            "Other Species": [
+                "3 chin",
+                0.728
+            ]
+        },
+        {
+            "Area": [
+                "10",
+                0.94
+            ],
+            "Live Count (incl. live tags)": [
+                "18",
+                0.961
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "10",
+                0.956
+            ],
+            "% Spawning": [
+                "100",
+                0.933
+            ]
+        }
+    ],
+    "Stream": [
+        "Horsefly River",
+        0.533
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Survey Time: End": [
+        "1303",
+        0.974
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.975
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.971
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Medium": [
+        "selected",
+        0.979
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.978
+    ],
+    "Precipitation: Intensity: Light": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Temperature": [
+        "9.4",
+        0.969
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.978
+    ],
+    "General Comments": [
+        "PSC sampled IM3 3F from Aq Include in Rea, Totals. Water up ~30cm from last Sept. 20th survey, Turbidity is high. Current fast and visibility very low ~60cm. Lots of glare.",
+        0.164
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "9",
+                0.913
+            ],
+            "Male": [
+                "1",
+                0.866
+            ],
+            "Female": [
+                "3",
+                0.901
+            ],
+            "Female % Spawn: 100%": [
+                "3",
+                0.899
+            ],
+            "Unsexed": [
+                "2",
+                0.824
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "10",
+                0.861
+            ],
+            "Male": [
+                "0",
+                0.181
+            ],
+            "Female": [
+                "0",
+                0.175
+            ]
+        }
+    ]
+}

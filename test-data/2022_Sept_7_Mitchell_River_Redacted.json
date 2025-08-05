@@ -1,0 +1,286 @@
+{
+    "Date": [
+        "09/07/2012",
+        0.851
+    ],
+    "Observer(s)": [
+        "Folsom",
+        0.483
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.962
+    ],
+    "Survey Time: Start": [
+        "1010",
+        0.971
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.977
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.977
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.977
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.98
+    ],
+    "Recoveries Comments": [
+        "Bright, energetic fish with minimal pre-sparen Beginning to see signs of spawning. morts. 4 PSC Male 5 from A3 2 PSC males from A2. included) in recovery totals.",
+        0.219
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Mouth",
+                0.968
+            ],
+            "Live Count (incl. live tags)": [
+                "0",
+                0.85
+            ]
+        },
+        {
+            "Area": [
+                "1",
+                0.888
+            ],
+            "Live Count (incl. live tags)": [
+                "0",
+                0.731
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "60",
+                0.932
+            ]
+        },
+        {
+            "Area": [
+                "2",
+                0.891
+            ],
+            "Live Count (incl. live tags)": [
+                "730",
+                0.93
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "60",
+                0.901
+            ],
+            "% Holding / Migrating": [
+                "90",
+                0.625
+            ],
+            "% Spawning": [
+                "10",
+                0.895
+            ]
+        },
+        {
+            "Area": [
+                "3",
+                0.921
+            ],
+            "Live Count (incl. live tags)": [
+                "3360",
+                0.909
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "65",
+                0.766
+            ],
+            "% Holding / Migrating": [
+                "70",
+                0.633
+            ],
+            "% Spawning": [
+                "30",
+                0.9
+            ]
+        }
+    ],
+    "Stream": [
+        "Mitchell River",
+        0.27
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.956
+    ],
+    "Survey Time: End": [
+        "1140",
+        0.925
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.977
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 0%": [
+        "selected",
+        0.979
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Water Temperature": [
+        "14.80",
+        0.645
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "selected",
+        0.98
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "3",
+                0.977
+            ],
+            "Male": [
+                "4",
+                0.96
+            ],
+            "Female": [
+                "1",
+                0.897
+            ],
+            "Female % Spawn: N.R.": [
+                "1",
+                0.5
+            ],
+            "Female % Spawn: 100%": [
+                "2",
+                0.899
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "2",
+                0.929
+            ],
+            "Male": [
+                "5",
+                0.884
+            ],
+            "Female": [
+                "1",
+                0.884
+            ],
+            "Female % Spawn: 0%": [
+                "1",
+                0.601
+            ],
+            "Female % Spawn: 100%": [
+                "3",
+                0.902
+            ]
+        },
+        {
+            "Male": [
+                "0",
+                0.642
+            ],
+            "Female % Spawn: 100%": [
+                "3",
+                0.9
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "1",
+                0.842
+            ],
+            "Female": [
+                "0",
+                0.855
+            ]
+        }
+    ]
+}

@@ -1,0 +1,226 @@
+{
+    "Date": [
+        "10/04/2022",
+        0.955
+    ],
+    "Observer(s)": [
+        "First Name/Last Name",
+        0.791
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.851
+    ],
+    "Survey Time: Start": [
+        "12 35",
+        0.965
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.973
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.971
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.98
+    ],
+    "Recoveries Comments": [
+        "Carcasses sexed from boat.",
+        0.538
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Wasko Shore",
+                0.789
+            ],
+            "Live Count (incl. live tags)": [
+                "0",
+                0.712
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "65",
+                0.81
+            ]
+        },
+        {
+            "Area": [
+                "Roaring Shore",
+                0.566
+            ],
+            "Live Count (incl. live tags)": [
+                "89",
+                0.914
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "60",
+                0.881
+            ],
+            "% Spawning": [
+                "60",
+                0.901
+            ],
+            "% Spawned Out": [
+                "40",
+                0.382
+            ]
+        }
+    ],
+    "Stream": [
+        "Quassel Lake- North Arm - East Shore",
+        0.44
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.958
+    ],
+    "Survey Time: End": [
+        "1520",
+        0.954
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.973
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.976
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Temperature": [
+        "14,9",
+        0.198
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.978
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "Wasko",
+                0.791
+            ],
+            "Male": [
+                "o",
+                0.172
+            ],
+            "Female": [
+                "8",
+                0.062
+            ],
+            "Female % Spawn: 100%": [
+                "7",
+                0.738
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "Roaring",
+                0.519
+            ],
+            "Male": [
+                "11",
+                0.692
+            ],
+            "Female": [
+                "23",
+                0.737
+            ],
+            "Female % Spawn: N.R.": [
+                "23",
+                0.74
+            ]
+        }
+    ]
+}

@@ -1,0 +1,166 @@
+{
+    "Date": [
+        "Aug 31/22",
+        0.933
+    ],
+    "Observer(s)": [
+        "EDO/Son",
+        0.598
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.951
+    ],
+    "Survey Time: Start": [
+        "1445",
+        0.98
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.973
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.977
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.973
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.917
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.754
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.98
+    ],
+    "Recoveries Comments": [
+        "No Recoveries",
+        0.809
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Bear",
+                0.812
+            ],
+            "Live Count (incl. live tags)": [
+                "Q",
+                0.366
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "75",
+                0.731
+            ]
+        }
+    ],
+    "Stream": [
+        "North Arn West",
+        0.363
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Survey Time: End": [
+        "1500",
+        0.973
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.977
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.976
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Water Temperature": [
+        "20.9",
+        0.774
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.98
+    ]
+}

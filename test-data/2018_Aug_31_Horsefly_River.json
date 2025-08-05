@@ -1,0 +1,234 @@
+{
+    "Date": [
+        "Aug/31/2018",
+        0.652
+    ],
+    "Observer(s)": [
+        "Steel. A Loewen",
+        0.332
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.955
+    ],
+    "Survey Time: Start": [
+        "0945",
+        0.938
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.975
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.973
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.803
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.98
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "3",
+                0.974
+            ],
+            "Live Count (incl. live tags)": [
+                "NA",
+                0.955
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.804
+            ],
+            "% Holding / Migrating": [
+                "95",
+                0.728
+            ],
+            "% Spawning": [
+                "5,",
+                0.63
+            ]
+        },
+        {
+            "Area": [
+                "2",
+                0.959
+            ],
+            "Live Count (incl. live tags)": [
+                "30610",
+                0.927
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.957
+            ],
+            "% Holding / Migrating": [
+                "90",
+                0.939
+            ],
+            "% Spawning": [
+                "10",
+                0.575
+            ],
+            "Live Tagged": [
+                "NA NA",
+                0.347
+            ]
+        }
+    ],
+    "Stream": [
+        "Horsefly River",
+        0.944
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.951
+    ],
+    "Survey Time: End": [
+        "1320",
+        0.975
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.975
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.973
+    ],
+    "Weather: Brightness: Medium": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.715
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.978
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Temperature": [
+        "11",
+        0.596
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.978
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "3",
+                0.944
+            ],
+            "Male": [
+                "8",
+                0.916
+            ],
+            "Female": [
+                "7",
+                0.933
+            ],
+            "Female % Spawn: 0%": [
+                "2",
+                0.744
+            ],
+            "Female % Spawn: 100%": [
+                "5",
+                0.824
+            ],
+            "Unsexed": [
+                "120",
+                0.419
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "2",
+                0.886
+            ],
+            "Unsexed": [
+                "150",
+                0.651
+            ]
+        }
+    ]
+}

@@ -1,0 +1,188 @@
+{
+    "Date": [
+        "08/30/2022",
+        0.968
+    ],
+    "Observer(s)": [
+        "E.olson",
+        0.616
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.756
+    ],
+    "Survey Time: Start": [
+        "1130",
+        0.652
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.971
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.975
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.972
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.97
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.957
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.969
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.98
+    ],
+    "Recoveries Comments": [
+        "NO Recou cries",
+        0.424
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "D",
+                0.371
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "50",
+                0.121
+            ],
+            "% Spawning": [
+                "100",
+                0.74
+            ]
+        },
+        {
+            "Area": [
+                "Deception Pouring Roaring",
+                0.075
+            ],
+            "Live Count (incl. live tags)": [
+                "Q 28",
+                0.146
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "50 75",
+                0.266
+            ],
+            "% Spawning": [
+                "100",
+                0.865
+            ]
+        }
+    ],
+    "Stream": [
+        "North Aim Enst/Quesnel",
+        0.491
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.951
+    ],
+    "Survey Time: End": [
+        "1212",
+        0.844
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.973
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.974
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "selected",
+        0.976
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Temperature": [
+        "19",
+        0.969
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.975
+    ],
+    "General Comments": [
+        "- large group Roughly of spawn) 100, in roaring mouth,",
+        0.478
+    ]
+}

@@ -1,0 +1,246 @@
+{
+    "Date": [
+        "500/18/2019",
+        0.659
+    ],
+    "Observer(s)": [
+        "T Powell/ E. Olson",
+        0.604
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.971
+    ],
+    "Survey Time: Start": [
+        "0820",
+        0.979
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.98
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.979
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "selected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.98
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "2",
+                0.97
+            ],
+            "Live Count (incl. live tags)": [
+                "1159",
+                0.773
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "40",
+                0.956
+            ],
+            "% Holding / Migrating": [
+                "20",
+                0.916
+            ],
+            "% Spawning": [
+                "80",
+                0.942
+            ]
+        },
+        {
+            "Area": [
+                "3",
+                0.965
+            ],
+            "Live Count (incl. live tags)": [
+                "22",
+                0.969
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "20",
+                0.964
+            ],
+            "% Holding / Migrating": [
+                "20",
+                0.912
+            ],
+            "% Spawning": [
+                "80",
+                0.944
+            ]
+        }
+    ],
+    "Stream": [
+        "Horsefly River",
+        0.699
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Visual Surveys Comments": [
+        "Comments More fish observed behind) land in Arca 3, and new spawning love ation observed priver.",
+        0.446
+    ],
+    "Survey Time: End": [
+        "11 10",
+        0.896
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.979
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.979
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.978
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Temperature": [
+        "10.9",
+        0.68
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.98
+    ],
+    "General Comments": [
+        "Comments Unter vis. improving. Alt carcasses recovered were found in back channels. and PSC sampled.",
+        0.338
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "2",
+                0.976
+            ],
+            "Male": [
+                "0",
+                0.92
+            ],
+            "Female": [
+                "3",
+                0.962
+            ],
+            "Female % Spawn: 0%": [
+                "1",
+                0.882
+            ],
+            "Female % Spawn: 50%": [
+                "1",
+                0.807
+            ],
+            "Female % Spawn: 100%": [
+                "1",
+                0.782
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "3",
+                0.953
+            ],
+            "Male": [
+                "0",
+                0.739
+            ],
+            "Female": [
+                "0",
+                0.438
+            ],
+            "Unsexed": [
+                "V",
+                0.116
+            ]
+        }
+    ]
+}

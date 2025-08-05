@@ -1,0 +1,388 @@
+{
+    "Date": [
+        "10/01/2022",
+        0.904
+    ],
+    "Observer(s)": [
+        "C. MAulan /FanDIson",
+        0.11
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.97
+    ],
+    "Survey Time: Start": [
+        "0850",
+        0.98
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.975
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.973
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.969
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.961
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.961
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.975
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.975
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.976
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.972
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.979
+    ],
+    "Recoveries Comments": [
+        "Chinodl  5 live +2 Carcasses GMXIF in AB",
+        0.249
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "5",
+                0.669
+            ],
+            "Live Count (incl. live tags)": [
+                "27/27",
+                0.932
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "65",
+                0.896
+            ],
+            "% Holding / Migrating": [
+                "100",
+                0.517
+            ]
+        },
+        {
+            "Area": [
+                "4",
+                0.973
+            ],
+            "Live Count (incl. live tags)": [
+                "752/840",
+                0.95
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "60",
+                0.965
+            ],
+            "% Holding / Migrating": [
+                "50",
+                0.499
+            ],
+            "% Spawned Out": [
+                "50",
+                0.596
+            ],
+            "Other Species": [
+                "10,000",
+                0.333
+            ]
+        },
+        {
+            "Area": [
+                "3",
+                0.944
+            ],
+            "Live Count (incl. live tags)": [
+                "3812",
+                0.938
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "65",
+                0.949
+            ],
+            "% Holding / Migrating": [
+                "20",
+                0.497
+            ],
+            "% Spawning": [
+                "8B",
+                0.453
+            ]
+        },
+        {
+            "Area": [
+                "2",
+                0.946
+            ],
+            "Live Count (incl. live tags)": [
+                "13/80",
+                0.672
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80",
+                0.836
+            ],
+            "% Spawned Out": [
+                "100",
+                0.666
+            ]
+        },
+        {
+            "Area": [
+                "1 Mouth",
+                0.08
+            ],
+            "Live Count (incl. live tags)": [
+                "1/1",
+                0.872
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80",
+                0.899
+            ],
+            "% Holding / Migrating": [
+                "100",
+                0.407
+            ]
+        },
+        {
+            "Area": [
+                "479",
+                0.611
+            ]
+        },
+        {
+            "Area": [
+                "273",
+                0.566
+            ]
+        },
+        {
+            "Area": [
+                "752",
+                0.494
+            ]
+        }
+    ],
+    "Stream": [
+        "Little Horsefly River",
+        0.83
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Survey Time: End": [
+        "1500",
+        0.941
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.975
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.972
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.961
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.961
+    ],
+    "Weather: %Cloudy: 0%": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.966
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.967
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Water Temperature": [
+        "16.2",
+        0.902
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.977
+    ],
+    "General Comments": [
+        "Comments Large numbers of Kokanee Make live count difficult, reflected in QUE .",
+        0.079
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "5",
+                0.662
+            ],
+            "Male": [
+                "3",
+                0.973
+            ],
+            "Female": [
+                "2",
+                0.895
+            ],
+            "Female % Spawn: 100%": [
+                "2",
+                0.953
+            ],
+            "Unsexed": [
+                "6",
+                0.693
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "4",
+                0.971
+            ],
+            "Male": [
+                "37",
+                0.939
+            ],
+            "Female": [
+                "25",
+                0.926
+            ],
+            "Female % Spawn: N.R.": [
+                "2",
+                0.86
+            ],
+            "Female % Spawn: 100%": [
+                "23",
+                0.887
+            ],
+            "Unsexed": [
+                "Q",
+                0.134
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "3",
+                0.956
+            ],
+            "Male": [
+                "323",
+                0.929
+            ],
+            "Female": [
+                "494",
+                0.762
+            ],
+            "Female % Spawn: 0%": [
+                "4",
+                0.8
+            ],
+            "Female % Spawn: 100%": [
+                "490",
+                0.767
+            ],
+            "Unsexed": [
+                "45",
+                0.502
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "2",
+                0.942
+            ],
+            "Male": [
+                "24",
+                0.855
+            ],
+            "Female": [
+                "39",
+                0.632
+            ],
+            "Female % Spawn: 100%": [
+                "39",
+                0.741
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "1",
+                0.661
+            ],
+            "Male": [
+                "5",
+                0.649
+            ],
+            "Female": [
+                "9",
+                0.63
+            ],
+            "Female % Spawn: 100%": [
+                "9",
+                0.821
+            ]
+        }
+    ]
+}

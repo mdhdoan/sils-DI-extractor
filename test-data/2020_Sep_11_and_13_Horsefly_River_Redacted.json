@@ -1,0 +1,290 @@
+{
+    "Date": [
+        "Sep 11 2020",
+        0.74
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.883
+    ],
+    "Survey Time: Start": [
+        "09491",
+        0.81
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.98
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.977
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: Gauge: Area": [
+        "2",
+        0.96
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.977
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.837
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.978
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.98
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.978
+    ],
+    "Recoveries Comments": [
+        "Area 10 Ga uge 0 299m",
+        0.069
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "3,",
+                0.855
+            ],
+            "Live Count (incl. live tags)": [
+                "11",
+                0.931
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "601",
+                0.677
+            ],
+            "% Holding / Migrating": [
+                "20",
+                0.962
+            ],
+            "% Spawning": [
+                "80",
+                0.968
+            ],
+            "% Spawned Out": [
+                "e",
+                0.521
+            ],
+            "Live Tagged": [
+                "e",
+                0.366
+            ],
+            "Other Species": [
+                "0",
+                0.108
+            ]
+        },
+        {
+            "Area": [
+                "2,",
+                0.586
+            ],
+            "Live Count (incl. live tags)": [
+                "29,",
+                0.757
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "75",
+                0.973
+            ],
+            "% Holding / Migrating": [
+                "65",
+                0.938
+            ],
+            "% Spawning": [
+                "35",
+                0.968
+            ],
+            "% Spawned Out": [
+                "e",
+                0.18
+            ],
+            "Live Tagged": [
+                "e",
+                0.145
+            ],
+            "Other Species": [
+                "e",
+                0.491
+            ]
+        }
+    ],
+    "Stream": [
+        "Horsefly",
+        0.933
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.918
+    ],
+    "Visual Surveys Comments": [
+        "DC",
+        0.714
+    ],
+    "Survey Time: End": [
+        "1237,",
+        0.745
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.958
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.972
+    ],
+    "Water Level: Gauge": [
+        "4, 691",
+        0.751
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.979
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.979
+    ],
+    "Weather: %Cloudy: 0%": [
+        "selected",
+        0.979
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.956
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.98
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Temperature": [
+        "14.5",
+        0.132
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.978
+    ],
+    "General Comments": [
+        "Areaf IM IF PSC Samples included in recoveries, Hive jack observed in area 2,",
+        0.354
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "3",
+                0.983
+            ],
+            "Female % Spawn: N.R.": [
+                "0",
+                0.123
+            ],
+            "Female % Spawn: 0%": [
+                "0",
+                0.35
+            ],
+            "Female % Spawn: 50%": [
+                "e",
+                0.143
+            ],
+            "Female % Spawn: 100%": [
+                "8",
+                0.099
+            ],
+            "Jack": [
+                "0",
+                0.229
+            ],
+            "Unsexed": [
+                "\u00e9",
+                0.089
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "2",
+                0.982
+            ],
+            "Female % Spawn: N.R.": [
+                "e",
+                0.082
+            ],
+            "Female % Spawn: 0%": [
+                "\u00e9",
+                0.636
+            ],
+            "Female % Spawn: 50%": [
+                "0",
+                0.091
+            ],
+            "Female % Spawn: 100%": [
+                "11",
+                0.766
+            ],
+            "Unsexed": [
+                "e",
+                0.71
+            ]
+        }
+    ]
+}

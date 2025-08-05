@@ -1,0 +1,194 @@
+{
+    "Date": [
+        "001 /2/2019",
+        0.057
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.956
+    ],
+    "Survey Time: Start": [
+        "090",
+        0.813
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.97
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.973
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.972
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.975
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "selected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.972
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "selected",
+        0.97
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.98
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "6",
+                0.894
+            ],
+            "Live Count (incl. live tags)": [
+                "121",
+                0.889
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "50",
+                0.897
+            ],
+            "% Spawning": [
+                "60",
+                0.74
+            ],
+            "% Spawned Out": [
+                "40",
+                0.751
+            ]
+        }
+    ],
+    "Stream": [
+        "Horsefly river",
+        0.781
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Survey Time: End": [
+        "114.",
+        0.622
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.971
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Medium": [
+        "selected",
+        0.971
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.977
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.978
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Temperature": [
+        "7.30",
+        0.664
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "selected",
+        0.682
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.972
+    ],
+    "General Comments": [
+        "Comments. PSC Sampler taken from Abi 2 MC samples, unusual conditions of events, poi spawn) 2m, INCLUDED IN RECOVERY TURIS V  BAD GLARE MADE VIS POOR",
+        0.042
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "6",
+                0.914
+            ],
+            "Male": [
+                "2",
+                0.901
+            ],
+            "Female": [
+                "8",
+                0.902
+            ],
+            "Female % Spawn: 100%": [
+                "8",
+                0.9
+            ],
+            "Unsexed": [
+                "7",
+                0.823
+            ]
+        }
+    ]
+}

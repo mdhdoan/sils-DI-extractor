@@ -1,0 +1,238 @@
+{
+    "Date": [
+        "Sept 18/2018",
+        0.51
+    ],
+    "Observer(s)": [
+        "T. Powell / T. Pun kinke",
+        0.425
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.951
+    ],
+    "Survey Time: Start": [
+        "950",
+        0.964
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.979
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 75%": [
+        "selected",
+        0.978
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.975
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.978
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "DeceptionPt.",
+                0.709
+            ],
+            "Live Count (incl. live tags)": [
+                "8990",
+                0.907
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.886
+            ],
+            "% Spawning": [
+                "100",
+                0.793
+            ]
+        }
+    ],
+    "Stream": [
+        "Quesnel Like-North Arm (Deception",
+        0.644
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Survey Time: End": [
+        "1010",
+        0.948
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.977
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.975
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Temperature": [
+        "13",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "selected",
+        0.98
+    ],
+    "General Comments": [
+        "Comments Peak of Spawn Majority of spawners have been spawning for awhile ( back wear)",
+        0.189
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "5. Deception",
+                0.436
+            ],
+            "Male": [
+                "40",
+                0.901
+            ],
+            "Female": [
+                "33",
+                0.894
+            ],
+            "Female % Spawn: N.R.": [
+                "6",
+                0.783
+            ],
+            "Female % Spawn: 100%": [
+                "27 287",
+                0.589
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "T. Pankratz",
+                0.463
+            ],
+            "Male": [
+                "45",
+                0.899
+            ],
+            "Female": [
+                "39",
+                0.897
+            ],
+            "Female % Spawn: 0%": [
+                "1",
+                0.353
+            ],
+            "Female % Spawn: 100%": [
+                "38",
+                0.794
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "T. Powell",
+                0.596
+            ],
+            "Male": [
+                "18",
+                0.916
+            ],
+            "Female": [
+                "29",
+                0.955
+            ],
+            "Female % Spawn: 0%": [
+                "7",
+                0.914
+            ],
+            "Female % Spawn: 100%": [
+                "22",
+                0.958
+            ]
+        }
+    ]
+}

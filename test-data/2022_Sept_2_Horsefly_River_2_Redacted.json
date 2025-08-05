@@ -1,0 +1,250 @@
+{
+    "Date": [
+        "SED/ 02/2022",
+        0.501
+    ],
+    "Observer(s)": [
+        "J. HOUTMAN",
+        0.815
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.97
+    ],
+    "Survey Time: Start": [
+        "0920",
+        0.979
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.977
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "selected",
+        0.974
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 25%": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.978
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.98
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "2",
+                0.915
+            ],
+            "Live Count (incl. live tags)": [
+                "6213",
+                0.913
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "65",
+                0.898
+            ],
+            "% Holding / Migrating": [
+                "90",
+                0.744
+            ],
+            "% Spawning": [
+                "10",
+                0.789
+            ]
+        },
+        {
+            "Area": [
+                "3",
+                0.902
+            ],
+            "Live Count (incl. live tags)": [
+                "1652",
+                0.709
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "75",
+                0.867
+            ],
+            "% Holding / Migrating": [
+                "75",
+                0.808
+            ],
+            "% Spawning": [
+                "25",
+                0.916
+            ]
+        }
+    ],
+    "Stream": [
+        "HORSEFLY RIVER",
+        0.936
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.855
+    ],
+    "Survey Time: End": [
+        "1545",
+        0.973
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.975
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "selected",
+        0.972
+    ],
+    "Water Conditions: Water Temperature": [
+        "19",
+        0.969
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "selected",
+        0.98
+    ],
+    "General Comments": [
+        "Comments PSC SAMPLED 9F IN AREAS SAMPLED 6F) in orea 2) Samples Included in TOTALS",
+        0.298
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "2",
+                0.984
+            ],
+            "Male": [
+                "121",
+                0.92
+            ],
+            "Female": [
+                "136",
+                0.966
+            ],
+            "Female % Spawn: N.R.": [
+                "53",
+                0.674
+            ],
+            "Female % Spawn: 100%": [
+                "83",
+                0.914
+            ],
+            "Unsexed": [
+                "6",
+                0.76
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "3",
+                0.916
+            ],
+            "Male": [
+                "62",
+                0.9
+            ],
+            "Female": [
+                "82",
+                0.901
+            ],
+            "Female % Spawn: 0%": [
+                "53",
+                0.502
+            ],
+            "Female % Spawn: 100%": [
+                "29",
+                0.897
+            ],
+            "Unsexed": [
+                "5",
+                0.895
+            ]
+        }
+    ]
+}

@@ -1,0 +1,226 @@
+{
+    "Date": [
+        "Sept 26/2016",
+        0.679
+    ],
+    "Observer(s)": [
+        "Si Vedsyl/ B. Smithne",
+        0.31
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.956
+    ],
+    "Survey Time: Start": [
+        "1245",
+        0.978
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.975
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.973
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.973
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.968
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.962
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.059
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.098
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Mouth",
+                0.698
+            ],
+            "Live Count (incl. live tags)": [
+                "9",
+                0.959
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "50",
+                0.899
+            ],
+            "% Holding / Migrating": [
+                "100",
+                0.74
+            ]
+        },
+        {
+            "Area": [
+                "MIX",
+                0.06
+            ],
+            "Live Count (incl. live tags)": [
+                "54",
+                0.954
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.898
+            ],
+            "% Spawning": [
+                "60",
+                0.916
+            ],
+            "% Spawned Out": [
+                "40",
+                0.909
+            ]
+        },
+        {
+            "% O.E. (Observer Efficiency)": [
+                "61",
+                0.582
+            ]
+        }
+    ],
+    "Stream": [
+        "Lynx Creek",
+        0.842
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.974
+    ],
+    "Survey Time: End": [
+        "1300",
+        0.969
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.055
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.975
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.973
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.939
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Water Temperature": [
+        "3",
+        0.966
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.972
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "1",
+                0.884
+            ],
+            "Male": [
+                "0",
+                0.886
+            ],
+            "Female": [
+                "C",
+                0.792
+            ],
+            "Female % Spawn: 0%": [
+                "-",
+                0.596
+            ],
+            "Female % Spawn: 50%": [
+                "-",
+                0.259
+            ],
+            "Female % Spawn: 100%": [
+                "- 0",
+                0.233
+            ],
+            "Unsexed": [
+                "0",
+                0.525
+            ]
+        }
+    ]
+}

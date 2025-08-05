@@ -1,0 +1,364 @@
+{
+    "Date": [
+        "Sep 02/ 2018",
+        0.083
+    ],
+    "Observer(s)": [
+        "T. Podle/time/Last Name",
+        0.421
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.956
+    ],
+    "Survey Time: Start": [
+        "0930",
+        0.977
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.949
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.967
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.96
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Type: Rain": [
+        "selected",
+        0.97
+    ],
+    "Precipitation: Type: None": [
+        "unselected",
+        0.961
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.961
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.97
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.975
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "5",
+                0.651
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80",
+                0.562
+            ],
+            "% Holding / Migrating": [
+                "80",
+                0.739
+            ],
+            "% Spawning": [
+                "20",
+                0.588
+            ]
+        },
+        {
+            "Area": [
+                "4",
+                0.963
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80",
+                0.657
+            ],
+            "% Holding / Migrating": [
+                "100",
+                0.836
+            ]
+        },
+        {
+            "Area": [
+                "3",
+                0.928
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "60",
+                0.626
+            ],
+            "% Holding / Migrating": [
+                "80",
+                0.839
+            ],
+            "% Spawning": [
+                "20",
+                0.9
+            ]
+        },
+        {
+            "Area": [
+                "2",
+                0.916
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "60",
+                0.626
+            ],
+            "% Holding / Migrating": [
+                "70",
+                0.855
+            ],
+            "% Spawning": [
+                "30",
+                0.739
+            ]
+        },
+        {
+            "Area": [
+                "1",
+                0.78
+            ],
+            "Live Count (incl. live tags)": [
+                "80",
+                0.297
+            ],
+            "% Holding / Migrating": [
+                "95",
+                0.694
+            ],
+            "% Spawning": [
+                "5",
+                0.788
+            ]
+        }
+    ],
+    "Stream": [
+        "Mckinley Creek",
+        0.797
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.956
+    ],
+    "Visual Surveys Comments": [
+        "Live Count on B. Smith's Wet notte",
+        0.169
+    ],
+    "Survey Time: End": [
+        "1420",
+        0.97
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.955
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.964
+    ],
+    "Weather: Brightness: Medium": [
+        "selected",
+        0.962
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.97
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.962
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.965
+    ],
+    "Precipitation: Intensity: Light": [
+        "selected",
+        0.969
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.964
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.962
+    ],
+    "Water Conditions: Water Temperature": [
+        "14.0C",
+        0.081
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.757
+    ],
+    "General Comments": [
+        "Comments Cleared multiple! beaver Jams in aren 2. 1000 + sockeye in mouth, many more in confluence .",
+        0.055
+    ],
+    "SK_Count_data_2": [
+        {
+            "Male": [
+                "2",
+                0.967
+            ],
+            "Female % Spawn: 100%": [
+                "3",
+                0.54
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "5",
+                0.982
+            ],
+            "Female": [
+                "0",
+                0.922
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "4",
+                0.977
+            ],
+            "Male": [
+                "1",
+                0.904
+            ],
+            "Female": [
+                "1",
+                0.885
+            ],
+            "Female % Spawn: 50%": [
+                "1",
+                0.694
+            ],
+            "Female % Spawn: 100%": [
+                "3",
+                0.934
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "3",
+                0.966
+            ],
+            "Male": [
+                "9",
+                0.937
+            ],
+            "Female": [
+                "4",
+                0.947
+            ],
+            "Female % Spawn: N.R.": [
+                "1",
+                0.676
+            ],
+            "Female % Spawn: 0%": [
+                "3",
+                0.626
+            ],
+            "Female % Spawn: 100%": [
+                "56",
+                0.895
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "2",
+                0.967
+            ],
+            "Male": [
+                "24",
+                0.95
+            ],
+            "Female": [
+                "30",
+                0.942
+            ],
+            "Female % Spawn: N.R.": [
+                "3",
+                0.645
+            ],
+            "Female % Spawn: 50%": [
+                "27",
+                0.8
+            ],
+            "Female % Spawn: 100%": [
+                "89",
+                0.627
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "1",
+                0.895
+            ],
+            "Male": [
+                "2",
+                0.914
+            ],
+            "Female": [
+                "S",
+                0.715
+            ],
+            "Female % Spawn: N.R.": [
+                "1",
+                0.444
+            ],
+            "Female % Spawn: 0%": [
+                "4",
+                0.914
+            ],
+            "Female % Spawn: 100%": [
+                "23",
+                0.96
+            ]
+        }
+    ]
+}

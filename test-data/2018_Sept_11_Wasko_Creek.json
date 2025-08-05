@@ -1,0 +1,356 @@
+{
+    "Date": [
+        "Sept 11/2018",
+        0.875
+    ],
+    "Observer(s)": [
+        "BNa Smith e'",
+        0.027
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.484
+    ],
+    "Survey Time: Start": [
+        "930",
+        0.976
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "selected",
+        0.489
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.967
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.97
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 25%": [
+        "selected",
+        0.975
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.978
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.97
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.961
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.916
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.884
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Mouth",
+                0.9
+            ],
+            "Live Count (incl. live tags)": [
+                "250",
+                0.982
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "50",
+                0.943
+            ],
+            "% Holding / Migrating": [
+                "100",
+                0.974
+            ],
+            "% Spawning": [
+                "0",
+                0.396
+            ],
+            "% Spawned Out": [
+                "0",
+                0.913
+            ],
+            "Live Tagged": [
+                "0",
+                0.836
+            ],
+            "Other Species": [
+                "O",
+                0.5
+            ]
+        },
+        {
+            "Area": [
+                "1",
+                0.955
+            ],
+            "Live Count (incl. live tags)": [
+                "1340",
+                0.978
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.977
+            ],
+            "% Holding / Migrating": [
+                "50",
+                0.98
+            ],
+            "% Spawning": [
+                "50",
+                0.911
+            ]
+        },
+        {
+            "% Spawned Out": [
+                "0",
+                0.156
+            ],
+            "Live Tagged": [
+                "0",
+                0.907
+            ],
+            "Other Species": [
+                "0",
+                0.633
+            ]
+        },
+        {
+            "Area": [
+                "2",
+                0.941
+            ],
+            "Live Count (incl. live tags)": [
+                "1970",
+                0.97
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.968
+            ],
+            "% Holding / Migrating": [
+                "60",
+                0.969
+            ],
+            "% Spawning": [
+                "40",
+                0.832
+            ],
+            "% Spawned Out": [
+                "O",
+                0.71
+            ],
+            "Live Tagged": [
+                "0",
+                0.619
+            ],
+            "Other Species": [
+                "O",
+                0.212
+            ]
+        }
+    ],
+    "Stream": [
+        "Wasko Creek",
+        0.948
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.953
+    ],
+    "Survey Time: End": [
+        "1010",
+        0.968
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.973
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.972
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.917
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.97
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.968
+    ],
+    "Weather: %Cloudy: 50%": [
+        "selected",
+        0.483
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.972
+    ],
+    "Water Conditions: Water Temperature": [
+        "13",
+        0.965
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.963
+    ],
+    "General Comments": [
+        "Comments Fish holding in large schools, Spanners Found at top of area 2 by lake mouth .",
+        0.32
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "Mouth",
+                0.61
+            ],
+            "Male": [
+                "0",
+                0.566
+            ],
+            "Female": [
+                "0",
+                0.636
+            ],
+            "Female % Spawn: 50%": [
+                "-",
+                0.582
+            ],
+            "Jack": [
+                "0",
+                0.394
+            ],
+            "Unsexed": [
+                "0",
+                0.727
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "1",
+                0.956
+            ],
+            "Male": [
+                "4",
+                0.972
+            ],
+            "Female": [
+                "4",
+                0.966
+            ],
+            "Female % Spawn: N.R.": [
+                "1",
+                0.501
+            ],
+            "Female % Spawn: 0%": [
+                "3",
+                0.899
+            ],
+            "Female % Spawn: 50%": [
+                "0",
+                0.614
+            ],
+            "Female % Spawn: 100%": [
+                "C 0",
+                0.248
+            ],
+            "Unsexed": [
+                "17",
+                0.9
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "2",
+                0.98
+            ],
+            "Male": [
+                "3",
+                0.976
+            ],
+            "Female": [
+                "5",
+                0.943
+            ],
+            "Female % Spawn: N.R.": [
+                "1",
+                0.393
+            ],
+            "Female % Spawn: 0%": [
+                "3",
+                0.913
+            ],
+            "Female % Spawn: 50%": [
+                "O",
+                0.846
+            ],
+            "Female % Spawn: 100%": [
+                "1",
+                0.596
+            ],
+            "Jack": [
+                "O",
+                0.375
+            ],
+            "Unsexed": [
+                "9",
+                0.743
+            ]
+        }
+    ]
+}

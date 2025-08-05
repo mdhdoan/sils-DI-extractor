@@ -1,0 +1,350 @@
+{
+    "Date": [
+        "Sept/08/2018",
+        0.828
+    ],
+    "Observer(s)": [
+        "T. Powell e/Last Name",
+        0.538
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.962
+    ],
+    "Survey Time: Start": [
+        "1245",
+        0.936
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.975
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.97
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.963
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.958
+    ],
+    "Weather: %Cloudy: 25%": [
+        "selected",
+        0.977
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.971
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.957
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "selected",
+        0.637
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.978
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Mouth",
+                0.776
+            ],
+            "Live Count (incl. live tags)": [
+                "4",
+                0.978
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80",
+                0.899
+            ],
+            "% Spawning": [
+                "100",
+                0.834
+            ]
+        },
+        {
+            "Area": [
+                "1",
+                0.76
+            ],
+            "Live Count (incl. live tags)": [
+                "101",
+                0.903
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "20",
+                0.743
+            ],
+            "% Holding / Migrating": [
+                "60",
+                0.626
+            ],
+            "% Spawning": [
+                ".40",
+                0.707
+            ]
+        },
+        {
+            "Area": [
+                "2",
+                0.951
+            ],
+            "Live Count (incl. live tags)": [
+                "45",
+                0.943
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.765
+            ],
+            "% Spawning": [
+                "50 50",
+                0.148
+            ]
+        },
+        {
+            "Area": [
+                "3",
+                0.954
+            ],
+            "Live Count (incl. live tags)": [
+                "10",
+                0.965
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80",
+                0.965
+            ],
+            "% Spawning": [
+                "30 70",
+                0.147
+            ]
+        },
+        {
+            "Area": [
+                "4",
+                0.925
+            ],
+            "Live Count (incl. live tags)": [
+                "65",
+                0.867
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.509
+            ],
+            "% Holding / Migrating": [
+                "20",
+                0.628
+            ],
+            "% Spawning": [
+                "80",
+                0.775
+            ]
+        }
+    ],
+    "Stream": [
+        "Moffatt Creek",
+        0.57
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Survey Time: End": [
+        "1430",
+        0.974
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.968
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.97
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.96
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.963
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Temperature": [
+        "13.5",
+        0.106
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.972
+    ],
+    "General Comments": [
+        "Comments Fewer fish holding at Mouth than previous survey.",
+        0.303
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "Math",
+                0.811
+            ],
+            "Male": [
+                "0",
+                0.713
+            ],
+            "Female": [
+                "1 5",
+                0.339
+            ],
+            "Female % Spawn: 0%": [
+                "1 5",
+                0.018
+            ],
+            "Female % Spawn: 100%": [
+                "0 0",
+                0.34
+            ],
+            "Unsexed": [
+                "0 0",
+                0.272
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "1",
+                0.935
+            ],
+            "Male": [
+                "1",
+                0.873
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "2",
+                0.977
+            ],
+            "Male": [
+                "2",
+                0.97
+            ],
+            "Female": [
+                "1",
+                0.893
+            ],
+            "Female % Spawn: 0%": [
+                "1",
+                0.924
+            ],
+            "Female % Spawn: 100%": [
+                "0",
+                0.382
+            ],
+            "Unsexed": [
+                "3",
+                0.155
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "3",
+                0.978
+            ],
+            "Male": [
+                "1",
+                0.723
+            ],
+            "Female": [
+                "0",
+                0.902
+            ],
+            "Female % Spawn: 100%": [
+                "0",
+                0.915
+            ],
+            "Unsexed": [
+                "0 O",
+                0.383
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "4",
+                0.972
+            ],
+            "Female": [
+                "3 0",
+                0.472
+            ],
+            "Female % Spawn: 100%": [
+                "0",
+                0.86
+            ]
+        }
+    ]
+}

@@ -1,0 +1,262 @@
+{
+    "Date": [
+        "504/27 2019",
+        0.085
+    ],
+    "Observer(s)": [
+        "N. Powell",
+        0.931
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.882
+    ],
+    "Survey Time: Start": [
+        "1120",
+        0.977
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.975
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.977
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.98
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "1",
+                0.865
+            ],
+            "Live Count (incl. live tags)": [
+                "0",
+                0.11
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "5",
+                0.898
+            ]
+        },
+        {
+            "Area": [
+                "2",
+                0.826
+            ],
+            "Live Count (incl. live tags)": [
+                "0",
+                0.227
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "10",
+                0.897
+            ]
+        },
+        {
+            "Area": [
+                "3",
+                0.899
+            ],
+            "Live Count (incl. live tags)": [
+                "154",
+                0.796
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "40",
+                0.773
+            ],
+            "% Holding / Migrating": [
+                "1",
+                0.793
+            ],
+            "% Spawning": [
+                "70",
+                0.676
+            ],
+            "% Spawned Out": [
+                "30",
+                0.862
+            ]
+        }
+    ],
+    "Stream": [
+        "MITCHELL RIVER",
+        0.975
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Survey Time: End": [
+        "1335",
+        0.97
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.976
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.977
+    ],
+    "Weather: Brightness: Medium": [
+        "selected",
+        0.977
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.978
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Temperature": [
+        "94",
+        0.442
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.98
+    ],
+    "General Comments": [
+        "Comments H2O 1vl 1 ~ 5cm, Still very turbid spawn) PSC SAMPLED 4M AND 10F FROM A3 RECORDED IN RECOVERY TOTALS",
+        0.103
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "1",
+                0.899
+            ],
+            "Male": [
+                "0",
+                0.215
+            ],
+            "Female": [
+                "0",
+                0.09
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "2",
+                0.929
+            ],
+            "Male": [
+                "0",
+                0.533
+            ],
+            "Female": [
+                "0",
+                0.357
+            ],
+            "Unsexed": [
+                "2",
+                0.781
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "3",
+                0.901
+            ],
+            "Male": [
+                "4",
+                0.902
+            ],
+            "Female": [
+                "10",
+                0.9
+            ],
+            "Female % Spawn: 50%": [
+                "1",
+                0.784
+            ],
+            "Female % Spawn: 100%": [
+                "9",
+                0.944
+            ]
+        }
+    ]
+}

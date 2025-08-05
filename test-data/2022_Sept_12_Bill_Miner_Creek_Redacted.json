@@ -1,0 +1,176 @@
+{
+    "Date": [
+        "09/12/2022",
+        0.965
+    ],
+    "Observer(s)": [
+        "CIMCAulan",
+        0.205
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.955
+    ],
+    "Survey Time: Start": [
+        "1250",
+        0.973
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.969
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.978
+    ],
+    "Recoveries Comments": [
+        "NO RECOVERIES",
+        0.315
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Mouth",
+                0.868
+            ],
+            "Live Count (incl. live tags)": [
+                "Q",
+                0.695
+            ]
+        },
+        {
+            "Area": [
+                "Mouth to Falls (300m)",
+                0.531
+            ],
+            "Live Count (incl. live tags)": [
+                "Q",
+                0.097
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "85",
+                0.89
+            ]
+        }
+    ],
+    "Stream": [
+        "Bill Miner Creek",
+        0.629
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.976
+    ],
+    "Survey Time: End": [
+        "1310",
+        0.965
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.974
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.978
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Temperature": [
+        "9.4",
+        0.6
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.98
+    ]
+}

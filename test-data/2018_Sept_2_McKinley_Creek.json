@@ -1,0 +1,282 @@
+{
+    "Date": [
+        "Sept 2nd 2018",
+        0.736
+    ],
+    "Observer(s)": [
+        "B. Smith",
+        0.767
+    ],
+    "Survey Time: Start": [
+        "930",
+        0.974
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.975
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.969
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.966
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.944
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.953
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.968
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.965
+    ],
+    "Precipitation: Type: Rain": [
+        "selected",
+        0.486
+    ],
+    "Precipitation: Type: None": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.972
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.36
+    ],
+    "Recoveries Comments": [
+        "5 4   Recoveries on IT. Powell's 3 west note.",
+        0.031
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "5",
+                0.888
+            ],
+            "Live Count (incl. live tags)": [
+                "70",
+                0.975
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80",
+                0.933
+            ],
+            "% Holding / Migrating": [
+                "80",
+                0.916
+            ],
+            "% Spawning": [
+                "20",
+                0.892
+            ]
+        },
+        {
+            "Area": [
+                "4",
+                0.742
+            ],
+            "Live Count (incl. live tags)": [
+                "11",
+                0.775
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80",
+                0.974
+            ],
+            "% Holding / Migrating": [
+                "100",
+                0.959
+            ],
+            "% Spawning": [
+                "0",
+                0.764
+            ],
+            "% Spawned Out": [
+                "0",
+                0.302
+            ],
+            "Live Tagged": [
+                "\u00d2",
+                0.113
+            ]
+        },
+        {
+            "Area": [
+                "3",
+                0.711
+            ],
+            "Live Count (incl. live tags)": [
+                "731",
+                0.96
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "60",
+                0.856
+            ],
+            "% Holding / Migrating": [
+                "80",
+                0.954
+            ],
+            "% Spawning": [
+                "20",
+                0.94
+            ],
+            "% Spawned Out": [
+                "0",
+                0.301
+            ],
+            "Live Tagged": [
+                "0",
+                0.651
+            ]
+        },
+        {
+            "Area": [
+                "2",
+                0.738
+            ],
+            "Live Count (incl. live tags)": [
+                "1669",
+                0.961
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "60",
+                0.951
+            ],
+            "% Holding / Migrating": [
+                "70",
+                0.911
+            ],
+            "% Spawning": [
+                "30",
+                0.916
+            ]
+        },
+        {
+            "Area": [
+                "1",
+                0.331
+            ],
+            "Live Count (incl. live tags)": [
+                "143",
+                0.913
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80",
+                0.807
+            ],
+            "% Holding / Migrating": [
+                "95",
+                0.914
+            ],
+            "% Spawning": [
+                "5",
+                0.814
+            ],
+            "% Spawned Out": [
+                "0",
+                0.43
+            ]
+        }
+    ],
+    "Stream": [
+        "Mckinley Creek",
+        0.8
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.956
+    ],
+    "Survey Time: End": [
+        "1420",
+        0.977
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.098
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.944
+    ],
+    "Weather: Brightness: Medium": [
+        "selected",
+        0.497
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.965
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.357
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Light": [
+        "selected",
+        0.978
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "selected",
+        0.823
+    ],
+    "Water Conditions: Water Temperature": [
+        "14",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.972
+    ],
+    "General Comments": [
+        "Comments First Mckinley Survey. Large group 500+ holding in area 3. Cleared beaver dam above them",
+        0.418
+    ]
+}

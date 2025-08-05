@@ -1,0 +1,204 @@
+{
+    "Date": [
+        "10/10/2022",
+        0.974
+    ],
+    "Observer(s)": [
+        "C. MAdan KanOlson",
+        0.016
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.976
+    ],
+    "Survey Time: Start": [
+        "/545",
+        0.623
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 25%": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.978
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.978
+    ],
+    "Recoveries Comments": [
+        "PSC Sampled 15 F + 7M included in recovery total.",
+        0.476
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Math",
+                0.933
+            ],
+            "Live Count (incl. live tags)": [
+                "00",
+                0.103
+            ]
+        },
+        {
+            "Area": [
+                "7",
+                0.489
+            ],
+            "Live Count (incl. live tags)": [
+                "29/30",
+                0.859
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "90",
+                0.931
+            ],
+            "% Spawning": [
+                "10",
+                0.906
+            ],
+            "% Spawned Out": [
+                "90",
+                0.865
+            ]
+        }
+    ],
+    "Stream": [
+        "Lynx Creek",
+        0.668
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Survey Time: End": [
+        "1700",
+        0.972
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Temperature": [
+        "7.9",
+        0.321
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.975
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "1",
+                0.847
+            ],
+            "Male": [
+                "15",
+                0.875
+            ],
+            "Female": [
+                "27",
+                0.884
+            ],
+            "Female % Spawn: 100%": [
+                "27",
+                0.756
+            ]
+        }
+    ]
+}

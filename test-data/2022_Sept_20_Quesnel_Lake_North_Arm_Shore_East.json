@@ -1,0 +1,214 @@
+{
+    "Date": [
+        "09/20/2027",
+        0.576
+    ],
+    "Observer(s)": [
+        "E. Olson /C. MCAulay",
+        0.269
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.957
+    ],
+    "Survey Time: Start": [
+        "845",
+        0.925
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.972
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.973
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.967
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.977
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.882
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.978
+    ],
+    "Recoveries Comments": [
+        "Dec. to 5000",
+        0.002
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Wasko Creek",
+                0.748
+            ],
+            "Live Count (incl. live tags)": [
+                "0",
+                0.913
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "40",
+                0.917
+            ]
+        },
+        {
+            "Area": [
+                "Shore",
+                0.757
+            ]
+        },
+        {
+            "Area": [
+                "Deception to Roaring Rowing River shore",
+                0.172
+            ],
+            "Live Count (incl. live tags)": [
+                "3 567",
+                0.251
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "65 65",
+                0.325
+            ],
+            "% Holding / Migrating": [
+                "10",
+                0.821
+            ],
+            "% Spawning": [
+                "100 90",
+                0.164
+            ]
+        }
+    ],
+    "Stream": [
+        "Quesnel Lake. North Arm- East Shore",
+        0.649
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Survey Time: End": [
+        "1445",
+        0.927
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.975
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.973
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.976
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Temperature": [
+        "14.5",
+        0.931
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.963
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "Wasko Dec. to",
+                0.37
+            ],
+            "Male": [
+                "5000",
+                0.111
+            ],
+            "Female % Spawn: 0%": [
+                "i",
+                0.106
+            ],
+            "Female % Spawn: 100%": [
+                "5 5 0 ",
+                0
+            ]
+        }
+    ]
+}

@@ -1,0 +1,196 @@
+{
+    "Date": [
+        "007/07/2014",
+        0.663
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.97
+    ],
+    "Survey Time: Start": [
+        "1030",
+        0.975
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Dark": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.979
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Type: Rain": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Type: None": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "selected",
+        0.977
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.783
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.98
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Deception PT SHORE",
+                0.557
+            ],
+            "Live Count (incl. live tags)": [
+                "41",
+                0.889
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "50",
+                0.738
+            ],
+            "% Spawning": [
+                "10",
+                0.896
+            ],
+            "% Spawned Out": [
+                "90",
+                0.748
+            ]
+        }
+    ],
+    "Stream": [
+        "Quesie Fake- North Am",
+        0.642
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.974
+    ],
+    "Survey Time: End": [
+        "1110",
+        0.931
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.979
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Water Temperature": [
+        "11,1",
+        0.331
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "selected",
+        0.98
+    ],
+    "General Comments": [
+        "Comments , 1000'S OF KOKANEE PSCBDNA sampled 2F event/peak of spawn) Poor Vis. due to rain. Difficult to distinguish sicheye from Kokare Indeath alm",
+        0.236
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "Deception",
+                0.885
+            ],
+            "Male": [
+                "0",
+                0.287
+            ],
+            "Female": [
+                "3",
+                0.9
+            ],
+            "Female % Spawn: 100%": [
+                "3",
+                0.831
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "PT Shore",
+                0.616
+            ]
+        }
+    ]
+}

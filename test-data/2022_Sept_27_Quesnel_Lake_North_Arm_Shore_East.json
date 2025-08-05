@@ -1,0 +1,200 @@
+{
+    "Date": [
+        "09/27/2022",
+        0.936
+    ],
+    "Observer(s)": [
+        "First Name/Last Name",
+        0.808
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.962
+    ],
+    "Survey Time: Start": [
+        "1730",
+        0.607
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.975
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.973
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.98
+    ],
+    "Recoveries Comments": [
+        "Wasko Roaring",
+        0.241
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Wasto Shore",
+                0.77
+            ],
+            "Live Count (incl. live tags)": [
+                "5/5",
+                0.871
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.774
+            ],
+            "% Spawning": [
+                "100",
+                0.788
+            ]
+        },
+        {
+            "Area": [
+                "Roaring Mar",
+                0.061
+            ],
+            "Live Count (incl. live tags)": [
+                "468/426",
+                0.882
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "65",
+                0.899
+            ],
+            "% Spawning": [
+                "100",
+                0.901
+            ]
+        }
+    ],
+    "Stream": [
+        "Quesnel Lake- North Arm-EastSta",
+        0.595
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.956
+    ],
+    "Survey Time: End": [
+        "1600",
+        0.96
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.973
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.976
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.978
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Water Temperature": [
+        "16.8",
+        0.929
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.98
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "Wasko Roaring",
+                0.337
+            ],
+            "Unsexed": [
+                "44",
+                0.744
+            ]
+        }
+    ]
+}

@@ -1,0 +1,266 @@
+{
+    "Date": [
+        "09/21/2022",
+        0.96
+    ],
+    "Observer(s)": [
+        "EDISON",
+        0.365
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.951
+    ],
+    "Survey Time: Start": [
+        "945",
+        0.983
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.972
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.972
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.972
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.975
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.977
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.969
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.978
+    ],
+    "Recoveries Comments": [
+        "Stone Marten",
+        0.032
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Betty Frank's",
+                0.644
+            ],
+            "Live Count (incl. live tags)": [
+                "10",
+                0.977
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80",
+                0.908
+            ],
+            "% Holding / Migrating": [
+                "70",
+                0.954
+            ],
+            "% Spawned Out": [
+                "30",
+                0.931
+            ]
+        },
+        {
+            "Area": [
+                "Bear Beach Shore",
+                0.46
+            ],
+            "Live Count (incl. live tags)": [
+                "132",
+                0.884
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "610",
+                0.763
+            ],
+            "% Holding / Migrating": [
+                "50",
+                0.906
+            ],
+            "% Spawning": [
+                "50",
+                0.626
+            ]
+        },
+        {
+            "Area": [
+                "Limestone Shore",
+                0.67
+            ],
+            "Live Count (incl. live tags)": [
+                "23",
+                0.969
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "50",
+                0.964
+            ],
+            "% Holding / Migrating": [
+                "40",
+                0.9
+            ],
+            "% Spawning": [
+                "60",
+                0.624
+            ]
+        },
+        {
+            "Area": [
+                "Marta Shore",
+                0.568
+            ],
+            "Live Count (incl. live tags)": [
+                "42",
+                0.913
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "50",
+                0.958
+            ],
+            "% Holding / Migrating": [
+                "40",
+                0.896
+            ],
+            "% Spawning": [
+                "60",
+                0.622
+            ]
+        }
+    ],
+    "Stream": [
+        "Quesnel Lake- North Arm-West Shore",
+        0.575
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Visual Surveys Comments": [
+        "VI",
+        0.014
+    ],
+    "Survey Time: End": [
+        "1040",
+        0.976
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.972
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.975
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.975
+    ],
+    "Weather: %Cloudy: 0%": [
+        "selected",
+        0.976
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.972
+    ],
+    "Water Conditions: Water Temperature": [
+        "14.5",
+        0.971
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.975
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "BF Bear",
+                0.543
+            ],
+            "Female % Spawn: 100%": [
+                "5 3.",
+                0.013
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "lime Stone Marten",
+                0.217
+            ],
+            "Female % Spawn: 100%": [
+                "4 7",
+                0.292
+            ]
+        }
+    ]
+}

@@ -1,0 +1,198 @@
+{
+    "Date": [
+        "09/09/2022",
+        0.893
+    ],
+    "Observer(s)": [
+        "C.MCAulay",
+        0.679
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.97
+    ],
+    "Survey Time: Start": [
+        "910",
+        0.759
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.977
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.975
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.832
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.968
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.98
+    ],
+    "Recoveries Comments": [
+        "5 finales PSC Samp lel. Included in recovery total.",
+        0.406
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "5",
+                0.897
+            ],
+            "Live Count (incl. live tags)": [
+                "N/A",
+                0.829
+            ],
+            "% Holding / Migrating": [
+                "20",
+                0.737
+            ],
+            "% Spawning": [
+                "80",
+                0.741
+            ]
+        }
+    ],
+    "Stream": [
+        "Horsefly - Lower",
+        0.757
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.957
+    ],
+    "Survey Time: End": [
+        "1215",
+        0.97
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.977
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 0%": [
+        "selected",
+        0.979
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Temperature": [
+        "15.1",
+        0.866
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.966
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.975
+    ],
+    "General Comments": [
+        "Comments No live count. Thousand Spawn of unsexed in deep pools. Lots of active spawning.",
+        0.515
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "5",
+                0.911
+            ],
+            "Male": [
+                "287",
+                0.892
+            ],
+            "Female": [
+                "115",
+                0.714
+            ],
+            "Female % Spawn: 0%": [
+                "68",
+                0.766
+            ],
+            "Female % Spawn: 100%": [
+                "47",
+                0.733
+            ]
+        }
+    ]
+}

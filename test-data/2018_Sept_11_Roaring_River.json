@@ -1,0 +1,304 @@
+{
+    "Date": [
+        "Sept 11/2018",
+        0.824
+    ],
+    "Observer(s)": [
+        "Brian Smith",
+        0.193
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.854
+    ],
+    "Survey Time: Start": [
+        "1150",
+        0.938
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "selected",
+        0.056
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.896
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.97
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.968
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.973
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.968
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.954
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.975
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Mouth",
+                0.734
+            ],
+            "Live Count (incl. live tags)": [
+                "175",
+                0.984
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80",
+                0.914
+            ],
+            "% Holding / Migrating": [
+                "60",
+                0.892
+            ],
+            "% Spawning": [
+                "40",
+                0.899
+            ],
+            "% Spawned Out": [
+                "0",
+                0.865
+            ],
+            "Live Tagged": [
+                "0",
+                0.72
+            ],
+            "Other Species": [
+                "0",
+                0.39
+            ]
+        },
+        {
+            "Area": [
+                "1",
+                0.975
+            ],
+            "Live Count (incl. live tags)": [
+                "804",
+                0.969
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "60",
+                0.959
+            ],
+            "% Holding / Migrating": [
+                "40",
+                0.965
+            ],
+            "% Spawning": [
+                "60",
+                0.949
+            ]
+        },
+        {
+            "% Spawned Out": [
+                "0",
+                0.564
+            ],
+            "Live Tagged": [
+                "0",
+                0.637
+            ],
+            "Other Species": [
+                "0",
+                0.696
+            ]
+        }
+    ],
+    "Stream": [
+        "Roaring River",
+        0.635
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.956
+    ],
+    "Visual Surveys Comments": [
+        "1",
+        0.029
+    ],
+    "Survey Time: End": [
+        "1220",
+        0.973
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.967
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.975
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.968
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.096
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "selected",
+        0.098
+    ],
+    "Water Conditions: Water Temperature": [
+        "9",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "selected",
+        0.529
+    ],
+    "General Comments": [
+        "Comments Many Spawning Fish showing signs of wear.) Fish spotted in pools up to end of Area 1 .",
+        0.308
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "Mouth",
+                0.97
+            ],
+            "Male": [
+                "3",
+                0.983
+            ],
+            "Female": [
+                "2",
+                0.974
+            ],
+            "Female % Spawn: N.R.": [
+                "0",
+                0.924
+            ],
+            "Female % Spawn: 0%": [
+                "1",
+                0.843
+            ],
+            "Female % Spawn: 50%": [
+                "0",
+                0.755
+            ],
+            "Female % Spawn: 100%": [
+                "1",
+                0.682
+            ],
+            "Jack": [
+                "0",
+                0.719
+            ],
+            "Unsexed": [
+                "0",
+                0.78
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "1",
+                0.943
+            ],
+            "Male": [
+                "1",
+                0.621
+            ],
+            "Female": [
+                "1",
+                0.931
+            ],
+            "Female % Spawn: N.R.": [
+                "0",
+                0.922
+            ],
+            "Female % Spawn: 0%": [
+                "0",
+                0.717
+            ],
+            "Female % Spawn: 50%": [
+                "0",
+                0.877
+            ],
+            "Female % Spawn: 100%": [
+                "1",
+                0.885
+            ],
+            "Jack": [
+                "0",
+                0.596
+            ],
+            "Unsexed": [
+                "3",
+                0.945
+            ]
+        }
+    ]
+}

@@ -1,0 +1,202 @@
+{
+    "Date": [
+        "09/13/2022",
+        0.964
+    ],
+    "Observer(s)": [
+        "CMSAulan",
+        0.703
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.962
+    ],
+    "Survey Time: Start": [
+        "1245",
+        0.955
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.97
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.978
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.972
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.978
+    ],
+    "Recoveries Comments": [
+        "PSC cd 2M \u20ac IF included in 1 ecourry total EDNA San ples alectad from 6.",
+        0.044
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "1",
+                0.612
+            ],
+            "Live Count (incl. live tags)": [
+                "1434",
+                0.779
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "60",
+                0.711
+            ],
+            "% Holding / Migrating": [
+                "80",
+                0.743
+            ],
+            "% Spawning": [
+                "20",
+                0.896
+            ]
+        }
+    ],
+    "Stream": [
+        "Deception Pt. Shore",
+        0.846
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.97
+    ],
+    "Survey Time: End": [
+        "1430",
+        0.79
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.976
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.97
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.97
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.978
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.978
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Water Temperature": [
+        "17.1C",
+        0.755
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.98
+    ],
+    "General Comments": [
+        "Comments lots of fish still holding in deep water. events, peak of spawn)",
+        0.336
+    ],
+    "SK_Count_data_2": [
+        {
+            "Male": [
+                "12",
+                0.643
+            ],
+            "Female": [
+                "14",
+                0.678
+            ],
+            "Female % Spawn: 0%": [
+                "9",
+                0.427
+            ],
+            "Female % Spawn: 100%": [
+                "5",
+                0.315
+            ],
+            "Unsexed": [
+                "23",
+                0.734
+            ]
+        }
+    ]
+}

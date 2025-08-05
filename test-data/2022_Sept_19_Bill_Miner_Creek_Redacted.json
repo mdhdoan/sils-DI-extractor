@@ -1,0 +1,172 @@
+{
+    "Date": [
+        "09/19/2022",
+        0.933
+    ],
+    "Observer(s)": [
+        "C. Mc Away",
+        0.42
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.956
+    ],
+    "Survey Time: Start": [
+        "945",
+        0.972
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.977
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 25%": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.977
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.974
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.975
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Mouth",
+                0.425
+            ],
+            "Live Count (incl. live tags)": [
+                "0",
+                0.682
+            ]
+        },
+        {
+            "Area": [
+                "1",
+                0.702
+            ],
+            "Live Count (incl. live tags)": [
+                "0",
+                0.856
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "95",
+                0.897
+            ]
+        }
+    ],
+    "Stream": [
+        "Bill Miner Crock",
+        0.668
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.974
+    ],
+    "Survey Time: End": [
+        "1000",
+        0.955
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.977
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Water Temperature": [
+        "6.5\u20ac",
+        0.226
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.975
+    ]
+}

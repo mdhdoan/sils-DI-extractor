@@ -1,0 +1,262 @@
+{
+    "Date": [
+        "10/10/2022",
+        0.973
+    ],
+    "Observer(s)": [
+        "E. Olson /C. MCAdlay",
+        0.567
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.951
+    ],
+    "Survey Time: Start": [
+        "1320",
+        0.931
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.974
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.973
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.975
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 75%": [
+        "selected",
+        0.976
+    ],
+    "Precipitation: Type: Rain": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Type: None": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.969
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.975
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "BlueLand Store",
+                0.086
+            ],
+            "Live Count (incl. live tags)": [
+                "48/57",
+                0.948
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "65",
+                0.897
+            ],
+            "% Spawned Out": [
+                "100",
+                0.894
+            ]
+        },
+        {
+            "Area": [
+                "Big Slide",
+                0.672
+            ],
+            "Live Count (incl. live tags)": [
+                "7/8",
+                0.961
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "75",
+                0.914
+            ],
+            "% Spawned Out": [
+                "100",
+                0.899
+            ],
+            "Other Species": [
+                "~250",
+                0.635
+            ]
+        },
+        {
+            "Area": [
+                "Lynx Shore",
+                0.519
+            ],
+            "Live Count (incl. live tags)": [
+                "00",
+                0.143
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80",
+                0.939
+            ]
+        }
+    ],
+    "Stream": [
+        "Quesnel Lake- East Arm- North Shore",
+        0.242
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.956
+    ],
+    "Survey Time: End": [
+        "540",
+        0.909
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.975
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.973
+    ],
+    "Water Level: Gauge": [
+        "Kokonel",
+        0.71
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.973
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "selected",
+        0.971
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "selected",
+        0.977
+    ],
+    "Water Conditions: Water Temperature": [
+        "12.9",
+        0.955
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "selected",
+        0.98
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "Blue Land",
+                0.489
+            ],
+            "Male": [
+                "of",
+                0.24
+            ],
+            "Female": [
+                "20",
+                0.895
+            ],
+            "Female % Spawn: 100%": [
+                "20",
+                0.851
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "Big Slide",
+                0.634
+            ],
+            "Male": [
+                "2",
+                0.743
+            ],
+            "Female": [
+                "5",
+                0.792
+            ],
+            "Female % Spawn: 100%": [
+                "5",
+                0.822
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "Lynx Shore",
+                0.308
+            ],
+            "Male": [
+                "11",
+                0.911
+            ],
+            "Female": [
+                "11",
+                0.888
+            ],
+            "Female % Spawn: 100%": [
+                "11",
+                0.313
+            ]
+        }
+    ]
+}

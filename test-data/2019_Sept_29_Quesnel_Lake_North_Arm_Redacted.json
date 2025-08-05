@@ -1,0 +1,200 @@
+{
+    "Date": [
+        "Sent 29/2019",
+        0.491
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.976
+    ],
+    "Survey Time: Start": [
+        "10.15",
+        0.982
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.526
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.979
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Deception PT Shores",
+                0.278
+            ],
+            "Live Count (incl. live tags)": [
+                "200",
+                0.916
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80",
+                0.892
+            ],
+            "% Spawning": [
+                "85",
+                0.896
+            ],
+            "% Spawned Out": [
+                "15",
+                0.897
+            ]
+        }
+    ],
+    "Stream": [
+        "Quesnel Lake N. Am",
+        0.794
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Survey Time: End": [
+        "1220",
+        0.974
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 50%": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "selected",
+        0.977
+    ],
+    "Water Conditions: Water Temperature": [
+        "9.2",
+        0.698
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.913
+    ],
+    "General Comments": [
+        "PSC sampled 4M38F. Included in Rec totals. 1000is of Kokanee obs. slight surface chop made near Shore obs difficult. DNA ALSO TAKEN W PSC'",
+        0.344
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "Deception",
+                0.925
+            ],
+            "Male": [
+                "4",
+                0.913
+            ],
+            "Female": [
+                "8",
+                0.914
+            ],
+            "Female % Spawn: 100%": [
+                "8",
+                0.695
+            ],
+            "Unsexed": [
+                "1",
+                0.619
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "PT SHORE",
+                0.497
+            ]
+        }
+    ]
+}

@@ -1,0 +1,192 @@
+{
+    "Date": [
+        "Sept. 22/18",
+        0.693
+    ],
+    "Observer(s)": [
+        "Listedle A. Loeum",
+        0.145
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.917
+    ],
+    "Survey Time: Start": [
+        "1000",
+        0.982
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.977
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.927
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.97
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Type: Rain": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Type: None": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.972
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.968
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.971
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "3",
+                0.896
+            ],
+            "Live Count (incl. live tags)": [
+                "/",
+                0.539
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "50",
+                0.737
+            ]
+        }
+    ],
+    "Stream": [
+        "Horsefly (lower)",
+        0.858
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Survey Time: End": [
+        "1230",
+        0.77
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.969
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.973
+    ],
+    "Weather: Brightness: Medium": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.978
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Intensity: Light": [
+        "selected",
+        0.978
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "selected",
+        0.971
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.968
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "selected",
+        0.976
+    ],
+    "General Comments": [
+        "Samples included tillies",
+        0.592
+    ],
+    "SK_Count_data_2": [
+        {
+            "Male": [
+                "99+63",
+                0.59
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "3",
+                0.918
+            ],
+            "Male": [
+                "172",
+                0.804
+            ],
+            "Female": [
+                "202",
+                0.897
+            ],
+            "Female % Spawn: 0%": [
+                "6",
+                0.814
+            ],
+            "Female % Spawn: 100%": [
+                "196",
+                0.896
+            ]
+        }
+    ]
+}

@@ -1,0 +1,196 @@
+{
+    "Date": [
+        "Sep 162020",
+        0.732
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.951
+    ],
+    "Survey Time: Start": [
+        "1040",
+        0.907
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.973
+    ],
+    "Water Level: Gauge: Area": [
+        "5",
+        0.951
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.894
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.972
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.974
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.978
+    ],
+    "Recoveries Comments": [
+        "Marth 1 C No Sign of Sockeye",
+        0.012
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Mouth",
+                0.579
+            ],
+            "Live Count (incl. live tags)": [
+                "\u00f8 \u20a1",
+                0.061
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70 70-",
+                0.472
+            ]
+        }
+    ],
+    "Stream": [
+        "Lower Mckinley Creek,",
+        0.664
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Survey Time: End": [
+        "1047,",
+        0.851
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: Gauge": [
+        "0.852,",
+        0.581
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.976
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 0%": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.97
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.824
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.975
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "Marth",
+                0.668
+            ],
+            "Male": [
+                "6.",
+                0.201
+            ],
+            "Female": [
+                "e-",
+                0.158
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "1",
+                0.704
+            ],
+            "Male": [
+                "\u00e9",
+                0.049
+            ],
+            "Female": [
+                "C",
+                0.046
+            ]
+        }
+    ]
+}

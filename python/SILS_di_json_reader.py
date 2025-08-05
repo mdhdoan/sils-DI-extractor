@@ -9,7 +9,15 @@ from azure.core.credentials import AzureKeyCredential
 
 from azure.storage.blob import BlobServiceClient
 from itertools import tee
- 
+
+####### - SETUP CONNECTIONS - #######
+
+current_directory = os.getcwd()
+connection_file = os.path.join(current_directory, "connections.json")
+connection_details = {}
+with open(connection_file, "r+") as connection_data:
+    connection_details = json.load(connection_data)
+
 # set `<your-endpoint>` and `<your-key>` variables with the values from the Document Intelligence  
 endpoint = "" 
 key = "" 

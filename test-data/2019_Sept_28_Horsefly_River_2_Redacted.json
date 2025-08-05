@@ -1,0 +1,246 @@
+{
+    "Date": [
+        "San 28 2019",
+        0.125
+    ],
+    "Observer(s)": [
+        "N.Power",
+        0.406
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.917
+    ],
+    "Survey Time: Start": [
+        "850",
+        0.978
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.974
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.974
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.978
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.972
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.978
+    ],
+    "Recoveries Comments": [
+        " PEAK DIE OFF IN AS AFTER WHEREVER  WATER DROFFING AND CLARITY IMPROVING, MOFFAT STILL ELVOLUTOING UIT THING",
+        0.058
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "5",
+                0.867
+            ],
+            "Live Count (incl. live tags)": [
+                "19",
+                0.934
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "60",
+                0.728
+            ],
+            "% Spawning": [
+                "25",
+                0.902
+            ],
+            "% Spawned Out": [
+                "75",
+                0.898
+            ]
+        },
+        {
+            "Area": [
+                "6",
+                0.928
+            ],
+            "Live Count (incl. live tags)": [
+                "195",
+                0.958
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "65",
+                0.953
+            ],
+            "% Spawning": [
+                "50",
+                0.937
+            ],
+            "% Spawned Out": [
+                "50",
+                0.913
+            ]
+        }
+    ],
+    "Stream": [
+        "HORSEFLY RIVER",
+        0.758
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.957
+    ],
+    "Survey Time: End": [
+        "1527",
+        0.975
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.975
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.968
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.976
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "selected",
+        0.976
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Water Temperature": [
+        "7.4",
+        0.748
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "selected",
+        0.98
+    ],
+    "General Comments": [
+        "Comments, PSC SAMPLED 18MANO 29F FROM A5 6M AND 21 FIRM AG RECORDED IN RECOVERY TOTALS  SEULE FRESH FISH IN AG SPAWNING",
+        0.145
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "5",
+                0.901
+            ],
+            "Male": [
+                "18",
+                0.919
+            ],
+            "Female": [
+                "35",
+                0.914
+            ],
+            "Female % Spawn: 100%": [
+                "35",
+                0.888
+            ],
+            "Unsexed": [
+                "2",
+                0.744
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "6",
+                0.896
+            ],
+            "Male": [
+                "7",
+                0.785
+            ],
+            "Female": [
+                "22",
+                0.779
+            ],
+            "Female % Spawn: 100%": [
+                "22",
+                0.741
+            ],
+            "Unsexed": [
+                "2",
+                0.705
+            ]
+        }
+    ]
+}

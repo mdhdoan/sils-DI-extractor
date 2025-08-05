@@ -1,0 +1,270 @@
+{
+    "Date": [
+        "Sept 13/2019",
+        0.901
+    ],
+    "Observer(s)": [
+        "N. Powell as",
+        0.606
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.97
+    ],
+    "Survey Time: Start": [
+        "1000",
+        0.949
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.977
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.974
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.973
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 25%": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.702
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "selected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.975
+    ],
+    "Recoveries Comments": [
+        "GPS Points 004-198Spawners 005-133 ",
+        0.04
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "8",
+                0.976
+            ],
+            "Live Count (incl. live tags)": [
+                "35",
+                0.972
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70%",
+                0.961
+            ],
+            "% Holding / Migrating": [
+                "40%",
+                0.95
+            ],
+            "% Spawning": [
+                "60%",
+                0.95
+            ]
+        },
+        {
+            "Area": [
+                "9",
+                0.866
+            ],
+            "Live Count (incl. live tags)": [
+                "812",
+                0.957
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70%",
+                0.958
+            ],
+            "% Holding / Migrating": [
+                "5%",
+                0.948
+            ],
+            "% Spawning": [
+                "95%",
+                0.891
+            ],
+            "% Spawned Out": [
+                "-",
+                0.563
+            ]
+        },
+        {
+            "Area": [
+                "10",
+                0.889
+            ],
+            "Live Count (incl. live tags)": [
+                "1",
+                0.935
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "50%",
+                0.947
+            ],
+            "% Holding / Migrating": [
+                "100%",
+                0.882
+            ]
+        }
+    ],
+    "Stream": [
+        "Horsefly River",
+        0.892
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.962
+    ],
+    "Survey Time: End": [
+        "1250",
+        0.978
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.968
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.972
+    ],
+    "Water Level: Gauge": [
+        "3 Chin",
+        0.322
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Water Temperature": [
+        "11.4",
+        0.956
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.978
+    ],
+    "General Comments": [
+        "Comments PSC sampled 4 V females from area 9 included In rec. totals, Water coloured UD, AND HIGH",
+        0.322
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "8",
+                0.902
+            ],
+            "Male": [
+                "0",
+                0.849
+            ],
+            "Female": [
+                "0",
+                0.837
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "9",
+                0.849
+            ],
+            "Male": [
+                "0",
+                0.587
+            ],
+            "Female": [
+                "4",
+                0.898
+            ],
+            "Female % Spawn: 100%": [
+                "4",
+                0.759
+            ]
+        },
+        {
+            "Male": [
+                "10 o",
+                0.398
+            ],
+            "Female": [
+                "0",
+                0.512
+            ]
+        }
+    ]
+}

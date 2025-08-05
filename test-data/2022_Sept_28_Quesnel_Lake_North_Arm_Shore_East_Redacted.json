@@ -1,0 +1,240 @@
+{
+    "Date": [
+        "09/28/2022",
+        0.964
+    ],
+    "Observer(s)": [
+        "E. Olson",
+        0.826
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.957
+    ],
+    "Survey Time: Start": [
+        "1145",
+        0.977
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.974
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.975
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.974
+    ],
+    "Water Level: Gauge: Area": [
+        "1",
+        0.139
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.978
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.972
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Bowling Pt Short",
+                0.4
+            ],
+            "Live Count (incl. live tags)": [
+                "651",
+                0.951
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "75",
+                0.916
+            ],
+            "% Spawning": [
+                "90",
+                0.832
+            ],
+            "% Spawned Out": [
+                "10",
+                0.897
+            ]
+        },
+        {
+            "Area": [
+                "Goose Pt",
+                0.851
+            ],
+            "Live Count (incl. live tags)": [
+                "437",
+                0.963
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "75",
+                0.792
+            ],
+            "% Spawning": [
+                "90",
+                0.908
+            ],
+            "% Spawned Out": [
+                "10",
+                0.942
+            ]
+        },
+        {
+            "Area": [
+                "Shore Watt Creek Shore",
+                0.541
+            ],
+            "Live Count (incl. live tags)": [
+                "52",
+                0.892
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.968
+            ],
+            "% Spawning": [
+                "100",
+                0.951
+            ]
+        }
+    ],
+    "Stream": [
+        "Queand Lake-North Arm-East Share",
+        0.292
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.973
+    ],
+    "Survey Time: End": [
+        "1255",
+        0.977
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.975
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.973
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.756
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 50%": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.978
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Temperature": [
+        "14.50",
+        0.655
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.978
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "Bowling",
+                0.417
+            ],
+            "Male": [
+                "Goose",
+                0.598
+            ],
+            "Female % Spawn: 100%": [
+                "58 148",
+                0.167
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "Watt",
+                0.593
+            ],
+            "Female % Spawn: 100%": [
+                "20",
+                0.737
+            ]
+        }
+    ]
+}

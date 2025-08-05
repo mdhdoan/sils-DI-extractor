@@ -1,0 +1,206 @@
+{
+    "Date": [
+        "08/30/2022",
+        0.9
+    ],
+    "Observer(s)": [
+        "ne",
+        0.96
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.97
+    ],
+    "Survey Time: Start": [
+        "1030",
+        0.919
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.977
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.97
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.973
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.98
+    ],
+    "Recoveries Comments": [
+        "No sockeye observed march 4, dian + walk aren 2. Beaver Jan Midway up creek but water has braided around it,",
+        0.244
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Mouth",
+                0.707
+            ],
+            "Live Count (incl. live tags)": [
+                "0",
+                0.85
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.829
+            ]
+        },
+        {
+            "Area": [
+                "1",
+                0.827
+            ],
+            "Live Count (incl. live tags)": [
+                "0",
+                0.822
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "$5",
+                0.619
+            ]
+        },
+        {
+            "Area": [
+                "2",
+                0.755
+            ]
+        }
+    ],
+    "Stream": [
+        "Wasko Crk. lower",
+        0.81
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Survey Time: End": [
+        "1000",
+        0.389
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.977
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "selected",
+        0.979
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Temperature": [
+        "21",
+        0.955
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.98
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "1",
+                0.889
+            ],
+            "Male": [
+                "0",
+                0.594
+            ],
+            "Female": [
+                "0",
+                0.609
+            ],
+            "Jack": [
+                "0",
+                0.469
+            ]
+        }
+    ]
+}

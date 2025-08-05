@@ -1,0 +1,170 @@
+{
+    "Date": [
+        "Sept 21/2019",
+        0.579
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.883
+    ],
+    "Survey Time: Start": [
+        "1212",
+        0.973
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.974
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.98
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.977
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 25%": [
+        "selected",
+        0.976
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.978
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.671
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.98
+    ],
+    "Recoveries Comments": [
+        "No RECOVERIES",
+        0.587
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Goose Point",
+                0.636
+            ],
+            "Live Count (incl. live tags)": [
+                "42",
+                0.944
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "90",
+                0.927
+            ],
+            "% Spawning": [
+                "100",
+                0.893
+            ]
+        }
+    ],
+    "Stream": [
+        "Quesnel Lake-North Arm-East Shore",
+        0.893
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.97
+    ],
+    "Survey Time: End": [
+        "1232",
+        0.977
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.98
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.977
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.968
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Water Temperature": [
+        "15.5",
+        0.959
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.98
+    ],
+    "General Comments": [
+        "Surface ripples made observation difficult . Appeared to be only one small area with fish actively spawning.",
+        0.513
+    ]
+}

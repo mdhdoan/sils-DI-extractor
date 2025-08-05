@@ -1,0 +1,192 @@
+{
+    "Date": [
+        "Sept1/8/2018",
+        0.595
+    ],
+    "Observer(s)": [
+        "Ti Parkrat2 IT. Powd /S. Lekre",
+        0.089
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.954
+    ],
+    "Survey Time: Start": [
+        "1245",
+        0.975
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.975
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 75%": [
+        "selected",
+        0.976
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.972
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.98
+    ],
+    "Recoveries Comments": [
+        "Benr Beach Bett. is Frank Lntt 12",
+        0.109
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Watt",
+                0.854
+            ],
+            "Live Count (incl. live tags)": [
+                "300",
+                0.909
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.704
+            ],
+            "% Spawning": [
+                "100",
+                0.74
+            ]
+        },
+        {
+            "Area": [
+                "1",
+                0.781
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "10",
+                0.208
+            ]
+        }
+    ],
+    "Stream": [
+        "Quesnel Like- North Arm Shore-Mitchell",
+        0.533
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.969
+    ],
+    "Survey Time: End": [
+        "1300",
+        0.965
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.977
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Temperature": [
+        "13",
+        0.921
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "selected",
+        0.98
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "Benr Beach Bett. is Frank",
+                0.227
+            ],
+            "Female % Spawn: 100%": [
+                "12",
+                0.737
+            ]
+        }
+    ]
+}

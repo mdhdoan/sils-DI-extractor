@@ -1,0 +1,366 @@
+{
+    "Date": [
+        "Sept. 25/2018",
+        0.373
+    ],
+    "Observer(s)": [
+        "T. Pavel B. Smith Y S. LePe",
+        0.239
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.951
+    ],
+    "Survey Time: Start": [
+        "1345",
+        0.728
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.975
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.96
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.965
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.966
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.964
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.978
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.957
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.951
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.978
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Betty'stracks",
+                0.639
+            ],
+            "Live Count (incl. live tags)": [
+                "40",
+                0.964
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80",
+                0.901
+            ],
+            "% Spawning": [
+                "60",
+                0.627
+            ],
+            "% Spawned Out": [
+                "40",
+                0.903
+            ]
+        },
+        {
+            "Area": [
+                "Bear",
+                0.373
+            ],
+            "Live Count (incl. live tags)": [
+                "251",
+                0.848
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "60",
+                0.977
+            ],
+            "% Spawning": [
+                "60",
+                0.899
+            ],
+            "% Spawned Out": [
+                "40",
+                0.952
+            ]
+        },
+        {
+            "Area": [
+                "Limestone",
+                0.717
+            ],
+            "Live Count (incl. live tags)": [
+                "103",
+                0.933
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80",
+                0.946
+            ],
+            "% Spawning": [
+                "70",
+                0.9
+            ],
+            "% Spawned Out": [
+                "30",
+                0.954
+            ]
+        },
+        {
+            "Area": [
+                "Martin",
+                0.572
+            ],
+            "Live Count (incl. live tags)": [
+                "99",
+                0.97
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80",
+                0.971
+            ],
+            "% Spawning": [
+                "70",
+                0.9
+            ],
+            "% Spawned Out": [
+                "30",
+                0.902
+            ]
+        },
+        {
+            "Area": [
+                "Long",
+                0.912
+            ],
+            "Live Count (incl. live tags)": [
+                "675",
+                0.725
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.888
+            ],
+            "% Spawning": [
+                "70",
+                0.569
+            ],
+            "% Spawned Out": [
+                "30",
+                0.902
+            ]
+        },
+        {
+            "Area": [
+                "Devoe",
+                0.907
+            ],
+            "Live Count (incl. live tags)": [
+                "717",
+                0.916
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "60",
+                0.958
+            ],
+            "% Spawning": [
+                "70",
+                0.628
+            ],
+            "% Spawned Out": [
+                "30",
+                0.78
+            ]
+        },
+        {
+            "Area": [
+                "Grain",
+                0.893
+            ],
+            "Live Count (incl. live tags)": [
+                "541",
+                0.897
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.901
+            ],
+            "% Spawning": [
+                "70",
+                0.628
+            ],
+            "% Spawned Out": [
+                "30",
+                0.504
+            ]
+        }
+    ],
+    "Stream": [
+        "Quoand Like- North Arm Shore- West",
+        0.101
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.977
+    ],
+    "Survey Time: End": [
+        "1515",
+        0.758
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.977
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.971
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.967
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.966
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.967
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.967
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.675
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.978
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Temperature": [
+        "13",
+        0.407
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "selected",
+        0.957
+    ],
+    "General Comments": [
+        "Comments 20 fresh holding @ Martin",
+        0.373
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "Betty",
+                0.614
+            ],
+            "Unsexed": [
+                "54",
+                0.505
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "Beur Limestone",
+                0.318
+            ],
+            "Unsexed": [
+                "20 10",
+                0.063
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "Martin",
+                0.223
+            ],
+            "Unsexed": [
+                "98",
+                0.343
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "Long",
+                0.868
+            ],
+            "Unsexed": [
+                "110",
+                0.439
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "Deuce Grain",
+                0.465
+            ],
+            "Male": [
+                "10",
+                0.853
+            ],
+            "Female": [
+                "5",
+                0.607
+            ],
+            "Female % Spawn: 50%": [
+                "5",
+                0.627
+            ]
+        }
+    ]
+}

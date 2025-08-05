@@ -1,0 +1,246 @@
+{
+    "Date": [
+        "Septo/202/2019",
+        0.652
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.973
+    ],
+    "Survey Time: Start": [
+        "922",
+        0.938
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.977
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: Rain": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Type: None": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "selected",
+        0.977
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "selected",
+        0.974
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.98
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "5",
+                0.933
+            ],
+            "Live Count (incl. live tags)": [
+                "123",
+                0.934
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "20",
+                0.749
+            ],
+            "% Holding / Migrating": [
+                "2",
+                0.867
+            ],
+            "% Spawning": [
+                "98",
+                0.897
+            ]
+        },
+        {
+            "Area": [
+                "6",
+                0.907
+            ],
+            "Live Count (incl. live tags)": [
+                "591",
+                0.941
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "40",
+                0.944
+            ],
+            "% Holding / Migrating": [
+                "2",
+                0.891
+            ],
+            "% Spawning": [
+                "98",
+                0.916
+            ]
+        }
+    ],
+    "Stream": [
+        "Horsefly River",
+        0.717
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Survey Time: End": [
+        "1323",
+        0.772
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.976
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Medium": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.979
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Intensity: Light": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Water Temperature": [
+        "12,3",
+        0.626
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.51
+    ],
+    "General Comments": [
+        "Comments A Few New migrating fish observed ~10-15 in AG and A ~5 in A5 PSC Sampled 14/3 13F from A5 and 8M37F from A6. These have been included as part of the recovery totals",
+        0.041
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "5",
+                0.982
+            ],
+            "Male": [
+                "14",
+                0.974
+            ],
+            "Female": [
+                "13",
+                0.965
+            ],
+            "Female % Spawn: 0%": [
+                "1",
+                0.674
+            ],
+            "Female % Spawn: 50%": [
+                "1",
+                0.827
+            ],
+            "Female % Spawn: 100%": [
+                "11",
+                0.89
+            ],
+            "Unsexed": [
+                "2",
+                0.743
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "6",
+                0.957
+            ],
+            "Male": [
+                "8",
+                0.923
+            ],
+            "Female": [
+                "7",
+                0.957
+            ],
+            "Female % Spawn: 50%": [
+                "2",
+                0.911
+            ],
+            "Female % Spawn: 100%": [
+                "5",
+                0.956
+            ]
+        }
+    ]
+}

@@ -1,0 +1,246 @@
+{
+    "Date": [
+        "Spr 26 2019",
+        0.143
+    ],
+    "Observer(s)": [
+        "N/ PorBU",
+        0.147
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.955
+    ],
+    "Survey Time: Start": [
+        "1020",
+        0.978
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.96
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.975
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.979
+    ],
+    "Weather: %Cloudy: 75%": [
+        "selected",
+        0.974
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.977
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.978
+    ],
+    "Recoveries Comments": [
+        "10-1 CHINOOK CARCASS - TOO FAST TO GET TO IT . PSC SAMPLED IM + 10F FROM A9, INCLUDED IN TOTAL  CLEAR WATER MADE FOR GOOD",
+        0.054
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "9",
+                0.914
+            ],
+            "Live Count (incl. live tags)": [
+                "177",
+                0.91
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80",
+                0.739
+            ],
+            "% Spawning": [
+                "60",
+                0.753
+            ],
+            "% Spawned Out": [
+                "40",
+                0.835
+            ]
+        },
+        {
+            "Area": [
+                "10",
+                0.887
+            ],
+            "Live Count (incl. live tags)": [
+                "96",
+                0.96
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80",
+                0.94
+            ],
+            "% Spawning": [
+                "40",
+                0.92
+            ],
+            "% Spawned Out": [
+                "60",
+                0.898
+            ]
+        }
+    ],
+    "Stream": [
+        "HORSEFLY RIVER",
+        0.682
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.969
+    ],
+    "Survey Time: End": [
+        "1325",
+        0.949
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.97
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Medium": [
+        "selected",
+        0.976
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "selected",
+        0.968
+    ],
+    "Water Conditions: Water Temperature": [
+        "9,5",
+        0.569
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "selected",
+        0.975
+    ],
+    "General Comments": [
+        "Comments COUNTING CONDITIONS. . MANY Qualchetions of events, peak of spain> FISH OBSERVED WERE SINGLE SPAWNED OUT FEMALES UN REDOS \u00e0 N30 FRESH SPAWNARS IN A9",
+        0.057
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "9",
+                0.927
+            ],
+            "Male": [
+                "2",
+                0.914
+            ],
+            "Female": [
+                "25",
+                0.879
+            ],
+            "Female % Spawn: 100%": [
+                "25",
+                0.834
+            ],
+            "Unsexed": [
+                "4",
+                0.739
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "10",
+                0.899
+            ],
+            "Male": [
+                "$",
+                0.206
+            ],
+            "Female": [
+                "2",
+                0.818
+            ],
+            "Female % Spawn: 100%": [
+                "2",
+                0.743
+            ],
+            "Unsexed": [
+                "1",
+                0.686
+            ]
+        }
+    ]
+}

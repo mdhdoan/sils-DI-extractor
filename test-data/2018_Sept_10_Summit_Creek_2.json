@@ -1,0 +1,276 @@
+{
+    "Date": [
+        "Sept/10/2018",
+        0.653
+    ],
+    "Observer(s)": [
+        "B. Smith Name",
+        0.822
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.896
+    ],
+    "Survey Time: Start": [
+        "1115",
+        0.977
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.975
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.975
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.975
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.969
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.15
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.976
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Mouth",
+                0.661
+            ],
+            "Live Count (incl. live tags)": [
+                "0",
+                0.637
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.932
+            ],
+            "% Holding / Migrating": [
+                "0",
+                0.125
+            ],
+            "% Spawning": [
+                "2",
+                0.15
+            ],
+            "% Spawned Out": [
+                "\"",
+                0.037
+            ],
+            "Live Tagged": [
+                "-",
+                0.516
+            ],
+            "Other Species": [
+                "-",
+                0.872
+            ]
+        },
+        {
+            "Area": [
+                "1",
+                0.964
+            ],
+            "Live Count (incl. live tags)": [
+                "74",
+                0.981
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80",
+                0.974
+            ],
+            "% Holding / Migrating": [
+                "50",
+                0.966
+            ],
+            "% Spawning": [
+                "50",
+                0.95
+            ],
+            "% Spawned Out": [
+                "0",
+                0.84
+            ],
+            "Live Tagged": [
+                "0",
+                0.814
+            ],
+            "Other Species": [
+                "0",
+                0.09
+            ]
+        },
+        {
+            "Area": [
+                "2",
+                0.901
+            ]
+        }
+    ],
+    "Stream": [
+        "Summit Creek",
+        0.921
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.97
+    ],
+    "Survey Time: End": [
+        "1140",
+        0.973
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.974
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.97
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Medium": [
+        "selected",
+        0.484
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.972
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "selected",
+        0.682
+    ],
+    "Water Conditions: Water Temperature": [
+        "Il",
+        0.259
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.974
+    ],
+    "General Comments": [
+        "Comments Large beaver dam at end of area 1 obstructs pawn) fish from migrating. 3ft x 3ft deco",
+        0.39
+    ],
+    "SK_Count_data_2": [
+        {
+            "Female": [
+                "0",
+                0.477
+            ],
+            "Female % Spawn: 0%": [
+                "-",
+                0.554
+            ]
+        },
+        {
+            "Male": [
+                "O",
+                0.529
+            ],
+            "Female % Spawn: 100%": [
+                "-\n0",
+                0.378
+            ],
+            "Unsexed": [
+                "0",
+                0.858
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "Mouth",
+                0.624
+            ],
+            "Male": [
+                "0",
+                0.6
+            ],
+            "Female": [
+                "0",
+                0.53
+            ],
+            "Female % Spawn: 0%": [
+                "-\n-",
+                0.312
+            ],
+            "Female % Spawn: 100%": [
+                "0",
+                0.581
+            ],
+            "Unsexed": [
+                "O",
+                0.601
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "1\n2",
+                0.595
+            ],
+            "Male": [
+                "-",
+                0.558
+            ]
+        }
+    ]
+}

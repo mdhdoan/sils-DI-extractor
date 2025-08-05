@@ -1,0 +1,286 @@
+{
+    "Date": [
+        "Just 18/2018",
+        0.056
+    ],
+    "Observer(s)": [
+        "T. Powell VIT. Pinkantz /S. Klin",
+        0.056
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.957
+    ],
+    "Survey Time: Start": [
+        "925",
+        0.978
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.975
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.965
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.967
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.97
+    ],
+    "Weather: %Cloudy: 75%": [
+        "selected",
+        0.97
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.963
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.965
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.963
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.966
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.978
+    ],
+    "Recoveries Comments": [
+        "BowlingPt. 82 Goose Pt. 80 Roaring R. 24 Wasko No unsexed Count Adams 2 1. ?",
+        0.02
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "BowlingPt.",
+                0.855
+            ],
+            "Live Count (incl. live tags)": [
+                "1080+60",
+                0.926
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "60",
+                0.71
+            ],
+            "% Spawning": [
+                "100",
+                0.9
+            ]
+        },
+        {
+            "Area": [
+                "Goose Pt.",
+                0.88
+            ],
+            "Live Count (incl. live tags)": [
+                "1056",
+                0.956
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "60",
+                0.901
+            ],
+            "% Holding / Migrating": [
+                "10",
+                0.952
+            ],
+            "% Spawning": [
+                "90",
+                0.896
+            ]
+        },
+        {
+            "Area": [
+                "RoarimRiver",
+                0.66
+            ],
+            "Live Count (incl. live tags)": [
+                "680",
+                0.899
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80",
+                0.779
+            ],
+            "% Spawning": [
+                "100",
+                0.789
+            ]
+        },
+        {
+            "Area": [
+                "Wasko",
+                0.901
+            ],
+            "Live Count (incl. live tags)": [
+                "0",
+                0.743
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80",
+                0.886
+            ]
+        },
+        {
+            "Area": [
+                "Adams",
+                0.633
+            ],
+            "Live Count (incl. live tags)": [
+                "14 11",
+                0.043
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80 80",
+                0.016
+            ],
+            "% Holding / Migrating": [
+                "100",
+                0.742
+            ]
+        }
+    ],
+    "Stream": [
+        "Quesnel Like- North Arm Shore-Fast",
+        0.541
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Visual Surveys Comments": [
+        "holding @ creek mouth These Migran 3 are now part of count  60 migrants nt Bowling Artincluded Unsko helicopter surveyed Type",
+        0.012
+    ],
+    "Survey Time: End": [
+        "1200",
+        0.976
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.975
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.964
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.966
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.966
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.964
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.963
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.961
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.96
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Water Temperature": [
+        "13",
+        0.969
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "selected",
+        0.98
+    ],
+    "General Comments": [
+        "Comments Flew drone for Bowling, BSC sangle Dunusual con Gere vents, peak of apawn) Shallows. Roaring & Bowling shiller in Some news difficult to see shore spawners.",
+        0.046
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "BowlingPt. Roaring",
+                0.003
+            ],
+            "Female % Spawn: 100%": [
+                "82",
+                0.737
+            ],
+            "Unsexed": [
+                "Count",
+                0.644
+            ]
+        },
+        {
+            "Female % Spawn: 100%": [
+                "80",
+                0.74
+            ],
+            "Unsexed": [
+                "2",
+                0.628
+            ]
+        },
+        {
+            "Female % Spawn: 100%": [
+                "24",
+                0.742
+            ],
+            "Unsexed": [
+                "?",
+                0.049
+            ]
+        }
+    ]
+}

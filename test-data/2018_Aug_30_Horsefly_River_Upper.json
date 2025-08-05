@@ -1,0 +1,266 @@
+{
+    "Date": [
+        "30th Aug 2018",
+        0.535
+    ],
+    "Observer(s)": [
+        "B. Smith l Name",
+        0.179
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.883
+    ],
+    "Survey Time: Start": [
+        "900",
+        0.98
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.977
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.968
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.957
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.637
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.489
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.976
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "10",
+                0.913
+            ],
+            "Live Count (incl. live tags)": [
+                "-",
+                0.642
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.739
+            ],
+            "% Holding / Migrating": [
+                "50",
+                0.431
+            ],
+            "% Spawning": [
+                "50",
+                0.9
+            ]
+        },
+        {
+            "Area": [
+                "9",
+                0.92
+            ],
+            "Live Count (incl. live tags)": [
+                "-",
+                0.547
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.925
+            ],
+            "% Holding / Migrating": [
+                "50",
+                0.55
+            ],
+            "% Spawning": [
+                "50",
+                0.913
+            ]
+        }
+    ],
+    "Stream": [
+        "Upper Horsefly River",
+        0.812
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.974
+    ],
+    "Survey Time: End": [
+        "1310",
+        0.976
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.359
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.973
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.968
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.968
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.911
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Water Temperature": [
+        "C",
+        0.706
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.972
+    ],
+    "General Comments": [
+        "Comments Fecundity samples incl. w Count. nusual conditions of events peak of spawn)",
+        0.304
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "10",
+                0.983
+            ],
+            "Male": [
+                "31",
+                0.971
+            ],
+            "Female": [
+                "27",
+                0.979
+            ],
+            "Female % Spawn: N.R.": [
+                "0",
+                0.833
+            ],
+            "Female % Spawn: 0%": [
+                "27",
+                0.957
+            ],
+            "Female % Spawn: 50%": [
+                "0",
+                0.768
+            ],
+            "Female % Spawn: 100%": [
+                "0",
+                0.754
+            ],
+            "Jack": [
+                "0",
+                0.61
+            ],
+            "Unsexed": [
+                "0",
+                0.745
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "9",
+                0.981
+            ],
+            "Male": [
+                "54",
+                0.968
+            ],
+            "Female": [
+                "77",
+                0.972
+            ],
+            "Female % Spawn: N.R.": [
+                "0",
+                0.83
+            ],
+            "Female % Spawn: 0%": [
+                "74",
+                0.954
+            ],
+            "Female % Spawn: 50%": [
+                "1",
+                0.513
+            ],
+            "Female % Spawn: 100%": [
+                "2 0",
+                0.313
+            ],
+            "Unsexed": [
+                "0",
+                0.62
+            ]
+        }
+    ]
+}

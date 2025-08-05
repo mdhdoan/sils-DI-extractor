@@ -1,0 +1,372 @@
+{
+    "Date": [
+        "10/11/2022",
+        0.883
+    ],
+    "Observer(s)": [
+        "E. Olsa/CMCAdung",
+        0.151
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.896
+    ],
+    "Survey Time: Start": [
+        "1530",
+        0.98
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.972
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.971
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.975
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.96
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.96
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.964
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.961
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.976
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.683
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.972
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Betts Frank",
+                0.131
+            ],
+            "Live Count (incl. live tags)": [
+                "8",
+                0.068
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "00",
+                0.52
+            ]
+        },
+        {
+            "Area": [
+                "Bear share",
+                0.283
+            ],
+            "Live Count (incl. live tags)": [
+                "4/4 e",
+                0.021
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "60 70",
+                0.081
+            ],
+            "% Spawned Out": [
+                "100",
+                0.958
+            ]
+        },
+        {
+            "Area": [
+                "Limestone Store",
+                0.261
+            ]
+        },
+        {
+            "Area": [
+                "Maton Shore",
+                0.301
+            ],
+            "Live Count (incl. live tags)": [
+                "0",
+                0.292
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.897
+            ]
+        },
+        {
+            "Area": [
+                "Long Shore",
+                0.531
+            ],
+            "Live Count (incl. live tags)": [
+                "8/8",
+                0.856
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.678
+            ],
+            "% Spawning": [
+                "10",
+                0.856
+            ],
+            "% Spawned Out": [
+                "90",
+                0.901
+            ]
+        },
+        {
+            "Area": [
+                "Dove Shore",
+                0.101
+            ],
+            "Live Count (incl. live tags)": [
+                "12/7",
+                0.939
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "60",
+                0.902
+            ],
+            "% Spawned Out": [
+                "100",
+                0.413
+            ]
+        },
+        {
+            "Area": [
+                "Grain Shore",
+                0.759
+            ],
+            "Live Count (incl. live tags)": [
+                "3/7",
+                0.913
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "50",
+                0.68
+            ],
+            "% Spawning": [
+                "10",
+                0.897
+            ],
+            "% Spawned Out": [
+                "90",
+                0.739
+            ]
+        }
+    ],
+    "Stream": [
+        "Quesnel Lake-North Arm - West Shore",
+        0.286
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Survey Time: End": [
+        "1710",
+        0.954
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.974
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.96
+    ],
+    "Weather: Brightness: Medium": [
+        "selected",
+        0.963
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.963
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.962
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.969
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.962
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "selected",
+        0.976
+    ],
+    "Water Conditions: Water Temperature": [
+        "14.1",
+        0.913
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "selected",
+        0.825
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "BoHy Frank Bar",
+                0.026
+            ],
+            "Male": [
+                "2",
+                0.83
+            ],
+            "Female": [
+                "5",
+                0.897
+            ],
+            "Female % Spawn: 100%": [
+                "5",
+                0.848
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "Limestone",
+                0.564
+            ],
+            "Male": [
+                "0",
+                0.598
+            ],
+            "Female": [
+                "5",
+                0.878
+            ],
+            "Female % Spawn: 100%": [
+                "5",
+                0.887
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "Muster",
+                0.555
+            ],
+            "Male": [
+                "0",
+                0.857
+            ],
+            "Female": [
+                "1",
+                0.86
+            ],
+            "Female % Spawn: 100%": [
+                "1",
+                0.855
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "Lang",
+                0.664
+            ],
+            "Male": [
+                "2",
+                0.854
+            ],
+            "Female": [
+                "6",
+                0.901
+            ],
+            "Female % Spawn: 100%": [
+                "6",
+                0.894
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "Devop",
+                0.559
+            ],
+            "Male": [
+                "2",
+                0.867
+            ],
+            "Female": [
+                "6",
+                0.85
+            ],
+            "Female % Spawn: 100%": [
+                "6",
+                0.877
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "Grain",
+                0.778
+            ],
+            "Male": [
+                "0",
+                0.745
+            ],
+            "Female": [
+                "2",
+                0.957
+            ],
+            "Female % Spawn: 100%": [
+                "2",
+                0.955
+            ]
+        }
+    ]
+}

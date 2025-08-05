@@ -1,0 +1,246 @@
+{
+    "Date": [
+        "Oct. 6/2022",
+        0.746
+    ],
+    "Observer(s)": [
+        "C. Menulay, E, Olsun",
+        0.396
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.956
+    ],
+    "Survey Time: Start": [
+        "09.30",
+        0.826
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.979
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.977
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.979
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.978
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.98
+    ],
+    "Recoveries Comments": [
+        "5CM carcass A9 Very low number of fish in A9, but a high proportion are fresh and spawning. Almost no fish in ALO From Mckinley downstream we saw a few groups (24) in A9 and 08) If large dark fish, sockeye sized and larger. They",
+        0.056
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "10",
+                0.932
+            ],
+            "% Spawned Out": [
+                "100",
+                0.744
+            ]
+        },
+        {
+            "Area": [
+                "9",
+                0.894
+            ],
+            "% Spawning": [
+                "50",
+                0.825
+            ],
+            "% Spawned Out": [
+                "50",
+                0.683
+            ]
+        },
+        {
+            "Area": [
+                "8",
+                0.73
+            ],
+            "% Spawned Out": [
+                "100",
+                0.782
+            ]
+        }
+    ],
+    "Stream": [
+        "Horsefly",
+        0.839
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.957
+    ],
+    "Survey Time: End": [
+        "1445",
+        0.963
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.979
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.979
+    ],
+    "Weather: %Cloudy: 0%": [
+        "selected",
+        0.979
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.978
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Temperature": [
+        "10.9C",
+        0.679
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.978
+    ],
+    "General Comments": [
+        "Comments Seem to be holding in the deeper pools and then would take off as we floatedpast in the roft, not able to ID - maybe (@ho?",
+        0.398
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "10",
+                0.794
+            ],
+            "Male": [
+                "168",
+                0.859
+            ],
+            "Female": [
+                "459",
+                0.902
+            ],
+            "Female % Spawn: 100%": [
+                "459",
+                0.853
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "9",
+                0.826
+            ],
+            "Male": [
+                "331",
+                0.772
+            ],
+            "Female": [
+                "915",
+                0.757
+            ],
+            "Female % Spawn: 100%": [
+                "915",
+                0.737
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "8",
+                0.563
+            ],
+            "Male": [
+                "135",
+                0.75
+            ],
+            "Female": [
+                "385",
+                0.755
+            ],
+            "Female % Spawn: 100%": [
+                "385",
+                0.74
+            ]
+        }
+    ]
+}

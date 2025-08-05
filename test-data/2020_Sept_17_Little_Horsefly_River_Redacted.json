@@ -1,0 +1,200 @@
+{
+    "Date": [
+        "Sep 17 2020",
+        0.883
+    ],
+    "Observer(s)": [
+        "A. Johnston",
+        0.557
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.969
+    ],
+    "Survey Time: Start": [
+        "1247,",
+        0.851
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.974
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "selected",
+        0.974
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.756
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.978
+    ],
+    "Recoveries Comments": [
+        "No Recoveries",
+        0.722
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "3 24",
+                0.934
+            ],
+            "Live Count (incl. live tags)": [
+                "23.",
+                0.88
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "85",
+                0.899
+            ],
+            "% Holding / Migrating": [
+                "50",
+                0.786
+            ]
+        },
+        {
+            "Area": [
+                "4, 0'",
+                0.042
+            ],
+            "Live Count (incl. live tags)": [
+                "0",
+                0.279
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "85",
+                0.965
+            ],
+            "% Spawned Out": [
+                "50,",
+                0.514
+            ],
+            "Live Tagged": [
+                "e",
+                0.3
+            ],
+            "Other Species": [
+                "0",
+                0.521
+            ]
+        }
+    ],
+    "Stream": [
+        "Little Housefly",
+        0.722
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.976
+    ],
+    "Survey Time: End": [
+        "1349/",
+        0.889
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.974
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 0%": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.97
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.824
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Temperature": [
+        "17,5",
+        0.121
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.975
+    ],
+    "General Comments": [
+        "Comments Spread into 2 groups at the top of areas, those not Spawning Starting to pair UP, Look good,",
+        0.129
+    ]
+}

@@ -1,0 +1,254 @@
+{
+    "Date": [
+        "Sept/25/2019",
+        0.718
+    ],
+    "Observer(s)": [
+        "N. Powell",
+        0.76
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.957
+    ],
+    "Survey Time: Start": [
+        "950",
+        0.971
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.97
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.974
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.977
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.979
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.975
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.977
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "selected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.528
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.98
+    ],
+    "Recoveries Comments": [
+        " PSE SAMPLED 2M ANO IF FROM A3 RECORDED IN RECOVERY TOTALS",
+        0.202
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "1",
+                0.897
+            ],
+            "Live Count (incl. live tags)": [
+                "0",
+                0.867
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "5",
+                0.908
+            ]
+        },
+        {
+            "Area": [
+                "2",
+                0.915
+            ],
+            "Live Count (incl. live tags)": [
+                "0",
+                0.9
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "10",
+                0.914
+            ]
+        },
+        {
+            "Area": [
+                "3",
+                0.899
+            ],
+            "Live Count (incl. live tags)": [
+                "58",
+                0.896
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "20",
+                0.902
+            ],
+            "% Spawning": [
+                "70",
+                0.813
+            ],
+            "% Spawned Out": [
+                "30",
+                0.745
+            ]
+        }
+    ],
+    "Stream": [
+        "Mitchell River",
+        0.906
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.956
+    ],
+    "Survey Time: End": [
+        "1130",
+        0.982
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.974
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.976
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Medium": [
+        "selected",
+        0.976
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.978
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.978
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Temperature": [
+        "10,9\u00baC",
+        0.584
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "selected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.978
+    ],
+    "General Comments": [
+        " PSE SAMPLED 2M A3 IN RECOVERY TOTALS Spawn Comments  WATER LEVEL UP HIGHER THAN PREVIOUS SURVEYS. MOST GRAVEL BARS UNDER WATER . HIGH TURBIDITS AFFECTING FISH VIS. GREATLY.",
+        0.008
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "1",
+                0.774
+            ],
+            "Male": [
+                "6",
+                0.622
+            ],
+            "Female": [
+                "0",
+                0.555
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "2",
+                0.889
+            ],
+            "Male": [
+                "0",
+                0.602
+            ],
+            "Female": [
+                "0",
+                0.095
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "3",
+                0.901
+            ],
+            "Male": [
+                "2",
+                0.9
+            ],
+            "Female": [
+                "1",
+                0.836
+            ],
+            "Female % Spawn: 100%": [
+                "1",
+                0.713
+            ]
+        }
+    ]
+}

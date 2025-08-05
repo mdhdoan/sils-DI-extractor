@@ -1,0 +1,238 @@
+{
+    "Date": [
+        "Sept 18/2019",
+        0.817
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.956
+    ],
+    "Survey Time: Start": [
+        "1041",
+        0.908
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.977
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 75%": [
+        "selected",
+        0.978
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.98
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "10",
+                0.968
+            ],
+            "Live Count (incl. live tags)": [
+                "256",
+                0.965
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "55",
+                0.895
+            ],
+            "% Holding / Migrating": [
+                "5",
+                0.897
+            ],
+            "% Spawning": [
+                "95",
+                0.943
+            ]
+        },
+        {
+            "Area": [
+                "9",
+                0.426
+            ],
+            "Live Count (incl. live tags)": [
+                "570",
+                0.973
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "45",
+                0.973
+            ],
+            "% Holding / Migrating": [
+                "5",
+                0.971
+            ],
+            "% Spawning": [
+                "95",
+                0.959
+            ],
+            "Live Tagged": [
+                "9",
+                0.742
+            ],
+            "Other Species": [
+                "chin",
+                0.897
+            ]
+        }
+    ],
+    "Stream": [
+        "Horsefly River",
+        0.719
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.962
+    ],
+    "Survey Time: End": [
+        "1246",
+        0.975
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.972
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Medium": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Water Temperature": [
+        "11.1",
+        0.468
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "selected",
+        0.98
+    ],
+    "General Comments": [
+        "Water level down ~10cm, Clarity improve significantly, But Sampled 1M3 IF from A9 Included in rec. total. IM chin sampled Ag",
+        0.053
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "10",
+                0.949
+            ],
+            "Male": [
+                "0",
+                0.529
+            ],
+            "Female": [
+                "0",
+                0.724
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "9",
+                0.584
+            ],
+            "Male": [
+                "1",
+                0.85
+            ],
+            "Female": [
+                "1",
+                0.583
+            ],
+            "Female % Spawn: 100%": [
+                "1",
+                0.871
+            ],
+            "Unsexed": [
+                "(2)",
+                0.715
+            ]
+        }
+    ]
+}

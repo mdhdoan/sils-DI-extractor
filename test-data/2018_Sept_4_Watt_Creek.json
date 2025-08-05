@@ -1,0 +1,272 @@
+{
+    "Date": [
+        "Sept 4/11/2018",
+        0.358
+    ],
+    "Observer(s)": [
+        "Bis Smith/T. Powell",
+        0.078
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.682
+    ],
+    "Survey Time: Start": [
+        "1100",
+        0.975
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.975
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.973
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.969
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.973
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 25%": [
+        "selected",
+        0.94
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.948
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.344
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.956
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.36
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Mouth 1",
+                0.129
+            ],
+            "Live Count (incl. live tags)": [
+                "300 0-500m 2",
+                0.063
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80 80",
+                0.075
+            ],
+            "% Holding / Migrating": [
+                "100 100",
+                0.54
+            ],
+            "% Spawning": [
+                "0 0",
+                0.222
+            ],
+            "% Spawned Out": [
+                "0 0",
+                0.443
+            ],
+            "Live Tagged": [
+                "0 0",
+                0.102
+            ],
+            "Other Species": [
+                "O",
+                0.279
+            ]
+        },
+        {
+            "Area": [
+                "2",
+                0.858
+            ],
+            "Live Count (incl. live tags)": [
+                "500 - 1000m",
+                0.162
+            ],
+            "Other Species": [
+                "0",
+                0.65
+            ]
+        },
+        {
+            "Area": [
+                "3",
+                0.597
+            ],
+            "Live Count (incl. live tags)": [
+                "1000m Extent",
+                0.415
+            ]
+        }
+    ],
+    "Stream": [
+        "Watt Creek",
+        0.904
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.968
+    ],
+    "Survey Time: End": [
+        "1140",
+        0.96
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.966
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.973
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.953
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.957
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.949
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Temperature": [
+        "6",
+        0.969
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.978
+    ],
+    "General Comments": [
+        "Comments First Survey. Large 4ft beaver dam in area 1 . No observed Fish above dam . Did not go past 1 .",
+        0.316
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "Mouth",
+                0.725
+            ],
+            "Male": [
+                "0",
+                0.912
+            ],
+            "Female": [
+                "0",
+                0.628
+            ],
+            "Female % Spawn: N.R.": [
+                "-",
+                0.578
+            ],
+            "Female % Spawn: 0%": [
+                "- -",
+                0.02
+            ],
+            "Female % Spawn: 50%": [
+                "-",
+                0.678
+            ],
+            "Female % Spawn: 100%": [
+                "- -",
+                0.167
+            ],
+            "Jack": [
+                "3 0",
+                0.324
+            ],
+            "Unsexed": [
+                "0 0",
+                0.362
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "1",
+                0.924
+            ],
+            "Male": [
+                "O",
+                0.911
+            ],
+            "Female": [
+                "0",
+                0.764
+            ],
+            "Female % Spawn: 0%": [
+                "-",
+                0.55
+            ],
+            "Female % Spawn: 50%": [
+                "-",
+                0.777
+            ]
+        }
+    ]
+}

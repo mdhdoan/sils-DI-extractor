@@ -1,0 +1,244 @@
+{
+    "Date": [
+        "09/13/2022",
+        0.974
+    ],
+    "Observer(s)": [
+        "E. Olson",
+        0.685
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.97
+    ],
+    "Survey Time: Start": [
+        "1430",
+        0.912
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.969
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.975
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 25%": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.956
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.961
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.98
+    ],
+    "Recoveries Comments": [
+        "Multiple beaver days in area 1. Fish ave Still passing through in large numbers up to the lake.",
+        0.276
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "mouth",
+                0.752
+            ],
+            "Live Count (incl. live tags)": [
+                "O",
+                0.742
+            ]
+        },
+        {
+            "Area": [
+                "1",
+                0.714
+            ],
+            "Live Count (incl. live tags)": [
+                "384",
+                0.807
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "75",
+                0.935
+            ],
+            "% Holding / Migrating": [
+                "60",
+                0.948
+            ],
+            "% Spawning": [
+                "40",
+                0.897
+            ]
+        },
+        {
+            "Area": [
+                "2",
+                0.196
+            ],
+            "Live Count (incl. live tags)": [
+                "1353",
+                0.903
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80",
+                0.629
+            ],
+            "% Holding / Migrating": [
+                "30",
+                0.899
+            ],
+            "% Spawning": [
+                "70 30",
+                0.027
+            ]
+        }
+    ],
+    "Stream": [
+        "Wasko Creek",
+        0.888
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Survey Time: End": [
+        "1530",
+        0.976
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.975
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.977
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Temperature": [
+        "18",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.975
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "no 1",
+                0.12
+            ],
+            "Male": [
+                "2",
+                0.913
+            ],
+            "Female": [
+                "0",
+                0.729
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "2",
+                0.832
+            ],
+            "Male": [
+                "14 2",
+                0.074
+            ],
+            "Female": [
+                "13",
+                0.696
+            ],
+            "Female % Spawn: 0%": [
+                "10",
+                0.789
+            ],
+            "Female % Spawn: 100%": [
+                "3",
+                0.9
+            ]
+        }
+    ]
+}

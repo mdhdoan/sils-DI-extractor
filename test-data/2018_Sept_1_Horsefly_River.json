@@ -1,0 +1,242 @@
+{
+    "Date": [
+        "Sep/ 01/ 2018",
+        0.129
+    ],
+    "Observer(s)": [
+        "T. Powell e/Last Name",
+        0.612
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.956
+    ],
+    "Survey Time: Start": [
+        "0840",
+        0.98
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.969
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.975
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.978
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.969
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.978
+    ],
+    "Recoveries Comments": [
+        "Only recovering the two gravel bus right above the bridge in area 6",
+        0.227
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "6",
+                0.793
+            ],
+            "Live Count (incl. live tags)": [
+                "-",
+                0.616
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80",
+                0.91
+            ],
+            "% Holding / Migrating": [
+                "70",
+                0.84
+            ],
+            "% Spawning": [
+                "30",
+                0.901
+            ]
+        },
+        {
+            "Area": [
+                "5",
+                0.814
+            ],
+            "Live Count (incl. live tags)": [
+                "7500",
+                0.949
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.905
+            ],
+            "% Holding / Migrating": [
+                "70",
+                0.882
+            ],
+            "% Spawning": [
+                "30",
+                0.902
+            ]
+        }
+    ],
+    "Stream": [
+        "Horsefly River",
+        0.799
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Survey Time: End": [
+        "130",
+        0.985
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.97
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.975
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.956
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 0%": [
+        "selected",
+        0.977
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.98
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Temperature": [
+        "10.5",
+        0.969
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.975
+    ],
+    "General Comments": [
+        "Comments Came across impassable log jamin (PSC empm, unusdal conditions of event __ peak of spawn) aren S. Moved long around To make passage to tow the ruft through, Photos taken before & after. Talked to ( Dennis) owner of property by the little horsethy, bridge, who gaveus permission to use his property usa pelle.",
+        0.026
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "6",
+                0.944
+            ],
+            "Male": [
+                "1",
+                0.72
+            ],
+            "Female": [
+                "2",
+                0.914
+            ],
+            "Female % Spawn: 0%": [
+                "2",
+                0.741
+            ],
+            "Female % Spawn: 100%": [
+                "31",
+                0.775
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "5",
+                0.583
+            ],
+            "Male": [
+                "0",
+                0.651
+            ],
+            "Female": [
+                "0",
+                0.573
+            ],
+            "Female % Spawn: 100%": [
+                "280",
+                0.743
+            ]
+        }
+    ]
+}

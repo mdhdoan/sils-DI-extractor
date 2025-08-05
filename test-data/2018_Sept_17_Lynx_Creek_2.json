@@ -1,0 +1,276 @@
+{
+    "Date": [
+        "Sept 17/2018",
+        0.711
+    ],
+    "Observer(s)": [
+        "Brian Smith",
+        0.363
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.508
+    ],
+    "Survey Time: Start": [
+        "1350",
+        0.978
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.971
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.969
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.97
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.97
+    ],
+    "Weather: %Cloudy: 75%": [
+        "selected",
+        0.97
+    ],
+    "Precipitation: Type: Rain": [
+        "selected",
+        0.971
+    ],
+    "Precipitation: Type: None": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.916
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.974
+    ],
+    "Recoveries Comments": [
+        "Did not get to",
+        0.631
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Mouth",
+                0.805
+            ],
+            "Live Count (incl. live tags)": [
+                "76",
+                0.068
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.705
+            ],
+            "% Holding / Migrating": [
+                "50",
+                0.914
+            ],
+            "% Spawning": [
+                "50",
+                0.875
+            ],
+            "% Spawned Out": [
+                "0",
+                0.133
+            ],
+            "Live Tagged": [
+                "0",
+                0.661
+            ],
+            "Other Species": [
+                "0",
+                0.75
+            ]
+        },
+        {
+            "Area": [
+                "Moon",
+                0.113
+            ],
+            "Live Count (incl. live tags)": [
+                "73",
+                0.928
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "60",
+                0.973
+            ],
+            "% Holding / Migrating": [
+                "20",
+                0.92
+            ],
+            "% Spawning": [
+                "80",
+                0.93
+            ],
+            "% Spawned Out": [
+                "0",
+                0.65
+            ],
+            "Live Tagged": [
+                "0",
+                0.406
+            ],
+            "Other Species": [
+                "0",
+                0.808
+            ]
+        }
+    ],
+    "Stream": [
+        "Lynx Creek",
+        0.564
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.968
+    ],
+    "Survey Time: End": [
+        "1400",
+        0.969
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.821
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.968
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.973
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.97
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.97
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Light": [
+        "selected",
+        0.97
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Water Temperature": [
+        "7 ",
+        0.276
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.971
+    ],
+    "General Comments": [
+        "Comments Did not get to top falls due to high water ever of blocking coute.",
+        0.054
+    ],
+    "SK_Count_data_2": [
+        {
+            "Female": [
+                "0",
+                0.859
+            ],
+            "Female % Spawn: 50%": [
+                "- -",
+                0.01
+            ],
+            "Female % Spawn: 100%": [
+                "0",
+                0.582
+            ],
+            "Unsexed": [
+                "0",
+                0.591
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "Mouth",
+                0.928
+            ],
+            "Male": [
+                "0",
+                0.781
+            ],
+            "Female % Spawn: 0%": [
+                "- -",
+                0.022
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "4",
+                0.053
+            ],
+            "Male": [
+                "0",
+                0.497
+            ],
+            "Female": [
+                "0",
+                0.856
+            ],
+            "Female % Spawn: 0%": [
+                "- -",
+                0.101
+            ],
+            "Female % Spawn: 50%": [
+                "- -",
+                0.141
+            ],
+            "Female % Spawn: 100%": [
+                "0",
+                0.583
+            ],
+            "Jack": [
+                "0",
+                0.483
+            ]
+        }
+    ]
+}

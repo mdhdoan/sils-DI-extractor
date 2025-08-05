@@ -1,0 +1,248 @@
+{
+    "Date": [
+        "Sept. 19/2018",
+        0.6
+    ],
+    "Observer(s)": [
+        "T. Powell/B.Smith/S.LckR",
+        0.449
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.955
+    ],
+    "Survey Time: Start": [
+        "1030",
+        0.978
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.977
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.977
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.978
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "3 1",
+                0.194
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.736
+            ],
+            "% Holding / Migrating": [
+                "5",
+                0.89
+            ],
+            "% Spawning": [
+                "95",
+                0.816
+            ]
+        },
+        {
+            "Area": [
+                "12",
+                0.037
+            ]
+        }
+    ],
+    "Stream": [
+        "Mitchell River",
+        0.748
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.97
+    ],
+    "Survey Time: End": [
+        "1320",
+        0.971
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.975
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.976
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Temperature": [
+        "10",
+        0.935
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.975
+    ],
+    "General Comments": [
+        "Comments 30m 30f PSC included in S Lepage's totals. Peak spawn.",
+        0.423
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "3 Stu",
+                0.66
+            ],
+            "Male": [
+                "191",
+                0.937
+            ],
+            "Female": [
+                "162",
+                0.965
+            ],
+            "Female % Spawn: N.R.": [
+                "19",
+                0.892
+            ],
+            "Female % Spawn: 100%": [
+                "143",
+                0.911
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "3 Brian",
+                0.667
+            ],
+            "Male": [
+                "145",
+                0.86
+            ],
+            "Female": [
+                "126",
+                0.841
+            ],
+            "Female % Spawn: N.R.": [
+                "20",
+                0.547
+            ],
+            "Female % Spawn: 100%": [
+                "106",
+                0.889
+            ],
+            "Unsexed": [
+                "2.5",
+                0.534
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "3 Thomas",
+                0.648
+            ],
+            "Male": [
+                "153",
+                0.955
+            ],
+            "Female": [
+                "107",
+                0.955
+            ],
+            "Female % Spawn: 0%": [
+                "28",
+                0.755
+            ],
+            "Female % Spawn: 100%": [
+                "79",
+                0.897
+            ]
+        }
+    ]
+}

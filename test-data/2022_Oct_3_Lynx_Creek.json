@@ -1,0 +1,200 @@
+{
+    "Date": [
+        "10/03/2002",
+        0.82
+    ],
+    "Observer(s)": [
+        "C. MCAula /E. Olsen",
+        0.528
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.977
+    ],
+    "Survey Time: Start": [
+        "1630",
+        0.981
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.979
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.979
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.979
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.978
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.98
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Math",
+                0.568
+            ],
+            "Live Count (incl. live tags)": [
+                "I",
+                0.358
+            ]
+        },
+        {
+            "Area": [
+                "7",
+                0.607
+            ],
+            "Live Count (incl. live tags)": [
+                "166/16/",
+                0.751
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "90",
+                0.906
+            ],
+            "% Spawning": [
+                "80",
+                0.922
+            ],
+            "% Spawned Out": [
+                "20",
+                0.912
+            ]
+        }
+    ],
+    "Stream": [
+        "Lynx Crack",
+        0.337
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.957
+    ],
+    "Survey Time: End": [
+        "1725",
+        0.94
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.979
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.979
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.973
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Temperature": [
+        "8.9",
+        0.832
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.978
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "1",
+                0.922
+            ],
+            "Male": [
+                "30",
+                0.941
+            ],
+            "Female": [
+                "24",
+                0.738
+            ],
+            "Female % Spawn: 100%": [
+                "29",
+                0.635
+            ]
+        }
+    ]
+}

@@ -1,0 +1,186 @@
+{
+    "Date": [
+        "09/16/2020",
+        0.873
+    ],
+    "Observer(s)": [
+        "Am Jahn Str",
+        0.157
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.956
+    ],
+    "Survey Time: Start": [
+        "1101",
+        0.783
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "selected",
+        0.972
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.978
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.969
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.975
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.978
+    ],
+    "Recoveries Comments": [
+        "0,   PCS Sampled 1 male in area 5 ; included in rec total  /   4 of the 5 Sockeye observed in upper reach of area 5 ",
+        0.033
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "5",
+                0.892
+            ],
+            "Live Count (incl. live tags)": [
+                "5",
+                0.896
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.741
+            ],
+            "% Holding / Migrating": [
+                "20%",
+                0.734
+            ],
+            "% Spawned Out": [
+                "80%",
+                0.88
+            ]
+        }
+    ],
+    "Stream": [
+        "Harsetty River",
+        0.467
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.962
+    ],
+    "Survey Time: End": [
+        "12.07",
+        0.063
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.977
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 50%": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Temperature": [
+        "14.2",
+        0.809
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.975
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "5",
+                0.734
+            ],
+            "Male": [
+                "1",
+                0.722
+            ]
+        }
+    ]
+}

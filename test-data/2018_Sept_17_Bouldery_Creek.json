@@ -1,0 +1,250 @@
+{
+    "Date": [
+        "Sept /7/2018",
+        0.568
+    ],
+    "Observer(s)": [
+        "Brun Smith",
+        0.154
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.485
+    ],
+    "Survey Time: Start": [
+        "1430",
+        0.973
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.977
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.956
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.97
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.964
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.967
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.977
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.359
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.957
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Mouth",
+                0.592
+            ],
+            "Live Count (incl. live tags)": [
+                "0",
+                0.603
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.751
+            ],
+            "Live Tagged": [
+                "0",
+                0.819
+            ],
+            "Other Species": [
+                "0",
+                0.692
+            ]
+        },
+        {
+            "Area": [
+                "Al",
+                0.346
+            ],
+            "Live Count (incl. live tags)": [
+                "O",
+                0.625
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.912
+            ],
+            "Live Tagged": [
+                "0",
+                0.569
+            ],
+            "Other Species": [
+                "C",
+                0.77
+            ]
+        }
+    ],
+    "Stream": [
+        "Bouldery Creek",
+        0.939
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.956
+    ],
+    "Visual Surveys Comments": [
+        "No que ob served",
+        0.079
+    ],
+    "Survey Time: End": [
+        "1440",
+        0.96
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.974
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.953
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.963
+    ],
+    "Weather: %Cloudy: 50%": [
+        "selected",
+        0.962
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.946
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Water Temperature": [
+        "6",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.972
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "Mouth",
+                0.955
+            ],
+            "Male": [
+                "0",
+                0.645
+            ],
+            "Female": [
+                "0",
+                0.912
+            ],
+            "Female % Spawn: 0%": [
+                "-",
+                0.214
+            ],
+            "Female % Spawn: 50%": [
+                "-",
+                0.093
+            ],
+            "Female % Spawn: 100%": [
+                "/ 0",
+                0.04
+            ],
+            "Unsexed": [
+                "0",
+                0.414
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "11",
+                0.39
+            ],
+            "Male": [
+                "0",
+                0.573
+            ],
+            "Female": [
+                "0",
+                0.71
+            ],
+            "Female % Spawn: 100%": [
+                "A 0",
+                0.029
+            ],
+            "Unsexed": [
+                "0",
+                0.85
+            ]
+        }
+    ]
+}

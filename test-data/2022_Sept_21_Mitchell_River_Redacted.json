@@ -1,0 +1,252 @@
+{
+    "Date": [
+        "09/21/2022",
+        0.953
+    ],
+    "Observer(s)": [
+        "C. Mcauley",
+        0.116
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.951
+    ],
+    "Survey Time: Start": [
+        "0950",
+        0.895
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.975
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "selected",
+        0.966
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.975
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.975
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.969
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.975
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.975
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.974
+    ],
+    "Precipitation: Intensity: Medium": [
+        "selected",
+        0.883
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.972
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.98
+    ],
+    "Recoveries Comments": [
+        "PSC sampled 30M & 34F from A3 included in recoveries. TROUSSE nes of F unsd xed dead in A3 & AZ. nota be to recover",
+        0.06
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Math",
+                0.939
+            ],
+            "Live Count (incl. live tags)": [
+                "4",
+                0.983
+            ]
+        },
+        {
+            "Area": [
+                "Mouth to Parfold 1",
+                0.439
+            ],
+            "Live Count (incl. live tags)": [
+                "64",
+                0.783
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "5%.",
+                0.151
+            ],
+            "% Holding / Migrating": [
+                "95",
+                0.783
+            ],
+            "% Spawned Out": [
+                "5",
+                0.849
+            ]
+        },
+        {
+            "Area": [
+                "Penfold to Tagsite 2",
+                0.323
+            ],
+            "Live Count (incl. live tags)": [
+                "4008",
+                0.89
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "s\u00f3",
+                0.101
+            ],
+            "% Holding / Migrating": [
+                "50",
+                0.725
+            ],
+            "% Spawning": [
+                "50",
+                0.786
+            ]
+        },
+        {
+            "Area": [
+                "Tagsite to LogJon 3",
+                0.443
+            ],
+            "Live Count (incl. live tags)": [
+                "55,080",
+                0.629
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "40",
+                0.142
+            ],
+            "% Holding / Migrating": [
+                "35",
+                0.754
+            ],
+            "% Spawning": [
+                "65",
+                0.841
+            ]
+        }
+    ],
+    "Stream": [
+        "Mitchell River",
+        0.782
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Survey Time: End": [
+        "1500",
+        0.977
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.974
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.975
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.975
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 0%": [
+        "selected",
+        0.971
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.975
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.972
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "selected",
+        0.975
+    ],
+    "Water Conditions: Water Temperature": [
+        "11.8",
+        0.911
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "selected",
+        0.975
+    ],
+    "General Comments": [
+        "Comments At or nearing peat spaud Still large groups of Migrating Adding fish. Fish appear halting.",
+        0.174
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "2 3",
+                0.683
+            ],
+            "Male": [
+                "138",
+                0.842
+            ],
+            "Female % Spawn: 0%": [
+                "4",
+                0.439
+            ],
+            "Female % Spawn: 100%": [
+                "126",
+                0.74
+            ]
+        }
+    ]
+}

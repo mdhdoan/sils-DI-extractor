@@ -1,0 +1,238 @@
+{
+    "Date": [
+        "Sept 22 2018",
+        0.639
+    ],
+    "Observer(s)": [
+        "T. Pastell/B. Smith Je Lapage",
+        0.17
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.956
+    ],
+    "Survey Time: Start": [
+        "0915",
+        0.927
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.97
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.509
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "selected",
+        0.975
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.884
+    ],
+    "Recoveries Comments": [
+        "End of Peak of Spawn",
+        0.35
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "2",
+                0.915
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "40",
+                0.737
+            ],
+            "% Spawning": [
+                "70",
+                0.769
+            ],
+            "% Spawned Out": [
+                "30",
+                0.801
+            ]
+        }
+    ],
+    "Stream": [
+        "Horsefly River",
+        0.858
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Survey Time: End": [
+        "1125",
+        0.975
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.973
+    ],
+    "Weather: Brightness: Medium": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.974
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.824
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Temperature": [
+        "1",
+        0.187
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.972
+    ],
+    "General Comments": [
+        "Comments End peak of spawn. Low visibility in spawning areas. 105109 PSC on T. Powell recovery",
+        0.378
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "T. Powell",
+                0.82
+            ],
+            "Male": [
+                "83",
+                0.949
+            ],
+            "Female": [
+                "66",
+                0.914
+            ],
+            "Female % Spawn: 100%": [
+                "66",
+                0.898
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "B. Smith",
+                0.764
+            ],
+            "Male": [
+                "94",
+                0.81
+            ],
+            "Female": [
+                "63",
+                0.78
+            ],
+            "Female % Spawn: N.R.": [
+                "3",
+                0.753
+            ],
+            "Female % Spawn: 100%": [
+                "60",
+                0.818
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "S. Lepage",
+                0.581
+            ],
+            "Male": [
+                "124",
+                0.807
+            ],
+            "Female": [
+                "216",
+                0.771
+            ],
+            "Female % Spawn: 0%": [
+                "4",
+                0.748
+            ],
+            "Female % Spawn: 100%": [
+                "212",
+                0.86
+            ]
+        }
+    ]
+}

@@ -1,0 +1,288 @@
+{
+    "Date": [
+        "Sept 6th/2018",
+        0.52
+    ],
+    "Observer(s)": [
+        "B. Smith Name",
+        0.462
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.098
+    ],
+    "Survey Time: Start": [
+        "915",
+        0.979
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.975
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.856
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.88
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.672
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "10",
+                0.827
+            ],
+            "Live Count (incl. live tags)": [
+                "N/A",
+                0.917
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.97
+            ],
+            "% Holding / Migrating": [
+                "30",
+                0.967
+            ],
+            "% Spawning": [
+                "70",
+                0.92
+            ],
+            "% Spawned Out": [
+                "O",
+                0.285
+            ],
+            "Live Tagged": [
+                "O",
+                0.573
+            ],
+            "Other Species": [
+                "0",
+                0.889
+            ]
+        },
+        {
+            "Live Count (incl. live tags)": [
+                "N/A",
+                0.962
+            ]
+        },
+        {
+            "Area": [
+                "9",
+                0.793
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "60",
+                0.979
+            ],
+            "% Holding / Migrating": [
+                "40",
+                0.962
+            ],
+            "% Spawning": [
+                "60",
+                0.971
+            ]
+        }
+    ],
+    "Stream": [
+        "Horsefly River",
+        0.83
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.968
+    ],
+    "Survey Time: End": [
+        "1500",
+        0.98
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.493
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.973
+    ],
+    "Weather: Brightness: Medium": [
+        "selected",
+        0.098
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.098
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Water Temperature": [
+        "9",
+        0.933
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.972
+    ],
+    "General Comments": [
+        "Comments No live count. High number of pre-spawns Large proportion of males in area 9. Majority of recoveries showed signs of spam",
+        0.102
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "10",
+                0.976
+            ],
+            "Male": [
+                "195",
+                0.981
+            ],
+            "Female": [
+                "150",
+                0.977
+            ],
+            "Female % Spawn: N.R.": [
+                "5",
+                0.944
+            ],
+            "Female % Spawn: 0%": [
+                "94",
+                0.96
+            ],
+            "Female % Spawn: 50%": [
+                "0",
+                0.871
+            ],
+            "Female % Spawn: 100%": [
+                "51",
+                0.856
+            ],
+            "Jack": [
+                "0",
+                0.742
+            ],
+            "Unsexed": [
+                "1360",
+                0.815
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "9",
+                0.973
+            ],
+            "Male": [
+                "338",
+                0.967
+            ],
+            "Female": [
+                "147",
+                0.957
+            ],
+            "Female % Spawn: N.R.": [
+                "7",
+                0.958
+            ],
+            "Female % Spawn: 0%": [
+                "82",
+                0.958
+            ],
+            "Female % Spawn: 50%": [
+                "0",
+                0.819
+            ],
+            "Female % Spawn: 100%": [
+                "58",
+                0.958
+            ],
+            "Jack": [
+                "0",
+                0.735
+            ],
+            "Unsexed": [
+                "3860",
+                0.948
+            ]
+        }
+    ]
+}

@@ -1,0 +1,230 @@
+{
+    "Date": [
+        "Sep 232020",
+        0.648
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.907
+    ],
+    "Survey Time: Start": [
+        "0919",
+        0.975
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.971
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.766
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.904
+    ],
+    "Water Level: Gauge: Area": [
+        "10",
+        0.933
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.97
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.977
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.969
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.972
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.978
+    ],
+    "Recoveries Comments": [
+        "MY2 F PSC samples from area 9 inc. in Recovery totals_ 1 chinook care ass from area 10 1 Comments",
+        0.027
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "10",
+                0.923
+            ],
+            "Live Count (incl. live tags)": [
+                "0,",
+                0.079
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70%",
+                0.189
+            ],
+            "Other Species": [
+                "Chinco 2-",
+                0.131
+            ]
+        },
+        {
+            "Area": [
+                "9,",
+                0.625
+            ],
+            "Live Count (incl. live tags)": [
+                "16,",
+                0.914
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.604
+            ],
+            "% Spawned Out": [
+                "100,",
+                0.792
+            ],
+            "Other Species": [
+                "e",
+                0.124
+            ]
+        }
+    ],
+    "Stream": [
+        "Horsefly River,",
+        0.473
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.97
+    ],
+    "Survey Time: End": [
+        "1045",
+        0.97
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.969
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.974
+    ],
+    "Water Level: Gauge": [
+        "0. 279",
+        0.758
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Medium": [
+        "selected",
+        0.973
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.979
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.974
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "selected",
+        0.975
+    ],
+    "Water Conditions: Water Temperature": [
+        "11.1",
+        0.891
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.978
+    ],
+    "General Comments": [
+        "Comments Avea 2 gauge 4.65km",
+        0.307
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "10",
+                0.878
+            ],
+            "Male": [
+                "\u1ede",
+                0.054
+            ],
+            "Female": [
+                "\u00a2",
+                0.09
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "9",
+                0.494
+            ],
+            "Male": [
+                "1",
+                0.705
+            ],
+            "Female % Spawn: 100%": [
+                "2",
+                0.428
+            ]
+        }
+    ]
+}

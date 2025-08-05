@@ -1,0 +1,262 @@
+{
+    "Date": [
+        "09/13/2022",
+        0.971
+    ],
+    "Observer(s)": [
+        "E. OLSON",
+        0.702
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.955
+    ],
+    "Survey Time: Start": [
+        "930",
+        0.983
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.968
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "selected",
+        0.893
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.968
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.976
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.97
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Type: Rain": [
+        "selected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.969
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.968
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.978
+    ],
+    "Recoveries Comments": [
+        "missing from varia Fool",
+        0.093
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Grain Shore",
+                0.934
+            ],
+            "Live Count (incl. live tags)": [
+                "89",
+                0.911
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "65",
+                0.646
+            ],
+            "% Spawning": [
+                "100",
+                0.903
+            ]
+        },
+        {
+            "Area": [
+                "Devoe Shore",
+                0.789
+            ],
+            "Live Count (incl. live tags)": [
+                "105 03",
+                0.659
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "65",
+                0.897
+            ],
+            "% Spawning": [
+                "100",
+                0.9
+            ]
+        },
+        {
+            "Area": [
+                "Long Shore",
+                0.919
+            ],
+            "Live Count (incl. live tags)": [
+                "63 37",
+                0.622
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "65",
+                0.9
+            ],
+            "% Spawning": [
+                "100",
+                0.898
+            ]
+        }
+    ],
+    "Stream": [
+        "Quesnel Lake- North Arm - West Shore",
+        0.676
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.97
+    ],
+    "Survey Time: End": [
+        "1120",
+        0.812
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.97
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.975
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.968
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.97
+    ],
+    "Weather: %Cloudy: 50%": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Intensity: Light": [
+        "selected",
+        0.978
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "selected",
+        0.974
+    ],
+    "Water Conditions: Water Temperature": [
+        "6.5",
+        0.085
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.972
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.97
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "Long",
+                0.733
+            ],
+            "Male": [
+                "0",
+                0.38
+            ],
+            "Female": [
+                "0",
+                0.621
+            ],
+            "Unsexed": [
+                "1",
+                0.828
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "Grain",
+                0.738
+            ],
+            "Male": [
+                "0",
+                0.725
+            ],
+            "Female": [
+                "0",
+                0.605
+            ],
+            "Female % Spawn: 100%": [
+                "1",
+                0.379
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "Devue",
+                0.677
+            ],
+            "Male": [
+                "0",
+                0.688
+            ],
+            "Female": [
+                "8",
+                0.06
+            ],
+            "Unsexed": [
+                "missing from Fool",
+                0.267
+            ]
+        }
+    ]
+}

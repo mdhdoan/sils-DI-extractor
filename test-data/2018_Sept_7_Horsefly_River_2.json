@@ -1,0 +1,242 @@
+{
+    "Date": [
+        "Sept 07/2018",
+        0.585
+    ],
+    "Observer(s)": [
+        "T. Pavel",
+        0.178
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.958
+    ],
+    "Survey Time: Start": [
+        "0830",
+        0.977
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.974
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 75%": [
+        "selected",
+        0.978
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.98
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "5",
+                0.889
+            ],
+            "Live Count (incl. live tags)": [
+                "7300",
+                0.839
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "60",
+                0.674
+            ],
+            "% Holding / Migrating": [
+                "30",
+                0.541
+            ]
+        },
+        {
+            "Area": [
+                "6",
+                0.854
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80",
+                0.663
+            ],
+            "% Holding / Migrating": [
+                "30",
+                0.755
+            ],
+            "% Spawning": [
+                "70 70",
+                0.584
+            ]
+        }
+    ],
+    "Stream": [
+        "Harsefly River",
+        0.862
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.954
+    ],
+    "Survey Time: End": [
+        "1150",
+        0.717
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.974
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.973
+    ],
+    "Weather: Brightness: Medium": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Temperature": [
+        "11.0",
+        0.878
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.975
+    ],
+    "General Comments": [
+        "Comments (0) males & 10 females PSC Samples area 5 (unsexed) Started to rain near the end of the survey, impacted vis & OF.",
+        0.042
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "5",
+                0.962
+            ],
+            "Male": [
+                "51",
+                0.923
+            ],
+            "Female": [
+                "43",
+                0.967
+            ],
+            "Female % Spawn: N.R.": [
+                "2 27",
+                0.732
+            ],
+            "Female % Spawn: 100%": [
+                "14",
+                0.858
+            ],
+            "Unsexed": [
+                "660",
+                0.524
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "6",
+                0.955
+            ],
+            "Male": [
+                "15",
+                0.618
+            ],
+            "Female": [
+                "10",
+                0.938
+            ],
+            "Female % Spawn: 0%": [
+                "5",
+                0.919
+            ],
+            "Female % Spawn: 100%": [
+                "5",
+                0.869
+            ],
+            "Jack": [
+                "150",
+                0.54
+            ]
+        }
+    ]
+}

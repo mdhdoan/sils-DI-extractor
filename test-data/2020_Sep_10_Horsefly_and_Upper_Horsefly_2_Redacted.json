@@ -1,0 +1,262 @@
+{
+    "Date": [
+        "Sept 10/20",
+        0.533
+    ],
+    "Survey Time: Start": [
+        "937-",
+        0.953
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.98
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.974
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.972
+    ],
+    "Water Level: Gauge: Area": [
+        "10",
+        0.671
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.509
+    ],
+    "Weather: %Cloudy: 25%": [
+        "selected",
+        0.977
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.977
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.972
+    ],
+    "Recoveries Comments": [
+        "and 4 chinook in Area 9   Recovered & chinook in area 10 and PSC (scale samples) sampled all 6.   Sockque in area O are in early stages of spawning, but actively digging   PSC sampled &m and 10 F (included in ree totals) From area 9.",
+        0.105
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "10,",
+                0.869
+            ],
+            "Live Count (incl. live tags)": [
+                "37/",
+                0.923
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "90%",
+                0.972
+            ],
+            "% Holding / Migrating": [
+                "10%",
+                0.78
+            ],
+            "% Spawning": [
+                "90%",
+                0.969
+            ],
+            "Live Tagged": [
+                "\u20ac",
+                0.1
+            ],
+            "Other Species": [
+                "12,",
+                0.871
+            ]
+        },
+        {
+            "Area": [
+                "9,",
+                0.698
+            ],
+            "Live Count (incl. live tags)": [
+                "196",
+                0.98
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "90%",
+                0.959
+            ],
+            "% Holding / Migrating": [
+                "10%",
+                0.973
+            ],
+            "% Spawning": [
+                "80%",
+                0.952
+            ],
+            "% Spawned Out": [
+                "10%",
+                0.971
+            ],
+            "Live Tagged": [
+                "e",
+                0.095
+            ],
+            "Other Species": [
+                "97.",
+                0.792
+            ]
+        }
+    ],
+    "Stream": [
+        "Upper Horsefly River",
+        0.856
+    ],
+    "Survey Time: End": [
+        "1211/",
+        0.657
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.971
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.972
+    ],
+    "Water Level: Gauge": [
+        "0,309n",
+        0.626
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.976
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.837
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.975
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.975
+    ],
+    "General Comments": [
+        "  Fish look healthy   No thermometer  Gauge Area 2 4.703m",
+        0.235
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "10",
+                0.95
+            ],
+            "Male": [
+                "0",
+                0.141
+            ],
+            "Female": [
+                "8",
+                0.186
+            ],
+            "Jack": [
+                "\u20ac",
+                0.083
+            ],
+            "Unsexed": [
+                "0",
+                0.547
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "9",
+                0.944
+            ],
+            "Male": [
+                "6",
+                0.916
+            ],
+            "Female": [
+                "1)",
+                0.335
+            ],
+            "Female % Spawn: 100%": [
+                "10%",
+                0.66
+            ],
+            "Jack": [
+                "F",
+                0.072
+            ],
+            "Unsexed": [
+                "1/",
+                0.599
+            ]
+        }
+    ]
+}

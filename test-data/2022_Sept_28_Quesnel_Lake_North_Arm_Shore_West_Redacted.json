@@ -1,0 +1,232 @@
+{
+    "Date": [
+        "07/28/2022",
+        0.808
+    ],
+    "Observer(s)": [
+        "E. Olson",
+        0.601
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.956
+    ],
+    "Survey Time: Start": [
+        "10 15",
+        0.78
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.97
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.972
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 25%": [
+        "selected",
+        0.976
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.974
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.684
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.961
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.978
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Betty Frank Shore",
+                0.236
+            ],
+            "Live Count (incl. live tags)": [
+                "23",
+                0.965
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80",
+                0.88
+            ],
+            "% Spawning": [
+                "100",
+                0.932
+            ]
+        },
+        {
+            "Area": [
+                "Bear Crak Share",
+                0.367
+            ],
+            "Live Count (incl. live tags)": [
+                "102",
+                0.915
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.916
+            ],
+            "% Spawning": [
+                "100",
+                0.549
+            ]
+        },
+        {
+            "Area": [
+                "Limestone Pt Shore Marten crock shore",
+                0.208
+            ],
+            "Live Count (incl. live tags)": [
+                "23 10",
+                0.223
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80 80",
+                0.517
+            ],
+            "% Spawning": [
+                "100 100",
+                0.395
+            ]
+        }
+    ],
+    "Stream": [
+        "Quesnel Lake - North Arm-West Shore",
+        0.603
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.97
+    ],
+    "Visual Surveys Comments": [
+        "(5)",
+        0.1
+    ],
+    "Survey Time: End": [
+        "1135",
+        0.969
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.974
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.976
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.976
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 50%": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Temperature": [
+        "14.5",
+        0.947
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.972
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "Betty Frank Bear",
+                0.049
+            ],
+            "Female % Spawn: 100%": [
+                "32",
+                0.597
+            ],
+            "Unsexed": [
+                "18",
+                0.604
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "Limestone Marten",
+                0.388
+            ],
+            "Female % Spawn: 100%": [
+                "12 6",
+                0.094
+            ]
+        }
+    ]
+}

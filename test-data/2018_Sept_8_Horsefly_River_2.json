@@ -1,0 +1,214 @@
+{
+    "Date": [
+        "Sunt/08/2018",
+        0.651
+    ],
+    "Observer(s)": [
+        "TiPowell",
+        0.354
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.967
+    ],
+    "Survey Time: Start": [
+        "0925",
+        0.979
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.977
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 25%": [
+        "selected",
+        0.979
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.976
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.972
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.972
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.98
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "2",
+                0.899
+            ],
+            "Live Count (incl. live tags)": [
+                "15700",
+                0.83
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.729
+            ],
+            "% Holding / Migrating": [
+                "15",
+                0.688
+            ],
+            "% Spawning": [
+                "85",
+                0.714
+            ]
+        }
+    ],
+    "Stream": [
+        "Horsefly River",
+        0.794
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Survey Time: End": [
+        "1130",
+        0.964
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.977
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Water Temperature": [
+        "3",
+        0.539
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.98
+    ],
+    "General Comments": [
+        "Comments High percentage of spawning. \\unusur/ conditions for evento park of spawn Most holding/ migration Fish near bottom of aven 2. No ratty sockeye observed, all took. fresh",
+        0.04
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "2",
+                0.951
+            ],
+            "Male": [
+                "53",
+                0.952
+            ],
+            "Female": [
+                "63",
+                0.953
+            ],
+            "Female % Spawn: N.R.": [
+                "2",
+                0.913
+            ],
+            "Female % Spawn: 0%": [
+                "55",
+                0.849
+            ],
+            "Female % Spawn: 50%": [
+                "0",
+                0.844
+            ],
+            "Female % Spawn: 100%": [
+                "6",
+                0.831
+            ],
+            "Jack": [
+                "0",
+                0.492
+            ],
+            "Unsexed": [
+                "630",
+                0.744
+            ]
+        }
+    ]
+}

@@ -1,0 +1,248 @@
+{
+    "Date": [
+        "09/19/2022",
+        0.715
+    ],
+    "Observer(s)": [
+        "E. Olson C. McAulay",
+        0.579
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.956
+    ],
+    "Survey Time: Start": [
+        "12 45",
+        0.971
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.968
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.97
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.975
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.976
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.953
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.972
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.975
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.974
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.975
+    ],
+    "Recoveries Comments": [
+        "Blue Lead Bigslide Stopped For lunch inFront of Ning a Falls For about 20 min, we observed Mana Stockage surfacing in the very glacial u ater right in Fr out of the falls. Water clarity was 0.25 cm.S o unsure of numbers or i Fholding/ Migrating Ispawning.",
+        0.049
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Bluelead Store",
+                0.381
+            ],
+            "Live Count (incl. live tags)": [
+                "702/763",
+                0.932
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "65",
+                0.913
+            ],
+            "% Holding / Migrating": [
+                "10",
+                0.834
+            ],
+            "% Spawning": [
+                "90",
+                0.831
+            ]
+        },
+        {
+            "Area": [
+                "Bigslide",
+                0.73
+            ],
+            "Live Count (incl. live tags)": [
+                "369/356",
+                0.711
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "65",
+                0.908
+            ],
+            "% Holding / Migrating": [
+                "10",
+                0.915
+            ],
+            "% Spawning": [
+                "90",
+                0.915
+            ]
+        },
+        {
+            "Area": [
+                "Lynx shore",
+                0.461
+            ],
+            "Live Count (incl. live tags)": [
+                "35/42",
+                0.946
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "80",
+                0.94
+            ],
+            "% Holding / Migrating": [
+                "10",
+                0.898
+            ],
+            "% Spawning": [
+                "90",
+                0.902
+            ]
+        },
+        {
+            "Area": [
+                "Junction Share",
+                0.378
+            ],
+            "Live Count (incl. live tags)": [
+                "0",
+                0.887
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "65",
+                0.965
+            ]
+        }
+    ],
+    "Stream": [
+        "Quesu Lake-East Arm-North Shore",
+        0.577
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.97
+    ],
+    "Survey Time: End": [
+        "17 00",
+        0.959
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.975
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.974
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.968
+    ],
+    "Weather: %Cloudy: 50%": [
+        "selected",
+        0.955
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.978
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Temperature": [
+        "14.00",
+        0.875
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.975
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "Blue",
+                0.601
+            ],
+            "Female % Spawn: 100%": [
+                "4",
+                0.325
+            ],
+            "Unsexed": [
+                "10",
+                0.341
+            ]
+        }
+    ]
+}

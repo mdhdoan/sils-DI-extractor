@@ -1,0 +1,262 @@
+{
+    "Date": [
+        "09/22/2022",
+        0.978
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.956
+    ],
+    "Survey Time: Start": [
+        "930",
+        0.985
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.973
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "selected",
+        0.976
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.97
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.969
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.967
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.977
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.968
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.974
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.969
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.972
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.958
+    ],
+    "Recoveries Comments": [
+        "No live count cond sched one CN FO one CN unser e) in A9 1 CN AS PSC Sampled  A10 - 10M, 10F A9- 10M/ 10F-",
+        0.04
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "10",
+                0.901
+            ],
+            "% Spawning": [
+                "60",
+                0.739
+            ],
+            "% Spawned Out": [
+                "40",
+                0.771
+            ]
+        },
+        {
+            "Area": [
+                "9",
+                0.896
+            ],
+            "% Spawning": [
+                "70",
+                0.753
+            ],
+            "% Spawned Out": [
+                "30",
+                0.754
+            ]
+        },
+        {
+            "Area": [
+                "8",
+                0.782
+            ],
+            "% Spawning": [
+                "70",
+                0.781
+            ],
+            "% Spawned Out": [
+                "30",
+                0.709
+            ]
+        }
+    ],
+    "Stream": [
+        "Upper Horsefly",
+        0.648
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Visual Surveys Comments": [
+        "No live count.",
+        0.113
+    ],
+    "Survey Time: End": [
+        "1500",
+        0.975
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.969
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.969
+    ],
+    "Weather: %Cloudy: 0%": [
+        "selected",
+        0.977
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Water Temperature": [
+        "/2",
+        0.165
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.972
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.975
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "10",
+                0.845
+            ],
+            "Male": [
+                "251",
+                0.947
+            ],
+            "Female": [
+                "430",
+                0.957
+            ],
+            "Female % Spawn: N.R.": [
+                "4",
+                0.954
+            ],
+            "Female % Spawn: 100%": [
+                "426",
+                0.906
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "9",
+                0.913
+            ],
+            "Male": [
+                "771",
+                0.899
+            ],
+            "Female": [
+                "671",
+                0.833
+            ],
+            "Female % Spawn: N.R.": [
+                "2",
+                0.632
+            ],
+            "Female % Spawn: 100%": [
+                "669",
+                0.834
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "8",
+                0.9
+            ],
+            "Male": [
+                "221",
+                0.891
+            ],
+            "Female": [
+                "221",
+                0.757
+            ],
+            "Female % Spawn: 0%": [
+                "0",
+                0.62
+            ],
+            "Female % Spawn: 100%": [
+                "221",
+                0.865
+            ]
+        }
+    ]
+}

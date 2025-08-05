@@ -1,0 +1,558 @@
+{
+    "Date": [
+        "Sept 16/2018",
+        0.918
+    ],
+    "Observer(s)": [
+        "Brian Smith",
+        0.821
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.412
+    ],
+    "Survey Time: Start": [
+        "930",
+        0.979
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.969
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.971
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.959
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.503
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.958
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.953
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.963
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.972
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.856
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.477
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.413
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "11 5",
+                0.572
+            ],
+            "Live Count (incl. live tags)": [
+                "514",
+                0.971
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "76",
+                0.657
+            ],
+            "% Holding / Migrating": [
+                "0",
+                0.948
+            ],
+            "% Spawning": [
+                "95",
+                0.959
+            ],
+            "% Spawned Out": [
+                "5",
+                0.978
+            ],
+            "Live Tagged": [
+                "0",
+                0.848
+            ],
+            "Other Species": [
+                "0",
+                0.896
+            ]
+        },
+        {
+            "Area": [
+                "4 3",
+                0.388
+            ],
+            "Live Count (incl. live tags)": [
+                "19 493",
+                0.322
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70 70",
+                0.189
+            ],
+            "% Holding / Migrating": [
+                "40 40",
+                0.402
+            ],
+            "% Spawning": [
+                "60 60",
+                0.192
+            ],
+            "% Spawned Out": [
+                "O",
+                0.418
+            ],
+            "Live Tagged": [
+                "0",
+                0.542
+            ],
+            "Other Species": [
+                "0",
+                0.668
+            ]
+        },
+        {
+            "% Spawned Out": [
+                "0",
+                0.654
+            ],
+            "Live Tagged": [
+                "0 0",
+                0.176
+            ]
+        },
+        {
+            "Area": [
+                "2",
+                0.976
+            ],
+            "Live Count (incl. live tags)": [
+                "3207",
+                0.932
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.966
+            ],
+            "% Holding / Migrating": [
+                "5",
+                0.918
+            ],
+            "% Spawning": [
+                "90",
+                0.953
+            ],
+            "% Spawned Out": [
+                "5",
+                0.953
+            ],
+            "Live Tagged": [
+                "0 0",
+                0.276
+            ]
+        },
+        {
+            "Area": [
+                "1",
+                0.565
+            ],
+            "Live Count (incl. live tags)": [
+                "361",
+                0.971
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.956
+            ],
+            "% Holding / Migrating": [
+                "0",
+                0.724
+            ],
+            "% Spawning": [
+                "100",
+                0.954
+            ],
+            "% Spawned Out": [
+                "O",
+                0.882
+            ],
+            "Live Tagged": [
+                "0",
+                0.816
+            ],
+            "Other Species": [
+                "0",
+                0.449
+            ]
+        },
+        {
+            "Area": [
+                "Mouth",
+                0.828
+            ],
+            "Live Count (incl. live tags)": [
+                "30",
+                0.98
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "50",
+                0.975
+            ],
+            "% Holding / Migrating": [
+                "70",
+                0.969
+            ],
+            "% Spawning": [
+                "30",
+                0.961
+            ],
+            "% Spawned Out": [
+                "O",
+                0.653
+            ],
+            "Live Tagged": [
+                "0",
+                0.663
+            ],
+            "Other Species": [
+                "0",
+                0.692
+            ]
+        }
+    ],
+    "Stream": [
+        "Mckinley Creek",
+        0.603
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.97
+    ],
+    "Survey Time: End": [
+        "1340",
+        0.978
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.295
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.968
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.953
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.959
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.964
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.963
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.679
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.972
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.962
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Water Temperature": [
+        "12",
+        0.945
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.958
+    ],
+    "General Comments": [
+        "Comments Peak of spawn",
+        0.647
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "5",
+                0.953
+            ],
+            "Male": [
+                "19",
+                0.975
+            ],
+            "Female": [
+                "21",
+                0.98
+            ],
+            "Female % Spawn: N.R.": [
+                "3",
+                0.978
+            ],
+            "Female % Spawn: 0%": [
+                "0",
+                0.903
+            ],
+            "Female % Spawn: 50%": [
+                "0",
+                0.672
+            ],
+            "Female % Spawn: 100%": [
+                "18",
+                0.897
+            ],
+            "Jack": [
+                "0",
+                0.832
+            ],
+            "Unsexed": [
+                "0",
+                0.645
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "4",
+                0.983
+            ],
+            "Male": [
+                "1",
+                0.904
+            ],
+            "Female": [
+                "1",
+                0.939
+            ],
+            "Female % Spawn: N.R.": [
+                "0",
+                0.644
+            ],
+            "Female % Spawn: 0%": [
+                "0",
+                0.873
+            ],
+            "Female % Spawn: 50%": [
+                "O",
+                0.782
+            ],
+            "Female % Spawn: 100%": [
+                "1",
+                0.836
+            ],
+            "Jack": [
+                "0",
+                0.741
+            ],
+            "Unsexed": [
+                "0",
+                0.643
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "3",
+                0.983
+            ],
+            "Male": [
+                "6",
+                0.968
+            ],
+            "Female": [
+                "2",
+                0.982
+            ],
+            "Female % Spawn: N.R.": [
+                "1",
+                0.91
+            ],
+            "Female % Spawn: 0%": [
+                "0",
+                0.63
+            ],
+            "Female % Spawn: 50%": [
+                "0",
+                0.643
+            ],
+            "Female % Spawn: 100%": [
+                "1",
+                0.804
+            ],
+            "Jack": [
+                "0",
+                0.741
+            ],
+            "Unsexed": [
+                "0",
+                0.824
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "2",
+                0.982
+            ],
+            "Male": [
+                "87",
+                0.972
+            ],
+            "Female": [
+                "81",
+                0.981
+            ],
+            "Female % Spawn: N.R.": [
+                "16",
+                0.981
+            ],
+            "Female % Spawn: 0%": [
+                "5",
+                0.966
+            ],
+            "Female % Spawn: 50%": [
+                "0",
+                0.755
+            ],
+            "Female % Spawn: 100%": [
+                "60",
+                0.868
+            ],
+            "Jack": [
+                "0",
+                0.859
+            ],
+            "Unsexed": [
+                "6",
+                0.619
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "1",
+                0.938
+            ],
+            "Male": [
+                "10",
+                0.973
+            ],
+            "Female": [
+                "12",
+                0.977
+            ],
+            "Female % Spawn: N.R.": [
+                "3",
+                0.979
+            ],
+            "Female % Spawn: 0%": [
+                "0",
+                0.647
+            ],
+            "Female % Spawn: 50%": [
+                "O",
+                0.615
+            ],
+            "Female % Spawn: 100%": [
+                "9",
+                0.851
+            ],
+            "Jack": [
+                "0",
+                0.808
+            ],
+            "Unsexed": [
+                "0",
+                0.702
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "Mouth",
+                0.649
+            ],
+            "Male": [
+                "O",
+                0.811
+            ],
+            "Female": [
+                "O",
+                0.624
+            ],
+            "Female % Spawn: N.R.": [
+                "O",
+                0.633
+            ],
+            "Female % Spawn: 0%": [
+                "0",
+                0.582
+            ],
+            "Female % Spawn: 50%": [
+                "0",
+                0.64
+            ],
+            "Female % Spawn: 100%": [
+                "0",
+                0.536
+            ],
+            "Jack": [
+                "0",
+                0.642
+            ],
+            "Unsexed": [
+                "0",
+                0.762
+            ]
+        }
+    ]
+}

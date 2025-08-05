@@ -1,0 +1,274 @@
+{
+    "Date": [
+        "Spor/54/2018",
+        0.586
+    ],
+    "Observer(s)": [
+        "Brian Smith",
+        0.662
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.854
+    ],
+    "Survey Time: Start": [
+        "1400",
+        0.973
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.974
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.97
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.967
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.968
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.972
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.969
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.684
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.968
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.413
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.969
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.685
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Mouth",
+                0.881
+            ],
+            "Live Count (incl. live tags)": [
+                "350",
+                0.979
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "60",
+                0.932
+            ],
+            "% Holding / Migrating": [
+                "100",
+                0.894
+            ],
+            "% Spawning": [
+                "-",
+                0.057
+            ],
+            "% Spawned Out": [
+                "-",
+                0.051
+            ],
+            "Live Tagged": [
+                "0",
+                0.919
+            ],
+            "Other Species": [
+                "0",
+                0.844
+            ]
+        },
+        {
+            "Area": [
+                "Mod!",
+                0.112
+            ],
+            "Live Count (incl. live tags)": [
+                "112",
+                0.96
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "10",
+                0.573
+            ],
+            "% Holding / Migrating": [
+                "70",
+                0.91
+            ],
+            "% Spawning": [
+                "30",
+                0.959
+            ],
+            "% Spawned Out": [
+                "O",
+                0.644
+            ],
+            "Live Tagged": [
+                "0",
+                0.944
+            ],
+            "Other Species": [
+                "0",
+                0.91
+            ]
+        },
+        {
+            "Area": [
+                "\u062d\u0633\u0627\u0645 1",
+                0.008
+            ]
+        },
+        {
+            "Area": [
+                "2",
+                0.697
+            ]
+        }
+    ],
+    "Stream": [
+        "Grain Creeks",
+        0.738
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.97
+    ],
+    "Survey Time: End": [
+        "1435",
+        0.959
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.834
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.894
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.969
+    ],
+    "Weather: %Cloudy: 0%": [
+        "selected",
+        0.684
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.97
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.968
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.972
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.975
+    ],
+    "General Comments": [
+        "Comments Limited on time did not do a complete pawn) survey of area 1. Just covered up from themain mouth",
+        0.466
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "Mouth ?",
+                0.04
+            ],
+            "Male": [
+                "0",
+                0.701
+            ],
+            "Female": [
+                "0",
+                0.68
+            ],
+            "Female % Spawn: 100%": [
+                "0",
+                0.577
+            ],
+            "Unsexed": [
+                ")",
+                0.652
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "1",
+                0.721
+            ],
+            "Male": [
+                "1",
+                0.817
+            ],
+            "Female": [
+                "0",
+                0.915
+            ],
+            "Female % Spawn: 100%": [
+                "0",
+                0.587
+            ],
+            "Unsexed": [
+                "1",
+                0.878
+            ]
+        }
+    ]
+}

@@ -1,0 +1,192 @@
+{
+    "Date": [
+        "SEY 23 2019",
+        0.391
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.957
+    ],
+    "Survey Time: Start": [
+        "1040",
+        0.968
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.977
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.979
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: Rain": [
+        "selected",
+        0.98
+    ],
+    "Precipitation: Type: None": [
+        "unselected",
+        0.978
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.98
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "DECEPTION PT. SHORE",
+                0.644
+            ],
+            "Live Count (incl. live tags)": [
+                "198",
+                0.867
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.722
+            ],
+            "% Spawning": [
+                "100",
+                0.518
+            ]
+        }
+    ],
+    "Stream": [
+        "GUESNEL LAKE - NORTH ARM",
+        0.795
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.974
+    ],
+    "Survey Time: End": [
+        "124)",
+        0.597
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.976
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.979
+    ],
+    "Weather: Brightness: Medium": [
+        "selected",
+        0.977
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.971
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.974
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.98
+    ],
+    "Precipitation: Intensity: Light": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Temperature": [
+        "13",
+        0.231
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "selected",
+        0.978
+    ],
+    "General Comments": [
+        "Comments PSC SAMPLED 5F, RECORDED IN RECOVERY TOTALS, DNA ALSO TAKEN",
+        0.431
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "Deception",
+                0.897
+            ],
+            "Male": [
+                "0",
+                0.626
+            ],
+            "Female": [
+                "5",
+                0.714
+            ],
+            "Female % Spawn: 100%": [
+                "5",
+                0.834
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "Shore",
+                0.749
+            ]
+        }
+    ]
+}

@@ -1,0 +1,258 @@
+{
+    "Date": [
+        "Sep 22/2019",
+        0.467
+    ],
+    "Observer(s)": [
+        "T. Powell / Edison",
+        0.069
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.957
+    ],
+    "Survey Time: Start": [
+        "0820",
+        0.812
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.979
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.917
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Type: Rain": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Type: None": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.98
+    ],
+    "Recoveries Comments": [
+        "female PSC Sampled without hand",
+        0.365
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "2",
+                0.95
+            ],
+            "Live Count (incl. live tags)": [
+                "286",
+                0.957
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "50",
+                0.929
+            ],
+            "% Spawning": [
+                "80",
+                0.903
+            ],
+            "% Spawned Out": [
+                "20",
+                0.901
+            ]
+        },
+        {
+            "Area": [
+                "3",
+                0.932
+            ],
+            "Live Count (incl. live tags)": [
+                "55",
+                0.907
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "20",
+                0.93
+            ],
+            "% Spawning": [
+                "90",
+                0.915
+            ],
+            "% Spawned Out": [
+                "10",
+                0.899
+            ]
+        }
+    ],
+    "Stream": [
+        "Horsefly River",
+        0.788
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Survey Time: End": [
+        "1240",
+        0.836
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.974
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Medium": [
+        "selected",
+        0.976
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.976
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Intensity: Light": [
+        "selected",
+        0.978
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Water Temperature": [
+        "12.6",
+        0.903
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "selected",
+        0.98
+    ],
+    "General Comments": [
+        "Comments All carcasses PSC Spawn Sampled except 3 NR 9 In Aren 3 & / Male Arena, Vis decreased from previous survey",
+        0.031
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "2",
+                0.981
+            ],
+            "Male": [
+                "7.",
+                0.442
+            ],
+            "Female": [
+                "19",
+                0.969
+            ],
+            "Female % Spawn: N.R.": [
+                "1.1",
+                0.639
+            ],
+            "Female % Spawn: 0%": [
+                "25",
+                0.916
+            ],
+            "Female % Spawn: 50%": [
+                "3",
+                0.894
+            ],
+            "Female % Spawn: 100%": [
+                "10-21",
+                0.511
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "3",
+                0.962
+            ],
+            "Male": [
+                "2",
+                0.932
+            ],
+            "Female": [
+                "8",
+                0.946
+            ],
+            "Female % Spawn: N.R.": [
+                "3",
+                0.898
+            ],
+            "Female % Spawn: 50%": [
+                "1",
+                0.674
+            ],
+            "Female % Spawn: 100%": [
+                "4",
+                0.944
+            ]
+        }
+    ]
+}

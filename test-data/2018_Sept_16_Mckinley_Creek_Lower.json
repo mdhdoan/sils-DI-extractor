@@ -1,0 +1,404 @@
+{
+    "Date": [
+        "Sept 16 2018",
+        0.226
+    ],
+    "Observer(s)": [
+        "T. Pavel Last Name",
+        0.318
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.951
+    ],
+    "Survey Time: Start": [
+        "0930",
+        0.98
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.977
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.966
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.972
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.966
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.918
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.977
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.974
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.978
+    ],
+    "Recoveries Comments": [
+        "Mouth 30 10/10 miles / females PSC sampled in area 2. Included in unsexed Adjusted Area 2 numbers accordingly Tanya.",
+        0.225
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "15",
+                0.697
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.634
+            ],
+            "% Holding / Migrating": [
+                "0",
+                0.654
+            ],
+            "% Spawning": [
+                "95",
+                0.893
+            ],
+            "% Spawned Out": [
+                "5",
+                0.61
+            ]
+        },
+        {
+            "Area": [
+                "4 n",
+                0.888
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.939
+            ],
+            "% Holding / Migrating": [
+                "40",
+                0.958
+            ],
+            "% Spawning": [
+                "60",
+                0.918
+            ]
+        },
+        {
+            "Area": [
+                "3",
+                0.958
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.842
+            ],
+            "% Holding / Migrating": [
+                "40",
+                0.901
+            ],
+            "% Spawning": [
+                "60",
+                0.928
+            ]
+        },
+        {
+            "Area": [
+                "2",
+                0.955
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.857
+            ],
+            "% Holding / Migrating": [
+                "5",
+                0.896
+            ],
+            "% Spawning": [
+                "90",
+                0.931
+            ],
+            "% Spawned Out": [
+                "5",
+                0.582
+            ]
+        },
+        {
+            "Area": [
+                "1",
+                0.837
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.857
+            ],
+            "% Spawning": [
+                "100",
+                0.896
+            ]
+        },
+        {
+            "Area": [
+                "Mouth",
+                0.924
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "50",
+                0.583
+            ],
+            "% Holding / Migrating": [
+                "30",
+                0.9
+            ],
+            "% Spawning": [
+                "70",
+                0.897
+            ]
+        }
+    ],
+    "Stream": [
+        "Lower Mckinley",
+        0.522
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Survey Time: End": [
+        "1340",
+        0.978
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.955
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.968
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.972
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.969
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.879
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.938
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Temperature": [
+        "12.0",
+        0.934
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.978
+    ],
+    "General Comments": [
+        "Comments Live count done by B. Smith Encountered son & cobs at area 3 beauer dam (Black). Left benuer dana intact Sockeyeholdingbelo",
+        0.148
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "5",
+                0.984
+            ],
+            "Male": [
+                "10",
+                0.979
+            ],
+            "Female": [
+                "30",
+                0.976
+            ],
+            "Female % Spawn: 0%": [
+                "13",
+                0.74
+            ],
+            "Female % Spawn: 100%": [
+                "17",
+                0.604
+            ],
+            "Unsexed": [
+                "92",
+                0.658
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "4",
+                0.971
+            ],
+            "Male": [
+                "5",
+                0.777
+            ],
+            "Female": [
+                "4",
+                0.916
+            ],
+            "Female % Spawn: 100%": [
+                "4",
+                0.505
+            ],
+            "Unsexed": [
+                "16",
+                0.595
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "3",
+                0.97
+            ],
+            "Male": [
+                "11",
+                0.883
+            ],
+            "Female": [
+                "10",
+                0.905
+            ],
+            "Female % Spawn: 0%": [
+                "4",
+                0.897
+            ],
+            "Female % Spawn: 100%": [
+                "6",
+                0.575
+            ],
+            "Unsexed": [
+                "49",
+                0.628
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "2",
+                0.972
+            ],
+            "Male": [
+                "194",
+                0.843
+            ],
+            "Female": [
+                "98100",
+                0.621
+            ],
+            "Female % Spawn: N.R.": [
+                "813",
+                0.415
+            ],
+            "Female % Spawn: 0%": [
+                "18",
+                0.886
+            ],
+            "Female % Spawn: 100%": [
+                "77",
+                0.606
+            ],
+            "Unsexed": [
+                "175",
+                0.055
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "1",
+                0.758
+            ],
+            "Male": [
+                "13",
+                0.955
+            ],
+            "Female": [
+                "10",
+                0.915
+            ],
+            "Female % Spawn: 0%": [
+                "6",
+                0.901
+            ],
+            "Female % Spawn: 50%": [
+                "4",
+                0.627
+            ],
+            "Jack": [
+                "30",
+                0.628
+            ],
+            "Unsexed": [
+                "100",
+                0.626
+            ]
+        }
+    ]
+}

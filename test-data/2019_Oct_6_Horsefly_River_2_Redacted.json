@@ -1,0 +1,198 @@
+{
+    "Date": [
+        "Oct 6 209",
+        0.129
+    ],
+    "Observer(s)": [
+        "N. POWELL",
+        0.256
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.971
+    ],
+    "Survey Time: Start": [
+        "920",
+        0.976
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.974
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.979
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.972
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.978
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.637
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.977
+    ],
+    "Recoveries Comments": [
+        " MOST SPAWNING AREAS OBSERVED HAVE NO FISH LENT/EMPTY READS",
+        0.112
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "6",
+                0.9
+            ],
+            "Live Count (incl. live tags)": [
+                "93",
+                0.901
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "75",
+                0.844
+            ],
+            "% Spawning": [
+                "40",
+                0.841
+            ],
+            "% Spawned Out": [
+                "60",
+                0.79
+            ]
+        }
+    ],
+    "Stream": [
+        "HORSEFLY RIVER",
+        0.812
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Survey Time: End": [
+        "1230",
+        0.974
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.979
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.979
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.979
+    ],
+    "Weather: %Cloudy: 0%": [
+        "selected",
+        0.979
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.978
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Temperature": [
+        "7,6",
+        0.727
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "selected",
+        0.972
+    ],
+    "General Comments": [
+        "Comments, PSC SAMPLED 2M AMS SEV FROM AG RECORDED IN RECOVERY TOTALS  STILL SOME FRESH FISH SPANNING",
+        0.128
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "6",
+                0.901
+            ],
+            "Male": [
+                "3",
+                0.895
+            ],
+            "Female": [
+                "7",
+                0.749
+            ],
+            "Female % Spawn: 100%": [
+                "7",
+                0.688
+            ]
+        }
+    ]
+}

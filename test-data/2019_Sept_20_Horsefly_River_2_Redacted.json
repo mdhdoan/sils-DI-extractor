@@ -1,0 +1,302 @@
+{
+    "Date": [
+        "Sept 20/2019",
+        0.938
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.973
+    ],
+    "Survey Time: Start": [
+        "942/12",
+        0.66
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.966
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.97
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.97
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.97
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.966
+    ],
+    "Weather: %Cloudy: 25%": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.978
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.972
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.978
+    ],
+    "Recoveries Comments": [
+        " SAMPLED IM CHINOOK IN A/9",
+        0.07
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "5",
+                0.983
+            ],
+            "Live Count (incl. live tags)": [
+                "219 -",
+                0.228
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "20 -",
+                0.12
+            ],
+            "% Holding / Migrating": [
+                "15 -",
+                0.043
+            ],
+            "% Spawning": [
+                "85",
+                0.629
+            ],
+            "% Spawned Out": [
+                "- -",
+                0.007
+            ],
+            "Live Tagged": [
+                "1 -",
+                0.12
+            ]
+        },
+        {
+            "Area": [
+                "9",
+                0.956
+            ],
+            "Live Count (incl. live tags)": [
+                "640",
+                0.917
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "60",
+                0.678
+            ],
+            "% Spawning": [
+                "100",
+                0.629
+            ],
+            "Live Tagged": [
+                "-",
+                0.529
+            ]
+        },
+        {
+            "Area": [
+                "10",
+                0.955
+            ],
+            "Live Count (incl. live tags)": [
+                "298",
+                0.873
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "70",
+                0.628
+            ],
+            "% Holding / Migrating": [
+                "1.",
+                0.313
+            ],
+            "% Spawning": [
+                "100",
+                0.779
+            ],
+            "Live Tagged": [
+                "-",
+                0.141
+            ]
+        }
+    ],
+    "Stream": [
+        "Horsefly River",
+        0.861
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Survey Time: End": [
+        "11 1/05",
+        0.024
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.972
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.972
+    ],
+    "Water Level: Gauge": [
+        "11 chin",
+        0.168
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.962
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.969
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.97
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "selected",
+        0.977
+    ],
+    "Water Conditions: Water Temperature": [
+        "10.9",
+        0.847
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "selected",
+        0.98
+    ],
+    "General Comments": [
+        "SAMPLED IM CHINOOK IN A/9 Comments (INCLUDED INTOTALS) PSC Sampled 2M, IF, I partial F from A9 (0g) 7M, 8F from A5. Water clarity much lower in A5 vs A9/10",
+        0.028
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "10",
+                0.913
+            ],
+            "Male": [
+                "0",
+                0.065
+            ],
+            "Female": [
+                "0",
+                0.373
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "9",
+                0.911
+            ],
+            "Male": [
+                "2",
+                0.952
+            ],
+            "Female": [
+                "2",
+                0.931
+            ],
+            "Female % Spawn: 100%": [
+                "2",
+                0.779
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "-",
+                0.548
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "5",
+                0.893
+            ],
+            "Male": [
+                "7",
+                0.902
+            ],
+            "Female": [
+                "8",
+                0.897
+            ],
+            "Female % Spawn: 50%": [
+                "1",
+                0.647
+            ],
+            "Female % Spawn: 100%": [
+                "7",
+                0.899
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "4",
+                0.075
+            ]
+        }
+    ]
+}

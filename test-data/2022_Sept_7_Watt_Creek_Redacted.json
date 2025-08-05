@@ -1,0 +1,212 @@
+{
+    "Date": [
+        "09/07/2022",
+        0.971
+    ],
+    "Observer(s)": [
+        "C. Mc Aulay",
+        0.513
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.956
+    ],
+    "Survey Time: Start": [
+        "1220",
+        0.981
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.973
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.973
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.97
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.977
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.975
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.972
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.978
+    ],
+    "Recoveries Comments": [
+        "Male recovered was PSC sample).",
+        0.509
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "1",
+                0.834
+            ],
+            "Live Count (incl. live tags)": [
+                "10/11",
+                0.835
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "90",
+                0.76
+            ],
+            "% Holding / Migrating": [
+                "60",
+                0.74
+            ],
+            "% Spawning": [
+                "40",
+                0.71
+            ]
+        },
+        {
+            "Area": [
+                "Month",
+                0.723
+            ],
+            "Live Count (incl. live tags)": [
+                "15",
+                0.914
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "60",
+                0.954
+            ],
+            "% Holding / Migrating": [
+                "100",
+                0.536
+            ]
+        }
+    ],
+    "Stream": [
+        "Watt Crk.",
+        0.926
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Survey Time: End": [
+        "1315",
+        0.601
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.974
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 0%": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.973
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Water Temperature": [
+        "10",
+        0.584
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.972
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.98
+    ],
+    "General Comments": [
+        "Comments Fish look health , spawning Deaz amples, unusual conditions of events peak of spawn) Degen",
+        0.068
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "1",
+                0.872
+            ],
+            "Male": [
+                "1",
+                0.779
+            ],
+            "Female": [
+                "0",
+                0.725
+            ]
+        }
+    ]
+}

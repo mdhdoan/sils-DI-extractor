@@ -1,0 +1,258 @@
+{
+    "Date": [
+        "Sept. 14/2018",
+        0.699
+    ],
+    "Observer(s)": [
+        "T. Powell Last Name",
+        0.673
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.97
+    ],
+    "Survey Time: Start": [
+        "910",
+        0.979
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.975
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.976
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.97
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.979
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.973
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.97
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.637
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.978
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "9",
+                0.916
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "60",
+                0.624
+            ],
+            "% Holding / Migrating": [
+                "1",
+                0.685
+            ],
+            "% Spawning": [
+                "90",
+                0.74
+            ],
+            "% Spawned Out": [
+                "9",
+                0.794
+            ]
+        },
+        {
+            "Area": [
+                "10",
+                0.92
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "60",
+                0.897
+            ],
+            "% Holding / Migrating": [
+                "5",
+                0.682
+            ],
+            "% Spawning": [
+                "90",
+                0.931
+            ],
+            "% Spawned Out": [
+                "5",
+                0.442
+            ]
+        }
+    ],
+    "Stream": [
+        "Horsefly River",
+        0.92
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Survey Time: End": [
+        "1208",
+        0.973
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.971
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.975
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.978
+    ],
+    "Weather: Brightness: Medium": [
+        "selected",
+        0.976
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 100%": [
+        "selected",
+        0.971
+    ],
+    "Precipitation: Type: Snow": [
+        "selected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "selected",
+        0.976
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Temperature": [
+        "7.0",
+        0.961
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.978
+    ],
+    "General Comments": [
+        "Comments Heavy spawning in all parts of upperriver. Holding. fish still observed. 2 chinook Samples taken in Aron 9",
+        0.201
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "9",
+                0.981
+            ],
+            "Male": [
+                "91",
+                0.922
+            ],
+            "Female": [
+                "97",
+                0.967
+            ],
+            "Female % Spawn: N.R.": [
+                "21",
+                0.928
+            ],
+            "Female % Spawn: 100%": [
+                "76",
+                0.67
+            ],
+            "Jack": [
+                "0",
+                0.861
+            ],
+            "Unsexed": [
+                "0",
+                0.775
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "10",
+                0.97
+            ],
+            "Male": [
+                "99",
+                0.947
+            ],
+            "Female": [
+                "69",
+                0.952
+            ],
+            "Female % Spawn: 0%": [
+                "11",
+                0.923
+            ],
+            "Female % Spawn: 50%": [
+                "58",
+                0.554
+            ],
+            "Jack": [
+                "0",
+                0.866
+            ],
+            "Unsexed": [
+                "0",
+                0.511
+            ]
+        }
+    ]
+}

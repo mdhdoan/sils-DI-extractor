@@ -1,0 +1,238 @@
+{
+    "Date": [
+        "04/12/2022",
+        0.726
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.97
+    ],
+    "Survey Time: Start": [
+        "1045",
+        0.884
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.975
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.973
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: Brightness: Bright": [
+        "selected",
+        0.95
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.978
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.973
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.98
+    ],
+    "Recoveries Comments": [
+        "5 males and & females sampled for PSC, Large group holding below the big beaver Jan.",
+        0.104
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "Mouth",
+                0.913
+            ],
+            "Live Count (incl. live tags)": [
+                "0",
+                0.856
+            ]
+        },
+        {
+            "Area": [
+                "Mouth to",
+                0.827
+            ],
+            "Live Count (incl. live tags)": [
+                "1877",
+                0.416
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "90",
+                0.892
+            ]
+        },
+        {
+            "Area": [
+                "Benvor Dem",
+                0.233
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "85",
+                0.944
+            ],
+            "% Spawning": [
+                "10",
+                0.896
+            ]
+        },
+        {
+            "Area": [
+                "B",
+                0.576
+            ],
+            "Live Count (incl. live tags)": [
+                "recorded as",
+                0.591
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "1/2",
+                0.256
+            ],
+            "% Holding / Migrating": [
+                "in",
+                0.588
+            ],
+            "% Spawned Out": [
+                "10ving trol",
+                0.215
+            ]
+        }
+    ],
+    "Stream": [
+        "Summit Creek",
+        0.52
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.97
+    ],
+    "Survey Time: End": [
+        "1200",
+        0.971
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "selected",
+        0.973
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.975
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.978
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Weather: %Cloudy: 0%": [
+        "selected",
+        0.978
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.971
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.974
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Water Temperature": [
+        "10.5",
+        0.942
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.978
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "Month",
+                0.684
+            ],
+            "Male": [
+                "7",
+                0.74
+            ],
+            "Female": [
+                "6",
+                0.886
+            ],
+            "Female % Spawn: N.R.": [
+                "6",
+                0.588
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "1 0a",
+                0.112
+            ],
+            "Female % Spawn: 100%": [
+                "1 il",
+                0.151
+            ]
+        }
+    ]
+}

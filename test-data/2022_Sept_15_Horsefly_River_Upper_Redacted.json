@@ -1,0 +1,294 @@
+{
+    "Date": [
+        "09/15/2022",
+        0.974
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.956
+    ],
+    "Survey Time: Start": [
+        "0930",
+        0.975
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.979
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "selected",
+        0.979
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.979
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 75%": [
+        "unselected",
+        0.978
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "selected",
+        0.98
+    ],
+    "Recoveries Comments": [
+        "No live count conducted, but there appears to be much fewer fish in the river. Af or just plast pear spawn. Thousands of un recovered carcasses",
+        0.109
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "10",
+                0.937
+            ],
+            "Live Count (incl. live tags)": [
+                "NA",
+                0.982
+            ],
+            "% Spawning": [
+                "10",
+                0.953
+            ],
+            "% Spawned Out": [
+                "90",
+                0.97
+            ]
+        },
+        {
+            "Area": [
+                "9",
+                0.979
+            ],
+            "Live Count (incl. live tags)": [
+                "NA",
+                0.971
+            ],
+            "% Spawning": [
+                "5",
+                0.946
+            ],
+            "% Spawned Out": [
+                "90",
+                0.961
+            ],
+            "Live Tagged": [
+                "5",
+                0.937
+            ]
+        },
+        {
+            "Area": [
+                "8",
+                0.922
+            ],
+            "Live Count (incl. live tags)": [
+                "NA",
+                0.646
+            ],
+            "% Spawning": [
+                "5",
+                0.942
+            ],
+            "% Spawned Out": [
+                "90",
+                0.957
+            ],
+            "Live Tagged": [
+                "5",
+                0.93
+            ]
+        }
+    ],
+    "Stream": [
+        "Upper Horsefly",
+        0.845
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Visual Surveys Comments": [
+        "% spawning recorded in 1 roving tool",
+        0.183
+    ],
+    "Survey Time: End": [
+        "1590",
+        0.949
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.979
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "unselected",
+        0.98
+    ],
+    "Weather: Brightness: Full": [
+        "selected",
+        0.976
+    ],
+    "Weather: Brightness: Medium": [
+        "unselected",
+        0.976
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.974
+    ],
+    "Weather: %Cloudy: 50%": [
+        "selected",
+        0.979
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.979
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.971
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Temperature": [
+        "14.0",
+        0.164
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.978
+    ],
+    "General Comments": [
+        "included in other total Spawn Comments PSC sampled GF from A10 and 15 From A9 that appeared spawned out(100%) but had a single underloped skein.",
+        0.179
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "10",
+                0.985
+            ],
+            "Male": [
+                "1220",
+                0.973
+            ],
+            "Female": [
+                "675",
+                0.978
+            ],
+            "Female % Spawn: N.R.": [
+                "56",
+                0.962
+            ],
+            "Female % Spawn: 50%": [
+                "6",
+                0.967
+            ],
+            "Female % Spawn: 100%": [
+                "613",
+                0.836
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "9",
+                0.971
+            ],
+            "Male": [
+                "851",
+                0.925
+            ],
+            "Female": [
+                "437",
+                0.972
+            ],
+            "Female % Spawn: N.R.": [
+                "16",
+                0.97
+            ],
+            "Female % Spawn: 50%": [
+                "1",
+                0.963
+            ],
+            "Female % Spawn: 100%": [
+                "420",
+                0.901
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "8",
+                0.875
+            ],
+            "Male": [
+                "323",
+                0.973
+            ],
+            "Female": [
+                "158",
+                0.956
+            ],
+            "Female % Spawn: 0%": [
+                "5",
+                0.969
+            ],
+            "Female % Spawn: 100%": [
+                "153",
+                0.969
+            ]
+        }
+    ]
+}

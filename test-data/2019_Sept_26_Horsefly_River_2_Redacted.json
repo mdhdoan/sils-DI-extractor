@@ -1,0 +1,238 @@
+{
+    "Date": [
+        "Sept 26/2014",
+        0.823
+    ],
+    "Survey Type: Ground": [
+        "selected",
+        0.957
+    ],
+    "Survey Time: Start": [
+        "900",
+        0.972
+    ],
+    "Water Level: % Bankfill: <25%": [
+        "unselected",
+        0.978
+    ],
+    "Water Level: % Bankfill: 50-75%": [
+        "unselected",
+        0.977
+    ],
+    "Water Level: % Bankfill: +100%": [
+        "unselected",
+        0.976
+    ],
+    "Weather: Brightness: Bright": [
+        "unselected",
+        0.977
+    ],
+    "Weather: Brightness: Dark": [
+        "unselected",
+        0.979
+    ],
+    "Weather: %Cloudy: 25%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 75%": [
+        "selected",
+        0.979
+    ],
+    "Precipitation: Type: Rain": [
+        "unselected",
+        0.98
+    ],
+    "Precipitation: Type: None": [
+        "selected",
+        0.98
+    ],
+    "Precipitation: Intensity: Medium": [
+        "unselected",
+        0.979
+    ],
+    "Water Conditions: Fish Visibility: Low": [
+        "selected",
+        0.978
+    ],
+    "Water Conditions: Fish Visibility: High": [
+        "unselected",
+        0.976
+    ],
+    "Water Conditions: Water Clarity: 0-0.25m": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 0.5-1.0m": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Clarity: 3m to bottom": [
+        "unselected",
+        0.975
+    ],
+    "SK_Count_data": [
+        {
+            "Area": [
+                "5",
+                0.915
+            ],
+            "Live Count (incl. live tags)": [
+                "20",
+                0.915
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "15",
+                0.772
+            ],
+            "% Spawning": [
+                "100",
+                0.786
+            ]
+        },
+        {
+            "Area": [
+                "6",
+                0.912
+            ],
+            "Live Count (incl. live tags)": [
+                "146",
+                0.957
+            ],
+            "% O.E. (Observer Efficiency)": [
+                "25",
+                0.68
+            ],
+            "% Spawning": [
+                "90",
+                0.756
+            ],
+            "% Spawned Out": [
+                "10",
+                0.795
+            ]
+        }
+    ],
+    "Stream": [
+        "Horsefly River",
+        0.665
+    ],
+    "Survey Type: Aerial": [
+        "unselected",
+        0.971
+    ],
+    "Visual Surveys Comments": [
+        "O",
+        0.087
+    ],
+    "Survey Time: End": [
+        "1220",
+        0.405
+    ],
+    "Water Level: % Bankfill: 25-50%": [
+        "unselected",
+        0.977
+    ],
+    "Water Level: % Bankfill: 75-100%": [
+        "selected",
+        0.976
+    ],
+    "Weather: Brightness: Full": [
+        "unselected",
+        0.979
+    ],
+    "Weather: Brightness: Medium": [
+        "selected",
+        0.979
+    ],
+    "Weather: %Cloudy: 0%": [
+        "unselected",
+        0.979
+    ],
+    "Weather: %Cloudy: 50%": [
+        "unselected",
+        0.977
+    ],
+    "Weather: %Cloudy: 100%": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Type: Snow": [
+        "unselected",
+        0.98
+    ],
+    "Precipitation: Intensity: Light": [
+        "unselected",
+        0.977
+    ],
+    "Precipitation: Intensity: Heavy": [
+        "unselected",
+        0.977
+    ],
+    "Water Conditions: Fish Visibility: Medium": [
+        "unselected",
+        0.978
+    ],
+    "Water Conditions: Water Temperature": [
+        "9.3",
+        0.919
+    ],
+    "Water Conditions: Water Clarity: 0.25-0.5m": [
+        "selected",
+        0.977
+    ],
+    "Water Conditions: Water Clarity: 1-3m": [
+        "unselected",
+        0.98
+    ],
+    "General Comments": [
+        "PSC Sampled 3M3F from A6 and 2M34F From A5. Included in Rec. totals. Turbidity very high and current fast.",
+        0.168
+    ],
+    "SK_Count_data_2": [
+        {
+            "Area (Untagged)": [
+                "5",
+                0.914
+            ],
+            "Male": [
+                "2",
+                0.066
+            ],
+            "Female": [
+                "5",
+                0.902
+            ],
+            "Female % Spawn: 100%": [
+                "5",
+                0.785
+            ],
+            "Unsexed": [
+                "3",
+                0.74
+            ]
+        },
+        {
+            "Area (Untagged)": [
+                "6",
+                0.899
+            ],
+            "Male": [
+                "4",
+                0.898
+            ],
+            "Female": [
+                "3",
+                0.9
+            ],
+            "Female % Spawn: 100%": [
+                "3",
+                0.898
+            ],
+            "Unsexed": [
+                "1",
+                0.591
+            ]
+        }
+    ]
+}
