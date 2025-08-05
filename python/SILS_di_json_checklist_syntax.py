@@ -19,7 +19,7 @@ from langchain_core.prompts import PromptTemplate
 from azure.storage.blob import BlobServiceClient
 
 # LLM model
-model_select = 'llama3.1'
+model_select = 'steamdj/llama3.1-cpu-only'
 
 random.seed(2024)
 file_list_in_directory = os.listdir(sys.argv[1])
@@ -320,4 +320,4 @@ if __name__ == "__main__":
     check_json_syntax_local()
 
 ## Example: python .\python\di_json_checklist_syntax.py .\json\sils-ground\raw_jsons\ .\Data_Standards\Data_Standard_Quesnel_Roving.xlsx 'Data_Standard_Quesnel_Roving'
-# python3 .\python\SILS_di_json_checklist_syntax.py .\test-data\ .\standards\Data_Standard_Quesnel_Roving.xlsx 'Data_Standard_Quesnel_Roving'
+# python3 ./python/SILS_di_json_checklist_syntax.py ./test-data/ ./standards/Data_Standard_Quesnel_Roving.xlsx 'Data_Standard_Quesnel_Roving'
