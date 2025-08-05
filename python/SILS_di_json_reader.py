@@ -19,8 +19,8 @@ with open(connection_file, "r+") as connection_data:
     connection_details = json.load(connection_data)
 
 # set `<your-endpoint>` and `<your-key>` variables with the values from the Document Intelligence  
-endpoint = "" 
-key = "" 
+endpoint = connection_details['DI-Endpoint'] 
+key = connection_details['DI-Key']
  
 # Options for mode: local, azure
 # local: reads all files in directory specified by "directory_path"
@@ -31,13 +31,13 @@ mode = "azure"
 directory_path = "./tempdata"
  
 # Azure blob container setttings, set `<connection_string>` and `<container_name>` for blob container in storage account
-connection_string = ""
-container_name = ""
+connection_string = connection_details['SA-enpoint']
+container_name = "test-upload"
 
 # Azure blob output container setttings, set `<connection_string>` and `<container_name>` for blob container in storage account you want to write a JSON output too
 # Script will only attempt to upload to a blob container if output_azure is set to True
 output_azure = False
-output_connection_string = ""
+output_connection_string = connection_string
 output_container_name = "/raw_jsons" 
 
 # Determine model to be used here. Check with Document Intelligence Studio for the name of the model used:

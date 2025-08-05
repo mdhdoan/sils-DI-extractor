@@ -1,266 +1,267 @@
 # import libraries 
-import ast
 from datetime import datetime
+import os
 import json
-import os 
-import random
-import shutil
-import sys
-
-from openpyxl import load_workbook, Workbook
-
-from langchain_ollama import OllamaLLM
-from langchain_core.prompts import PromptTemplate
-
-from langchain.output_parsers.pydantic import PydanticOutputParser
-from langchain_core.output_parsers import JsonOutputParser
-from openpyxl import load_workbook, Workbook
-from pydantic import BaseModel, Field, model_validator
+import time
+from azure.ai.documentintelligence import DocumentIntelligenceClient
+from azure.ai.documentintelligence.models import AnalyzeDocumentRequest
+from azure.core.credentials import AzureKeyCredential
 
 from azure.storage.blob import BlobServiceClient
+from itertools import tee
 
-# LLM model
-model_select = 'llama3.1'
+####### - SETUP CONNECTIONS - #######
 
-random.seed(2024)
-file_list_in_directory = os.listdir(sys.argv[1])
-format = sys.argv[3]
-worksheet = load_workbook(sys.argv[2])[format]
+current_directory = os.getcwd()
+connection_file = os.path.join(current_directory, "connections.json")
+connection_details = {}
+with open(connection_file, "r+") as connection_data:
+    connection_details = json.load(connection_data)
 
+# set `<your-endpoint>` and `<your-key>` variables with the values from the Document Intelligence  
+endpoint = connection_details['DI-Endpoint'] 
+key = connection_details['DI-Key']
+ 
+# Options for mode: local, azure
+# local: reads all files in directory specified by "directory_path"
+# azure: reads all files in blob container in Azure storage account specified by "connection_string" and "container_name"
+mode = "azure"
+ 
+# If using a local directory, set directory here. Make sure to use forward slashes (/) and not backslashs (\)
+directory_path = "./tempdata"
+ 
+# Azure blob container setttings, set `<connection_string>` and `<container_name>` for blob container in storage account
+connection_string = connection_details['SA-enpoint']
+container_name = "test-upload"
+
+# Azure blob output container setttings, set `<connection_string>` and `<container_name>` for blob container in storage account you want to write a JSON output too
+# Script will only attempt to upload to a blob container if output_azure is set to True
 output_azure = False
-output_connection_string = ""
-output_success_container_name = "quesnel-ground/success_jsons" 
-output_update_container_name = "quesnel-ground/update_jsons" 
-output_flagged_container_name = "quesnel-ground/flagged_jsons" 
-output_report_container_name =  "quesnel-ground"
+output_connection_string = connection_string
+output_container_name = "/raw_jsons" 
 
-error_list = ['Ø', 'ø']
-survey_list = ['Survey Type: Ground','Survey Type: Aerial']
-water_level_list = ['Water Level: % Bankfill: <25%',
-                    'Water Level: % Bankfill: 25-50%','Water Level: % Bankfill: 50-75%',
-                    'Water Level: % Bankfill: 75-100%','Water Level: % Bankfill: +100%']
-weather_brightness_list = ['Weather: Brightness: Full','Weather: Brightness: Bright','Weather: Brightness: Medium',
-                    'Weather: Brightness: Dark']
-weather_cloudy_list = ['Weather: %Cloudy: 0%','Weather: %Cloudy: 25%',
-                    'Weather: %Cloudy: 50%','Weather: %Cloudy: 75%','Weather: %Cloudy: 100%']
-precipitation_type_list = ['Precipitation: Type: Rain','Precipitation: Type: Snow','Precipitation: Type: None']
-precipitation_intensity_list = [
-                    'Precipitation: Intensity: Light','Precipitation: Intensity: Medium',
-                    'Precipitation: Intensity: Heavy']
-fish_visibility_list = ['Water Conditions: Fish Visibility: Low',
-                    'Water Conditions: Fish Visibility: Medium','Water Conditions: Fish Visibility: High']
-water_clarity_list = ['Water Conditions: Water Clarity: 0-0.25m','Water Conditions: Water Clarity: 0.25-0.5m',
-                    'Water Conditions: Water Clarity: 0.5-1.0m','Water Conditions: Water Clarity: 1-3m',
-                    'Water Conditions: Water Clarity: 3m to bottom']
+# Determine model to be used here. Check with Document Intelligence Studio for the name of the model used:
+extraction_model_id = ""
 
+# This is a custom serialization function to convert object type BoundingRegion and polygon into a JSON format
+# JSON library has no built-in support for serializing arbitrary Python objects such as BoundingRegion
+def serialize(obj):
+    # If object is BoundingRegion, define page number and polygon
+    if hasattr(obj, 'page_number') and hasattr(obj, 'polygon'):   
+        return {  
+            'page_number': obj.page_number,  
+            'polygon': serialize(obj.polygon)  # Serialize the polygon as it is also an arbitrary object 
+        }
 
-output_parser = JsonOutputParser()  
-format_instructions = output_parser.get_format_instructions()
+    # If object is polygon (list of points), define each point contained in the polygon
+    elif isinstance(obj, list) and all(hasattr(point, 'x') and hasattr(point, 'y') for point in obj):   
+        return obj
+    
+    # If object is type supported by JSON library return it as is
+    elif isinstance(obj, (dict, list, str, int, float, bool, type(None))):  
+        return obj
+    
+    # Catch error in case object is encountered that this code can not serialize 
+    else:  
+        raise TypeError(f"Object of type '{type(obj).__name__}' is not JSON serializable")
 
-llm = OllamaLLM(model = model_select, temperature = 0.0)
+def content_field(value):
+    # print(field, value['content'])
+    result_content = [value['content'], value['confidence']]
+    return result_content
 
-def create_prompt(format_instructions):
-    QA_TEMPLATE = """
-        Fill the following schema:
-        {{'Result':, 'Reason':}}
-        Answer me in lowercase letters. Check if your answer returns a json formatted like above before returning. 
-        Is {value} best described by given {description} AND follows syntaxtically of {example}?
-    """
-    #Verify your answer, and if the result list has more than 2 items, then Value has multiple parts. Treat them all as one value only, and ignore the number in brackets in them. Retry to shorten it to format above.
-    return PromptTemplate(
-        input_variables=["value", "description", "example"], 
-        partial_variables={"format_instructions": format_instructions},
-        template=QA_TEMPLATE)
+def extract_object_array(field, dict_data):
+    result_list = []
+    for data in dict_data:
+        holder = {field: data}
+        holder_dict = extract_object(holder)
+        for holder_field, holder_value in holder_dict.items():
+            result_list.append(holder_value)
+    return result_list
 
-prompt = create_prompt(format_instructions)
+def extract_object(dict_data):
+    result_dict_data = {}
+    for field, attributes in dict_data.items():
+        dict_data_type = attributes['type']
+        attribute_check_list = attributes.keys()
 
-llm_chain = prompt | llm | output_parser
+        if dict_data_type == 'object':
+            if 'content' in attribute_check_list or 'valueObject' in attribute_check_list:
+                inner_object = attributes['valueObject']
+                result_dict_data[field] = extract_object(inner_object)
 
-def llm_check_value(text_content, definition, example):
-    print('VALUE:', text_content, flush = True, end = '\t')
-    # LLM_start_time = datetime.now()
-    # print(text_content, definition, example, flush = True)
-    result = llm_chain.invoke({'value': text_content, 'description': definition, 'example': example})
-    print(result, '--- becomes --->', flush = True, end = ' ')
-    # LLM_end_time = datetime.now()
-    ### Test if result is a valid list to be considered
-    result = [result['Result'], result['Reason']]
-    return result
-
-def load_worksheet_as_dict():
-    result_dict = {}
-    for row_i, row in enumerate(worksheet['D'], 1):
-        # print(row)
-        # print(worksheet.cell(row_i, column = 4).value)
-        if row.value is not None:
-            result_dict[row.value.lower().replace(':', '')] = row_i
-    return result_dict
-
-worksheet_dict = load_worksheet_as_dict()
-# print(worksheet_dict)
-
-def check_field(field_name):
-    # print(field_name.replace(':', ''), end = '\t')
-    row_i = worksheet_dict.get(field_name.lower().replace(':', '').replace('Visability', 'Visibility'))
-    # print(row_i)
-    if row_i is None:
-        return ['No definition available', 'NA']
-    return [
-        worksheet.cell(row=row_i, column=6).value, 
-        worksheet.cell(row=row_i, column=7).value
-    ]
-
-def clean_value(value):
-    replace_with_space = ['\n', '*']
-    replace_with_empty = [':', '\u00b0', '\u2103', '\u00d3', '\"', '\u00b7']
-    for char in replace_with_space:
-        value = value.replace(char, ' ')
-    for char in replace_with_empty:
-        value = value.replace(char, '')
-    # print('fixed value:', value, flush = True)
-    return value
-
-def match_value_to_llm_qa(value, definition, example):
-    check, standard = llm_check_value(value, definition, example)
-    if eval(check):
-        return 'matched'
-    else:
-        return standard
-
-def check_unique(json_dict, field_list):
-    value_list = []
-    for field in field_list:
-        value_list += json_dict[field][0]
-    if value_list.count('selected') > 1:
-        return 'Multi-checkmarks detected'
-    else:
-        return 'All unique'
-
-def process_json(json_file, json_uuid):
-    json_error_dict = {}
-    total_field_list = [*survey_list, *water_level_list, *weather_brightness_list, *weather_cloudy_list, *precipitation_type_list, 
-                        *precipitation_intensity_list, *fish_visibility_list, *water_clarity_list]
-    list_of_total_field_list = [survey_list, water_level_list, weather_brightness_list, weather_cloudy_list, precipitation_type_list, 
-                        precipitation_intensity_list, fish_visibility_list, water_clarity_list]
-    for field, value in json_file.items():
-        # print(f"{field}\t:\t{value}", flush = True)
-        if field in total_field_list:
-            value[0] = clean_value(value[0])
-            if value[0] not in['selected', 'unselected']:
-                json_error_dict[field] = 'Data is in wrong format'
-            else:
-                for field_list in list_of_total_field_list:
-                    unique_valid = check_unique(json_file, field_list)
-                    if unique_valid != 'All unique':
-                        json_error_dict[field] = unique_valid
-        elif field in ['SK_Count_data', 'SK_Count_data_2', 'SK_Count_data_3']:
-            for row in value:
-                for column, cell in row.items():
-                    # print(column, '-', cell)
-                    if cell[0] in error_list:
-                        cell[0] = '0'
-                        # print('\t', column, '-', cell)
-                        definition, example = check_field(column)
-                        if definition == 'No definition available':
-                            continue
-                        else:
-                            cell[0] = clean_value(cell[0])
-                            content = cell[0]
-                            check_value = match_value_to_llm_qa(cell[0], definition, example)
-                            if check_value == 'matched':
-                                continue
-                            else: 
-                                json_error_dict[field][column] = check_value
-                # if json_file['SK_Count_data_2']['Female'] != 0 and 
-        else:
+        elif dict_data_type == 'array':
             # print(field)
-            definition, example = check_field(field)
-            value[0] = clean_value(value[0])
-            content = value[0]
-            if definition == 'NA' or content is None:
-                print('content', content)
-                continue
-            else:
-                check_value = match_value_to_llm_qa(content, definition, example)
-                if check_value == 'matched':
-                    continue
-                else: 
-                    json_error_dict[field] = check_value
-    json_new_data = json.dumps(json_file, indent = 4)
-    # print(json_new_data)
-    file_address = os.path.join(sys.argv[1], json_uuid + '.json')
-    # print(file_address)
-    with open(file_address, 'w+') as update_json_file:
-        update_json_file.write(json_new_data)
-    print(f"\nQA Completed", flush = True)
-    return json_error_dict
+            # print(attributes.keys(), flush = True)
+            if 'content' in attribute_check_list or 'valueArray' in attribute_check_list:
+                inner_object = attributes['valueArray']
+                result_dict_data[field] = extract_object_array(field, inner_object)
 
-# function writes to Azure, push data
-def write_to_azure(file_name, output_file, container_name):
-    blob_service_client = BlobServiceClient.from_connection_string(output_connection_string)
-    container_client = blob_service_client.get_container_client(container_name)
-    with open(output_file, "rb") as data:
-        container_client.upload_blob(name=file_name, data=data, overwrite=True)
-
-def write_to_file(file_list_in_directory, error_dict):
-    for json_file in file_list_in_directory:
-        if json_file.endswith('.json'):
-            json_uuid = json_file[:-5]
-            file_address = os.path.join(sys.argv[1], json_file)
-            if json_uuid not in error_dict:
-                print(f"{json_uuid} not found in error_dict", flush = True)
-                continue
-            destination_file = './'+ output_report_container_name + '_checked_json' + '/' + json_file
-            if not os.path.isdir('./'+ output_report_container_name + '_checked_json' + '/'):
-                os.mkdir('./'+ output_report_container_name + '_checked_json' )
-            # print(f"{json_uuid} passed", flush = True, end = '')
-            shutil.copy(file_address, destination_file)
-            if output_azure:
-                print('\t|\tUploading to storage account...', flush = True, end = '')
-                write_to_azure(json_file, file_address, output_success_container_name)
-                write_to_azure(json_file, file_address, output_update_container_name)
-                print('done')
-    report_name = output_report_container_name + '_report.json'
-    # report_name = model_select + '_report.json'
-    json_error_data = json.dumps(error_dict, indent=4)
-    with open(report_name, 'w') as report_file:
-        report_file.write(json_error_data)
-    print('done')
-
-def check_json_syntax_local():
-    start_time = datetime.now()
-    loaded_list_of_json_files = {}
-    for json_file in file_list_in_directory:
-        if json_file.endswith('.json'):
-            file_address = os.path.join(sys.argv[1], json_file)
-            uuid = json_file[:-5]
-            # print(uuid)
-            with open(file_address, 'rt', encoding='utf-8') as file:
-                doc = json.load(file)
-                loaded_list_of_json_files[uuid] = doc
         else:
-            continue
-    error_dict = {}
-    for uuid, json_file in loaded_list_of_json_files.items():
-        print(uuid)
-        error_dict[uuid] = {'error_score': 1, 'problem': 'no QA available'}
-        try:
-            error_dict[uuid] = process_json(json_file, uuid)
-            error_dict[uuid]['error_score'] = len(error_dict[uuid])
-            print('error_score:', error_dict[uuid]['error_score'], flush = True)
-        except:
-            print('error hit for', uuid)
-            continue
-    # print(error_dict)
-    write_to_file(file_list_in_directory, error_dict)
+            if 'content' in attribute_check_list:
+            # print("Attribute pass")
+                result_dict_data[field] = content_field(attributes)
 
-    end_time = datetime.now()
-    seconds = (end_time - start_time).total_seconds()
-    print(f"Total Execution time: {seconds} secs for {len(file_list_in_directory)} files at {end_time}", flush=True)
-        
-###---------------------------------------------------------------###
+    return result_dict_data
+
+# This is how function print_analyzed_contents(DocumentAnalysisClient() result, string file_name) print_analyzed_contents takes variable result - class DocumentAnalysisClient(). Function access attribute `documents` for data. Refer to DI documenntation for detail.
+def print_analyzed_contents(result, file_name):
+    doc_data = result['documents'][0]['fields']
+    analyzed_data = extract_object(doc_data)
+    # Initiate connection to blob storage - if `output_azure` is set to true - and retrieve the output container connection details
+    container_client = None
+    if output_azure:
+        blob_service_client = BlobServiceClient.from_connection_string(output_connection_string)
+        container_client = blob_service_client.get_container_client(output_container_name)
+    
+    ### Check container for existing result and redownload the result for no rewrite. Use this if you do not want to overwrite content above. 
+    # Else if all runs are to rewrite, comment out the code block
+    # if output_azure and container_client.get_blob_client(file_name).exists():
+        # downloaded_blob = container_client.download_blob(file_name)
+        # analyzed_data = json.loads(downloaded_blob.readall())
+    ###
+    # Properly naming the given file_name input for writing.
+    # Default to write at the same directory as the terminal is running
+    current_directory = os.getcwd()
+    target_directory = current_directory + '/json/' + output_container_name
+    os.makedirs(target_directory, exist_ok = True)
+    output_file = os.path.join(target_directory, file_name)
+
+
+    # Changing analyzed_data to writable json format before writing to output_file
+    json_data = json.dumps(analyzed_data, default = serialize, indent=4)
+
+    # Write json_data to file_name. output_file will now exists locally 
+    with open(output_file, 'w') as f:
+        f.write(json_data)
+    # print(f"Analysis data appended to: {output_file}")
+    
+        # If output_azure is true, then proceed to upload output_file to the target blob container
+    if output_azure:
+        with open(output_file, "rb") as data:
+            container_client.upload_blob(name=file_name, data=data, overwrite=True)
+        # print(f"Analysis data uploaded to Azure Blob: {file_name}")
+
+
+# function analyzed_local_documents()
+# function reads local files from a directory, connect to a DI model from DI resource in Azure cloud and runs print_analyzed_contents() on them.
+def analyze_local_documents():
+    # Connect to DI resource on Azure cloud. Also verifies permission here.
+    document_analysis_client = DocumentIntelligenceClient(endpoint=endpoint, credential=AzureKeyCredential(key))
+
+    # Going through files the directory_path from above
+    for filename in os.listdir(directory_path):
+        # Only check for the following file format. These are also only the current formats supported. Check DI blogpost for update when run.
+        if filename.endswith((".pdf", ".jpg", ".png", ".bmp", ".tiff")):  
+            file_path = os.path.join(directory_path, filename)
+
+            with open(file_path, "rb") as file:
+                # Change the model name to fit with the corresponding model. Default is: prebuilt-document
+                # currently only read pdf files
+                if filename.endswith(".pdf"): 
+                    print("extract pdf")
+                    poller = document_analysis_client.begin_analyze_document(extraction_model_id, file)
+                # If not, then treat the rest as an image and proceed as such
+                else:  
+                    poller = document_analysis_client.begin_analyze_document("prebuilt-document", file, content_type="image/jpeg")
+                # At this stage, OCR is completed, and current data is available with the attribute `result` of the variable above `poller`
+                result = poller.result()
+                # Defining an appropriate file_name to be produced.
+                file_name = "local " + filename.replace(' ', '') + " " + "analyzed_data.json"
+                print_analyzed_contents(result, file_name)
+
+def poller_list_create(document_analysis_client, container_client, list_of_blob, processed_blob_list):
+    poller_list = []
+    poller_create_time = datetime.now()
+    # index = 0
+    for blob in list_of_blob:
+        blob_name = blob
+        # print(blob_name)
+        if blob_name[:-4] not in processed_blob_list and blob_name.endswith(".pdf") and blob_name.startswith("pdf"):
+            # if index >= 10:
+            #     break
+            blob_client = container_client.get_blob_client(blob)
+            blob_url = blob_client.url
+            # print('Running extraction model on', blob, 'at', blob_url)
+            try:
+                poller = document_analysis_client.begin_analyze_document(extraction_model_id, AnalyzeDocumentRequest(url_source = blob_url))
+                poller_list.append(poller)
+            except:
+                print("encountered error -- stopping before:", blob_name)
+                break
+            print('.', end='', flush = True)
+            # print(blob_name[5:11], flush = True, end = '|')
+            # index += 1
+    poller_end_time = datetime.now()
+    seconds = (poller_end_time - poller_create_time).total_seconds()
+    print(f"PL TIME: {seconds} secs.", flush=True)
+    return poller_list
+
+# function analyze_azure_documents()
+# function reads files from an azure blob container - available at container level - directory, connect to a DI model from DI resource in Azure cloud and runs print_analyzed_contents() on them.
+def analyze_azure_documents():
+    # Connect to DI resource on Azure cloud. Also verifies permission here.
+    document_analysis_client = DocumentIntelligenceClient(endpoint=endpoint, credential=AzureKeyCredential(key))
+
+    # Connect to blob resource on Azure cloud. Connecting to the resource by connection_string, and to the exact container via container_name
+    blob_service_client = BlobServiceClient.from_connection_string(connection_string)
+    container_client = blob_service_client.get_container_client(container_name)
+    reader_start_time = datetime.now()
+    
+    # Storing all file accesses' via container_client.list_blobs()
+    blob_list = container_client.list_blob_names()
+    
+    original_blob_list = []
+    processed_blob_list = []
+    blob_list_backup, blob_list_backup_2 = tee(blob_list)
+
+    for blob_name in blob_list_backup:
+        if blob_name.startswith('raw_jsons/'):
+            processed_blob_list.append(blob_name[10:-5])
+        else:
+            original_blob_list.append(blob_name[:-4])
+    
+    unprocess_blob_list = [blob.split('/')[1] for blob in original_blob_list if blob not in processed_blob_list and blob.startswith("pdf")]
+    # print(unprocess_blob_list, len(unprocess_blob_list))
+    
+    print(f'Container: {container_name}\t|\t Model: {extraction_model_id}')
+    print('Client connect, blob accessed')
+    index = 0
+    
+    # Proceed to go through the list of files here. Since container is a blob container, iterating variable is called blob
+    poller_list = poller_list_create(document_analysis_client, container_client, blob_list_backup_2, processed_blob_list)
+    
+    tps_limit = 8
+    tps = 0
+    print("Extracting now", end = '', flush = True)
+    for poller in poller_list:
+        # start_time = datetime.now()
+        if tps >= tps_limit:
+            time.sleep(1)
+            tps = 0
+        result = poller.result()
+        # end_time = datetime.now()
+        # seconds = (end_time - start_time).total_seconds()
+        # print(f"RS TIME: {seconds} secs.", flush=True)
+        # Defining an appropriate file_name to be produced, before running print_analyzed_contents()
+        print_analyzed_contents(result, unprocess_blob_list[index] + ".json")
+        # end_time = datetime.now()
+        # seconds = (end_time - start_time).total_seconds()
+        # print(f"JC TIME: {seconds} secs.", flush=True)
+        index += 1
+        tps += 1
+        print('.', end='', flush = True)
+    print('\n')
+    reader_end_time = datetime.now()
+    seconds = (reader_end_time - reader_start_time).total_seconds()
+    print(f"ALL files Executed in {seconds} secs.", flush=True)
+ 
 if __name__ == "__main__": 
-    print("Running local at", datetime.now())
-    check_json_syntax_local()
-
-## Example: python .\python\di_json_checklist_syntax.py .\json\sils-ground\raw_jsons\ .\Data_Standards\Data_Standard_Quesnel_Roving.xlsx 'Data_Standard_Quesnel_Roving'
+    match mode:
+        # Check if running local file OCR or cloud (azure) file OCR
+        case "local":
+            print("local")
+            analyze_local_documents()
+        case "azure":
+            print("azure")
+            analyze_azure_documents()   

@@ -26,14 +26,14 @@ file_list_in_directory = os.listdir(sys.argv[1])
 format = sys.argv[3]
 worksheet = load_workbook(sys.argv[2])[format]
 
-# current_directory = os.getcwd()
-# connection_file = os.path.join(current_directory, "connections.json")
-# connection_details = {}
-# with open(connection_file, "r+") as connection_data:
-#     connection_details = json.load(connection_data)
+current_directory = os.getcwd()
+connection_file = os.path.join(current_directory, "connections.json")
+connection_details = {}
+with open(connection_file, "r+") as connection_data:
+    connection_details = json.load(connection_data)
 
-output_azure = False
-output_connection_string = ""
+output_azure = True
+output_connection_string = connection_details['SA-enpoint']
 output_success_container_name = "quesnel-ground/success_jsons" 
 output_update_container_name = "quesnel-ground/update_jsons" 
 output_flagged_container_name = "quesnel-ground/flagged_jsons" 
@@ -320,4 +320,4 @@ if __name__ == "__main__":
     check_json_syntax_local()
 
 ## Example: python .\python\di_json_checklist_syntax.py .\json\sils-ground\raw_jsons\ .\Data_Standards\Data_Standard_Quesnel_Roving.xlsx 'Data_Standard_Quesnel_Roving'
-# python3 ./python/SILS_di_json_checklist_syntax.py ./test-data/ ./standards/Data_Standard_Quesnel_Roving.xlsx 'Data_Standard_Quesnel_Roving'
+# python3 ./python/SILS_di_json_checklist_syntax.py ./test-upload/ ./standards/Data_Standard_Quesnel_Roving.xlsx 'Data_Standard_Quesnel_Roving'
