@@ -1,267 +1,155 @@
-# import libraries 
-from datetime import datetime
-import os
+#!/usr/bin/env python3
+import argparse
 import json
-import time
-from azure.ai.documentintelligence import DocumentIntelligenceClient
-from azure.ai.documentintelligence.models import AnalyzeDocumentRequest
-from azure.core.credentials import AzureKeyCredential
+import sys
+import socket
+from urllib.parse import urlparse
 
-from azure.storage.blob import BlobServiceClient
-from itertools import tee
+import requests
+from requests.exceptions import RequestException, SSLError, Timeout
 
-####### - SETUP CONNECTIONS - #######
-
-current_directory = os.getcwd()
-connection_file = os.path.join(current_directory, "connections.json")
-connection_details = {}
-with open(connection_file, "r+") as connection_data:
-    connection_details = json.load(connection_data)
-
-# set `<your-endpoint>` and `<your-key>` variables with the values from the Document Intelligence  
-endpoint = connection_details['DI-Endpoint'] 
-key = connection_details['DI-Key']
- 
-# Options for mode: local, azure
-# local: reads all files in directory specified by "directory_path"
-# azure: reads all files in blob container in Azure storage account specified by "connection_string" and "container_name"
-mode = "azure"
- 
-# If using a local directory, set directory here. Make sure to use forward slashes (/) and not backslashs (\)
-directory_path = "./tempdata"
- 
-# Azure blob container setttings, set `<connection_string>` and `<container_name>` for blob container in storage account
-connection_string = connection_details['SA-enpoint']
-container_name = "test-upload"
-
-# Azure blob output container setttings, set `<connection_string>` and `<container_name>` for blob container in storage account you want to write a JSON output too
-# Script will only attempt to upload to a blob container if output_azure is set to True
-output_azure = False
-output_connection_string = connection_string
-output_container_name = "/raw_jsons" 
-
-# Determine model to be used here. Check with Document Intelligence Studio for the name of the model used:
-extraction_model_id = ""
-
-# This is a custom serialization function to convert object type BoundingRegion and polygon into a JSON format
-# JSON library has no built-in support for serializing arbitrary Python objects such as BoundingRegion
-def serialize(obj):
-    # If object is BoundingRegion, define page number and polygon
-    if hasattr(obj, 'page_number') and hasattr(obj, 'polygon'):   
-        return {  
-            'page_number': obj.page_number,  
-            'polygon': serialize(obj.polygon)  # Serialize the polygon as it is also an arbitrary object 
-        }
-
-    # If object is polygon (list of points), define each point contained in the polygon
-    elif isinstance(obj, list) and all(hasattr(point, 'x') and hasattr(point, 'y') for point in obj):   
-        return obj
-    
-    # If object is type supported by JSON library return it as is
-    elif isinstance(obj, (dict, list, str, int, float, bool, type(None))):  
-        return obj
-    
-    # Catch error in case object is encountered that this code can not serialize 
-    else:  
-        raise TypeError(f"Object of type '{type(obj).__name__}' is not JSON serializable")
-
-def content_field(value):
-    # print(field, value['content'])
-    result_content = [value['content'], value['confidence']]
-    return result_content
-
-def extract_object_array(field, dict_data):
-    result_list = []
-    for data in dict_data:
-        holder = {field: data}
-        holder_dict = extract_object(holder)
-        for holder_field, holder_value in holder_dict.items():
-            result_list.append(holder_value)
-    return result_list
-
-def extract_object(dict_data):
-    result_dict_data = {}
-    for field, attributes in dict_data.items():
-        dict_data_type = attributes['type']
-        attribute_check_list = attributes.keys()
-
-        if dict_data_type == 'object':
-            if 'content' in attribute_check_list or 'valueObject' in attribute_check_list:
-                inner_object = attributes['valueObject']
-                result_dict_data[field] = extract_object(inner_object)
-
-        elif dict_data_type == 'array':
-            # print(field)
-            # print(attributes.keys(), flush = True)
-            if 'content' in attribute_check_list or 'valueArray' in attribute_check_list:
-                inner_object = attributes['valueArray']
-                result_dict_data[field] = extract_object_array(field, inner_object)
-
-        else:
-            if 'content' in attribute_check_list:
-            # print("Attribute pass")
-                result_dict_data[field] = content_field(attributes)
-
-    return result_dict_data
-
-# This is how function print_analyzed_contents(DocumentAnalysisClient() result, string file_name) print_analyzed_contents takes variable result - class DocumentAnalysisClient(). Function access attribute `documents` for data. Refer to DI documenntation for detail.
-def print_analyzed_contents(result, file_name):
-    doc_data = result['documents'][0]['fields']
-    analyzed_data = extract_object(doc_data)
-    # Initiate connection to blob storage - if `output_azure` is set to true - and retrieve the output container connection details
-    container_client = None
-    if output_azure:
-        blob_service_client = BlobServiceClient.from_connection_string(output_connection_string)
-        container_client = blob_service_client.get_container_client(output_container_name)
-    
-    ### Check container for existing result and redownload the result for no rewrite. Use this if you do not want to overwrite content above. 
-    # Else if all runs are to rewrite, comment out the code block
-    # if output_azure and container_client.get_blob_client(file_name).exists():
-        # downloaded_blob = container_client.download_blob(file_name)
-        # analyzed_data = json.loads(downloaded_blob.readall())
-    ###
-    # Properly naming the given file_name input for writing.
-    # Default to write at the same directory as the terminal is running
-    current_directory = os.getcwd()
-    target_directory = current_directory + '/json/' + output_container_name
-    os.makedirs(target_directory, exist_ok = True)
-    output_file = os.path.join(target_directory, file_name)
+try:
+    from azure.ai.documentintelligence import DocumentIntelligenceClient
+    from azure.core.credentials import AzureKeyCredential
+    from azure.core.exceptions import HttpResponseError
+except Exception as e:
+    # We handle missing SDKs gracefully; tell the user how to install.
+    DocumentIntelligenceClient = None
+    AzureKeyCredential = None
+    HttpResponseError = Exception
 
 
-    # Changing analyzed_data to writable json format before writing to output_file
-    json_data = json.dumps(analyzed_data, default = serialize, indent=4)
-
-    # Write json_data to file_name. output_file will now exists locally 
-    with open(output_file, 'w') as f:
-        f.write(json_data)
-    # print(f"Analysis data appended to: {output_file}")
-    
-        # If output_azure is true, then proceed to upload output_file to the target blob container
-    if output_azure:
-        with open(output_file, "rb") as data:
-            container_client.upload_blob(name=file_name, data=data, overwrite=True)
-        # print(f"Analysis data uploaded to Azure Blob: {file_name}")
+OK = "[OK]"
+ERR = "[ERR]"
 
 
-# function analyzed_local_documents()
-# function reads local files from a directory, connect to a DI model from DI resource in Azure cloud and runs print_analyzed_contents() on them.
-def analyze_local_documents():
-    # Connect to DI resource on Azure cloud. Also verifies permission here.
-    document_analysis_client = DocumentIntelligenceClient(endpoint=endpoint, credential=AzureKeyCredential(key))
+def die(msg: str, code: int = 1):
+    print(f"{ERR} {msg}")
+    sys.exit(code)
 
-    # Going through files the directory_path from above
-    for filename in os.listdir(directory_path):
-        # Only check for the following file format. These are also only the current formats supported. Check DI blogpost for update when run.
-        if filename.endswith((".pdf", ".jpg", ".png", ".bmp", ".tiff")):  
-            file_path = os.path.join(directory_path, filename)
 
-            with open(file_path, "rb") as file:
-                # Change the model name to fit with the corresponding model. Default is: prebuilt-document
-                # currently only read pdf files
-                if filename.endswith(".pdf"): 
-                    print("extract pdf")
-                    poller = document_analysis_client.begin_analyze_document(extraction_model_id, file)
-                # If not, then treat the rest as an image and proceed as such
-                else:  
-                    poller = document_analysis_client.begin_analyze_document("prebuilt-document", file, content_type="image/jpeg")
-                # At this stage, OCR is completed, and current data is available with the attribute `result` of the variable above `poller`
-                result = poller.result()
-                # Defining an appropriate file_name to be produced.
-                file_name = "local " + filename.replace(' ', '') + " " + "analyzed_data.json"
-                print_analyzed_contents(result, file_name)
+def validate_required(data: dict, key: str) -> str:
+    if key not in data or not str(data[key]).strip():
+        die(f"Missing or empty '{key}' in connections.json")
+    return str(data[key]).strip()
 
-def poller_list_create(document_analysis_client, container_client, list_of_blob, processed_blob_list):
-    poller_list = []
-    poller_create_time = datetime.now()
-    # index = 0
-    for blob in list_of_blob:
-        blob_name = blob
-        # print(blob_name)
-        if blob_name[:-4] not in processed_blob_list and blob_name.endswith(".pdf") and blob_name.startswith("pdf"):
-            # if index >= 10:
-            #     break
-            blob_client = container_client.get_blob_client(blob)
-            blob_url = blob_client.url
-            # print('Running extraction model on', blob, 'at', blob_url)
-            try:
-                poller = document_analysis_client.begin_analyze_document(extraction_model_id, AnalyzeDocumentRequest(url_source = blob_url))
-                poller_list.append(poller)
-            except:
-                print("encountered error -- stopping before:", blob_name)
-                break
-            print('.', end='', flush = True)
-            # print(blob_name[5:11], flush = True, end = '|')
-            # index += 1
-    poller_end_time = datetime.now()
-    seconds = (poller_end_time - poller_create_time).total_seconds()
-    print(f"PL TIME: {seconds} secs.", flush=True)
-    return poller_list
 
-# function analyze_azure_documents()
-# function reads files from an azure blob container - available at container level - directory, connect to a DI model from DI resource in Azure cloud and runs print_analyzed_contents() on them.
-def analyze_azure_documents():
-    # Connect to DI resource on Azure cloud. Also verifies permission here.
-    document_analysis_client = DocumentIntelligenceClient(endpoint=endpoint, credential=AzureKeyCredential(key))
+def validate_url(name: str, value: str) -> str:
+    try:
+        u = urlparse(value)
+    except Exception:
+        die(f"{name} is not a valid URL: {value}")
+    if u.scheme not in ("https", "http") or not u.netloc:
+        die(f"{name} must be an absolute URL (https://...), got: {value}")
+    return value
 
-    # Connect to blob resource on Azure cloud. Connecting to the resource by connection_string, and to the exact container via container_name
-    blob_service_client = BlobServiceClient.from_connection_string(connection_string)
-    container_client = blob_service_client.get_container_client(container_name)
-    reader_start_time = datetime.now()
-    
-    # Storing all file accesses' via container_client.list_blobs()
-    blob_list = container_client.list_blob_names()
-    
-    original_blob_list = []
-    processed_blob_list = []
-    blob_list_backup, blob_list_backup_2 = tee(blob_list)
 
-    for blob_name in blob_list_backup:
-        if blob_name.startswith('raw_jsons/'):
-            processed_blob_list.append(blob_name[10:-5])
-        else:
-            original_blob_list.append(blob_name[:-4])
-    
-    unprocess_blob_list = [blob.split('/')[1] for blob in original_blob_list if blob not in processed_blob_list and blob.startswith("pdf")]
-    # print(unprocess_blob_list, len(unprocess_blob_list))
-    
-    print(f'Container: {container_name}\t|\t Model: {extraction_model_id}')
-    print('Client connect, blob accessed')
-    index = 0
-    
-    # Proceed to go through the list of files here. Since container is a blob container, iterating variable is called blob
-    poller_list = poller_list_create(document_analysis_client, container_client, blob_list_backup_2, processed_blob_list)
-    
-    tps_limit = 8
-    tps = 0
-    print("Extracting now", end = '', flush = True)
-    for poller in poller_list:
-        # start_time = datetime.now()
-        if tps >= tps_limit:
-            time.sleep(1)
-            tps = 0
-        result = poller.result()
-        # end_time = datetime.now()
-        # seconds = (end_time - start_time).total_seconds()
-        # print(f"RS TIME: {seconds} secs.", flush=True)
-        # Defining an appropriate file_name to be produced, before running print_analyzed_contents()
-        print_analyzed_contents(result, unprocess_blob_list[index] + ".json")
-        # end_time = datetime.now()
-        # seconds = (end_time - start_time).total_seconds()
-        # print(f"JC TIME: {seconds} secs.", flush=True)
-        index += 1
-        tps += 1
-        print('.', end='', flush = True)
-    print('\n')
-    reader_end_time = datetime.now()
-    seconds = (reader_end_time - reader_start_time).total_seconds()
-    print(f"ALL files Executed in {seconds} secs.", flush=True)
- 
-if __name__ == "__main__": 
-    match mode:
-        # Check if running local file OCR or cloud (azure) file OCR
-        case "local":
-            print("local")
-            analyze_local_documents()
-        case "azure":
-            print("azure")
-            analyze_azure_documents()   
+def dns_check(hostname: str):
+    try:
+        ip = socket.gethostbyname(hostname)
+        print(f"{OK} DNS resolved {hostname} -> {ip}")
+        return True
+    except socket.gaierror as e:
+        print(f"{ERR} DNS failed for {hostname}: {e}")
+        return False
+
+
+def storage_https_reachability(sa_endpoint: str, timeout_sec: int = 8) -> bool:
+    """
+    We only check reachability. A 200/401/403 indicates the endpoint is alive.
+    No data is listed or modified.
+    """
+    url = sa_endpoint.rstrip("/") + "/"
+    try:
+        resp = requests.get(url, timeout=timeout_sec)
+        code = resp.status_code
+        if code in (200, 401, 403):
+            # Helpful header if present
+            ver = resp.headers.get("x-ms-version")
+            errcode = resp.headers.get("x-ms-error-code")
+            note = f"x-ms-version={ver}" if ver else "no x-ms-version"
+            if errcode:
+                note += f", x-ms-error-code={errcode}"
+            print(f"{OK} Storage HTTPS reachable ({code}); {note}")
+            return True
+        print(f"{ERR} Storage endpoint responded with unexpected status {code}")
+        return False
+    except (Timeout, SSLError) as e:
+        print(f"{ERR} Storage HTTPS timeout/SSL error: {e}")
+        return False
+    except RequestException as e:
+        print(f"{ERR} Storage HTTPS request error: {e}")
+        return False
+
+
+def di_check(di_endpoint: str, di_key: str) -> bool:
+    if DocumentIntelligenceClient is None or AzureKeyCredential is None:
+        print(f"{ERR} Azure SDK not installed. Install with:\n"
+              "    pip install azure-ai-documentintelligence azure-core requests\n")
+        return False
+    try:
+        client = DocumentIntelligenceClient(
+            endpoint=di_endpoint,
+            credential=AzureKeyCredential(di_key),
+        )
+        info = client.get_info()  # Non-destructive capability call
+        # `info` can be a dict-like object; pick some friendly fields if present
+        api_version = getattr(info, "api_version", None) or getattr(info, "version", None) or info.get("apiVersion", None) if isinstance(info, dict) else None
+        print(f"{OK} Document Intelligence reachable; get_info() succeeded"
+              + (f" (api_version={api_version})" if api_version else ""))
+        return True
+    except HttpResponseError as e:
+        # Authentication or endpoint issues will surface here
+        print(f"{ERR} Document Intelligence API error: {e}")
+        return False
+    except Exception as e:
+        print(f"{ERR} Document Intelligence unexpected error: {e}")
+        return False
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Check connectivity to Azure resources using connections.json.")
+    parser.add_argument("-f", "--file", default="connections.json", help="Path to connections.json (default: connections.json)")
+    args = parser.parse_args()
+
+    # Load and validate the json
+    try:
+        with open(args.file, "r", encoding="utf-8") as f:
+            cfg = json.load(f)
+    except FileNotFoundError:
+        die(f"File not found: {args.file}")
+    except json.JSONDecodeError as e:
+        die(f"Invalid JSON in {args.file}: {e}")
+
+    di_key = validate_required(cfg, "DI-Key")
+    di_endpoint = validate_url("DI_Endpoint", validate_required(cfg, "DI_Endpoint"))
+    sa_endpoint = validate_url("SA-endpoint", validate_required(cfg, "SA-endpoint"))
+
+    print("=== Validating endpoints ===")
+    di_host = urlparse(di_endpoint).hostname
+    sa_host = urlparse(sa_endpoint).hostname
+
+    di_dns_ok = dns_check(di_host) if di_host else False
+    sa_dns_ok = dns_check(sa_host) if sa_host else False
+
+    print("\n=== Checking Azure Document Intelligence ===")
+    di_ok = di_dns_ok and di_check(di_endpoint, di_key)
+
+    print("\n=== Checking Storage Account HTTPS reachability ===")
+    sa_ok = sa_dns_ok and storage_https_reachability(sa_endpoint)
+
+    print("\n=== Summary ===")
+    print(f"Document Intelligence: {'PASS' if di_ok else 'FAIL'}")
+    print(f"Storage Endpoint    : {'PASS' if sa_ok else 'FAIL'}")
+
+    # Exit codes: 0 = all good, 2 = partial, 1 = total fail
+    if di_ok and sa_ok:
+        sys.exit(0)
+    elif di_ok or sa_ok:
+        sys.exit(2)
+    else:
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()

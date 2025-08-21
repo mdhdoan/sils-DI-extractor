@@ -320,4 +320,4 @@ if __name__ == "__main__":
     check_json_syntax_local()
 
 ## Example: python .\python\di_json_checklist_syntax.py .\json\sils-ground\raw_jsons\ .\Data_Standards\Data_Standard_Quesnel_Roving.xlsx 'Data_Standard_Quesnel_Roving'
-# python3 ./python/SILS_di_json_checklist_syntax.py ./test-upload/ ./standards/Data_Standard_Quesnel_Roving.xlsx 'Data_Standard_Quesnel_Roving'
+# python3 ./python/SILS_di_json_checklist_syntax.py ./test_upload/ ./standards/Data_Standard_Quesnel_Roving.xlsx 'Data_Standard_Quesnel_Roving'
