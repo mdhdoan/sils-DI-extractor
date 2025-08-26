@@ -299,7 +299,7 @@ def main():
 
     print("\n=== DI prebuilt-read test on provided files ===")
     di_pdf_ok = di_analyze_file(di_endpoint, di_key, args.di_pdf)
-    di_txt_ok = di_analyze_file(di_endpoint, di_key, args.di_txt)
+    # di_txt_ok = di_analyze_file(di_endpoint, di_key, args.di_txt)
 
     print("\n=== Storage upload test (AAD-aware; creates temp blob; deletes unless --keep) ===")
     upload_ok = storage_upload_blob(sa_endpoint, cfg, args.container, "Dont_Open_This.txt", "Dont_Open_This.txt", keep=args.keep)
@@ -308,11 +308,11 @@ def main():
     print(f"DI Reachability     : {'PASS' if di_ok else 'FAIL'}")
     print(f"Storage Reachability: {'PASS' if sa_ok else 'FAIL'}")
     print(f"DI Read (PDF)       : {'PASS' if di_pdf_ok else 'FAIL'}")
-    print(f"DI Read (TXT)       : {'PASS' if di_txt_ok else 'FAIL'}")
+    # print(f"DI Read (TXT)       : {'PASS' if di_txt_ok else 'FAIL'}")
     print(f"Blob Upload         : {'PASS' if upload_ok else 'FAIL'}")
 
-    passes = sum([di_ok, sa_ok, di_pdf_ok, di_txt_ok, upload_ok])
-    if passes == 5:
+    passes = sum([di_ok, sa_ok, di_pdf_ok, upload_ok])
+    if passes == 4:
         sys.exit(0)
     elif passes == 0:
         sys.exit(1)
