@@ -1,0 +1,569 @@
+{
+  "Date": {
+    "content": "Sept 21/2019",
+    "confidence": 0.553,
+    "spans": [
+      {
+        "offset": 5,
+        "length": 12
+      }
+    ]
+  },
+  "Stream": {
+    "content": "Quesnel Lake-North Arm-East Shore",
+    "confidence": 0.782,
+    "spans": [
+      {
+        "offset": 25,
+        "length": 33
+      }
+    ]
+  },
+  "Survey Type: Ground": {
+    "content": ":selected:",
+    "confidence": 0.877,
+    "spans": [
+      {
+        "offset": 106,
+        "length": 10
+      }
+    ]
+  },
+  "Survey Type: Aerial": {
+    "content": ":unselected:",
+    "confidence": 0.964,
+    "spans": [
+      {
+        "offset": 124,
+        "length": 12
+      }
+    ]
+  },
+  "Survey Time: Start": {
+    "content": "1212",
+    "confidence": 0.955,
+    "spans": [
+      {
+        "offset": 361,
+        "length": 4
+      }
+    ]
+  },
+  "Survey Time: End": {
+    "content": "1232",
+    "confidence": 0.94,
+    "spans": [
+      {
+        "offset": 370,
+        "length": 4
+      }
+    ]
+  },
+  "Water Level: % Bankfill: 25-50%": {
+    "content": ":unselected:",
+    "confidence": 0.968,
+    "spans": [
+      {
+        "offset": 392,
+        "length": 12
+      }
+    ]
+  },
+  "Water Level: % Bankfill: 50-75%": {
+    "content": ":unselected:",
+    "confidence": 0.968,
+    "spans": [
+      {
+        "offset": 423,
+        "length": 12
+      }
+    ]
+  },
+  "Water Level: % Bankfill: 75-100%": {
+    "content": ":unselected:",
+    "confidence": 0.359,
+    "spans": [
+      {
+        "offset": 443,
+        "length": 12
+      }
+    ]
+  },
+  "Water Level: % Bankfill: +100%": {
+    "content": ":unselected:",
+    "confidence": 0.968,
+    "spans": [
+      {
+        "offset": 481,
+        "length": 12
+      }
+    ]
+  },
+  "Weather: Brightness: Full": {
+    "content": ":selected:",
+    "confidence": 0.973,
+    "spans": [
+      {
+        "offset": 527,
+        "length": 10
+      }
+    ]
+  },
+  "Weather: Brightness: Bright": {
+    "content": ":unselected:",
+    "confidence": 0.973,
+    "spans": [
+      {
+        "offset": 543,
+        "length": 12
+      }
+    ]
+  },
+  "Weather: Brightness: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.973,
+    "spans": [
+      {
+        "offset": 563,
+        "length": 12
+      }
+    ]
+  },
+  "Weather: Brightness: Dark": {
+    "content": ":unselected:",
+    "confidence": 0.973,
+    "spans": [
+      {
+        "offset": 583,
+        "length": 12
+      }
+    ]
+  },
+  "Weather: %Cloudy: 0%": {
+    "content": ":unselected:",
+    "confidence": 0.966,
+    "spans": [
+      {
+        "offset": 604,
+        "length": 12
+      }
+    ]
+  },
+  "Weather: %Cloudy: 25%": {
+    "content": ":selected:",
+    "confidence": 0.971,
+    "spans": [
+      {
+        "offset": 620,
+        "length": 10
+      }
+    ]
+  },
+  "Weather: %Cloudy: 50%": {
+    "content": ":unselected:",
+    "confidence": 0.969,
+    "spans": [
+      {
+        "offset": 631,
+        "length": 12
+      }
+    ]
+  },
+  "Weather: %Cloudy: 75%": {
+    "content": ":unselected:",
+    "confidence": 0.969,
+    "spans": [
+      {
+        "offset": 648,
+        "length": 12
+      }
+    ]
+  },
+  "Weather: %Cloudy: 100%": {
+    "content": ":unselected:",
+    "confidence": 0.963,
+    "spans": [
+      {
+        "offset": 661,
+        "length": 12
+      }
+    ]
+  },
+  "Precipitation: Type: Rain": {
+    "content": ":unselected:",
+    "confidence": 0.972,
+    "spans": [
+      {
+        "offset": 698,
+        "length": 12
+      }
+    ]
+  },
+  "Precipitation: Type: Snow": {
+    "content": ":unselected:",
+    "confidence": 0.972,
+    "spans": [
+      {
+        "offset": 716,
+        "length": 12
+      }
+    ]
+  },
+  "Precipitation: Type: None": {
+    "content": ":selected:",
+    "confidence": 0.974,
+    "spans": [
+      {
+        "offset": 734,
+        "length": 10
+      }
+    ]
+  },
+  "Precipitation: Intensity: Light": {
+    "content": ":unselected:",
+    "confidence": 0.968,
+    "spans": [
+      {
+        "offset": 774,
+        "length": 12
+      }
+    ]
+  },
+  "Precipitation: Intensity: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.97,
+    "spans": [
+      {
+        "offset": 787,
+        "length": 12
+      }
+    ]
+  },
+  "Precipitation: Intensity: Heavy": {
+    "content": ":unselected:",
+    "confidence": 0.966,
+    "spans": [
+      {
+        "offset": 800,
+        "length": 12
+      }
+    ]
+  },
+  "Water Conditions: Fish Visibility: Low": {
+    "content": ":unselected:",
+    "confidence": 0.971,
+    "spans": [
+      {
+        "offset": 846,
+        "length": 12
+      }
+    ]
+  },
+  "Water Conditions: Fish Visibility: Medium": {
+    "content": ":selected:",
+    "confidence": 0.971,
+    "spans": [
+      {
+        "offset": 863,
+        "length": 10
+      }
+    ]
+  },
+  "Water Conditions: Fish Visibility: High": {
+    "content": ":unselected:",
+    "confidence": 0.971,
+    "spans": [
+      {
+        "offset": 881,
+        "length": 12
+      }
+    ]
+  },
+  "Water Conditions: Water Temperature": {
+    "content": "15.5",
+    "confidence": 0.814,
+    "spans": [
+      {
+        "offset": 917,
+        "length": 4
+      }
+    ]
+  },
+  "Water Conditions: Water Clarity: 0-0.25m": {
+    "content": ":unselected:",
+    "confidence": 0.67,
+    "spans": [
+      {
+        "offset": 948,
+        "length": 12
+      }
+    ]
+  },
+  "Water Conditions: Water Clarity: 0.25-0.5m": {
+    "content": ":unselected:",
+    "confidence": 0.972,
+    "spans": [
+      {
+        "offset": 961,
+        "length": 12
+      }
+    ]
+  },
+  "Water Conditions: Water Clarity: 0.5-1.0m": {
+    "content": ":unselected:",
+    "confidence": 0.977,
+    "spans": [
+      {
+        "offset": 974,
+        "length": 12
+      }
+    ]
+  },
+  "Water Conditions: Water Clarity: 1-3m": {
+    "content": ":unselected:",
+    "confidence": 0.979,
+    "spans": [
+      {
+        "offset": 1021,
+        "length": 12
+      }
+    ]
+  },
+  "Water Conditions: Water Clarity: 3m to bottom": {
+    "content": ":selected:",
+    "confidence": 0.979,
+    "spans": [
+      {
+        "offset": 1034,
+        "length": 10
+      }
+    ]
+  },
+  "General Comments": {
+    "content": "Surface ripples made observation\ndifficult . Appeared to be only one small area\nwith fish actively spawning.",
+    "confidence": 0.528,
+    "spans": [
+      {
+        "offset": 1291,
+        "length": 108
+      }
+    ]
+  },
+  "SK_Count_data": [
+    {
+      "item": {
+        "Area": {
+          "content": "Goose",
+          "confidence": 0.916,
+          "spans": [
+            {
+              "offset": 306,
+              "length": 5
+            }
+          ]
+        },
+        "Live Count (incl. live tags)": {
+          "content": "42\n90",
+          "confidence": 0.894,
+          "spans": [
+            {
+              "offset": 318,
+              "length": 5
+            }
+          ]
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "1",
+          "confidence": 0.153,
+          "spans": [
+            {
+              "offset": 324,
+              "length": 1
+            }
+          ]
+        },
+        "% Spawning": {
+          "content": "100",
+          "confidence": 0.717,
+          "spans": [
+            {
+              "offset": 326,
+              "length": 3
+            }
+          ]
+        },
+        "% Spawned Out": {
+          "content": "2",
+          "confidence": 0.118,
+          "spans": [
+            {
+              "offset": 341,
+              "length": 1
+            }
+          ]
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.802,
+          "spans": []
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.965,
+          "spans": []
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.965,
+          "spans": []
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "Point",
+          "confidence": 0.961,
+          "spans": [
+            {
+              "offset": 312,
+              "length": 5
+            }
+          ]
+        },
+        "Live Count (incl. live tags)": {
+          "content": null,
+          "confidence": 0.469,
+          "spans": []
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": null,
+          "confidence": 0.951,
+          "spans": []
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.802,
+          "spans": []
+        },
+        "% Spawning": {
+          "content": null,
+          "confidence": 0.957,
+          "spans": []
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.966,
+          "spans": []
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.965,
+          "spans": []
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.965,
+          "spans": []
+        }
+      }
+    }
+  ],
+  "SK_Count_data_2": [
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "No",
+          "confidence": 0.99,
+          "spans": [
+            {
+              "offset": 1192,
+              "length": 2
+            }
+          ]
+        },
+        "Female % Spawn: N.R.": {
+          "content": "U",
+          "confidence": 0.065,
+          "spans": [
+            {
+              "offset": 1206,
+              "length": 1
+            }
+          ]
+        },
+        "Male": {
+          "content": null,
+          "confidence": 0.046,
+          "spans": []
+        },
+        "Female": {
+          "content": null,
+          "confidence": 0.119,
+          "spans": []
+        },
+        "Female % Spawn: 0%": {
+          "content": null,
+          "confidence": 0.919,
+          "spans": []
+        },
+        "Female % Spawn: 50%": {
+          "content": null,
+          "confidence": 0.954,
+          "spans": []
+        },
+        "Female % Spawn: 100%": {
+          "content": null,
+          "confidence": 0.13,
+          "spans": []
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.954,
+          "spans": []
+        },
+        "Unsexed": {
+          "content": null,
+          "confidence": 0.954,
+          "spans": []
+        }
+      }
+    }
+  ],
+  "SK_Count_data_3": [],
+  "Observer(s)": {
+    "content": null,
+    "confidence": 0.982,
+    "spans": []
+  },
+  "3rd Observer": {
+    "content": null,
+    "confidence": 0.966,
+    "spans": []
+  },
+  "Visual Surveys Comments": {
+    "content": null,
+    "confidence": 0.966,
+    "spans": []
+  },
+  "Water Level: % Bankfill: <25%": {
+    "content": null,
+    "confidence": 0.856,
+    "spans": []
+  },
+  "Water Level: Gauge": {
+    "content": null,
+    "confidence": 0.966,
+    "spans": []
+  },
+  "Water Level: Gauge: Area": {
+    "content": null,
+    "confidence": 0.966,
+    "spans": []
+  },
+  "Recoveries Comments": {
+    "content": null,
+    "confidence": 0.485,
+    "spans": []
+  }
+}

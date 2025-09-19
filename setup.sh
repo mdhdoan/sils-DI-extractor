@@ -1,1 +1,1 @@
-pip install -r requirements.txt
+pip install azure-ai-documentintelligence azure-identity azure-storage-blob

@@ -1,0 +1,6 @@
+local::PDF test read.pdf	1	2025-09-18T21:02:58.302851+00:00	OK
+local::2019_Sep_20_Horsefly_River_and_Sep_21_Quesnel_Lake_North_Arm_2_Redacted.pdf	2	2025-09-18T22:08:48.472671+00:00	OK
+local::2020_Sep_10_Horsefly_and_Upper_Horsefly_2_Redacted.pdf	2	2025-09-18T22:08:57.122182+00:00	OK
+local::2020_Sep_10_Horsefly_and_Upper_Horsefly_Redacted.pdf	2	2025-09-18T22:09:39.308831+00:00	OK
+local::2020_Sep_11_and_13_Horsefly_River_2_Redacted.pdf	2	2025-09-18T22:09:55.216276+00:00	OK
+local::2020_Sep_11_and_13_Horsefly_River_Redacted.pdf	2	2025-09-18T22:10:02.716207+00:00	OK
