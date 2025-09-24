@@ -1,0 +1,403 @@
+{
+  "Date": [
+    "09/10/2020",
+    {},
+    0.934
+  ],
+  "Stream": [
+    "Horsefly River/",
+    {},
+    0.663
+  ],
+  "Observer(s)": [
+    "A\nJohnston",
+    {},
+    0.579
+  ],
+  "Survey Type: Ground": [
+    ":selected:",
+    {},
+    0.957
+  ],
+  "Survey Type: Aerial": [
+    ":unselected:",
+    {},
+    0.957
+  ],
+  "Survey Time: Start": [
+    "(0820",
+    {},
+    0.617
+  ],
+  "Survey Time: End": [
+    "14:40",
+    {},
+    0.928
+  ],
+  "Water Level: % Bankfill: <25%": [
+    ":unselected:",
+    {},
+    0.971
+  ],
+  "Water Level: % Bankfill: 25-50%": [
+    ":selected:",
+    {},
+    0.972
+  ],
+  "Water Level: % Bankfill: 50-75%": [
+    ":unselected:",
+    {},
+    0.97
+  ],
+  "Water Level: % Bankfill: 75-100%": [
+    ":unselected:",
+    {},
+    0.966
+  ],
+  "Water Level: % Bankfill: +100%": [
+    ":unselected:",
+    {},
+    0.947
+  ],
+  "Weather: Brightness: Full": [
+    ":selected:",
+    {},
+    0.979
+  ],
+  "Weather: Brightness: Bright": [
+    ":unselected:",
+    {},
+    0.977
+  ],
+  "Weather: Brightness: Medium": [
+    ":unselected:",
+    {},
+    0.977
+  ],
+  "Weather: Brightness: Dark": [
+    ":unselected:",
+    {},
+    0.956
+  ],
+  "Weather: %Cloudy: 0%": [
+    ":selected:",
+    {},
+    0.98
+  ],
+  "Weather: %Cloudy: 25%": [
+    ":unselected:",
+    {},
+    0.972
+  ],
+  "Weather: %Cloudy: 50%": [
+    ":unselected:",
+    {},
+    0.975
+  ],
+  "Weather: %Cloudy: 75%": [
+    ":unselected:",
+    {},
+    0.975
+  ],
+  "Weather: %Cloudy: 100%": [
+    ":unselected:",
+    {},
+    0.975
+  ],
+  "Precipitation: Type: Rain": [
+    ":unselected:",
+    {},
+    0.98
+  ],
+  "Precipitation: Type: Snow": [
+    ":unselected:",
+    {},
+    0.975
+  ],
+  "Precipitation: Type: None": [
+    ":selected:",
+    {},
+    0.978
+  ],
+  "Precipitation: Intensity: Light": [
+    ":unselected:",
+    {},
+    0.972
+  ],
+  "Precipitation: Intensity: Medium": [
+    ":unselected:",
+    {},
+    0.975
+  ],
+  "Precipitation: Intensity: Heavy": [
+    ":unselected:",
+    {},
+    0.972
+  ],
+  "Water Conditions: Fish Visibility: Low": [
+    ":unselected:",
+    {},
+    0.97
+  ],
+  "Water Conditions: Fish Visibility: Medium": [
+    ":unselected:",
+    {},
+    0.97
+  ],
+  "Water Conditions: Fish Visibility: High": [
+    ":selected:",
+    {},
+    0.976
+  ],
+  "Water Conditions: Water Clarity: 0-0.25m": [
+    ":unselected:",
+    {},
+    0.971
+  ],
+  "Water Conditions: Water Clarity: 0.25-0.5m": [
+    ":unselected:",
+    {},
+    0.974
+  ],
+  "Water Conditions: Water Clarity: 0.5-1.0m": [
+    ":unselected:",
+    {},
+    0.974
+  ],
+  "Water Conditions: Water Clarity: 1-3m": [
+    ":unselected:",
+    {},
+    0.971
+  ],
+  "Water Conditions: Water Clarity: 3m to bottom": [
+    ":selected:",
+    {},
+    0.974
+  ],
+  "General Comments": [
+    "unsamplable due to predation\nAll fish in good condition",
+    {},
+    0.424
+  ],
+  "SK_Count_data": [
+    {
+      "item": {
+        "Area": [
+          "6",
+          {},
+          0.975
+        ],
+        "Live Count (incl. live tags)": [
+          "/\n68\n70,",
+          {},
+          0.358
+        ],
+        "% O.E. (Observer Efficiency)": [
+          "30%",
+          {},
+          0.539
+        ],
+        "% Spawning": [
+          "70%",
+          {},
+          0.502
+        ],
+        "% Spawned Out": [
+          "ø\nØ",
+          {},
+          0.005
+        ],
+        "Live Tagged": [
+          "0",
+          {},
+          0.37
+        ],
+        "Other Species": [
+          "%",
+          {},
+          0.339
+        ],
+        "% Holding / Migrating": [
+          null,
+          {},
+          0.983
+        ]
+      }
+    },
+    {
+      "item": {
+        "Area": [
+          "5 %",
+          {},
+          0.208
+        ],
+        "Live Count (incl. live tags)": [
+          "23/\n70",
+          {},
+          0.823
+        ],
+        "% O.E. (Observer Efficiency)": [
+          "20%",
+          {},
+          0.599
+        ],
+        "% Spawning": [
+          "80%",
+          {},
+          0.324
+        ],
+        "% Spawned Out": [
+          "é",
+          {},
+          0.185
+        ],
+        "Live Tagged": [
+          "₡\n0",
+          {},
+          0.002
+        ],
+        "% Holding / Migrating": [
+          null,
+          {},
+          0.983
+        ],
+        "Other Species": [
+          null,
+          {},
+          0.831
+        ]
+      }
+    }
+  ],
+  "SK_Count_data_2": [
+    {
+      "item": {
+        "Area (Untagged)": [
+          "6",
+          {},
+          0.982
+        ],
+        "Female": [
+          "2,",
+          {},
+          0.942
+        ],
+        "Female % Spawn: 0%": [
+          "3",
+          {},
+          0.325
+        ],
+        "Female % Spawn: 50%": [
+          ",",
+          {},
+          0.089
+        ],
+        "Female % Spawn: 100%": [
+          "ø\n2.",
+          {},
+          0.062
+        ],
+        "Jack": [
+          "0",
+          {},
+          0.131
+        ],
+        "Unsexed": [
+          "0",
+          {},
+          0.179
+        ],
+        "Male": [
+          null,
+          {},
+          0.032
+        ],
+        "Female % Spawn: N.R.": [
+          null,
+          {},
+          0.615
+        ]
+      }
+    },
+    {
+      "item": {
+        "Area (Untagged)": [
+          "57",
+          {},
+          0.476
+        ],
+        "Male": [
+          "1,",
+          {},
+          0.817
+        ],
+        "Female": [
+          "2/",
+          {},
+          0.628
+        ],
+        "Female % Spawn: N.R.": [
+          "1/",
+          {},
+          0.468
+        ],
+        "Female % Spawn: 0%": [
+          "0 .",
+          {},
+          0.073
+        ],
+        "Female % Spawn: 100%": [
+          "0\n1 /",
+          {},
+          0.028
+        ],
+        "Jack": [
+          "0",
+          {},
+          0.283
+        ],
+        "Unsexed": [
+          "0",
+          {},
+          0.052
+        ],
+        "Female % Spawn: 50%": [
+          null,
+          {},
+          0.677
+        ]
+      }
+    }
+  ],
+  "SK_Count_data_3": [],
+  "3rd Observer": [
+    null,
+    {},
+    0.8
+  ],
+  "Visual Surveys Comments": [
+    null,
+    {},
+    0.953
+  ],
+  "Water Level: Gauge": [
+    null,
+    {},
+    0.939
+  ],
+  "Water Level: Gauge: Area": [
+    null,
+    {},
+    0.951
+  ],
+  "Water Conditions: Water Temperature": [
+    null,
+    {},
+    0.76
+  ],
+  "Recoveries Comments": [
+    null,
+    {},
+    0.732
+  ]
+}
