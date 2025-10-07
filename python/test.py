@@ -1,254 +1,224 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import argparse, os, sys, json, time, base64, mimetypes
+"""
+Azure Document Intelligence (DI) reader with progress tracking.
+
+- Modes:
+  * local  : read PDFs from a folder (default: ./tempdata)
+  * azure  : read PDFs from a blob container via AAD (no keys/SAS)
+
+- Any DI model ID (e.g., 'prebuilt-read', 'prebuilt-document', or custom)
+
+- Progress:
+  * TSV file (default: ./progress_processed.txt)
+  * Line format: "<mode>::<id>\t<PAGES>\t<ISO8601>\tOK"
+  * '--reset' deletes progress and re-runs everything
+
+- Output:
+  * ./json/<output-container>/<basename>.json
+  * JSON contains polygons but NO spans (per request)
+
+Requires:
+  pip install azure-ai-documentintelligence azure-identity azure-storage-blob
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import os
+import time
+from dataclasses import dataclass
 from datetime import datetime, timezone
-from urllib.parse import urlparse, urljoin, quote
-import requests
-from requests.exceptions import RequestException, SSLError, Timeout
+from typing import Any, Dict, Iterable, List, Set, Tuple
 
-# AAD
-try:
-    from azure.identity import DefaultAzureCredential
-except Exception:
-    DefaultAzureCredential = None
+# Azure DI SDK (v4)
+from azure.ai.documentintelligence import DocumentIntelligenceClient
+from azure.core.credentials import AzureKeyCredential
 
-OK, ERR = "[OK]", "[ERR]"
+# Azure Storage (AAD)
+from azure.identity import DefaultAzureCredential
+from azure.storage.blob import BlobServiceClient, ContainerClient, BlobClient
 
-# =============================================================================
-# Basic utilities
-# =============================================================================
-
-def die(msg, code=1):
-    print(f"{ERR} {msg}")
-    sys.exit(code)
-
-def ensure_dir(path):
-    os.makedirs(path, exist_ok=True)
-
-def rfc1123_now():
-    return datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
-
-def validate_url(name, value):
-    try:
-        u = urlparse(value)
-    except Exception:
-        die(f"{name} is not a valid URL: {value}")
-    if u.scheme not in ("https", "http") or not u.netloc:
-        die(f"{name} must be an absolute URL (https://...), got: {value}")
-    return value.rstrip("/")
-
-def get_required(d: dict, k: str) -> str:
-    v = str(d.get(k, "")).strip()
-    if not v:
-        die(f"Missing or empty '{k}' in connections.json")
-    return v
-
-def get_required_any(d: dict, keys, label: str) -> str:
-    for k in keys:
-        v = str(d.get(k, "")).strip()
-        if v:
-            if k != label:
-                print(f"{OK} Using '{k}' for {label} (back-compat).")
-            return v
-    die(f"Missing or empty {' / '.join(keys)} in connections.json (expect '{label}')")
+import threading
+import math
+import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from azure.core.exceptions import ServiceRequestError, ServiceResponseError, HttpResponseError
 
 # =============================================================================
-# Identity: acquire token + label principal type
+# Configuration Models
 # =============================================================================
 
-def _b64url_decode(s: str) -> bytes:
-    s += "=" * (-len(s) % 4)
-    return base64.urlsafe_b64decode(s)
+@dataclass
+class ConnectionsConfig:
+    """Connection settings loaded from connections.json."""
+    di_endpoint: str
+    di_key: str
+    storage_account_url: str
 
-def _classify_identity_from_claims_and_env(claims: dict) -> str:
-    import os
-    upn   = claims.get("upn") or claims.get("preferred_username")
-    env_client_id  = os.getenv("AZURE_CLIENT_ID")
-    env_client_sec = os.getenv("AZURE_CLIENT_SECRET")
-    env_client_cert= os.getenv("AZURE_CLIENT_CERTIFICATE_PATH")
-    if upn:
-        return "User (Azure AD account)"
-    if env_client_sec or env_client_cert:
-        return "Service Principal (client credentials)"
-    if env_client_id and not (env_client_sec or env_client_cert):
-        return "Managed Identity (user-assigned)"
-    return "Managed Identity (system-assigned)"
+@dataclass
+class RunOptions:
+    """Command-line options controlling a run."""
+    mode: str                    # "local" or "azure"
+    model_id: str                # DI model ID
+    local_directory: str         # local pdf folder (mode=local)
+    container_name: str          # source container (mode=azure)
+    prefix: str                  # directory within container (mode=azure)
+    max_pdfs: int | None         # optional cap (mode=azure)
+    max_workers: int
+    download_dir: str
+    retries: int
+    upload_output: bool          # optionally upload JSON to blob
+    output_prefix: str
+    output_container: str        # target container for outputs
+    tps_limit: int               # result-collection throttle (mode=azure)
+    progress_file: str           # path to progress TSV
+    reset: bool                  # remove progress TSV before run
 
-def get_aad_token_for_storage():
-    if DefaultAzureCredential is None:
-        die("azure-identity not installed. Install with: pip install azure-identity")
-    try:
-        cred = DefaultAzureCredential()
-        token = cred.get_token("https://storage.azure.com/.default")
-        # print labeled identity
-        parts = token.token.split(".")
-        payload = json.loads(_b64url_decode(parts[1]))
-        label = _classify_identity_from_claims_and_env(payload)
-        oid   = payload.get("oid") or payload.get("sub")
-        appid = payload.get("appid")
-        upn   = payload.get("upn") or payload.get("preferred_username")
-        tid   = payload.get("tid")
-        print(f"{OK} AAD token acquired -> {label} | oid={oid} | appid={appid} | upn={upn} | tenant={tid}")
-        return token.token
-    except Exception as e:
-        die(f"Failed to acquire AAD token: {e}")
-
-# =============================================================================
-# Storage (AAD) list/download
-# =============================================================================
-
-def list_blobs_aad(sa_endpoint: str, container: str, bearer: str, prefix: str = None, timeout=15):
+class AdaptiveRateLimiter:
     """
-    Returns a list of blob names in a container.
-    Requires data-plane permissions (e.g., Storage Blob Data Reader/Contributor).
+    Token-bucket limiter with adaptive backoff on 429/503.
+    - target_tps: base tokens per second
+    - backoff: decreases effective_tps on throttle, gradually recovers
     """
-    base = f"{sa_endpoint}/{container}"
-    params = {"restype": "container", "comp": "list", "maxresults": "5000"}
-    if prefix:
-        params["prefix"] = prefix
-    marker = None
-    names = []
-    while True:
-        q = "&".join([f"{k}={quote(v)}" for k, v in params.items() if v])
-        if marker:
-            q += f"&marker={quote(marker)}"
-        url = f"{base}?{q}"
-        headers = {"Authorization": f"Bearer {bearer}", "x-ms-version": "2021-10-04", "x-ms-date": rfc1123_now()}
-        r = requests.get(url, headers=headers, timeout=timeout)
-        if r.status_code != 200:
-            raise RuntimeError(f"List blobs failed {r.status_code}: {r.text[:200]}")
-        # Quick XML parsing to collect names
-        txt = r.text
-        names += [seg.split("</Name>")[0] for seg in txt.split("<Name>")[1:]]
-        # NextMarker
-        marker = ""
-        if "<NextMarker>" in txt:
-            marker = txt.split("<NextMarker>")[1].split("</NextMarker>")[0]
-        if not marker:
-            break
-    return names
+    def __init__(self, target_tps: int, window: float = 1.0,
+                 min_tps: int = 1, recovery_half_life_s: float = 15.0):
+        self.target_tps = max(1, target_tps)
+        self.window = window
+        self.min_tps = max(1, min_tps)
+        self.bucket = []
+        self.lock = threading.Lock()
+        self.effective_tps = float(self.target_tps)
+        self.recovery_half_life_s = recovery_half_life_s
+        self.last_penalty = 0.0
+        self.last_update = time.time()
 
-def download_blob_aad(sa_endpoint: str, container: str, blob_name: str, bearer: str, timeout=60) -> bytes:
-    url = f"{sa_endpoint}/{container}/{quote(blob_name)}"
-    headers = {"Authorization": f"Bearer {bearer}", "x-ms-version": "2021-10-04", "x-ms-date": rfc1123_now()}
-    r = requests.get(url, headers=headers, timeout=timeout, stream=True)
-    if r.status_code == 200:
-        return r.content
-    elif r.status_code == 404:
-        raise FileNotFoundError(f"Blob not found: {container}/{blob_name}")
-    elif r.status_code == 403:
-        raise PermissionError(f"Forbidden downloading {container}/{blob_name} (check RBAC).")
-    else:
-        raise RuntimeError(f"Download failed {r.status_code}: {r.text[:200]}")
+    def _prune(self, now):
+        # remove tokens older than window
+        cutoff = now - self.window
+        while self.bucket and self.bucket[0] < cutoff:
+            self.bucket.pop(0)
+
+    def _recover(self, now):
+        # exponential recovery toward target_tps
+        dt = max(0.0, now - self.last_update)
+        if dt > 0:
+            k = math.log(2) / self.recovery_half_life_s
+            self.effective_tps = min(
+                self.target_tps,
+                self.min_tps + (self.effective_tps - self.min_tps) * math.exp(-k * dt)
+            )
+            self.last_update = now
+
+    def acquire(self):
+        """
+        Blocks until a token is available at current effective_tps.
+        """
+        while True:
+            with self.lock:
+                now = time.time()
+                self._recover(now)
+                self._prune(now)
+                capacity = max(self.min_tps, int(self.effective_tps))
+                if len(self.bucket) < capacity:
+                    self.bucket.append(now)
+                    return
+                # time until oldest token ages out
+                sleep_for = (self.bucket[0] + self.window) - now
+            if sleep_for > 0:
+                time.sleep(sleep_for)
+
+    def penalize(self):
+        """
+        Call on 429/503 to reduce effective TPS (floor at min_tps).
+        """
+        with self.lock:
+            self.effective_tps = max(self.min_tps, self.effective_tps * 0.6)  # 40% cut
+            self.last_update = time.time()
 
 # =============================================================================
-# Document Intelligence (prebuilt-read via REST)
+# JSON Serialization
 # =============================================================================
 
-def di_list_models(di_endpoint, di_key, timeout_sec=10):
-    url = urljoin(di_endpoint + "/", "documentintelligence/documentModels")
-    params = {"api-version": "2024-11-30"}
-    headers = {"Ocp-Apim-Subscription-Key": di_key, "Accept": "application/json"}
-    try:
-        resp = requests.get(url, headers=headers, params=params, timeout=timeout_sec)
-        if resp.status_code == 200:
-            print(f"{OK} DI reachable; List Models = 200")
-            return True
-        print(f"{ERR} DI List Models unexpected {resp.status_code}: {resp.text[:200]}")
-        return False
-    except Exception as e:
-        print(f"{ERR} DI List Models error: {e}")
-        return False
+def serialize(obj: Any) -> Any:
+    """
+    Fallback JSON serializer.
+    Supports polygon point-objects (having .x/.y) by converting to [x, y] pairs.
+    """
+    if isinstance(obj, list) and obj and hasattr(obj[0], "x") and hasattr(obj[0], "y"):
+        return [[pt.x, pt.y] for pt in obj]
+    if isinstance(obj, (dict, list, str, int, float, bool, type(None))):
+        return obj
+    raise TypeError(f"Object of type '{type(obj).__name__}' is not JSON serializable")
 
-def di_analyze_bytes(di_endpoint, di_key, data: bytes, filename: str):
-    mime, _ = mimetypes.guess_type(filename)
-    if not mime:
-        mime = "application/pdf" if filename.lower().endswith(".pdf") else "application/octet-stream"
-    url = urljoin(di_endpoint + "/", "documentintelligence/documentModels/prebuilt-read:analyze")
-    params = {"api-version": "2024-11-30"}
-    headers = {"Ocp-Apim-Subscription-Key": di_key, "Content-Type": mime, "Accept": "application/json"}
+# =============================================================================
+# Extractor (flat schema: content, confidence, polygon — no spans)
+# =============================================================================
 
-    try:
-        resp = requests.post(url, headers=headers, params=params, data=data, timeout=120)
-        if resp.status_code == 200:
-            j = resp.json()
-            return _pack_di_results(j, filename)
-        elif resp.status_code == 202:
-            op_loc = resp.headers.get("operation-location") or resp.headers.get("Operation-Location")
-            if not op_loc:
-                raise RuntimeError("202 without operation-location")
-            j = _poll_di(op_loc, di_key)
-            return _pack_di_results(j, filename)
+def content_field(node: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Reduce a typed scalar/object field to a small payload.
+    Keeps: content, confidence, polygon. Drops: spans.
+    """
+    out: Dict[str, Any] = {
+        "content": node.get("content", ""),
+        "confidence": node.get("confidence", None),
+    }
+    if "polygon" in node:
+        out["polygon"] = node["polygon"]
+    return out
+
+def extract_object_array(field_name: str, array_nodes: List[Dict[str, Any]]) -> List[Any]:
+    """
+    Flatten a typed array by reusing extract_object on each element.
+    Example typed shape:
+      [{"type":"object","valueObject":{...}}, ...]
+    """
+    out: List[Any] = []
+    for element in array_nodes:
+        holder = {field_name: element}
+        extracted = extract_object(holder)
+        # each holder has a single key
+        for _, v in extracted.items():
+            out.append(v)
+    return out
+
+def extract_object(typed_dict: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Walk a typed tree:
+      { field: { type: "...", content?, valueObject?, valueArray? }, ... }
+    Build a simplified dict of the same structure with content/confidence/polygon only.
+    """
+    simplified: Dict[str, Any] = {}
+    for field, attrs in typed_dict.items():
+        node_type = attrs["type"]
+        if node_type == "object":
+            inner = attrs.get("valueObject")
+            if isinstance(inner, dict):
+                simplified[field] = extract_object(inner)
+        elif node_type == "array":
+            inner = attrs.get("valueArray")
+            if isinstance(inner, list):
+                simplified[field] = extract_object_array(field, inner)
         else:
-            raise RuntimeError(f"Analyze unexpected {resp.status_code}: {resp.text[:200]}")
-    except Exception as e:
-        raise RuntimeError(f"DI analyze error on {filename}: {e}")
-
-def _poll_di(operation_url, di_key, timeout_sec=180, interval=2):
-    headers = {"Ocp-Apim-Subscription-Key": di_key, "Accept": "application/json"}
-    end = time.time() + timeout_sec
-    while time.time() < end:
-        r = requests.get(operation_url, headers=headers, timeout=20)
-        if r.status_code in (200, 201):
-            j = r.json()
-            status = (j.get("status") or j.get("statusCode") or "").lower()
-            if status.startswith("succeed") or status in ("succeeded", "completed"):
-                return j
-            if status.startswith("fail"):
-                raise RuntimeError(f"DI analyze failed: {str(j)[:400]}")
-        time.sleep(interval)
-    raise TimeoutError("Timed out waiting for DI analyze result")
+            if "content" in attrs:
+                simplified[field] = content_field(attrs)
+    return simplified
 
 # =============================================================================
-# Your extractor + adapter (now with confidence & coordinates)
+# DI Result → Typed Tree Adapter (prebuilt & custom)
 # =============================================================================
 
-def content_field(attributes):
-    # returns the content string value
-    return attributes.get("content", "")
-
-def extract_object_array(field, dict_data):
-    result_list = []
-    for data in dict_data:
-        holder = {field: data}
-        holder_dict = extract_object(holder)
-        for holder_field, holder_value in holder_dict.items():
-            result_list.append(holder_value)
-    return result_list
-
-def extract_object(dict_data):
-    result_dict_data = {}
-    for field, attributes in dict_data.items():
-        dict_data_type = attributes['type']
-        attribute_check_list = attributes.keys()
-
-        if dict_data_type == 'object':
-            if 'content' in attribute_check_list or 'valueObject' in attribute_check_list:
-                inner_object = attributes['valueObject']
-                result_dict_data[field] = extract_object(inner_object)
-
-        elif dict_data_type == 'array':
-            if 'content' in attribute_check_list or 'valueArray' in attribute_check_list:
-                inner_object = attributes['valueArray']
-                result_dict_data[field] = extract_object_array(field, inner_object)
-
-        else:
-            if 'content' in attribute_check_list:
-                result_dict_data[field] = content_field(attributes)
-    return result_dict_data
-
-def _polygon_to_pairs(poly):
-    """
-    DI polygons are usually flat lists: [x1,y1,x2,y2,...].
-    Convert to list of [x,y] pairs. If already pairs, return as-is.
-    """
+def _polygon_to_pairs(poly: Any) -> List[List[float]]:
+    """Normalize DI polygon: [x1,y1,x2,y2,...] → [[x,y], ...]."""
     if not poly:
         return []
     if isinstance(poly, list) and poly and isinstance(poly[0], list):
         return poly
-    if isinstance(poly, list) and all(isinstance(n, (int, float)) for n in poly):
-        pairs = []
+    if isinstance(poly, list):
+        pairs: List[List[float]] = []
         it = iter(poly)
         for x in it:
             y = next(it, None)
@@ -258,285 +228,603 @@ def _polygon_to_pairs(poly):
         return pairs
     return []
 
-def di_to_typed_tree_with_details(di_json: dict) -> dict:
+def _typed_scalar(content: Any = None,
+                  confidence: float | None = None,
+                  polygon: List[List[float]] | None = None) -> Dict[str, Any]:
+    """Build a typed scalar node with optional confidence and polygon (no spans)."""
+    node: Dict[str, Any] = {"type": "string", "content": content}
+    if confidence is not None:
+        node["confidence"] = confidence
+    if polygon is not None:
+        node["polygon"] = polygon
+    return node
+
+def _typed_number(value: Any,
+                  confidence: float | None = None,
+                  polygon: List[List[float]] | None = None) -> Dict[str, Any]:
+    """Build a typed numeric node with optional confidence and polygon (no spans)."""
+    node: Dict[str, Any] = {"type": "number", "content": value}
+    if confidence is not None:
+        node["confidence"] = confidence
+    if polygon is not None:
+        node["polygon"] = polygon
+    return node
+
+def _typed_array(items: List[Dict[str, Any]]) -> Dict[str, Any]:
+    """Build a typed array wrapper."""
+    return {"type": "array", "valueArray": items}
+
+def _typed_object(obj: Dict[str, Any]) -> Dict[str, Any]:
+    """Build a typed object wrapper."""
+    return {"type": "object", "valueObject": obj}
+
+def _first_region_polygon(source) -> List[List[float]] | None:
     """
-    Build a typed tree that preserves:
-      - content (string)
-      - confidence (number) where available
-      - coordinates (polygon as list of [x,y] pairs) where available
-      - spans (offsets) where available
-      - pages -> lines -> words
+    Return the first polygon from source.bounding_regions / boundingRegions, normalized
+    to [[x,y], ...]. Handles SDK objects (list[Point]) and REST dicts.
     """
-    # Consolidated document content
-    doc_content = ""
-    if isinstance(di_json, dict) and isinstance(di_json.get("content"), str):
-        doc_content = di_json["content"]
+    brs = getattr(source, "bounding_regions", None) or getattr(source, "boundingRegions", None) or []
+    if not brs:
+        return None
 
-    # Pages list (handles both top-level 'pages' and 'analyzeResult.pages')
-    pages = []
-    if isinstance(di_json.get("pages"), list):
-        pages = di_json["pages"]
-    elif isinstance(di_json.get("analyzeResult", {}).get("pages"), list):
-        pages = di_json["analyzeResult"]["pages"]
+    r0 = brs[0]
+    # SDK object
+    page = getattr(r0, "page_number", None) or getattr(r0, "pageNumber", None)
+    poly = getattr(r0, "polygon", None)
 
-    pages_typed = []
-    for p in pages:
-        page_num = p.get("pageNumber") or p.get("page")
-        page_conf = p.get("confidence", None)  # not always present
-        page_poly = _polygon_to_pairs(p.get("polygon"))
-        page_content = p.get("content", "")
+    # REST dict shape fallback
+    if poly is None and isinstance(r0, dict):
+        page = r0.get("pageNumber", r0.get("page_number"))
+        poly = r0.get("polygon")
 
-        # Lines
-        lines_typed = []
-        if isinstance(p.get("lines"), list):
-            for ln in p["lines"]:
-                if not isinstance(ln, dict):
-                    continue
-                ln_content = ln.get("content", "")
-                ln_conf    = ln.get("confidence", None)
-                # Prefer line polygon; else try first boundingRegion.polygon
-                ln_poly    = _polygon_to_pairs(ln.get("polygon"))
-                if not ln_poly:
-                    brs = ln.get("boundingRegions") or []
-                    if brs and isinstance(brs, list) and isinstance(brs[0], dict):
-                        ln_poly = _polygon_to_pairs(brs[0].get("polygon"))
+    # Normalize
+    if poly and isinstance(poly, list):
+        if poly and hasattr(poly[0], "x"):  # list[Point]
+            return [[pt.x, pt.y] for pt in poly]
+        # list of floats → pairs
+        return _polygon_to_pairs(poly)
 
-                # Words inside the line (optional)
-                words_typed = []
-                if isinstance(ln.get("words"), list):
-                    for w in ln["words"]:
-                        if not isinstance(w, dict):
-                            continue
-                        w_content = w.get("content", "")
-                        w_conf    = w.get("confidence", None)
-                        w_poly    = _polygon_to_pairs(w.get("polygon"))
-                        if not w_poly:
-                            brs = w.get("boundingRegions") or []
-                            if brs and isinstance(brs, list) and isinstance(brs[0], dict):
-                                w_poly = _polygon_to_pairs(brs[0].get("polygon"))
-                        w_span = w.get("span") or w.get("spans")  # spans may be list or single
-                        if isinstance(w_span, dict):
-                            w_span = [w_span]
-                        words_typed.append({
-                            "type": "object",
-                            "valueObject": {
-                                "content":   {"type": "string", "content": w_content},
-                                "confidence":{"type": "number", "content": w_conf if w_conf is not None else ""},
-                                "polygon":   {"type": "array",  "valueArray": [{"type":"array","valueArray":[{"type":"number","content":xy} for xy in pt]} for pt in w_poly]},
-                                "spans":     {"type": "array",  "valueArray": [{"type":"object","valueObject":{
-                                    "offset": {"type":"number","content": s.get("offset","")},
-                                    "length": {"type":"number","content": s.get("length","")}
-                                }} for s in (w_span or [])]}
-                            }
-                        })
+    return None
 
-                ln_span = ln.get("span") or ln.get("spans")
-                if isinstance(ln_span, dict):
-                    ln_span = [ln_span]
 
-                lines_typed.append({
-                    "type": "object",
-                    "valueObject": {
-                        "content":   {"type": "string", "content": ln_content},
-                        "confidence":{"type": "number", "content": ln_conf if ln_conf is not None else ""},
-                        "polygon":   {"type": "array",  "valueArray": [{"type":"array","valueArray":[{"type":"number","content":xy} for xy in pt]} for pt in ln_poly]},
-                        "spans":     {"type": "array",  "valueArray": [{"type":"object","valueObject":{
-                            "offset": {"type":"number","content": s.get("offset","")},
-                            "length": {"type":"number","content": s.get("length","")}
-                        }} for s in (ln_span or [])]},
-                        "words":     {"type": "array",  "valueArray": words_typed}
-                    }
-                })
+def _map_document_field(field_obj: Any) -> Dict[str, Any]:
+    """
+    Map a DI DocumentField (custom model) into the typed schema.
+    Adds polygon from boundingRegions; drops spans.
+    """
+    try:
+        field_type = getattr(field_obj, "type", None) or getattr(field_obj, "value_type", None) or "string"
+        content = getattr(field_obj, "content", None)
+        confidence = getattr(field_obj, "confidence", None)
+        poly = _first_region_polygon(field_obj)  # ⟵ NEW
 
-        # words directly on page (fallback for older shapes)
-        elif isinstance(p.get("words"), list):
-            # synthesize a single line from words
-            words = []
-            for w in p["words"]:
-                if not isinstance(w, dict): 
-                    continue
-                w_content = w.get("content","")
-                w_conf    = w.get("confidence", None)
-                w_poly    = _polygon_to_pairs(w.get("polygon"))
+        if field_type in (
+            "string", "date", "time", "phoneNumber", "countryRegion", "currency",
+            "integer", "number", "selectionMark", "address"
+        ):
+            typed_val = None
+            for attr in (
+                "value_string", "value_date", "value_time", "value_phone_number",
+                "value_country_region", "value_currency", "value_integer", "value_number",
+                "value_selection_mark", "value_address"
+            ):
+                if hasattr(field_obj, attr) and getattr(field_obj, attr) is not None:
+                    typed_val = getattr(field_obj, attr)
+                    break
+            if isinstance(typed_val, (int, float)):
+                return _typed_number(typed_val, confidence=confidence, polygon=poly)
+            return _typed_scalar(content if content is not None else typed_val,
+                                 confidence=confidence, polygon=poly)
+
+        if field_type == "array":
+            items: List[Dict[str, Any]] = []
+            arr = getattr(field_obj, "value_array", None)
+            if arr:
+                for element in arr:
+                    items.append(_typed_object({"item": _map_document_field(element)}))
+            return _typed_array(items)
+
+        if field_type == "object":
+            obj_map: Dict[str, Any] = {}
+            value_obj = getattr(field_obj, "value_object", None) or {}
+            for key, val in value_obj.items():
+                obj_map[key] = _map_document_field(val)
+            return _typed_object(obj_map)
+
+        # Fallback scalar (still attach polygon if present)
+        return _typed_scalar(content, confidence=confidence, polygon=poly)
+
+    except Exception:
+        return _typed_scalar(getattr(field_obj, "content", None),
+                             confidence=getattr(field_obj, "confidence", None),
+                             polygon=_first_region_polygon(field_obj))
+
+
+def analyze_result_to_typed_tree(result: Any) -> Tuple[Dict[str, Any], int]:
+    """
+    Convert a DI AnalyzeResult to the typed schema with polygons but no spans.
+    Returns: (typed_root, page_count)
+    """
+    # Try custom model first
+    try:
+        documents = getattr(result, "documents", None)
+        if documents and len(documents) > 0 and getattr(documents[0], "fields", None):
+            doc0 = documents[0]
+            root_fields: Dict[str, Any] = {}
+
+            # Map all fields (each field now carries its own polygon)
+            for key, field_obj in doc0.fields.items():
+                root_fields[key] = _map_document_field(field_obj)
+
+            # OPTIONAL: carry doc-level info as siblings (minimal schema change)
+            doc_type = getattr(doc0, "doc_type", None) or getattr(doc0, "docType", None)
+            if doc_type is not None:
+                root_fields["_docType"] = _typed_scalar(str(doc_type))
+
+            doc_poly = _first_region_polygon(doc0)  # ⟵ document.boundingRegions[0].polygon
+            if doc_poly:
+                # Store as a scalar carrying just the polygon (empty content)
+                root_fields["_documentPolygon"] = _typed_scalar("", polygon=doc_poly)
+
+            page_count = len(getattr(result, "pages", []) or [])
+            return _typed_object(root_fields), page_count
+
+    except Exception:
+        pass
+
+    # prebuilt-read shape
+    doc_content = getattr(result, "content", "") or ""
+    typed_pages: List[Dict[str, Any]] = []
+
+    pages = getattr(result, "pages", []) or []
+    for page in pages:
+        page_number = getattr(page, "page_number", None) or getattr(page, "page", None)
+        page_conf = getattr(page, "confidence", None)
+        page_poly = _polygon_to_pairs(getattr(page, "polygon", None))
+        page_content = getattr(page, "content", "") or ""
+
+        typed_lines: List[Dict[str, Any]] = []
+        for line in getattr(page, "lines", []) or []:
+            ln_content = getattr(line, "content", "") or ""
+            ln_conf = getattr(line, "confidence", None)
+            ln_poly = _polygon_to_pairs(getattr(line, "polygon", None))
+            if not ln_poly:
+                brs = getattr(line, "bounding_regions", None) or getattr(line, "boundingRegions", None) or []
+                if brs and isinstance(brs, list) and isinstance(brs[0], dict):
+                    ln_poly = _polygon_to_pairs(brs[0].get("polygon"))
+
+            typed_words: List[Dict[str, Any]] = []
+            for word in getattr(line, "words", []) or []:
+                w_content = getattr(word, "content", "") or ""
+                w_conf = getattr(word, "confidence", None)
+                w_poly = _polygon_to_pairs(getattr(word, "polygon", None))
                 if not w_poly:
-                    brs = w.get("boundingRegions") or []
+                    brs = getattr(word, "bounding_regions", None) or getattr(word, "boundingRegions", None) or []
                     if brs and isinstance(brs, list) and isinstance(brs[0], dict):
                         w_poly = _polygon_to_pairs(brs[0].get("polygon"))
-                words.append({
-                    "type":"object",
-                    "valueObject":{
-                        "content":   {"type":"string","content":w_content},
-                        "confidence":{"type":"number","content": w_conf if w_conf is not None else ""},
-                        "polygon":   {"type":"array","valueArray":[{"type":"array","valueArray":[{"type":"number","content":xy} for xy in pt]} for pt in w_poly]},
-                        "spans":     {"type":"array","valueArray":[]}
-                    }
-                })
-            lines_typed.append({
-                "type":"object",
-                "valueObject":{
-                    "content":{"type":"string","content":" ".join([w['valueObject']['content']['content'] for w in words])},
-                    "confidence":{"type":"number","content":""},
-                    "polygon":{"type":"array","valueArray":[]},
-                    "spans":{"type":"array","valueArray":[]},
-                    "words":{"type":"array","valueArray":words}
-                }
-            })
+                typed_words.append(_typed_object({
+                    "content": _typed_scalar(w_content, confidence=w_conf, polygon=w_poly)
+                }))
 
-        page_span = p.get("span") or p.get("spans")
-        if isinstance(page_span, dict):
-            page_span = [page_span]
+            typed_lines.append(_typed_object({
+                "content": _typed_scalar(ln_content, confidence=ln_conf, polygon=ln_poly),
+                "words": _typed_array(typed_words)
+            }))
 
-        pages_typed.append({
-            "type": "object",
-            "valueObject": {
-                "pageNumber": {"type": "number", "content": str(page_num or "")},
-                "confidence": {"type": "number", "content": page_conf if page_conf is not None else ""},
-                "content":    {"type": "string", "content": page_content},
-                "polygon":    {"type": "array",  "valueArray": [{"type":"array","valueArray":[{"type":"number","content":xy} for xy in pt]} for pt in _polygon_to_pairs(page_poly)]},
-                "spans":      {"type": "array",  "valueArray": [{"type":"object","valueObject":{
-                    "offset": {"type":"number","content": s.get("offset","")},
-                    "length": {"type":"number","content": s.get("length","")}
-                }} for s in (page_span or [])]},
-                "lines":      {"type": "array",  "valueArray": lines_typed},
-            },
-        })
+        typed_pages.append(_typed_object({
+            "pageNumber": _typed_number(page_number if page_number is not None else ""),
+            "content": _typed_scalar(page_content, confidence=page_conf, polygon=page_poly),
+            "lines": _typed_array(typed_lines)
+        }))
 
-    typed = {
-        "document": {
-            "type": "object",
-            "valueObject": {
-                "content": {"type": "string", "content": doc_content},
-                "pages":   {"type": "array",  "valueArray": pages_typed},
-            },
-        }
-    }
-    return typed
-
-def _extract_text_snippet(j: dict) -> str:
-    # Prefer consolidated "content"
-    if isinstance(j, dict):
-        if isinstance(j.get("content"), str) and j["content"].strip():
-            return j["content"]
-        if isinstance(j.get("value"), list):
-            chunks = [v.get("content","") for v in j["value"] if isinstance(v, dict)]
-            return "\n".join([c for c in chunks if c])
-        ar = j.get("analyzeResult", {})
-        pages = ar.get("pages", [])
-        if isinstance(pages, list):
-            return "\n".join([p.get("content","") for p in pages if isinstance(p, dict)])
-    return ""
-
-def _pack_di_results(j: dict, filename: str):
-    # 1) plain text
-    text = _extract_text_snippet(j)
-    # 2) run user's extractor over a typed tree WITH details
-    typed = di_to_typed_tree_with_details(j)
-    extracted = extract_object(typed)
-    return {"text": text, "extracted": extracted}
+    typed_root = _typed_object({
+        "content": _typed_scalar(doc_content),
+        "pages": _typed_array(typed_pages)
+    })
+    return typed_root, len(pages)
 
 # =============================================================================
-# Pipelines: local and online
+# Output + Progress
 # =============================================================================
 
-def process_local(di_endpoint, di_key, out_dir):
-    src_dir = os.path.join("pdf", "test")
-    if not os.path.isdir(src_dir):
-        die(f"Local source folder not found: {src_dir}")
-    ensure_dir(out_dir)
-    files = [f for f in sorted(os.listdir(src_dir)) if f.lower().endswith(".pdf")]
-    if not files:
-        print(f"{ERR} No PDFs in {src_dir}")
-        return
-    total, ok = 0, 0
-    for name in files:
-        total += 1
-        path = os.path.join(src_dir, name)
-        try:
-            with open(path, "rb") as f:
-                result = di_analyze_bytes(di_endpoint, di_key, f.read(), name)
-            base = os.path.splitext(name)[0]
-            out_txt  = os.path.join(out_dir, f"{base}.txt")
-            out_json = os.path.join(out_dir, f"{base}.json")
-            with open(out_txt, "w", encoding="utf-8") as w:
-                w.write(result["text"])
-            with open(out_json, "w", encoding="utf-8") as wj:
-                json.dump(result["extracted"], wj, ensure_ascii=False, indent=2)
-            print(f"{OK} Wrote {out_txt} and {out_json}")
-            ok += 1
-        except Exception as e:
-            print(f"{ERR} {name}: {e}")
-    print(f"{OK} Local done: {ok}/{total} succeeded")
+def write_json_locally(payload: Dict[str, Any], output_dir: str, filename: str) -> str:
+    """Write JSON payload to disk; returns the full path."""
+    os.makedirs(output_dir, exist_ok=True)
+    path = os.path.join(output_dir, filename)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2, default=serialize)
+    print(f"[OK] Wrote: {path}")
+    return path
 
-def process_online(di_endpoint, di_key, sa_endpoint, container, bearer, out_dir, prefix=None, max_files=None):
-    ensure_dir(out_dir)
+def upload_file_to_blob_via_aad(storage_account_url: str,
+                                container_name: str,
+                                local_path: str,
+                                blob_prefix: str = "") -> None:
+    """Upload a local file to an Azure Blob container using AAD (with optional virtual-folder prefix)."""
+    credential = DefaultAzureCredential()
+    blob_service = BlobServiceClient(account_url=storage_account_url, credential=credential)
+    container_client: ContainerClient = blob_service.get_container_client(container_name)
     try:
-        names = list_blobs_aad(sa_endpoint, container, bearer, prefix=prefix)
-    except Exception as e:
-        die(f"List blobs error: {e}")
+        container_client.create_container()
+    except Exception:
+        pass
 
-    pdfs = [n for n in names if n.lower().endswith(".pdf")]
-    if max_files:
-        pdfs = pdfs[:max_files]
-    if not pdfs:
-        print(f"{ERR} No PDFs found in container '{container}' with prefix '{prefix or ''}'")
+    base = os.path.basename(local_path)
+    prefix = (blob_prefix or "").strip("/")
+    blob_name = f"{prefix}/{base}" if prefix else base
+
+    with open(local_path, "rb") as data:
+        container_client.upload_blob(name=blob_name, data=data, overwrite=True)
+    print(f"[OK] Uploaded to blob: {container_name}/{blob_name}")
+
+
+def load_progress(progress_path: str) -> Set[str]:
+    """
+    Load existing progress TSV and return set of keys that completed successfully.
+    Each line: "<mode>::<id>\t<PAGES>\t<ISO8601>\tOK"
+    """
+    done: Set[str] = set()
+    if not os.path.exists(progress_path):
+        return done
+    with open(progress_path, "r", encoding="utf-8") as f:
+        for line in f:
+            parts = line.strip().split("\t")
+            if len(parts) >= 4 and parts[3].upper() == "OK":
+                done.add(parts[0])
+    return done
+
+def append_progress(progress_path: str, key_token: str, pages: int) -> None:
+    """Append a success line to the progress TSV."""
+    ts = datetime.now(timezone.utc).isoformat()
+    with open(progress_path, "a", encoding="utf-8") as f:
+        f.write(f"{key_token}\t{pages}\t{ts}\tOK\n")
+
+# =============================================================================
+# Pipelines
+# =============================================================================
+
+def save_analyzed_result(result: Any,
+                         output_basename: str,
+                         output_root: str,
+                         upload_output: bool,
+                         storage_account_url: str,
+                         output_container: str) -> Tuple[str, int]:
+    """
+    Convert DI result → typed → simplified JSON, write to disk, optionally upload.
+    Returns: (local_json_path, page_count)
+    """
+    typed_root, page_count = analyze_result_to_typed_tree(result)
+    if page_count <= 0:
+        raise ValueError("AnalyzeResult reports zero pages.")
+
+    extracted = extract_object(typed_root["valueObject"])
+    out_dir = os.path.join(os.getcwd(), "json", output_container)
+    local_path = write_json_locally(extracted, out_dir, f"{output_basename}.json")
+
+    if upload_output:
+        upload_file_to_blob_via_aad(storage_account_url, output_container, local_path)
+
+    return local_path, page_count
+
+def analyze_local_pdfs(di_client: DocumentIntelligenceClient,
+                       model_id: str,
+                       local_directory: str,
+                       output_container: str,
+                       upload_output: bool,
+                       storage_account_url: str,
+                       progress_path: str,
+                       processed_keys: Set[str]) -> None:
+    """
+    Run DI on local PDFs (skips non-PDFs), resuming from progress.
+    """
+    start = datetime.now()
+    print(f"[INFO] Local dir: {local_directory} | Model: {model_id}")
+
+    if not os.path.isdir(local_directory):
+        raise FileNotFoundError(f"Local directory not found: {local_directory}")
+
+    processed = skipped = errors = 0
+    for filename in sorted(os.listdir(local_directory)):
+        if not filename.lower().endswith(".pdf"):
+            continue
+
+        key_token = f"local::{filename}"
+        if key_token in processed_keys:
+            skipped += 1
+            continue
+
+        path = os.path.join(local_directory, filename)
+        try:
+            with open(path, "rb") as fh:
+                poller = di_client.begin_analyze_document(model_id, fh)
+                result = poller.result()
+
+            base = os.path.splitext(filename.replace(" ", ""))[0]
+            _, pages = save_analyzed_result(
+                result=result,
+                output_basename=f"local_{base}",
+                output_root=os.path.join("json", output_container),
+                upload_output=upload_output,
+                storage_account_url=storage_account_url,
+                output_container=output_container,
+            )
+            append_progress(progress_path, key_token, pages)
+            processed += 1
+            print(f"[OK] {filename} (pages={pages})")
+        except Exception as e:
+            errors += 1
+            print(f"[ERR] {filename}: {e}")
+
+    elapsed = (datetime.now() - start).total_seconds()
+    print(f"[OK] Local: processed={processed}, skipped={skipped}, errors={errors} in {elapsed:.2f}s")
+
+def analyze_azure_pdfs(di_client: DocumentIntelligenceClient,
+                       storage_account_url: str,
+                       container_name: str,
+                       model_id: str,
+                       prefix: str,
+                       max_pdfs: int | None,
+                       upload_output: bool,
+                       output_container: str,
+                       output_prefix: str,
+                       tps_limit: int,
+                       progress_path: str,
+                       processed_keys: Set[str],
+                       max_workers: int = 12,
+                       retries: int = 2,
+                       download_dir: str = "./tmp_azure_pdfs") -> None:
+    """
+    Concurrent Azure pipeline with adaptive rate limiting and parallel uploads.
+    """
+    os.makedirs(download_dir, exist_ok=True)
+    print(f"[INFO] Container={container_name}, Prefix='{prefix}', Model={model_id}, Workers={max_workers}, TPS={tps_limit}")
+
+    cred = DefaultAzureCredential()
+    blob_service = BlobServiceClient(account_url=storage_account_url, credential=cred)
+    container_client: ContainerClient = blob_service.get_container_client(container_name)
+
+    # Enumerate candidate blobs
+    candidates = []
+    for blob in container_client.list_blobs(name_starts_with=prefix or None):
+        if not blob.name.lower().endswith(".pdf"):
+            continue
+        key_token = f"azure::{container_name}/{blob.name}"
+        if key_token in processed_keys:
+            continue
+        candidates.append(blob.name)
+        if max_pdfs is not None and len(candidates) >= max_pdfs:
+            break
+
+    if not candidates:
+        print("[INFO] Nothing to process.")
         return
 
-    total, ok = 0, 0
-    for blob in pdfs:
-        total += 1
-        try:
-            data = download_blob_aad(sa_endpoint, container, blob, bearer)
-            result = di_analyze_bytes(di_endpoint, di_key, data, os.path.basename(blob))
-            base = os.path.splitext(os.path.basename(blob))[0]
-            out_txt  = os.path.join(out_dir, f"{base}.txt")
-            out_json = os.path.join(out_dir, f"{base}.json")
-            with open(out_txt, "w", encoding="utf-8") as w:
-                w.write(result["text"])
-            with open(out_json, "w", encoding="utf-8") as wj:
-                json.dump(result["extracted"], wj, ensure_ascii=False, indent=2)
-            print(f"{OK} {container}/{blob} -> {out_txt}, {out_json}")
-            ok += 1
-        except Exception as e:
-            print(f"{ERR} {container}/{blob}: {e}")
-    print(f"{OK} Online done: {ok}/{total} succeeded")
+    rate = AdaptiveRateLimiter(target_tps=tps_limit)
+    json_paths: List[str] = []
+    processed = errors = 0
+    start = datetime.now()
+
+    def is_transient(exc: Exception) -> bool:
+        if isinstance(exc, (ServiceRequestError, ServiceResponseError)):
+            return True
+        if isinstance(exc, HttpResponseError):
+            code = getattr(exc, "status_code", None) or getattr(exc, "status", None)
+            return code in (429, 500, 502, 503, 504)
+        return False
+
+    def work(name: str) -> Tuple[str, str, int]:
+        """
+        Download → rate-limited submit → result → save local JSON (no upload here).
+        Retries transient failures 'retries' times with simple backoff.
+        """
+        key_token = f"azure::{container_name}/{name}"
+        attempt = 0
+        delay = 1.0
+        last_exc = None
+
+        while attempt <= retries:
+            try:
+                # 1) Download bytes
+                pdf = container_client.get_blob_client(name).download_blob().readall()
+
+                # 2) Rate-limited submit
+                rate.acquire()
+                poller = di_client.begin_analyze_document(model_id, pdf)
+                result = poller.result()
+
+                # 3) Save JSON locally (no upload)
+                base = os.path.splitext(os.path.basename(name))[0]
+                local_path, pages = save_analyzed_result(
+                    result=result,
+                    output_basename=base,
+                    output_root=os.path.join("json", output_container),
+                    upload_output=False,  # defer uploads
+                    storage_account_url=storage_account_url,
+                    output_container=output_container,
+                )
+                # 4) Progress
+                append_progress(progress_path, key_token, pages)
+                return name, local_path, pages
+
+            except Exception as e:
+                last_exc = e
+                # Penalize limiter on throttle responses
+                if isinstance(e, HttpResponseError):
+                    code = getattr(e, "status_code", None) or getattr(e, "status", None)
+                    if code in (429, 503):
+                        rate.penalize()
+                if attempt < retries and is_transient(e):
+                    time.sleep(delay)
+                    delay = min(8.0, delay * 2)
+                    attempt += 1
+                    continue
+                raise
+
+        raise last_exc  # should not reach
+
+    # Analyze concurrently
+    futures = []
+    with ThreadPoolExecutor(max_workers=max_workers) as ex:
+        for name in candidates:
+            futures.append(ex.submit(work, name))
+
+        for fut in as_completed(futures):
+            try:
+                name, local_path, pages = fut.result()
+                json_paths.append(local_path)
+                processed += 1
+                print(f"[OK] {name} (pages={pages}) → {local_path}")
+            except Exception as e:
+                errors += 1
+                print(f"[ERR] {e}")
+
+    # Parallel uploads (optional)
+    if upload_output and json_paths:
+        print(f"[INFO] Uploading {len(json_paths)} JSON files to '{output_container}'...")
+        def upload_one(path: str):
+            upload_file_to_blob_via_aad(storage_account_url, output_container, path, blob_prefix=output_prefix)
+        with ThreadPoolExecutor(max_workers=max_workers) as ex:
+            for _ in ex.map(upload_one, json_paths):
+                pass
+
+    elapsed = (datetime.now() - start).total_seconds()
+    print(f"[DONE] Azure concurrent: processed={processed}, errors={errors}, elapsed={elapsed:.2f}s")
 
 # =============================================================================
-# Main
+# CLI / Entrypoint
 # =============================================================================
 
-def main():
-    ap = argparse.ArgumentParser(description="Read PDFs using Azure DI (prebuilt-read). Local folder or Azure Blob (AAD).")
-    ap.add_argument("-f", "--file", default="connections.json", help="Path to connections.json")
-    ap.add_argument("--mode", choices=["local", "online"], default="local", help="Source: local ./pdf/test or Azure Blob")
-    ap.add_argument("--container", default="raw_pdf", help="Blob container name for online mode")
-    ap.add_argument("--prefix", default=None, help="Optional prefix in container (online mode)")
-    ap.add_argument("--max", type=int, default=None, help="Limit number of PDFs (online mode)")
-    ap.add_argument("--out", default="out", help="Output folder for extracted text")
-    args = ap.parse_args()
+def load_connections_config() -> ConnectionsConfig:
+    """
+    Load ./connections.json (CWD). Expects:
+      - DI-Key
+      - DI-Endpoint (or legacy DI_Endpoint)
+      - SA-endpoint (account URL, https://<storage>.blob.core.windows.net)
+    """
+    config_path = os.path.join(os.getcwd(), "connections.json")
+    with open(config_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
 
-    # Load config
-    try:
-        with open(args.file, "r", encoding="utf-8") as f:
-            cfg = json.load(f)
-    except FileNotFoundError:
-        die(f"File not found: {args.file}")
-    except json.JSONDecodeError as e:
-        die(f"Invalid JSON: {e}")
+    di_endpoint = (data.get("DI-Endpoint") or data.get("DI_Endpoint"))
+    if not di_endpoint:
+        raise ValueError("connections.json missing 'DI-Endpoint' (or 'DI_Endpoint').")
+    di_key = data.get("DI-Key")
+    if not di_key:
+        raise ValueError("connections.json missing 'DI-Key'.")
+    storage_account_url = (data.get("SA-endpoint") or data.get("SA-enpoint"))
+    if not storage_account_url:
+        raise ValueError("connections.json missing 'SA-endpoint'.")
 
-    di_key = get_required(cfg, "DI-Key")
-    di_endpoint = validate_url("DI-Endpoint", get_required_any(cfg, ["DI-Endpoint", "DI_Endpoint"], "DI-Endpoint"))
-    sa_endpoint = validate_url("SA-endpoint", get_required(cfg, "SA-endpoint"))
+    return ConnectionsConfig(
+        di_endpoint=di_endpoint.rstrip("/"),
+        di_key=di_key,
+        storage_account_url=storage_account_url.rstrip("/"),
+    )
 
-    # Smoke test DI
-    di_list_models(di_endpoint, di_key)
+def parse_args() -> RunOptions:
+    """Parse CLI flags."""
+    p = argparse.ArgumentParser(
+        description="Analyze PDFs with Azure Document Intelligence via AAD (optional), with progress tracking."
+    )
+    p.add_argument("--mode", choices=["local", "azure"], default="local",
+                   help="Source of PDFs.")
+    p.add_argument("--model-id", required=True,
+                   help="DI model ID (e.g., 'prebuilt-read' or your custom model).")
+    p.add_argument("--local-directory", default="./tempdata",
+                   help="Local folder for PDFs when --mode local.")
+    p.add_argument("--container", default="raw_pdf",
+                   help="Azure Blob container for --mode azure.")
+    p.add_argument("--max-workers", type=int, default=12,
+               help="Max concurrent workers for download/analyze/upload.")
+    p.add_argument("--retries", type=int, default=2,
+                help="Retries per file on transient failures (e.g., 429/503).")
+    p.add_argument("--prefix", default="",
+                help="Optional blob name prefix (e.g. 'ground-pdf/').")
+    p.add_argument("--download-dir", default="./tmp_azure_pdfs",
+                help="Where to stage PDFs locally before analyze.")
+    p.add_argument("--max-pdfs", type=int, default=None,
+                   help="Max PDFs to process from the container.")
+    p.add_argument("--upload-output", action="store_true",
+                   help="Upload JSON outputs back to storage via AAD.")
+    p.add_argument("--output-container", default="results-json",
+                   help="Target container for JSON outputs.")
+    p.add_argument("--tps-limit", type=int, default=8,
+                   help="Simple TPS throttle (results collection) for azure mode.")
+    p.add_argument("--progress-file", default="./progress_processed.txt",
+                   help="Path to the progress TSV file.")
+    p.add_argument("--reset", action="store_true",
+                   help="Delete the progress file before running.")
+    p.add_argument("--output-prefix", default="", 
+                   help="Blob name prefix for results, e.g. 'test-json/'.")
 
-    if args.mode == "local":
-        ensure_dir(args.out)
-        process_local(di_endpoint, di_key, args.out)
+    a = p.parse_args()
+    return RunOptions(
+        mode=a.mode,
+        model_id=a.model_id,
+        local_directory=a.local_directory,
+        container_name=a.container,
+        prefix=a.prefix,
+        max_pdfs=a.max_pdfs,
+        upload_output=a.upload_output,
+        max_workers=a.max_workers,
+        retries=a.retries,
+        download_dir=a.download_dir,
+        output_prefix=a.output_prefix,
+        output_container=a.output_container,
+        tps_limit=a.tps_limit,
+        progress_file=a.progress_file,
+        reset=a.reset,
+    )
+
+def main() -> None:
+    """Entrypoint: load config, honor --reset, and run the chosen pipeline."""
+    opts = parse_args()
+    cfg = load_connections_config()
+
+    if opts.reset and os.path.exists(opts.progress_file):
+        os.remove(opts.progress_file)
+        print(f"[INFO] Progress file reset: {opts.progress_file}")
+
+    processed_keys = load_progress(opts.progress_file)
+
+    di_client = DocumentIntelligenceClient(
+        endpoint=cfg.di_endpoint,
+        credential=AzureKeyCredential(cfg.di_key),
+    )
+
+    if opts.mode == "local":
+        analyze_local_pdfs(
+            di_client=di_client,
+            model_id=opts.model_id,
+            local_directory=opts.local_directory,
+            output_container=opts.output_container,
+            upload_output=opts.upload_output,
+            storage_account_url=cfg.storage_account_url,
+            progress_path=opts.progress_file,
+            processed_keys=processed_keys,
+        )
     else:
-        bearer = get_aad_token_for_storage()
-        ensure_dir(args.out)
-        process_online(di_endpoint, di_key, sa_endpoint, args.container, bearer, args.out, prefix=args.prefix, max_files=args.max)
+        analyze_azure_pdfs(
+            di_client=di_client,
+            storage_account_url=cfg.storage_account_url,
+            container_name=opts.container_name,
+            model_id=opts.model_id,
+            prefix=opts.prefix,
+            max_pdfs=opts.max_pdfs,
+            upload_output=opts.upload_output,
+            output_container=opts.output_container,
+            output_prefix=opts.output_prefix,
+            tps_limit=opts.tps_limit,
+            progress_path=opts.progress_file,
+            processed_keys=processed_keys,
+            max_workers=opts.max_workers,
+            retries=opts.retries,
+            download_dir=opts.download_dir,
+)
+
+
 
 if __name__ == "__main__":
     main()
+    # Run command:
+    # python python/test.py --mode azure --model-id fia-roving-aerial-1 --container fia --prefix aerial-pdf --output-container fia --output-prefix json-test --upload-output --max-worker 16 --tps-limit 8 --retries 3 --reset

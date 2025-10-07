@@ -1,0 +1,395 @@
+{
+  "Date": {
+    "content": "09/28/2012",
+    "confidence": 0.799
+  },
+  "Observer(s)": {
+    "content": "S. Everitt/ C. Metulau",
+    "confidence": 0.567
+  },
+  "Survey Type: Ground": {
+    "content": ":selected:",
+    "confidence": 0.956
+  },
+  "Survey Time: Start": {
+    "content": "1020",
+    "confidence": 0.979
+  },
+  "Water Level: % Bankfill: <25%": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Water Level: % Bankfill: 50-75%": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Water Level: % Bankfill: +100%": {
+    "content": ":unselected:",
+    "confidence": 0.975
+  },
+  "Weather: Brightness: Bright": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Weather: Brightness: Dark": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Weather: %Cloudy: 25%": {
+    "content": ":selected:",
+    "confidence": 0.979
+  },
+  "Weather: %Cloudy: 75%": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Precipitation: Type: Rain": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Precipitation: Type: None": {
+    "content": ":selected:",
+    "confidence": 0.978
+  },
+  "Precipitation: Intensity: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Conditions: Fish Visibility: Low": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Water Conditions: Fish Visibility: High": {
+    "content": ":selected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Water Clarity: 0-0.25m": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Conditions: Water Clarity: 0.5-1.0m": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Conditions: Water Clarity: 3m to bottom": {
+    "content": ":unselected:",
+    "confidence": 0.98
+  },
+  "Recoveries Comments": {
+    "content": "PSC\nsampl\ned 40M&\n44FF\nOM AB\nind\nuded\nin recoveries",
+    "confidence": 0.302
+  },
+  "SK_Count_data": [
+    {
+      "item": {
+        "Area": {
+          "content": "Mouth",
+          "confidence": 0.659
+        },
+        "Live Count (incl. live tags)": {
+          "content": "0",
+          "confidence": 0.916
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": null,
+          "confidence": 0.861
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.919
+        },
+        "% Spawning": {
+          "content": null,
+          "confidence": 0.919
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.919
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.959
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.939
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "Mouth to\n1",
+          "confidence": 0.554
+        },
+        "Live Count (incl. live tags)": {
+          "content": null,
+          "confidence": 0.554
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": null,
+          "confidence": 0.861
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.919
+        },
+        "% Spawning": {
+          "content": null,
+          "confidence": 0.919
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.919
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.959
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.939
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "Penfold",
+          "confidence": 0.724
+        },
+        "Live Count (incl. live tags)": {
+          "content": "6",
+          "confidence": 0.895
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "60",
+          "confidence": 0.978
+        },
+        "% Spawned Out": {
+          "content": "100",
+          "confidence": 0.92
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.919
+        },
+        "% Spawning": {
+          "content": null,
+          "confidence": 0.919
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.959
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.939
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "Penfoldto tansite 2",
+          "confidence": 0.43
+        },
+        "Live Count (incl. live tags)": {
+          "content": "1904",
+          "confidence": 0.754
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "60",
+          "confidence": 0.958
+        },
+        "% Spawning": {
+          "content": "95",
+          "confidence": 0.919
+        },
+        "% Spawned Out": {
+          "content": "5",
+          "confidence": 0.941
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.919
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.959
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.939
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "Tagsite to Logjan 3",
+          "confidence": 0.646
+        },
+        "Live Count (incl. live tags)": {
+          "content": "22900",
+          "confidence": 0.509
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "60",
+          "confidence": 0.965
+        },
+        "% Spawning": {
+          "content": "100",
+          "confidence": 0.914
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.919
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.919
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.959
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.939
+        }
+      }
+    }
+  ],
+  "SK_Count_data_3": [],
+  "Stream": {
+    "content": "Mitchell River",
+    "confidence": 0.959
+  },
+  "Survey Type: Aerial": {
+    "content": ":unselected:",
+    "confidence": 0.956
+  },
+  "Survey Time: End": {
+    "content": "15:00",
+    "confidence": 0.929
+  },
+  "Water Level: % Bankfill: 25-50%": {
+    "content": ":selected:",
+    "confidence": 0.974
+  },
+  "Water Level: % Bankfill: 75-100%": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Weather: Brightness: Full": {
+    "content": ":selected:",
+    "confidence": 0.978
+  },
+  "Weather: Brightness: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Weather: %Cloudy: 0%": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Weather: %Cloudy: 50%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Weather: %Cloudy: 100%": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Precipitation: Type: Snow": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Precipitation: Intensity: Light": {
+    "content": ":unselected:",
+    "confidence": 0.975
+  },
+  "Precipitation: Intensity: Heavy": {
+    "content": ":unselected:",
+    "confidence": 0.969
+  },
+  "Water Conditions: Fish Visibility: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Water Temperature": {
+    "content": "13/c",
+    "confidence": 0.62
+  },
+  "Water Conditions: Water Clarity: 0.25-0.5m": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Conditions: Water Clarity: 1-3m": {
+    "content": ":selected:",
+    "confidence": 0.98
+  },
+  "General Comments": {
+    "content": "Comments Recovered in A3\nonly Carcasses starting to pile up. Water levels dropping,",
+    "confidence": 0.336
+  },
+  "SK_Count_data_2": [
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "3\n2",
+          "confidence": 0.607
+        },
+        "Male": {
+          "content": "496",
+          "confidence": 0.899
+        },
+        "Female": {
+          "content": "495",
+          "confidence": 0.859
+        },
+        "Female % Spawn: 0%": {
+          "content": "5",
+          "confidence": 0.775
+        },
+        "Female % Spawn: 100%": {
+          "content": "490",
+          "confidence": 0.713
+        },
+        "Female % Spawn: N.R.": {
+          "content": null,
+          "confidence": 0.919
+        },
+        "Female % Spawn: 50%": {
+          "content": null,
+          "confidence": 0.841
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.948
+        },
+        "Unsexed": {
+          "content": null,
+          "confidence": 0.958
+        }
+      }
+    }
+  ],
+  "3rd Observer": {
+    "content": null,
+    "confidence": 0.963
+  },
+  "Visual Surveys Comments": {
+    "content": null,
+    "confidence": 0.965
+  },
+  "Water Level: Gauge": {
+    "content": null,
+    "confidence": 0.981
+  },
+  "Water Level: Gauge: Area": {
+    "content": null,
+    "confidence": 0.981
+  }
+}

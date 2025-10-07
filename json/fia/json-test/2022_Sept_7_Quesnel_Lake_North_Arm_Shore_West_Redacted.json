@@ -1,0 +1,439 @@
+{
+  "Date": {
+    "content": "09/07/2022",
+    "confidence": 0.916
+  },
+  "Observer(s)": {
+    "content": "Stream Quesnel Lake North Arm West Reserver(s",
+    "confidence": 0.11
+  },
+  "Survey Type: Ground": {
+    "content": ":selected:",
+    "confidence": 0.957
+  },
+  "Survey Time: Start": {
+    "content": "10:15",
+    "confidence": 0.978
+  },
+  "Water Level: % Bankfill: <25%": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Level: % Bankfill: 50-75%": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Water Level: % Bankfill: +100%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Weather: Brightness: Bright": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: Brightness: Dark": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: %Cloudy: 25%": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: %Cloudy: 75%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Precipitation: Type: Rain": {
+    "content": ":unselected:",
+    "confidence": 0.98
+  },
+  "Precipitation: Type: None": {
+    "content": ":selected:",
+    "confidence": 0.98
+  },
+  "Precipitation: Intensity: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Water Conditions: Fish Visibility: Low": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Fish Visibility: High": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Water Clarity: 0-0.25m": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Conditions: Water Clarity: 0.5-1.0m": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Conditions: Water Clarity: 3m to bottom": {
+    "content": ":selected:",
+    "confidence": 0.98
+  },
+  "SK_Count_data": [
+    {
+      "item": {
+        "Area": {
+          "content": "Baty Frank",
+          "confidence": 0.384
+        },
+        "Live Count (incl. live tags)": {
+          "content": "Q/Q",
+          "confidence": 0.483
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "70",
+          "confidence": 0.891
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.95
+        },
+        "% Spawning": {
+          "content": null,
+          "confidence": 0.952
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.949
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.955
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.953
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "Bear",
+          "confidence": 0.904
+        },
+        "Live Count (incl. live tags)": {
+          "content": "Q/Q",
+          "confidence": 0.607
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "80",
+          "confidence": 0.943
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.95
+        },
+        "% Spawning": {
+          "content": null,
+          "confidence": 0.952
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.949
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.955
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.953
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "Limestone",
+          "confidence": 0.853
+        },
+        "Live Count (incl. live tags)": {
+          "content": "8/8",
+          "confidence": 0.231
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "80",
+          "confidence": 0.901
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.95
+        },
+        "% Spawning": {
+          "content": null,
+          "confidence": 0.952
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.949
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.955
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.953
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "Morten",
+          "confidence": 0.6
+        },
+        "Live Count (incl. live tags)": {
+          "content": "1/1",
+          "confidence": 0.594
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "60",
+          "confidence": 0.923
+        },
+        "% Spawning": {
+          "content": "100",
+          "confidence": 0.913
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.95
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.949
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.955
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.953
+        }
+      }
+    }
+  ],
+  "SK_Count_data_3": [],
+  "Stream": {
+    "content": "Quesnel Lake North Arm West Reserver(s",
+    "confidence": 0.374
+  },
+  "Survey Type: Aerial": {
+    "content": ":unselected:",
+    "confidence": 0.918
+  },
+  "Survey Time: End": {
+    "content": "11:20",
+    "confidence": 0.966
+  },
+  "Water Level: % Bankfill: 25-50%": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Water Level: % Bankfill: 75-100%": {
+    "content": ":selected:",
+    "confidence": 0.978
+  },
+  "Weather: Brightness: Full": {
+    "content": ":selected:",
+    "confidence": 0.979
+  },
+  "Weather: Brightness: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: %Cloudy: 0%": {
+    "content": ":selected:",
+    "confidence": 0.979
+  },
+  "Weather: %Cloudy: 50%": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: %Cloudy: 100%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Precipitation: Type: Snow": {
+    "content": ":unselected:",
+    "confidence": 0.98
+  },
+  "Precipitation: Intensity: Light": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Precipitation: Intensity: Heavy": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Conditions: Fish Visibility: Medium": {
+    "content": ":selected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Water Temperature": {
+    "content": "18.30",
+    "confidence": 0.65
+  },
+  "Water Conditions: Water Clarity: 0.25-0.5m": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Conditions: Water Clarity: 1-3m": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "SK_Count_data_2": [
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "Betty Frank",
+          "confidence": 0.583
+        },
+        "Male": {
+          "content": "Q",
+          "confidence": 0.136
+        },
+        "Female": {
+          "content": "Q",
+          "confidence": 0.451
+        },
+        "Female % Spawn: N.R.": {
+          "content": null,
+          "confidence": 0.955
+        },
+        "Female % Spawn: 0%": {
+          "content": null,
+          "confidence": 0.941
+        },
+        "Female % Spawn: 50%": {
+          "content": null,
+          "confidence": 0.954
+        },
+        "Female % Spawn: 100%": {
+          "content": null,
+          "confidence": 0.665
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.939
+        },
+        "Unsexed": {
+          "content": null,
+          "confidence": 0.812
+        }
+      }
+    },
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "Bear",
+          "confidence": 0.562
+        },
+        "Male": {
+          "content": "Q",
+          "confidence": 0.056
+        },
+        "Female": {
+          "content": "Q",
+          "confidence": 0.154
+        },
+        "Unsexed": {
+          "content": "Z",
+          "confidence": 0.306
+        },
+        "Female % Spawn: N.R.": {
+          "content": null,
+          "confidence": 0.955
+        },
+        "Female % Spawn: 0%": {
+          "content": null,
+          "confidence": 0.941
+        },
+        "Female % Spawn: 50%": {
+          "content": null,
+          "confidence": 0.954
+        },
+        "Female % Spawn: 100%": {
+          "content": null,
+          "confidence": 0.665
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.939
+        }
+      }
+    },
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "Limestone\nMarten",
+          "confidence": 0.099
+        },
+        "Male": {
+          "content": "Q\n1",
+          "confidence": 0.379
+        },
+        "Female": {
+          "content": "Q\n&",
+          "confidence": 0.006
+        },
+        "Female % Spawn: 100%": {
+          "content": "1\n9",
+          "confidence": 0.03
+        },
+        "Unsexed": {
+          "content": "1",
+          "confidence": 0.503
+        },
+        "Female % Spawn: N.R.": {
+          "content": null,
+          "confidence": 0.955
+        },
+        "Female % Spawn: 0%": {
+          "content": null,
+          "confidence": 0.941
+        },
+        "Female % Spawn: 50%": {
+          "content": null,
+          "confidence": 0.954
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.939
+        }
+      }
+    }
+  ],
+  "3rd Observer": {
+    "content": null,
+    "confidence": 0.965
+  },
+  "Visual Surveys Comments": {
+    "content": null,
+    "confidence": 0.967
+  },
+  "Water Level: Gauge": {
+    "content": null,
+    "confidence": 0.981
+  },
+  "Water Level: Gauge: Area": {
+    "content": null,
+    "confidence": 0.981
+  },
+  "Recoveries Comments": {
+    "content": null,
+    "confidence": 0.768
+  },
+  "General Comments": {
+    "content": null,
+    "confidence": 0.954
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "Date": {
+    "content": "Sept. 10/2017",
+    "confidence": 0.422
+  },
+  "Observer(s)": {
+    "content": "B. Smith",
+    "confidence": 0.819
+  },
+  "Survey Type: Ground": {
+    "content": ":selected:",
+    "confidence": 0.092
+  },
+  "Survey Time: Start": {
+    "content": "10:10",
+    "confidence": 0.884
+  },
+  "Water Level: % Bankfill: <25%": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Water Level: % Bankfill: 50-75%": {
+    "content": ":unselected:",
+    "confidence": 0.973
+  },
+  "Water Level: % Bankfill: +100%": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Weather: Brightness: Bright": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Weather: Brightness: Dark": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Weather: %Cloudy: 25%": {
+    "content": ":unselected:",
+    "confidence": 0.97
+  },
+  "Weather: %Cloudy: 75%": {
+    "content": ":unselected:",
+    "confidence": 0.957
+  },
+  "Precipitation: Type: Rain": {
+    "content": ":unselected:",
+    "confidence": 0.97
+  },
+  "Precipitation: Type: None": {
+    "content": ":selected:",
+    "confidence": 0.359
+  },
+  "Precipitation: Intensity: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.973
+  },
+  "Water Conditions: Fish Visibility: Low": {
+    "content": ":unselected:",
+    "confidence": 0.97
+  },
+  "Water Conditions: Fish Visibility: High": {
+    "content": ":unselected:",
+    "confidence": 0.973
+  },
+  "Water Conditions: Water Clarity: 0-0.25m": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Water Conditions: Water Clarity: 0.5-1.0m": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Water Conditions: Water Clarity: 3m to bottom": {
+    "content": ":unselected:",
+    "confidence": 0.975
+  },
+  "SK_Count_data": [
+    {
+      "item": {
+        "Area": {
+          "content": "Bouldery",
+          "confidence": 0.909
+        },
+        "Live Count (incl. live tags)": {
+          "content": "448",
+          "confidence": 0.931
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "70",
+          "confidence": 0.77
+        },
+        "% Holding / Migrating": {
+          "content": "60",
+          "confidence": 0.759
+        },
+        "% Spawning": {
+          "content": "40",
+          "confidence": 0.812
+        },
+        "% Spawned Out": {
+          "content": "0",
+          "confidence": 0.717
+        },
+        "Live Tagged": {
+          "content": "0",
+          "confidence": 0.702
+        },
+        "Other Species": {
+          "content": "6",
+          "confidence": 0.684
+        }
+      }
+    }
+  ],
+  "SK_Count_data_3": [],
+  "Stream": {
+    "content": "Quesnel\n-aloe\nEast arm South Shores",
+    "confidence": 0.574
+  },
+  "Survey Type: Aerial": {
+    "content": ":unselected:",
+    "confidence": 0.951
+  },
+  "Survey Time: End": {
+    "content": "10:40",
+    "confidence": 0.935
+  },
+  "Water Level: % Bankfill: 25-50%": {
+    "content": ":unselected:",
+    "confidence": 0.973
+  },
+  "Water Level: % Bankfill: 75-100%": {
+    "content": ":selected:",
+    "confidence": 0.486
+  },
+  "Weather: Brightness: Full": {
+    "content": ":unselected:",
+    "confidence": 0.973
+  },
+  "Weather: Brightness: Medium": {
+    "content": ":selected:",
+    "confidence": 0.098
+  },
+  "Weather: %Cloudy: 0%": {
+    "content": ":unselected:",
+    "confidence": 0.97
+  },
+  "Weather: %Cloudy: 50%": {
+    "content": ":unselected:",
+    "confidence": 0.97
+  },
+  "Weather: %Cloudy: 100%": {
+    "content": ":selected:",
+    "confidence": 0.485
+  },
+  "Precipitation: Type: Snow": {
+    "content": ":unselected:",
+    "confidence": 0.97
+  },
+  "Precipitation: Intensity: Light": {
+    "content": ":unselected:",
+    "confidence": 0.973
+  },
+  "Precipitation: Intensity: Heavy": {
+    "content": ":unselected:",
+    "confidence": 0.97
+  },
+  "Water Conditions: Fish Visibility: Medium": {
+    "content": ":selected:",
+    "confidence": 0.478
+  },
+  "Water Conditions: Water Temperature": {
+    "content": "11",
+    "confidence": 0.596
+  },
+  "Water Conditions: Water Clarity: 0.25-0.5m": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Water Conditions: Water Clarity: 1-3m": {
+    "content": ":selected:",
+    "confidence": 0.098
+  },
+  "General Comments": {
+    "content": "Comments Large portion of\nBouldery shore => West end, no\nfish,",
+    "confidence": 0.04
+  },
+  "SK_Count_data_2": [
+    {
+      "item": {
+        "Female": {
+          "content": "0)",
+          "confidence": 0.38
+        },
+        "Female % Spawn: 100%": {
+          "content": "-\nO",
+          "confidence": 0.084
+        },
+        "Unsexed": {
+          "content": "0",
+          "confidence": 0.5
+        },
+        "Area (Untagged)": {
+          "content": null,
+          "confidence": 0.647
+        },
+        "Male": {
+          "content": null,
+          "confidence": 0.379
+        },
+        "Female % Spawn: N.R.": {
+          "content": null,
+          "confidence": 0.86
+        },
+        "Female % Spawn: 0%": {
+          "content": null,
+          "confidence": 0.919
+        },
+        "Female % Spawn: 50%": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.919
+        }
+      }
+    },
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "Bouldery",
+          "confidence": 0.678
+        },
+        "Male": {
+          "content": "0",
+          "confidence": 0.332
+        },
+        "Female % Spawn: N.R.": {
+          "content": "-",
+          "confidence": 0.097
+        },
+        "Female % Spawn: 0%": {
+          "content": "-",
+          "confidence": 0.615
+        },
+        "Female % Spawn: 50%": {
+          "content": "-",
+          "confidence": 0.723
+        },
+        "Unsexed": {
+          "content": "1",
+          "confidence": 0.201
+        },
+        "Female": {
+          "content": null,
+          "confidence": 0.919
+        },
+        "Female % Spawn: 100%": {
+          "content": null,
+          "confidence": 0.919
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.919
+        }
+      }
+    }
+  ],
+  "3rd Observer": {
+    "content": null,
+    "confidence": 0.964
+  },
+  "Visual Surveys Comments": {
+    "content": null,
+    "confidence": 0.964
+  },
+  "Water Level: Gauge": {
+    "content": null,
+    "confidence": 0.981
+  },
+  "Water Level: Gauge: Area": {
+    "content": null,
+    "confidence": 0.981
+  },
+  "Recoveries Comments": {
+    "content": null,
+    "confidence": 0.965
+  }
+}

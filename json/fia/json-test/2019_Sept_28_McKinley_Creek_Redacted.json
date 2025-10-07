@@ -1,0 +1,251 @@
+{
+  "Date": {
+    "content": "Sept 28/2019",
+    "confidence": 0.494
+  },
+  "Survey Type: Ground": {
+    "content": ":selected:",
+    "confidence": 0.971
+  },
+  "Survey Time: Start": {
+    "content": "938",
+    "confidence": 0.97
+  },
+  "Water Level: % Bankfill: <25%": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Water Level: % Bankfill: 50-75%": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Level: % Bankfill: +100%": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: Brightness: Bright": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: Brightness: Dark": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Weather: %Cloudy: 25%": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Weather: %Cloudy: 75%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Precipitation: Type: Rain": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Precipitation: Type: None": {
+    "content": ":selected:",
+    "confidence": 0.98
+  },
+  "Precipitation: Intensity: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Water Conditions: Fish Visibility: Low": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Water Conditions: Fish Visibility: High": {
+    "content": ":selected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Water Clarity: 0-0.25m": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Conditions: Water Clarity: 0.5-1.0m": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Water Conditions: Water Clarity: 3m to bottom": {
+    "content": ":unselected:",
+    "confidence": 0.98
+  },
+  "SK_Count_data": [
+    {
+      "item": {
+        "Area": {
+          "content": "1",
+          "confidence": 0.852
+        },
+        "Live Count (incl. live tags)": {
+          "content": "13",
+          "confidence": 0.895
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "50",
+          "confidence": 0.734
+        },
+        "% Spawning": {
+          "content": "90",
+          "confidence": 0.739
+        },
+        "% Spawned Out": {
+          "content": "10",
+          "confidence": 0.736
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.942
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.946
+        }
+      }
+    }
+  ],
+  "SK_Count_data_3": [],
+  "Stream": {
+    "content": "Mckinley Creek",
+    "confidence": 0.427
+  },
+  "Survey Type: Aerial": {
+    "content": ":unselected:",
+    "confidence": 0.972
+  },
+  "Visual Surveys Comments": {
+    "content": "To",
+    "confidence": 0.05
+  },
+  "Survey Time: End": {
+    "content": "10:08",
+    "confidence": 0.87
+  },
+  "Water Level: % Bankfill: 25-50%": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Level: % Bankfill: 75-100%": {
+    "content": ":selected:",
+    "confidence": 0.979
+  },
+  "Weather: Brightness: Full": {
+    "content": ":selected:",
+    "confidence": 0.979
+  },
+  "Weather: Brightness: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: %Cloudy: 0%": {
+    "content": ":selected:",
+    "confidence": 0.98
+  },
+  "Weather: %Cloudy: 50%": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Weather: %Cloudy: 100%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Precipitation: Type: Snow": {
+    "content": ":unselected:",
+    "confidence": 0.98
+  },
+  "Precipitation: Intensity: Light": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Precipitation: Intensity: Heavy": {
+    "content": ":unselected:",
+    "confidence": 0.975
+  },
+  "Water Conditions: Fish Visibility: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Water Conditions: Water Temperature": {
+    "content": "11.3",
+    "confidence": 0.746
+  },
+  "Water Conditions: Water Clarity: 0.25-0.5m": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Water Conditions: Water Clarity: 1-3m": {
+    "content": ":selected:",
+    "confidence": 0.98
+  },
+  "General Comments": {
+    "content": "Very few fish observed. No carcasses of spawn\nrecovered or observed",
+    "confidence": 0.347
+  },
+  "SK_Count_data_2": [
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "1",
+          "confidence": 0.898
+        },
+        "Male": {
+          "content": "0",
+          "confidence": 0.352
+        },
+        "Female": {
+          "content": "0\n1",
+          "confidence": 0.038
+        },
+        "Female % Spawn: N.R.": {
+          "content": null,
+          "confidence": 0.945
+        },
+        "Female % Spawn: 0%": {
+          "content": null,
+          "confidence": 0.946
+        },
+        "Female % Spawn: 50%": {
+          "content": null,
+          "confidence": 0.946
+        },
+        "Female % Spawn: 100%": {
+          "content": null,
+          "confidence": 0.919
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.952
+        },
+        "Unsexed": {
+          "content": null,
+          "confidence": 0.949
+        }
+      }
+    }
+  ],
+  "Observer(s)": {
+    "content": null,
+    "confidence": 0.969
+  },
+  "3rd Observer": {
+    "content": null,
+    "confidence": 0.971
+  },
+  "Water Level: Gauge": {
+    "content": null,
+    "confidence": 0.982
+  },
+  "Water Level: Gauge: Area": {
+    "content": null,
+    "confidence": 0.983
+  },
+  "Recoveries Comments": {
+    "content": null,
+    "confidence": 0.77
+  }
+}

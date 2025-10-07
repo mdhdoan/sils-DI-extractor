@@ -1,0 +1,251 @@
+{
+  "Date": {
+    "content": "Sept 27/2019",
+    "confidence": 0.845
+  },
+  "Observer(s)": {
+    "content": "NIPOWELL",
+    "confidence": 0.58
+  },
+  "Survey Type: Ground": {
+    "content": ":selected:",
+    "confidence": 0.97
+  },
+  "Survey Time: Start": {
+    "content": "9:50",
+    "confidence": 0.981
+  },
+  "Water Level: % Bankfill: <25%": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Water Level: % Bankfill: 50-75%": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Level: % Bankfill: +100%": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: Brightness: Bright": {
+    "content": ":selected:",
+    "confidence": 0.979
+  },
+  "Weather: Brightness: Dark": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: %Cloudy: 25%": {
+    "content": ":selected:",
+    "confidence": 0.979
+  },
+  "Weather: %Cloudy: 75%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Precipitation: Type: Rain": {
+    "content": ":unselected:",
+    "confidence": 0.98
+  },
+  "Precipitation: Type: None": {
+    "content": ":selected:",
+    "confidence": 0.98
+  },
+  "Precipitation: Intensity: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.671
+  },
+  "Water Conditions: Fish Visibility: Low": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Fish Visibility: High": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Water Clarity: 0-0.25m": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Water Clarity: 0.5-1.0m": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Water Clarity: 3m to bottom": {
+    "content": ":selected:",
+    "confidence": 0.979
+  },
+  "Recoveries Comments": {
+    "content": "Shore",
+    "confidence": 0.375
+  },
+  "SK_Count_data": [
+    {
+      "item": {
+        "Area": {
+          "content": "Deception\nPT. Shore",
+          "confidence": 0.473
+        },
+        "Live Count (incl. live tags)": {
+          "content": "162.",
+          "confidence": 0.717
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "70",
+          "confidence": 0.916
+        },
+        "% Spawning": {
+          "content": "100",
+          "confidence": 0.897
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.943
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.939
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.948
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.947
+        }
+      }
+    }
+  ],
+  "SK_Count_data_3": [],
+  "Stream": {
+    "content": "Quesnel Lake- North Arm",
+    "confidence": 0.826
+  },
+  "Survey Type: Aerial": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Survey Time: End": {
+    "content": "1100",
+    "confidence": 0.973
+  },
+  "Water Level: % Bankfill: 25-50%": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Level: % Bankfill: 75-100%": {
+    "content": ":selected:",
+    "confidence": 0.979
+  },
+  "Weather: Brightness: Full": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: Brightness: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: %Cloudy: 0%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Weather: %Cloudy: 50%": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: %Cloudy: 100%": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Precipitation: Type: Snow": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Precipitation: Intensity: Light": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Precipitation: Intensity: Heavy": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Conditions: Fish Visibility: Medium": {
+    "content": ":selected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Water Temperature": {
+    "content": "14.",
+    "confidence": 0.601
+  },
+  "Water Conditions: Water Clarity: 0.25-0.5m": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Water Clarity: 1-3m": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "General Comments": {
+    "content": "Comments\nPSC + DNA Sampled 4M 35F. Large waves, surface\nNaples unusual conditions of event book gospawn) and glare made obs, difficult.\nSamples included in Rectotals.",
+    "confidence": 0.123
+  },
+  "SK_Count_data_2": [
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "Deception Shore",
+          "confidence": 0.59
+        },
+        "Male": {
+          "content": "4",
+          "confidence": 0.92
+        },
+        "Female": {
+          "content": "5",
+          "confidence": 0.982
+        },
+        "Female % Spawn: 50%": {
+          "content": "1",
+          "confidence": 0.777
+        },
+        "Female % Spawn: 100%": {
+          "content": "4",
+          "confidence": 0.851
+        },
+        "Female % Spawn: N.R.": {
+          "content": null,
+          "confidence": 0.945
+        },
+        "Female % Spawn: 0%": {
+          "content": null,
+          "confidence": 0.944
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.949
+        },
+        "Unsexed": {
+          "content": null,
+          "confidence": 0.95
+        }
+      }
+    }
+  ],
+  "3rd Observer": {
+    "content": null,
+    "confidence": 0.966
+  },
+  "Visual Surveys Comments": {
+    "content": null,
+    "confidence": 0.968
+  },
+  "Water Level: Gauge": {
+    "content": null,
+    "confidence": 0.982
+  },
+  "Water Level: Gauge: Area": {
+    "content": null,
+    "confidence": 0.981
+  }
+}

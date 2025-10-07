@@ -1,0 +1,291 @@
+{
+  "Date": {
+    "content": "Sept 25/2019",
+    "confidence": 0.937
+  },
+  "Survey Type: Ground": {
+    "content": ":selected:",
+    "confidence": 0.974
+  },
+  "Survey Time: Start": {
+    "content": "10:11",
+    "confidence": 0.962
+  },
+  "Water Level: % Bankfill: <25%": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Level: % Bankfill: 50-75%": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Level: % Bankfill: +100%": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: Brightness: Bright": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: Brightness: Dark": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Weather: %Cloudy: 25%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Weather: %Cloudy: 75%": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Precipitation: Type: Rain": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Precipitation: Type: None": {
+    "content": ":selected:",
+    "confidence": 0.98
+  },
+  "Precipitation: Intensity: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Water Conditions: Fish Visibility: Low": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Water Conditions: Fish Visibility: High": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Water Clarity: 0-0.25m": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Water Conditions: Water Clarity: 0.5-1.0m": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Water Conditions: Water Clarity: 3m to bottom": {
+    "content": ":selected:",
+    "confidence": 0.98
+  },
+  "SK_Count_data": [
+    {
+      "item": {
+        "Area": {
+          "content": "Deception RT, Shore",
+          "confidence": 0.323
+        },
+        "Live Count (incl. live tags)": {
+          "content": "277",
+          "confidence": 0.895
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "75",
+          "confidence": 0.741
+        },
+        "% Holding / Migrating": {
+          "content": "5",
+          "confidence": 0.741
+        },
+        "% Spawning": {
+          "content": "95",
+          "confidence": 0.738
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.938
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.948
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.947
+        }
+      }
+    }
+  ],
+  "SK_Count_data_3": [],
+  "Stream": {
+    "content": "Quesnel Lake - N. Arm",
+    "confidence": 0.877
+  },
+  "Survey Type: Aerial": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Survey Time: End": {
+    "content": "1:02",
+    "confidence": 0.935
+  },
+  "Water Level: % Bankfill: 25-50%": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Level: % Bankfill: 75-100%": {
+    "content": ":selected:",
+    "confidence": 0.979
+  },
+  "Weather: Brightness: Full": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: Brightness: Medium": {
+    "content": ":selected:",
+    "confidence": 0.979
+  },
+  "Weather: %Cloudy: 0%": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: %Cloudy: 50%": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Weather: %Cloudy: 100%": {
+    "content": ":selected:",
+    "confidence": 0.979
+  },
+  "Precipitation: Type: Snow": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Precipitation: Intensity: Light": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Precipitation: Intensity: Heavy": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Water Conditions: Fish Visibility: Medium": {
+    "content": ":selected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Water Temperature": {
+    "content": "14.9",
+    "confidence": 0.933
+  },
+  "Water Conditions: Water Clarity: 0.25-0.5m": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Water Conditions: Water Clarity: 1-3m": {
+    "content": ":unselected:",
+    "confidence": 0.98
+  },
+  "General Comments": {
+    "content": "New spawners moved in egk of spawn)",
+    "confidence": 0.215
+  },
+  "SK_Count_data_2": [
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "DECEPTION",
+          "confidence": 0.553
+        },
+        "Male": {
+          "content": "$",
+          "confidence": 0.524
+        },
+        "Female": {
+          "content": "8 1",
+          "confidence": 0.093
+        },
+        "Unsexed": {
+          "content": "rou\n6 DEEP",
+          "confidence": 0.249
+        },
+        "Female % Spawn: N.R.": {
+          "content": null,
+          "confidence": 0.946
+        },
+        "Female % Spawn: 0%": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "Female % Spawn: 50%": {
+          "content": null,
+          "confidence": 0.946
+        },
+        "Female % Spawn: 100%": {
+          "content": null,
+          "confidence": 0.94
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.953
+        }
+      }
+    },
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "PS. SKORS",
+          "confidence": 0.053
+        },
+        "Female": {
+          "content": "f",
+          "confidence": 0.189
+        },
+        "Male": {
+          "content": null,
+          "confidence": 0.919
+        },
+        "Female % Spawn: N.R.": {
+          "content": null,
+          "confidence": 0.946
+        },
+        "Female % Spawn: 0%": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "Female % Spawn: 50%": {
+          "content": null,
+          "confidence": 0.946
+        },
+        "Female % Spawn: 100%": {
+          "content": null,
+          "confidence": 0.94
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.953
+        },
+        "Unsexed": {
+          "content": null,
+          "confidence": 0.952
+        }
+      }
+    }
+  ],
+  "Observer(s)": {
+    "content": null,
+    "confidence": 0.968
+  },
+  "3rd Observer": {
+    "content": null,
+    "confidence": 0.97
+  },
+  "Visual Surveys Comments": {
+    "content": null,
+    "confidence": 0.97
+  },
+  "Water Level: Gauge": {
+    "content": null,
+    "confidence": 0.982
+  },
+  "Water Level: Gauge: Area": {
+    "content": null,
+    "confidence": 0.982
+  },
+  "Recoveries Comments": {
+    "content": null,
+    "confidence": 0.962
+  }
+}

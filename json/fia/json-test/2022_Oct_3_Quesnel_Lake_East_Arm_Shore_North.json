@@ -1,0 +1,439 @@
+{
+  "Date": {
+    "content": "10/03/2022",
+    "confidence": 0.933
+  },
+  "Observer(s)": {
+    "content": "C. MCAclay/ E Olson",
+    "confidence": 0.149
+  },
+  "Survey Type: Ground": {
+    "content": ":selected:",
+    "confidence": 0.962
+  },
+  "Survey Time: Start": {
+    "content": "14:20",
+    "confidence": 0.98
+  },
+  "Water Level: % Bankfill: <25%": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Water Level: % Bankfill: 50-75%": {
+    "content": ":unselected:",
+    "confidence": 0.975
+  },
+  "Water Level: % Bankfill: +100%": {
+    "content": ":unselected:",
+    "confidence": 0.975
+  },
+  "Weather: Brightness: Bright": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Weather: Brightness: Dark": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Weather: %Cloudy: 25%": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Weather: %Cloudy: 75%": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Precipitation: Type: Rain": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Precipitation: Type: None": {
+    "content": ":selected:",
+    "confidence": 0.975
+  },
+  "Precipitation: Intensity: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Water Conditions: Fish Visibility: Low": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Water Conditions: Fish Visibility: High": {
+    "content": ":selected:",
+    "confidence": 0.977
+  },
+  "Water Conditions: Water Clarity: 0-0.25m": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Water Conditions: Water Clarity: 0.5-1.0m": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Conditions: Water Clarity: 3m to bottom": {
+    "content": ":selected:",
+    "confidence": 0.975
+  },
+  "Recoveries Comments": {
+    "content": "Junction",
+    "confidence": 0.0
+  },
+  "SK_Count_data": [
+    {
+      "item": {
+        "Area": {
+          "content": "Blocked Share",
+          "confidence": 0.251
+        },
+        "Live Count (incl. live tags)": {
+          "content": "300",
+          "confidence": 0.961
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "70",
+          "confidence": 0.752
+        },
+        "% Spawning": {
+          "content": "70",
+          "confidence": 0.909
+        },
+        "% Spawned Out": {
+          "content": "30",
+          "confidence": 0.964
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.954
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.944
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.814
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "Big Slide",
+          "confidence": 0.424
+        },
+        "Live Count (incl. live tags)": {
+          "content": "96",
+          "confidence": 0.947
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "65",
+          "confidence": 0.969
+        },
+        "% Spawning": {
+          "content": "60",
+          "confidence": 0.955
+        },
+        "% Spawned Out": {
+          "content": "40",
+          "confidence": 0.874
+        },
+        "Other Species": {
+          "content": "50",
+          "confidence": 0.876
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.954
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.944
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "Lynx Shore",
+          "confidence": 0.526
+        },
+        "Live Count (incl. live tags)": {
+          "content": "8",
+          "confidence": 0.975
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "85",
+          "confidence": 0.919
+        },
+        "% Spawning": {
+          "content": "50",
+          "confidence": 0.872
+        },
+        "% Spawned Out": {
+          "content": "50",
+          "confidence": 0.835
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.954
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.944
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.814
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "Junction",
+          "confidence": 0.672
+        },
+        "Live Count (incl. live tags)": {
+          "content": "Q",
+          "confidence": 0.169
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "65",
+          "confidence": 0.971
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.954
+        },
+        "% Spawning": {
+          "content": null,
+          "confidence": 0.919
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.95
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.944
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.814
+        }
+      }
+    }
+  ],
+  "SK_Count_data_3": [],
+  "Stream": {
+    "content": "Quesnel Lake- East Arm- North Shore",
+    "confidence": 0.55
+  },
+  "Survey Type: Aerial": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Survey Time: End": {
+    "content": "18:10",
+    "confidence": 0.977
+  },
+  "Water Level: % Bankfill: 25-50%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Level: % Bankfill: 75-100%": {
+    "content": ":selected:",
+    "confidence": 0.976
+  },
+  "Weather: Brightness: Full": {
+    "content": ":selected:",
+    "confidence": 0.974
+  },
+  "Weather: Brightness: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: %Cloudy: 0%": {
+    "content": ":selected:",
+    "confidence": 0.971
+  },
+  "Weather: %Cloudy: 50%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Weather: %Cloudy: 100%": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Precipitation: Type: Snow": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Precipitation: Intensity: Light": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Precipitation: Intensity: Heavy": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Water Conditions: Fish Visibility: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Conditions: Water Temperature": {
+    "content": "14.4",
+    "confidence": 0.972
+  },
+  "Water Conditions: Water Clarity: 0.25-0.5m": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Water Conditions: Water Clarity: 1-3m": {
+    "content": ":unselected:",
+    "confidence": 0.975
+  },
+  "SK_Count_data_2": [
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "Blue Leader",
+          "confidence": 0.18
+        },
+        "Male": {
+          "content": "33-",
+          "confidence": 0.528
+        },
+        "Female": {
+          "content": "60",
+          "confidence": 0.806
+        },
+        "Female % Spawn: 100%": {
+          "content": "60",
+          "confidence": 0.897
+        },
+        "Unsexed": {
+          "content": "12",
+          "confidence": 0.797
+        },
+        "Female % Spawn: N.R.": {
+          "content": null,
+          "confidence": 0.949
+        },
+        "Female % Spawn: 0%": {
+          "content": null,
+          "confidence": 0.95
+        },
+        "Female % Spawn: 50%": {
+          "content": null,
+          "confidence": 0.95
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.955
+        }
+      }
+    },
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "Bin slide",
+          "confidence": 0.455
+        },
+        "Unsexed": {
+          "content": "25",
+          "confidence": 0.736
+        },
+        "Male": {
+          "content": null,
+          "confidence": 0.76
+        },
+        "Female": {
+          "content": null,
+          "confidence": 0.371
+        },
+        "Female % Spawn: N.R.": {
+          "content": null,
+          "confidence": 0.949
+        },
+        "Female % Spawn: 0%": {
+          "content": null,
+          "confidence": 0.95
+        },
+        "Female % Spawn: 50%": {
+          "content": null,
+          "confidence": 0.95
+        },
+        "Female % Spawn: 100%": {
+          "content": null,
+          "confidence": 0.944
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.955
+        }
+      }
+    },
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "Lynx",
+          "confidence": 0.598
+        },
+        "Male": {
+          "content": "10",
+          "confidence": 0.679
+        },
+        "Female": {
+          "content": "12",
+          "confidence": 0.701
+        },
+        "Female % Spawn: 100%": {
+          "content": "12",
+          "confidence": 0.49
+        },
+        "Unsexed": {
+          "content": "1",
+          "confidence": 0.677
+        },
+        "Female % Spawn: N.R.": {
+          "content": null,
+          "confidence": 0.949
+        },
+        "Female % Spawn: 0%": {
+          "content": null,
+          "confidence": 0.95
+        },
+        "Female % Spawn: 50%": {
+          "content": null,
+          "confidence": 0.95
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.955
+        }
+      }
+    }
+  ],
+  "3rd Observer": {
+    "content": null,
+    "confidence": 0.966
+  },
+  "Visual Surveys Comments": {
+    "content": null,
+    "confidence": 0.967
+  },
+  "Water Level: Gauge": {
+    "content": null,
+    "confidence": 0.981
+  },
+  "Water Level: Gauge: Area": {
+    "content": null,
+    "confidence": 0.981
+  },
+  "General Comments": {
+    "content": null,
+    "confidence": 0.958
+  }
+}

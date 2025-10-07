@@ -1,0 +1,323 @@
+{
+  "Date": {
+    "content": "04/26/2022",
+    "confidence": 0.657
+  },
+  "Observer(s)": {
+    "content": "E. Olson",
+    "confidence": 0.464
+  },
+  "Survey Type: Ground": {
+    "content": ":selected:",
+    "confidence": 0.951
+  },
+  "Survey Time: Start": {
+    "content": "15:10",
+    "confidence": 0.914
+  },
+  "Water Level: % Bankfill: <25%": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Water Level: % Bankfill: 50-75%": {
+    "content": ":unselected:",
+    "confidence": 0.975
+  },
+  "Water Level: % Bankfill: +100%": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Weather: Brightness: Bright": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: Brightness: Dark": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: %Cloudy: 25%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Weather: %Cloudy: 75%": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Precipitation: Type: Rain": {
+    "content": ":unselected:",
+    "confidence": 0.98
+  },
+  "Precipitation: Type: None": {
+    "content": ":selected:",
+    "confidence": 0.98
+  },
+  "Precipitation: Intensity: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Water Conditions: Fish Visibility: Low": {
+    "content": ":unselected:",
+    "confidence": 0.973
+  },
+  "Water Conditions: Fish Visibility: High": {
+    "content": ":selected:",
+    "confidence": 0.973
+  },
+  "Water Conditions: Water Clarity: 0-0.25m": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Water Clarity: 0.5-1.0m": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Water Clarity: 3m to bottom": {
+    "content": ":selected:",
+    "confidence": 0.972
+  },
+  "Recoveries Comments": {
+    "content": "Ler)\nLynx\nBr Slide\none K\nokarel\nat big\nslide share",
+    "confidence": 0.232
+  },
+  "SK_Count_data": [
+    {
+      "item": {
+        "Area": {
+          "content": "Blue Leadsho",
+          "confidence": 0.641
+        },
+        "Live Count (incl. live tags)": {
+          "content": "885/894",
+          "confidence": 0.806
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "70",
+          "confidence": 0.958
+        },
+        "% Spawning": {
+          "content": "100",
+          "confidence": 0.958
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.954
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.949
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.96
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.919
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "Big Slide",
+          "confidence": 0.792
+        },
+        "Live Count (incl. live tags)": {
+          "content": "295/293",
+          "confidence": 0.925
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "70",
+          "confidence": 0.966
+        },
+        "% Spawning": {
+          "content": "UVO",
+          "confidence": 0.605
+        },
+        "% Spawned Out": {
+          "content": "à",
+          "confidence": 0.09
+        },
+        "Other Species": {
+          "content": "1",
+          "confidence": 0.782
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.954
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.96
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "Lynk Shore\nTo time",
+          "confidence": 0.039
+        },
+        "Live Count (incl. live tags)": {
+          "content": "47/57",
+          "confidence": 0.924
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "70",
+          "confidence": 0.967
+        },
+        "% Spawning": {
+          "content": "100",
+          "confidence": 0.882
+        },
+        "Other Species": {
+          "content": "Kokanee",
+          "confidence": 0.589
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.954
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.949
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.96
+        }
+      }
+    }
+  ],
+  "SK_Count_data_3": [],
+  "Stream": {
+    "content": "Quesnel Lake- East Arm- North Shore",
+    "confidence": 0.4
+  },
+  "Survey Type: Aerial": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Survey Time: End": {
+    "content": "1710",
+    "confidence": 0.97
+  },
+  "Water Level: % Bankfill: 25-50%": {
+    "content": ":unselected:",
+    "confidence": 0.975
+  },
+  "Water Level: % Bankfill: 75-100%": {
+    "content": ":selected:",
+    "confidence": 0.973
+  },
+  "Weather: Brightness: Full": {
+    "content": ":selected:",
+    "confidence": 0.979
+  },
+  "Weather: Brightness: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: %Cloudy: 0%": {
+    "content": ":selected:",
+    "confidence": 0.979
+  },
+  "Weather: %Cloudy: 50%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Weather: %Cloudy: 100%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Precipitation: Type: Snow": {
+    "content": ":unselected:",
+    "confidence": 0.98
+  },
+  "Precipitation: Intensity: Light": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Precipitation: Intensity: Heavy": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Water Conditions: Fish Visibility: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Water Conditions: Water Temperature": {
+    "content": "14,3",
+    "confidence": 0.72
+  },
+  "Water Conditions: Water Clarity: 0.25-0.5m": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Water Clarity: 1-3m": {
+    "content": ":unselected:",
+    "confidence": 0.975
+  },
+  "General Comments": {
+    "content": "Comments Water Less glacial,\nbetter visibility them\nproviers surveys",
+    "confidence": 0.102
+  },
+  "SK_Count_data_2": [
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "Blue",
+          "confidence": 0.864
+        },
+        "Male": {
+          "content": "38",
+          "confidence": 0.916
+        },
+        "Female": {
+          "content": "33",
+          "confidence": 0.899
+        },
+        "Female % Spawn: 100%": {
+          "content": "33\n17",
+          "confidence": 0.023
+        },
+        "Unsexed": {
+          "content": "24",
+          "confidence": 0.701
+        },
+        "Female % Spawn: N.R.": {
+          "content": null,
+          "confidence": 0.945
+        },
+        "Female % Spawn: 0%": {
+          "content": null,
+          "confidence": 0.945
+        },
+        "Female % Spawn: 50%": {
+          "content": null,
+          "confidence": 0.946
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.949
+        }
+      }
+    }
+  ],
+  "3rd Observer": {
+    "content": null,
+    "confidence": 0.965
+  },
+  "Visual Surveys Comments": {
+    "content": null,
+    "confidence": 0.967
+  },
+  "Water Level: Gauge": {
+    "content": null,
+    "confidence": 0.981
+  },
+  "Water Level: Gauge: Area": {
+    "content": null,
+    "confidence": 0.981
+  }
+}

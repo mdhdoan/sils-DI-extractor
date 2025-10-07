@@ -1,0 +1,287 @@
+{
+  "Date": {
+    "content": "Sept/12/2018",
+    "confidence": 0.606
+  },
+  "Observer(s)": {
+    "content": "Brian Smith",
+    "confidence": 0.469
+  },
+  "Survey Type: Ground": {
+    "content": ":selected:",
+    "confidence": 0.917
+  },
+  "Survey Time: Start": {
+    "content": "1015",
+    "confidence": 0.938
+  },
+  "Water Level: % Bankfill: <25%": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Level: % Bankfill: 50-75%": {
+    "content": ":selected:",
+    "confidence": 0.969
+  },
+  "Water Level: % Bankfill: +100%": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Weather: Brightness: Bright": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Weather: Brightness: Dark": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: %Cloudy: 25%": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: %Cloudy: 75%": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Precipitation: Type: Rain": {
+    "content": ":selected:",
+    "confidence": 0.972
+  },
+  "Precipitation: Type: None": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Precipitation: Intensity: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Water Conditions: Fish Visibility: Low": {
+    "content": ":unselected:",
+    "confidence": 0.975
+  },
+  "Water Conditions: Fish Visibility: High": {
+    "content": ":unselected:",
+    "confidence": 0.975
+  },
+  "Water Conditions: Water Clarity: 0-0.25m": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Water Clarity: 0.5-1.0m": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Water Clarity: 3m to bottom": {
+    "content": ":unselected:",
+    "confidence": 0.98
+  },
+  "SK_Count_data": [
+    {
+      "item": {
+        "Area": {
+          "content": "Mouth\n1",
+          "confidence": 0.216
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "100",
+          "confidence": 0.504
+        },
+        "Live Count (incl. live tags)": {
+          "content": null,
+          "confidence": 0.778
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "% Spawning": {
+          "content": null,
+          "confidence": 0.948
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.946
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.95
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.949
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "2",
+          "confidence": 0.704
+        },
+        "Live Count (incl. live tags)": {
+          "content": null,
+          "confidence": 0.778
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": null,
+          "confidence": 0.943
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "% Spawning": {
+          "content": null,
+          "confidence": 0.948
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.946
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.95
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.949
+        }
+      }
+    }
+  ],
+  "SK_Count_data_3": [],
+  "Stream": {
+    "content": "Mitchell River",
+    "confidence": 0.675
+  },
+  "Survey Type: Aerial": {
+    "content": ":unselected:",
+    "confidence": 0.883
+  },
+  "Survey Time: End": {
+    "content": "1125",
+    "confidence": 0.877
+  },
+  "Water Level: % Bankfill: 25-50%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Level: % Bankfill: 75-100%": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Weather: Brightness: Full": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Weather: Brightness: Medium": {
+    "content": ":selected:",
+    "confidence": 0.971
+  },
+  "Weather: %Cloudy: 0%": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: %Cloudy: 50%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Weather: %Cloudy: 100%": {
+    "content": ":selected:",
+    "confidence": 0.971
+  },
+  "Precipitation: Type: Snow": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Precipitation: Intensity: Light": {
+    "content": ":selected:",
+    "confidence": 0.974
+  },
+  "Precipitation: Intensity: Heavy": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Conditions: Fish Visibility: Medium": {
+    "content": ":selected:",
+    "confidence": 0.974
+  },
+  "Water Conditions: Water Temperature": {
+    "content": "12,5€",
+    "confidence": 0.079
+  },
+  "Water Conditions: Water Clarity: 0.25-0.5m": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Water Clarity: 1-3m": {
+    "content": ":selected:",
+    "confidence": 0.493
+  },
+  "General Comments": {
+    "content": "Comments No live count today.\nLarge schools of fish still\nholding throughout areas 1+2.",
+    "confidence": 0.403
+  },
+  "SK_Count_data_2": [
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "Mouth\n1\n2",
+          "confidence": 0.177
+        },
+        "Male": {
+          "content": "11",
+          "confidence": 0.55
+        },
+        "Female": {
+          "content": "17",
+          "confidence": 0.909
+        },
+        "Female % Spawn: N.R.": {
+          "content": "2",
+          "confidence": 0.915
+        },
+        "Female % Spawn: 0%": {
+          "content": "8",
+          "confidence": 0.912
+        },
+        "Female % Spawn: 50%": {
+          "content": "O",
+          "confidence": 0.575
+        },
+        "Female % Spawn: 100%": {
+          "content": "7",
+          "confidence": 0.921
+        },
+        "Jack": {
+          "content": "0",
+          "confidence": 0.709
+        },
+        "Unsexed": {
+          "content": "135",
+          "confidence": 0.641
+        }
+      }
+    }
+  ],
+  "3rd Observer": {
+    "content": null,
+    "confidence": 0.964
+  },
+  "Visual Surveys Comments": {
+    "content": null,
+    "confidence": 0.965
+  },
+  "Water Level: Gauge": {
+    "content": null,
+    "confidence": 0.981
+  },
+  "Water Level: Gauge: Area": {
+    "content": null,
+    "confidence": 0.981
+  },
+  "Recoveries Comments": {
+    "content": null,
+    "confidence": 0.965
+  }
+}

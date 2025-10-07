@@ -1,0 +1,327 @@
+{
+  "Date": {
+    "content": "Spr 26 2019",
+    "confidence": 0.143
+  },
+  "Observer(s)": {
+    "content": "N/ PorBU",
+    "confidence": 0.147
+  },
+  "Survey Type: Ground": {
+    "content": ":selected:",
+    "confidence": 0.955
+  },
+  "Survey Time: Start": {
+    "content": "10:20",
+    "confidence": 0.979
+  },
+  "Water Level: % Bankfill: <25%": {
+    "content": ":unselected:",
+    "confidence": 0.961
+  },
+  "Water Level: % Bankfill: 50-75%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Level: % Bankfill: +100%": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Weather: Brightness: Bright": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Weather: Brightness: Dark": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: %Cloudy: 25%": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: %Cloudy: 75%": {
+    "content": ":selected:",
+    "confidence": 0.974
+  },
+  "Precipitation: Type: Rain": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Precipitation: Type: None": {
+    "content": ":selected:",
+    "confidence": 0.978
+  },
+  "Precipitation: Intensity: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Conditions: Fish Visibility: Low": {
+    "content": ":unselected:",
+    "confidence": 0.972
+  },
+  "Water Conditions: Fish Visibility: High": {
+    "content": ":unselected:",
+    "confidence": 0.972
+  },
+  "Water Conditions: Water Clarity: 0-0.25m": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Water Conditions: Water Clarity: 0.5-1.0m": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Water Conditions: Water Clarity: 3m to bottom": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Recoveries Comments": {
+    "content": "10-1\nCHINOOK\nCARCASS - TOO\nFAST TO\nGET TO IT\n. PSC SAMPLED IM + 10F FROM A9, INCLUDED IN TOTAL\n· CLEAR WATER MADE FOR GOOD",
+    "confidence": 0.054
+  },
+  "SK_Count_data": [
+    {
+      "item": {
+        "Area": {
+          "content": "9",
+          "confidence": 0.951
+        },
+        "Live Count (incl. live tags)": {
+          "content": "177",
+          "confidence": 0.913
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "80",
+          "confidence": 0.755
+        },
+        "% Spawning": {
+          "content": "60",
+          "confidence": 0.763
+        },
+        "% Spawned Out": {
+          "content": "40",
+          "confidence": 0.89
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.946
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.949
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.948
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "10",
+          "confidence": 0.91
+        },
+        "Live Count (incl. live tags)": {
+          "content": "96",
+          "confidence": 0.968
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "80",
+          "confidence": 0.953
+        },
+        "% Spawning": {
+          "content": "40",
+          "confidence": 0.943
+        },
+        "% Spawned Out": {
+          "content": "60",
+          "confidence": 0.899
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.946
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.949
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.948
+        }
+      }
+    }
+  ],
+  "SK_Count_data_3": [],
+  "Stream": {
+    "content": "HORSEFLY RIVER",
+    "confidence": 0.684
+  },
+  "Survey Type: Aerial": {
+    "content": ":unselected:",
+    "confidence": 0.97
+  },
+  "Survey Time: End": {
+    "content": "13:25",
+    "confidence": 0.95
+  },
+  "Water Level: % Bankfill: 25-50%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Level: % Bankfill: 75-100%": {
+    "content": ":selected:",
+    "confidence": 0.97
+  },
+  "Weather: Brightness: Full": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Weather: Brightness: Medium": {
+    "content": ":selected:",
+    "confidence": 0.977
+  },
+  "Weather: %Cloudy: 0%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Weather: %Cloudy: 50%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Weather: %Cloudy: 100%": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Precipitation: Type: Snow": {
+    "content": ":unselected:",
+    "confidence": 0.98
+  },
+  "Precipitation: Intensity: Light": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Precipitation: Intensity: Heavy": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Water Conditions: Fish Visibility: Medium": {
+    "content": ":selected:",
+    "confidence": 0.969
+  },
+  "Water Conditions: Water Temperature": {
+    "content": "9,5°℃",
+    "confidence": 0.569
+  },
+  "Water Conditions: Water Clarity: 0.25-0.5m": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Water Conditions: Water Clarity: 1-3m": {
+    "content": ":selected:",
+    "confidence": 0.975
+  },
+  "General Comments": {
+    "content": "Comments COUNTING CONDITIONS.\n. MANY Qualchetions of events, peak of spain> FISH OBSERVED WERE SINGLE\nSPAWNED OUT FEMALES UN REDOS\nà N30 FRESH SPAWNARS IN A9",
+    "confidence": 0.056
+  },
+  "SK_Count_data_2": [
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "9",
+          "confidence": 0.948
+        },
+        "Male": {
+          "content": "2",
+          "confidence": 0.941
+        },
+        "Female": {
+          "content": "25",
+          "confidence": 0.897
+        },
+        "Female % Spawn: 100%": {
+          "content": "25",
+          "confidence": 0.893
+        },
+        "Unsexed": {
+          "content": "4",
+          "confidence": 0.739
+        },
+        "Female % Spawn: N.R.": {
+          "content": null,
+          "confidence": 0.946
+        },
+        "Female % Spawn: 0%": {
+          "content": null,
+          "confidence": 0.948
+        },
+        "Female % Spawn: 50%": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.952
+        }
+      }
+    },
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "10",
+          "confidence": 0.9
+        },
+        "Male": {
+          "content": "$",
+          "confidence": 0.212
+        },
+        "Female": {
+          "content": "2",
+          "confidence": 0.867
+        },
+        "Female % Spawn: 100%": {
+          "content": "2",
+          "confidence": 0.776
+        },
+        "Unsexed": {
+          "content": "1",
+          "confidence": 0.686
+        },
+        "Female % Spawn: N.R.": {
+          "content": null,
+          "confidence": 0.946
+        },
+        "Female % Spawn: 0%": {
+          "content": null,
+          "confidence": 0.948
+        },
+        "Female % Spawn: 50%": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.952
+        }
+      }
+    }
+  ],
+  "3rd Observer": {
+    "content": null,
+    "confidence": 0.965
+  },
+  "Visual Surveys Comments": {
+    "content": null,
+    "confidence": 0.63
+  },
+  "Water Level: Gauge": {
+    "content": null,
+    "confidence": 0.981
+  },
+  "Water Level: Gauge: Area": {
+    "content": null,
+    "confidence": 0.981
+  }
+}

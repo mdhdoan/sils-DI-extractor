@@ -1,0 +1,363 @@
+{
+  "Date": {
+    "content": "10/03/2022",
+    "confidence": 0.889
+  },
+  "Observer(s)": {
+    "content": "E. Olson / C. MC Aulan",
+    "confidence": 0.503
+  },
+  "Survey Type: Ground": {
+    "content": ":selected:",
+    "confidence": 0.855
+  },
+  "Survey Time: Start": {
+    "content": "0915",
+    "confidence": 0.979
+  },
+  "Water Level: % Bankfill: <25%": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Water Level: % Bankfill: 50-75%": {
+    "content": ":unselected:",
+    "confidence": 0.975
+  },
+  "Water Level: % Bankfill: +100%": {
+    "content": ":unselected:",
+    "confidence": 0.975
+  },
+  "Weather: Brightness: Bright": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: Brightness: Dark": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Weather: %Cloudy: 25%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Weather: %Cloudy: 75%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Precipitation: Type: Rain": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Precipitation: Type: None": {
+    "content": ":selected:",
+    "confidence": 0.98
+  },
+  "Precipitation: Intensity: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Conditions: Fish Visibility: Low": {
+    "content": ":unselected:",
+    "confidence": 0.973
+  },
+  "Water Conditions: Fish Visibility: High": {
+    "content": ":selected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Water Clarity: 0-0.25m": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Conditions: Water Clarity: 0.5-1.0m": {
+    "content": ":unselected:",
+    "confidence": 0.975
+  },
+  "Water Conditions: Water Clarity: 3m to bottom": {
+    "content": ":selected:",
+    "confidence": 0.978
+  },
+  "SK_Count_data": [
+    {
+      "item": {
+        "Area": {
+          "content": "Slate Bay",
+          "confidence": 0.836
+        },
+        "Live Count (incl. live tags)": {
+          "content": "Q",
+          "confidence": 0.238
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "55",
+          "confidence": 0.897
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.955
+        },
+        "% Spawning": {
+          "content": null,
+          "confidence": 0.948
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.948
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.96
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.942
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "Bouldery Shore",
+          "confidence": 0.473
+        },
+        "Live Count (incl. live tags)": {
+          "content": "148",
+          "confidence": 0.95
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "75",
+          "confidence": 0.903
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.955
+        },
+        "% Spawning": {
+          "content": null,
+          "confidence": 0.948
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.948
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.96
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.942
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "Bill MinerShare",
+          "confidence": 0.607
+        },
+        "Live Count (incl. live tags)": {
+          "content": "28",
+          "confidence": 0.967
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "65",
+          "confidence": 0.966
+        },
+        "% Spawning": {
+          "content": "70\n80",
+          "confidence": 0.501
+        },
+        "% Spawned Out": {
+          "content": "30\n20",
+          "confidence": 0.607
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.955
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.96
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.942
+        }
+      }
+    }
+  ],
+  "SK_Count_data_3": [],
+  "Stream": {
+    "content": "Quesnel Lane-East Arm- South Shore",
+    "confidence": 0.6
+  },
+  "Survey Type: Aerial": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Survey Time: End": {
+    "content": "11:20",
+    "confidence": 0.957
+  },
+  "Water Level: % Bankfill: 25-50%": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Water Level: % Bankfill: 75-100%": {
+    "content": ":selected:",
+    "confidence": 0.86
+  },
+  "Weather: Brightness: Full": {
+    "content": ":selected:",
+    "confidence": 0.979
+  },
+  "Weather: Brightness: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Weather: %Cloudy: 0%": {
+    "content": ":selected:",
+    "confidence": 0.979
+  },
+  "Weather: %Cloudy: 50%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Weather: %Cloudy: 100%": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Precipitation: Type: Snow": {
+    "content": ":unselected:",
+    "confidence": 0.98
+  },
+  "Precipitation: Intensity: Light": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Precipitation: Intensity: Heavy": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Conditions: Fish Visibility: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Water Conditions: Water Temperature": {
+    "content": "14,4℃",
+    "confidence": 0.355
+  },
+  "Water Conditions: Water Clarity: 0.25-0.5m": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Conditions: Water Clarity: 1-3m": {
+    "content": ":unselected:",
+    "confidence": 0.975
+  },
+  "SK_Count_data_2": [
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "Slate\nBouldery",
+          "confidence": 0.425
+        },
+        "Female % Spawn: 100%": {
+          "content": "30",
+          "confidence": 0.637
+        },
+        "Male": {
+          "content": null,
+          "confidence": 0.919
+        },
+        "Female": {
+          "content": null,
+          "confidence": 0.919
+        },
+        "Female % Spawn: N.R.": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "Female % Spawn: 0%": {
+          "content": null,
+          "confidence": 0.948
+        },
+        "Female % Spawn: 50%": {
+          "content": null,
+          "confidence": 0.948
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.942
+        },
+        "Unsexed": {
+          "content": null,
+          "confidence": 0.951
+        }
+      }
+    },
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "Bill Miner",
+          "confidence": 0.798
+        },
+        "Male": {
+          "content": "1",
+          "confidence": 0.874
+        },
+        "Female": {
+          "content": "1",
+          "confidence": 0.873
+        },
+        "Female % Spawn: 100%": {
+          "content": "10",
+          "confidence": 0.826
+        },
+        "Female % Spawn: N.R.": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "Female % Spawn: 0%": {
+          "content": null,
+          "confidence": 0.948
+        },
+        "Female % Spawn: 50%": {
+          "content": null,
+          "confidence": 0.948
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.942
+        },
+        "Unsexed": {
+          "content": null,
+          "confidence": 0.951
+        }
+      }
+    }
+  ],
+  "3rd Observer": {
+    "content": null,
+    "confidence": 0.966
+  },
+  "Visual Surveys Comments": {
+    "content": null,
+    "confidence": 0.967
+  },
+  "Water Level: Gauge": {
+    "content": null,
+    "confidence": 0.981
+  },
+  "Water Level: Gauge: Area": {
+    "content": null,
+    "confidence": 0.981
+  },
+  "Recoveries Comments": {
+    "content": null,
+    "confidence": 0.965
+  },
+  "General Comments": {
+    "content": null,
+    "confidence": 0.957
+  }
+}

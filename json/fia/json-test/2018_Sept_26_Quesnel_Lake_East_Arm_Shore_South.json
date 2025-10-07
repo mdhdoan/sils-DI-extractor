@@ -1,0 +1,246 @@
+{
+  "Date": {
+    "content": "Sept 26/18",
+    "confidence": 0.74
+  },
+  "Observer(s)": {
+    "content": "S. LePage /S Devar",
+    "confidence": 0.443
+  },
+  "Survey Type: Ground": {
+    "content": ":selected:",
+    "confidence": 0.917
+  },
+  "Survey Time: Start": {
+    "content": "0928",
+    "confidence": 0.968
+  },
+  "Water Level: % Bankfill: <25%": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Level: % Bankfill: 50-75%": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Water Level: % Bankfill: +100%": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Weather: Brightness: Bright": {
+    "content": ":unselected:",
+    "confidence": 0.962
+  },
+  "Weather: Brightness: Dark": {
+    "content": ":unselected:",
+    "confidence": 0.962
+  },
+  "Weather: %Cloudy: 25%": {
+    "content": ":unselected:",
+    "confidence": 0.966
+  },
+  "Weather: %Cloudy: 75%": {
+    "content": ":unselected:",
+    "confidence": 0.966
+  },
+  "Precipitation: Type: Rain": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Precipitation: Type: None": {
+    "content": ":selected:",
+    "confidence": 0.971
+  },
+  "Precipitation: Intensity: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Conditions: Fish Visibility: Low": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Water Conditions: Fish Visibility: High": {
+    "content": ":selected:",
+    "confidence": 0.97
+  },
+  "Water Conditions: Water Clarity: 0-0.25m": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Water Clarity: 0.5-1.0m": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Water Conditions: Water Clarity: 3m to bottom": {
+    "content": ":selected:",
+    "confidence": 0.972
+  },
+  "SK_Count_data": [
+    {
+      "item": {
+        "Area": {
+          "content": "BOULDERY",
+          "confidence": 0.961
+        },
+        "Live Count (incl. live tags)": {
+          "content": "422",
+          "confidence": 0.969
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "70",
+          "confidence": 0.897
+        },
+        "% Holding / Migrating": {
+          "content": "10",
+          "confidence": 0.974
+        },
+        "% Spawning": {
+          "content": "70",
+          "confidence": 0.86
+        },
+        "% Spawned Out": {
+          "content": "20",
+          "confidence": 0.981
+        },
+        "Live Tagged": {
+          "content": "59",
+          "confidence": 0.965
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.954
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "BILL MINER",
+          "confidence": 0.951
+        },
+        "Live Count (incl. live tags)": {
+          "content": "45",
+          "confidence": 0.981
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "70",
+          "confidence": 0.959
+        },
+        "% Holding / Migrating": {
+          "content": "0",
+          "confidence": 0.925
+        },
+        "% Spawning": {
+          "content": "60",
+          "confidence": 0.969
+        },
+        "% Spawned Out": {
+          "content": "40",
+          "confidence": 0.972
+        },
+        "Live Tagged": {
+          "content": "5",
+          "confidence": 0.955
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.954
+        }
+      }
+    }
+  ],
+  "SK_Count_data_3": [],
+  "Stream": {
+    "content": "Quesnel Lake\n- East Arm SOUTH SHORES",
+    "confidence": 0.813
+  },
+  "Survey Type: Aerial": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Visual Surveys Comments": {
+    "content": "UAU\nused on BOULDE\nRY + 5 were\nnot\nflow over\non\nthe 2k NE shore",
+    "confidence": 0.142
+  },
+  "Survey Time: End": {
+    "content": "1034",
+    "confidence": 0.913
+  },
+  "Water Level: % Bankfill: 25-50%": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Level: % Bankfill: 75-100%": {
+    "content": ":selected:",
+    "confidence": 0.954
+  },
+  "Weather: Brightness: Full": {
+    "content": ":unselected:",
+    "confidence": 0.965
+  },
+  "Weather: Brightness: Medium": {
+    "content": ":selected:",
+    "confidence": 0.951
+  },
+  "Weather: %Cloudy: 0%": {
+    "content": ":unselected:",
+    "confidence": 0.97
+  },
+  "Weather: %Cloudy: 50%": {
+    "content": ":unselected:",
+    "confidence": 0.964
+  },
+  "Weather: %Cloudy: 100%": {
+    "content": ":selected:",
+    "confidence": 0.954
+  },
+  "Precipitation: Type: Snow": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Precipitation: Intensity: Light": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Precipitation: Intensity: Heavy": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Water Conditions: Fish Visibility: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Water Conditions: Water Temperature": {
+    "content": "13",
+    "confidence": 0.946
+  },
+  "Water Conditions: Water Clarity: 0.25-0.5m": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Water Clarity: 1-3m": {
+    "content": ":unselected:",
+    "confidence": 0.972
+  },
+  "SK_Count_data_2": [],
+  "3rd Observer": {
+    "content": null,
+    "confidence": 0.965
+  },
+  "Water Level: Gauge": {
+    "content": null,
+    "confidence": 0.981
+  },
+  "Water Level: Gauge: Area": {
+    "content": null,
+    "confidence": 0.981
+  },
+  "Recoveries Comments": {
+    "content": null,
+    "confidence": 0.965
+  },
+  "General Comments": {
+    "content": null,
+    "confidence": 0.957
+  }
+}

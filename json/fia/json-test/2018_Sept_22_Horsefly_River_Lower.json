@@ -1,0 +1,331 @@
+{
+  "Date": {
+    "content": "Sept. 22/18",
+    "confidence": 0.695
+  },
+  "Observer(s)": {
+    "content": "Listedle A. Loeum",
+    "confidence": 0.146
+  },
+  "Survey Type: Ground": {
+    "content": ":selected:",
+    "confidence": 0.917
+  },
+  "Survey Time: Start": {
+    "content": "10:00",
+    "confidence": 0.983
+  },
+  "Water Level: % Bankfill: <25%": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Level: % Bankfill: 50-75%": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Level: % Bankfill: +100%": {
+    "content": ":unselected:",
+    "confidence": 0.973
+  },
+  "Weather: Brightness: Bright": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Weather: Brightness: Dark": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Weather: %Cloudy: 25%": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Weather: %Cloudy: 75%": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Precipitation: Type: Rain": {
+    "content": ":selected:",
+    "confidence": 0.98
+  },
+  "Precipitation: Type: None": {
+    "content": ":unselected:",
+    "confidence": 0.975
+  },
+  "Precipitation: Intensity: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Water Conditions: Fish Visibility: Low": {
+    "content": ":unselected:",
+    "confidence": 0.973
+  },
+  "Water Conditions: Fish Visibility: High": {
+    "content": ":unselected:",
+    "confidence": 0.972
+  },
+  "Water Conditions: Water Clarity: 0-0.25m": {
+    "content": ":unselected:",
+    "confidence": 0.969
+  },
+  "Water Conditions: Water Clarity: 0.5-1.0m": {
+    "content": ":unselected:",
+    "confidence": 0.972
+  },
+  "Water Conditions: Water Clarity: 3m to bottom": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "SK_Count_data": [
+    {
+      "item": {
+        "Area": {
+          "content": "3",
+          "confidence": 0.897
+        },
+        "Live Count (incl. live tags)": {
+          "content": "/",
+          "confidence": 0.551
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "50",
+          "confidence": 0.737
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.945
+        },
+        "% Spawning": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.943
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.95
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.948
+        }
+      }
+    }
+  ],
+  "SK_Count_data_3": [],
+  "Stream": {
+    "content": "Horsefly (lower)",
+    "confidence": 0.86
+  },
+  "Survey Type: Aerial": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Survey Time: End": {
+    "content": "12:30",
+    "confidence": 0.771
+  },
+  "Water Level: % Bankfill: 25-50%": {
+    "content": ":selected:",
+    "confidence": 0.97
+  },
+  "Water Level: % Bankfill: 75-100%": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Weather: Brightness: Full": {
+    "content": ":unselected:",
+    "confidence": 0.973
+  },
+  "Weather: Brightness: Medium": {
+    "content": ":selected:",
+    "confidence": 0.979
+  },
+  "Weather: %Cloudy: 0%": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Weather: %Cloudy: 50%": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Weather: %Cloudy: 100%": {
+    "content": ":selected:",
+    "confidence": 0.979
+  },
+  "Precipitation: Type: Snow": {
+    "content": ":unselected:",
+    "confidence": 0.972
+  },
+  "Precipitation: Intensity: Light": {
+    "content": ":selected:",
+    "confidence": 0.979
+  },
+  "Precipitation: Intensity: Heavy": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Water Conditions: Fish Visibility: Medium": {
+    "content": ":selected:",
+    "confidence": 0.972
+  },
+  "Water Conditions: Water Clarity: 0.25-0.5m": {
+    "content": ":unselected:",
+    "confidence": 0.969
+  },
+  "Water Conditions: Water Clarity: 1-3m": {
+    "content": ":selected:",
+    "confidence": 0.977
+  },
+  "General Comments": {
+    "content": "Samples included\ntillies",
+    "confidence": 0.587
+  },
+  "SK_Count_data_2": [
+    {
+      "item": {
+        "Male": {
+          "content": "+10",
+          "confidence": 0.262
+        },
+        "Area (Untagged)": {
+          "content": null,
+          "confidence": 0.715
+        },
+        "Female": {
+          "content": null,
+          "confidence": 0.37
+        },
+        "Female % Spawn: N.R.": {
+          "content": null,
+          "confidence": 0.919
+        },
+        "Female % Spawn: 0%": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "Female % Spawn: 50%": {
+          "content": null,
+          "confidence": 0.94
+        },
+        "Female % Spawn: 100%": {
+          "content": null,
+          "confidence": 0.613
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.951
+        },
+        "Unsexed": {
+          "content": null,
+          "confidence": 0.954
+        }
+      }
+    },
+    {
+      "item": {
+        "Male": {
+          "content": "99+63",
+          "confidence": 0.651
+        },
+        "Area (Untagged)": {
+          "content": null,
+          "confidence": 0.715
+        },
+        "Female": {
+          "content": null,
+          "confidence": 0.37
+        },
+        "Female % Spawn: N.R.": {
+          "content": null,
+          "confidence": 0.919
+        },
+        "Female % Spawn: 0%": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "Female % Spawn: 50%": {
+          "content": null,
+          "confidence": 0.94
+        },
+        "Female % Spawn: 100%": {
+          "content": null,
+          "confidence": 0.613
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.951
+        },
+        "Unsexed": {
+          "content": null,
+          "confidence": 0.954
+        }
+      }
+    },
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "3",
+          "confidence": 0.9
+        },
+        "Male": {
+          "content": "172",
+          "confidence": 0.823
+        },
+        "Female": {
+          "content": "202",
+          "confidence": 0.889
+        },
+        "Female % Spawn: 0%": {
+          "content": "6",
+          "confidence": 0.898
+        },
+        "Female % Spawn: 100%": {
+          "content": "196",
+          "confidence": 0.896
+        },
+        "Female % Spawn: N.R.": {
+          "content": null,
+          "confidence": 0.919
+        },
+        "Female % Spawn: 50%": {
+          "content": null,
+          "confidence": 0.94
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.951
+        },
+        "Unsexed": {
+          "content": null,
+          "confidence": 0.954
+        }
+      }
+    }
+  ],
+  "3rd Observer": {
+    "content": null,
+    "confidence": 0.964
+  },
+  "Visual Surveys Comments": {
+    "content": null,
+    "confidence": 0.966
+  },
+  "Water Level: Gauge": {
+    "content": null,
+    "confidence": 0.981
+  },
+  "Water Level: Gauge: Area": {
+    "content": null,
+    "confidence": 0.981
+  },
+  "Water Conditions: Water Temperature": {
+    "content": null,
+    "confidence": 0.964
+  },
+  "Recoveries Comments": {
+    "content": null,
+    "confidence": 0.77
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "Date": {
+    "content": "Sept 19/2019",
+    "confidence": 0.924
+  },
+  "Survey Type: Ground": {
+    "content": ":selected:",
+    "confidence": 0.855
+  },
+  "Survey Time: Start": {
+    "content": "1022",
+    "confidence": 0.979
+  },
+  "Water Level: % Bankfill: <25%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Level: % Bankfill: 50-75%": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Water Level: % Bankfill: +100%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Weather: Brightness: Bright": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Weather: Brightness: Dark": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Weather: %Cloudy: 25%": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Weather: %Cloudy: 75%": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Precipitation: Type: Rain": {
+    "content": ":selected:",
+    "confidence": 0.98
+  },
+  "Precipitation: Type: None": {
+    "content": ":unselected:",
+    "confidence": 0.975
+  },
+  "Precipitation: Intensity: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Water Conditions: Fish Visibility: Low": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Water Conditions: Fish Visibility: High": {
+    "content": ":unselected:",
+    "confidence": 0.97
+  },
+  "Water Conditions: Water Clarity: 0-0.25m": {
+    "content": ":selected:",
+    "confidence": 0.064
+  },
+  "Water Conditions: Water Clarity: 0.5-1.0m": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Water Conditions: Water Clarity: 3m to bottom": {
+    "content": ":selected:",
+    "confidence": 0.978
+  },
+  "Recoveries Comments": {
+    "content": "10\nRECOURRIES",
+    "confidence": 0.018
+  },
+  "SK_Count_data": [
+    {
+      "item": {
+        "Area": {
+          "content": "Deception Pt Shore",
+          "confidence": 0.68
+        },
+        "Live Count (incl. live tags)": {
+          "content": "113",
+          "confidence": 0.931
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "40",
+          "confidence": 0.937
+        },
+        "% Holding / Migrating": {
+          "content": "10",
+          "confidence": 0.887
+        },
+        "% Spawning": {
+          "content": "90",
+          "confidence": 0.898
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.939
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.948
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.947
+        }
+      }
+    }
+  ],
+  "SK_Count_data_3": [],
+  "Stream": {
+    "content": "Quesnel Lake-North Arm",
+    "confidence": 0.82
+  },
+  "Survey Type: Aerial": {
+    "content": ":unselected:",
+    "confidence": 0.956
+  },
+  "Survey Time: End": {
+    "content": "1107",
+    "confidence": 0.968
+  },
+  "Water Level: % Bankfill: 25-50%": {
+    "content": ":unselected:",
+    "confidence": 0.97
+  },
+  "Water Level: % Bankfill: 75-100%": {
+    "content": ":selected:",
+    "confidence": 0.978
+  },
+  "Weather: Brightness: Full": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Weather: Brightness: Medium": {
+    "content": ":selected:",
+    "confidence": 0.979
+  },
+  "Weather: %Cloudy: 0%": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Weather: %Cloudy: 50%": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Weather: %Cloudy: 100%": {
+    "content": ":selected:",
+    "confidence": 0.979
+  },
+  "Precipitation: Type: Snow": {
+    "content": ":unselected:",
+    "confidence": 0.972
+  },
+  "Precipitation: Intensity: Light": {
+    "content": ":selected:",
+    "confidence": 0.977
+  },
+  "Precipitation: Intensity: Heavy": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Water Conditions: Fish Visibility: Medium": {
+    "content": ":selected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Water Temperature": {
+    "content": "15,8",
+    "confidence": 0.807
+  },
+  "Water Conditions: Water Clarity: 0.25-0.5m": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Water Conditions: Water Clarity: 1-3m": {
+    "content": ":unselected:",
+    "confidence": 0.975
+  },
+  "General Comments": {
+    "content": "No samples obtained Glare of surface\nmade deepwater observation difficult",
+    "confidence": 0.564
+  },
+  "SK_Count_data_2": [],
+  "Observer(s)": {
+    "content": null,
+    "confidence": 0.966
+  },
+  "3rd Observer": {
+    "content": null,
+    "confidence": 0.97
+  },
+  "Visual Surveys Comments": {
+    "content": null,
+    "confidence": 0.969
+  },
+  "Water Level: Gauge": {
+    "content": null,
+    "confidence": 0.982
+  },
+  "Water Level: Gauge: Area": {
+    "content": null,
+    "confidence": 0.982
+  }
+}

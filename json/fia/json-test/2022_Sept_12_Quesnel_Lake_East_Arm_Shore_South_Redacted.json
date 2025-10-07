@@ -1,0 +1,390 @@
+{
+  "Date": {
+    "content": "09/12/2022",
+    "confidence": 0.951
+  },
+  "Observer(s)": {
+    "content": "C. MCAday",
+    "confidence": 0.044
+  },
+  "Survey Type: Ground": {
+    "content": ":selected:",
+    "confidence": 0.956
+  },
+  "Survey Time: Start": {
+    "content": "10:00",
+    "confidence": 0.979
+  },
+  "Water Level: % Bankfill: <25%": {
+    "content": ":unselected:",
+    "confidence": 0.97
+  },
+  "Water Level: % Bankfill: 50-75%": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Water Level: % Bankfill: +100%": {
+    "content": ":unselected:",
+    "confidence": 0.975
+  },
+  "Weather: Brightness: Bright": {
+    "content": ":selected:",
+    "confidence": 0.964
+  },
+  "Weather: Brightness: Dark": {
+    "content": ":unselected:",
+    "confidence": 0.969
+  },
+  "Weather: %Cloudy: 25%": {
+    "content": ":unselected:",
+    "confidence": 0.924
+  },
+  "Weather: %Cloudy: 75%": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Precipitation: Type: Rain": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Precipitation: Type: None": {
+    "content": ":selected:",
+    "confidence": 0.98
+  },
+  "Precipitation: Intensity: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.979
+  },
+  "Water Conditions: Fish Visibility: Low": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Water Conditions: Fish Visibility: High": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Water Clarity: 0-0.25m": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Water Conditions: Water Clarity: 0.5-1.0m": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Conditions: Water Clarity: 3m to bottom": {
+    "content": ":unselected:",
+    "confidence": 0.98
+  },
+  "Recoveries Comments": {
+    "content": "NO\nRECOVERIES",
+    "confidence": 0.079
+  },
+  "SK_Count_data": [
+    {
+      "item": {
+        "Area": {
+          "content": "Bouldery",
+          "confidence": 0.795
+        },
+        "Live Count (incl. live tags)": {
+          "content": "96",
+          "confidence": 0.945
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "60",
+          "confidence": 0.921
+        },
+        "% Holding / Migrating": {
+          "content": "40",
+          "confidence": 0.426
+        },
+        "% Spawned Out": {
+          "content": "10",
+          "confidence": 0.952
+        },
+        "% Spawning": {
+          "content": null,
+          "confidence": 0.948
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.979
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.982
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "shore",
+          "confidence": 0.74
+        },
+        "Live Count (incl. live tags)": {
+          "content": null,
+          "confidence": 0.659
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": null,
+          "confidence": 0.92
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.56
+        },
+        "% Spawning": {
+          "content": null,
+          "confidence": 0.948
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.979
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.982
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "Hurricane Pt.",
+          "confidence": 0.849
+        },
+        "Live Count (incl. live tags)": {
+          "content": "Q",
+          "confidence": 0.821
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "70",
+          "confidence": 0.876
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.56
+        },
+        "% Spawning": {
+          "content": null,
+          "confidence": 0.948
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.979
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.982
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "Bill Mine Shore",
+          "confidence": 0.456
+        },
+        "Live Count (incl. live tags)": {
+          "content": "29",
+          "confidence": 0.869
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "40",
+          "confidence": 0.918
+        },
+        "% Holding / Migrating": {
+          "content": "100",
+          "confidence": 0.628
+        },
+        "% Spawning": {
+          "content": null,
+          "confidence": 0.948
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.979
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.982
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "Kill Dog Shore",
+          "confidence": 0.562
+        },
+        "Live Count (incl. live tags)": {
+          "content": "1",
+          "confidence": 0.745
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "85",
+          "confidence": 0.908
+        },
+        "% Holding / Migrating": {
+          "content": "100",
+          "confidence": 0.625
+        },
+        "% Spawning": {
+          "content": null,
+          "confidence": 0.948
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.979
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.982
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "Slate bag",
+          "confidence": 0.606
+        },
+        "Live Count (incl. live tags)": {
+          "content": "7",
+          "confidence": 0.85
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "50",
+          "confidence": 0.87
+        },
+        "% Spawning": {
+          "content": "100",
+          "confidence": 0.518
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.56
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.979
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.982
+        }
+      }
+    }
+  ],
+  "SK_Count_data_3": [],
+  "Stream": {
+    "content": "Quesnel lake - East Arm-Sath Share",
+    "confidence": 0.435
+  },
+  "Survey Type: Aerial": {
+    "content": ":unselected:",
+    "confidence": 0.957
+  },
+  "Survey Time: End": {
+    "content": "13:45",
+    "confidence": 0.961
+  },
+  "Water Level: % Bankfill: 25-50%": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Water Level: % Bankfill: 75-100%": {
+    "content": ":selected:",
+    "confidence": 0.975
+  },
+  "Weather: Brightness: Full": {
+    "content": ":selected:",
+    "confidence": 0.662
+  },
+  "Weather: Brightness: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.967
+  },
+  "Weather: %Cloudy: 0%": {
+    "content": ":unselected:",
+    "confidence": 0.651
+  },
+  "Weather: %Cloudy: 50%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Weather: %Cloudy: 100%": {
+    "content": ":selected:",
+    "confidence": 0.979
+  },
+  "Precipitation: Type: Snow": {
+    "content": ":unselected:",
+    "confidence": 0.98
+  },
+  "Precipitation: Intensity: Light": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Precipitation: Intensity: Heavy": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Water Conditions: Fish Visibility: Medium": {
+    "content": ":selected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Water Temperature": {
+    "content": "13,2°℃",
+    "confidence": 0.389
+  },
+  "Water Conditions: Water Clarity: 0.25-0.5m": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Water Conditions: Water Clarity: 1-3m": {
+    "content": ":selected:",
+    "confidence": 0.98
+  },
+  "General Comments": {
+    "content": "Comments Slate Bag very shallow likely More Fish but couldn't get boat incloser. Water very glacial east of Hurricane Pt. causing low Fish vis and OF.",
+    "confidence": 0.257
+  },
+  "SK_Count_data_2": [],
+  "3rd Observer": {
+    "content": null,
+    "confidence": 0.966
+  },
+  "Visual Surveys Comments": {
+    "content": null,
+    "confidence": 0.88
+  },
+  "Water Level: Gauge": {
+    "content": null,
+    "confidence": 0.982
+  },
+  "Water Level: Gauge: Area": {
+    "content": null,
+    "confidence": 0.981
+  }
+}

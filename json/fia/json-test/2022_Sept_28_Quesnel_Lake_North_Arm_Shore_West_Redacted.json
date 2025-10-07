@@ -1,0 +1,363 @@
+{
+  "Date": {
+    "content": "07/28/2022",
+    "confidence": 0.809
+  },
+  "Observer(s)": {
+    "content": "E. Olson",
+    "confidence": 0.606
+  },
+  "Survey Type: Ground": {
+    "content": ":selected:",
+    "confidence": 0.956
+  },
+  "Survey Time: Start": {
+    "content": "10 15",
+    "confidence": 0.781
+  },
+  "Water Level: % Bankfill: <25%": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Water Level: % Bankfill: 50-75%": {
+    "content": ":unselected:",
+    "confidence": 0.973
+  },
+  "Water Level: % Bankfill: +100%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Weather: Brightness: Bright": {
+    "content": ":unselected:",
+    "confidence": 0.975
+  },
+  "Weather: Brightness: Dark": {
+    "content": ":unselected:",
+    "confidence": 0.972
+  },
+  "Weather: %Cloudy: 25%": {
+    "content": ":selected:",
+    "confidence": 0.977
+  },
+  "Weather: %Cloudy: 75%": {
+    "content": ":unselected:",
+    "confidence": 0.974
+  },
+  "Precipitation: Type: Rain": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Precipitation: Type: None": {
+    "content": ":selected:",
+    "confidence": 0.975
+  },
+  "Precipitation: Intensity: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.684
+  },
+  "Water Conditions: Fish Visibility: Low": {
+    "content": ":unselected:",
+    "confidence": 0.97
+  },
+  "Water Conditions: Fish Visibility: High": {
+    "content": ":selected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Water Clarity: 0-0.25m": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Water Conditions: Water Clarity: 0.5-1.0m": {
+    "content": ":unselected:",
+    "confidence": 0.962
+  },
+  "Water Conditions: Water Clarity: 3m to bottom": {
+    "content": ":selected:",
+    "confidence": 0.978
+  },
+  "SK_Count_data": [
+    {
+      "item": {
+        "Area": {
+          "content": "Betty Frank Shore",
+          "confidence": 0.236
+        },
+        "Live Count (incl. live tags)": {
+          "content": "23",
+          "confidence": 0.97
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "80",
+          "confidence": 0.903
+        },
+        "% Spawning": {
+          "content": "100",
+          "confidence": 0.946
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.95
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.94
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.935
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "Bear Crak Share",
+          "confidence": 0.359
+        },
+        "Live Count (incl. live tags)": {
+          "content": "102",
+          "confidence": 0.92
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "70",
+          "confidence": 0.959
+        },
+        "% Spawning": {
+          "content": "100",
+          "confidence": 0.556
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.95
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.94
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.935
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "Limestone Pt Shore\nMarten crock shore",
+          "confidence": 0.324
+        },
+        "Live Count (incl. live tags)": {
+          "content": "23\n10",
+          "confidence": 0.488
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "80\n80",
+          "confidence": 0.397
+        },
+        "% Spawning": {
+          "content": "100\n100",
+          "confidence": 0.325
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.95
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.94
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.935
+        }
+      }
+    }
+  ],
+  "SK_Count_data_3": [],
+  "Stream": {
+    "content": "Quesnel Lake - North Arm-West Shore",
+    "confidence": 0.608
+  },
+  "Survey Type: Aerial": {
+    "content": ":unselected:",
+    "confidence": 0.97
+  },
+  "Visual Surveys Comments": {
+    "content": "(5)",
+    "confidence": 0.107
+  },
+  "Survey Time: End": {
+    "content": "1135",
+    "confidence": 0.97
+  },
+  "Water Level: % Bankfill: 25-50%": {
+    "content": ":unselected:",
+    "confidence": 0.975
+  },
+  "Water Level: % Bankfill: 75-100%": {
+    "content": ":selected:",
+    "confidence": 0.976
+  },
+  "Weather: Brightness: Full": {
+    "content": ":selected:",
+    "confidence": 0.976
+  },
+  "Weather: Brightness: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.975
+  },
+  "Weather: %Cloudy: 0%": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Weather: %Cloudy: 50%": {
+    "content": ":selected:",
+    "confidence": 0.979
+  },
+  "Weather: %Cloudy: 100%": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Precipitation: Type: Snow": {
+    "content": ":unselected:",
+    "confidence": 0.975
+  },
+  "Precipitation: Intensity: Light": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Precipitation: Intensity: Heavy": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Water Conditions: Fish Visibility: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.973
+  },
+  "Water Conditions: Water Temperature": {
+    "content": "14.5",
+    "confidence": 0.962
+  },
+  "Water Conditions: Water Clarity: 0.25-0.5m": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Water Conditions: Water Clarity: 1-3m": {
+    "content": ":unselected:",
+    "confidence": 0.972
+  },
+  "SK_Count_data_2": [
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "Betty Frank\nBear",
+          "confidence": 0.048
+        },
+        "Unsexed": {
+          "content": "18\n32",
+          "confidence": 0.061
+        },
+        "Male": {
+          "content": null,
+          "confidence": 0.68
+        },
+        "Female": {
+          "content": null,
+          "confidence": 0.939
+        },
+        "Female % Spawn: N.R.": {
+          "content": null,
+          "confidence": 0.951
+        },
+        "Female % Spawn: 0%": {
+          "content": null,
+          "confidence": 0.952
+        },
+        "Female % Spawn: 50%": {
+          "content": null,
+          "confidence": 0.952
+        },
+        "Female % Spawn: 100%": {
+          "content": null,
+          "confidence": 0.531
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.948
+        }
+      }
+    },
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "Limestone\nMarten",
+          "confidence": 0.389
+        },
+        "Unsexed": {
+          "content": "12\n6",
+          "confidence": 0.05
+        },
+        "Male": {
+          "content": null,
+          "confidence": 0.68
+        },
+        "Female": {
+          "content": null,
+          "confidence": 0.939
+        },
+        "Female % Spawn: N.R.": {
+          "content": null,
+          "confidence": 0.951
+        },
+        "Female % Spawn: 0%": {
+          "content": null,
+          "confidence": 0.952
+        },
+        "Female % Spawn: 50%": {
+          "content": null,
+          "confidence": 0.952
+        },
+        "Female % Spawn: 100%": {
+          "content": null,
+          "confidence": 0.531
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.948
+        }
+      }
+    }
+  ],
+  "3rd Observer": {
+    "content": null,
+    "confidence": 0.965
+  },
+  "Water Level: Gauge": {
+    "content": null,
+    "confidence": 0.981
+  },
+  "Water Level: Gauge: Area": {
+    "content": null,
+    "confidence": 0.981
+  },
+  "Recoveries Comments": {
+    "content": null,
+    "confidence": 0.915
+  },
+  "General Comments": {
+    "content": null,
+    "confidence": 0.957
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "Date": {
+    "content": "Sept 10/2018",
+    "confidence": 0.863
+  },
+  "Observer(s)": {
+    "content": "B.Smith Name",
+    "confidence": 0.662
+  },
+  "Survey Type: Ground": {
+    "content": ":selected:",
+    "confidence": 0.612
+  },
+  "Survey Time: Start": {
+    "content": "12:20",
+    "confidence": 0.978
+  },
+  "Water Level: % Bankfill: <25%": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Level: % Bankfill: 50-75%": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Water Level: % Bankfill: +100%": {
+    "content": ":unselected:",
+    "confidence": 0.975
+  },
+  "Weather: Brightness: Bright": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Weather: Brightness: Dark": {
+    "content": ":unselected:",
+    "confidence": 0.973
+  },
+  "Weather: %Cloudy: 25%": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Weather: %Cloudy: 75%": {
+    "content": ":unselected:",
+    "confidence": 0.973
+  },
+  "Precipitation: Type: Rain": {
+    "content": ":unselected:",
+    "confidence": 0.98
+  },
+  "Precipitation: Type: None": {
+    "content": ":selected:",
+    "confidence": 0.685
+  },
+  "Precipitation: Intensity: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Conditions: Fish Visibility: Low": {
+    "content": ":selected:",
+    "confidence": 0.756
+  },
+  "Water Conditions: Fish Visibility: High": {
+    "content": ":unselected:",
+    "confidence": 0.973
+  },
+  "Water Conditions: Water Clarity: 0-0.25m": {
+    "content": ":selected:",
+    "confidence": 0.702
+  },
+  "Water Conditions: Water Clarity: 0.5-1.0m": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Conditions: Water Clarity: 3m to bottom": {
+    "content": ":unselected:",
+    "confidence": 0.98
+  },
+  "SK_Count_data": [
+    {
+      "item": {
+        "Area": {
+          "content": "Mouth",
+          "confidence": 0.938
+        },
+        "Live Count (incl. live tags)": {
+          "content": "3",
+          "confidence": 0.979
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "10",
+          "confidence": 0.95
+        },
+        "% Holding / Migrating": {
+          "content": "100",
+          "confidence": 0.916
+        },
+        "% Spawning": {
+          "content": "0",
+          "confidence": 0.721
+        },
+        "% Spawned Out": {
+          "content": "O",
+          "confidence": 0.259
+        },
+        "Live Tagged": {
+          "content": "0",
+          "confidence": 0.618
+        },
+        "Other Species": {
+          "content": "0",
+          "confidence": 0.859
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "1",
+          "confidence": 0.982
+        },
+        "Live Count (incl. live tags)": {
+          "content": "37",
+          "confidence": 0.98
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "10",
+          "confidence": 0.977
+        },
+        "% Holding / Migrating": {
+          "content": "70",
+          "confidence": 0.973
+        },
+        "% Spawning": {
+          "content": "30",
+          "confidence": 0.968
+        },
+        "% Spawned Out": {
+          "content": "0",
+          "confidence": 0.88
+        },
+        "Live Tagged": {
+          "content": "0",
+          "confidence": 0.891
+        },
+        "Other Species": {
+          "content": "O",
+          "confidence": 0.743
+        }
+      }
+    }
+  ],
+  "SK_Count_data_3": [],
+  "Stream": {
+    "content": "Blue Lead Creek",
+    "confidence": 0.949
+  },
+  "Survey Type: Aerial": {
+    "content": ":unselected:",
+    "confidence": 0.968
+  },
+  "Survey Time: End": {
+    "content": "12:55",
+    "confidence": 0.929
+  },
+  "Water Level: % Bankfill: 25-50%": {
+    "content": ":selected:",
+    "confidence": 0.976
+  },
+  "Water Level: % Bankfill: 75-100%": {
+    "content": ":selected:",
+    "confidence": 0.96
+  },
+  "Weather: Brightness: Full": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Weather: Brightness: Medium": {
+    "content": ":selected:",
+    "confidence": 0.917
+  },
+  "Weather: %Cloudy: 0%": {
+    "content": ":unselected:",
+    "confidence": 0.976
+  },
+  "Weather: %Cloudy: 50%": {
+    "content": ":unselected:",
+    "confidence": 0.973
+  },
+  "Weather: %Cloudy: 100%": {
+    "content": ":selected:",
+    "confidence": 0.962
+  },
+  "Precipitation: Type: Snow": {
+    "content": ":unselected:",
+    "confidence": 0.975
+  },
+  "Precipitation: Intensity: Light": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Precipitation: Intensity: Heavy": {
+    "content": ":unselected:",
+    "confidence": 0.971
+  },
+  "Water Conditions: Fish Visibility: Medium": {
+    "content": ":unselected:",
+    "confidence": 0.978
+  },
+  "Water Conditions: Water Clarity: 0.25-0.5m": {
+    "content": ":unselected:",
+    "confidence": 0.977
+  },
+  "Water Conditions: Water Clarity: 1-3m": {
+    "content": ":unselected:",
+    "confidence": 0.975
+  },
+  "General Comments": {
+    "content": "Comments Very low visibility due\nto sediment /silt in creek ,",
+    "confidence": 0.464
+  },
+  "SK_Count_data_2": [
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "Mouth",
+          "confidence": 0.92
+        },
+        "Male": {
+          "content": "0",
+          "confidence": 0.831
+        },
+        "Female": {
+          "content": "0",
+          "confidence": 0.664
+        },
+        "Female % Spawn: N.R.": {
+          "content": "-",
+          "confidence": 0.858
+        },
+        "Female % Spawn: 0%": {
+          "content": "-",
+          "confidence": 0.888
+        },
+        "Female % Spawn: 50%": {
+          "content": "-",
+          "confidence": 0.895
+        },
+        "Female % Spawn: 100%": {
+          "content": "-\n0",
+          "confidence": 0.657
+        },
+        "Unsexed": {
+          "content": "0",
+          "confidence": 0.854
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.966
+        }
+      }
+    },
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "9",
+          "confidence": 0.658
+        },
+        "Male": {
+          "content": "O",
+          "confidence": 0.352
+        },
+        "Female": {
+          "content": "0",
+          "confidence": 0.892
+        },
+        "Female % Spawn: N.R.": {
+          "content": "-",
+          "confidence": 0.803
+        },
+        "Female % Spawn: 0%": {
+          "content": "1",
+          "confidence": 0.074
+        },
+        "Female % Spawn: 50%": {
+          "content": "-",
+          "confidence": 0.539
+        },
+        "Female % Spawn: 100%": {
+          "content": "0",
+          "confidence": 0.784
+        },
+        "Unsexed": {
+          "content": "0",
+          "confidence": 0.893
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.966
+        }
+      }
+    }
+  ],
+  "3rd Observer": {
+    "content": null,
+    "confidence": 0.961
+  },
+  "Visual Surveys Comments": {
+    "content": null,
+    "confidence": 0.966
+  },
+  "Water Level: Gauge": {
+    "content": null,
+    "confidence": 0.981
+  },
+  "Water Level: Gauge: Area": {
+    "content": null,
+    "confidence": 0.98
+  },
+  "Water Conditions: Water Temperature": {
+    "content": null,
+    "confidence": 0.67
+  },
+  "Recoveries Comments": {
+    "content": null,
+    "confidence": 0.965
+  }
+}
