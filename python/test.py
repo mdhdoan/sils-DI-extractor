@@ -48,6 +48,69 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from azure.core.exceptions import ServiceRequestError, ServiceResponseError, HttpResponseError
 
 # =============================================================================
+# Configuration constants
+# =============================================================================
+
+# --- Normalization tables ---
+O_SLASH_ALIASES = {"Ø", "ø"}
+SELECTION_TOKENS = {":selected:": "selected", ":unselected:": "unselected"}
+
+# --- Checkbox groups (exact field names) ---
+water_level_list = [
+    "Water Level: % Bankfill: <25%",
+    "Water Level: % Bankfill: 25-50%",
+    "Water Level: % Bankfill: 50-75%",
+    "Water Level: % Bankfill: 75-100%",
+    "Water Level: % Bankfill: +100%",
+]
+weather_brightness_list = [
+    "Weather: Brightness: Full",
+    "Weather: Brightness: Bright",
+    "Weather: Brightness: Medium",
+    "Weather: Brightness: Dark",
+]
+weather_cloudy_list = [
+    "Weather: %Cloudy: 0%",
+    "Weather: %Cloudy: 25%",
+    "Weather: %Cloudy: 50%",
+    "Weather: %Cloudy: 75%",
+    "Weather: %Cloudy: 100%",
+]
+precipitation_type_list = [
+    "Precipitation: Type: Rain",
+    "Precipitation: Type: Snow",
+    "Precipitation: Type: None",
+]
+precipitation_intensity_list = [
+    "Precipitation: Intensity: Light",
+    "Precipitation: Intensity: Medium",
+    "Precipitation: Intensity: Heavy",
+]
+fish_visibility_list = [
+    "Water Conditions: Fish Visibility: Low",
+    "Water Conditions: Fish Visibility: Medium",
+    "Water Conditions: Fish Visibility: High",
+]
+water_clarity_list = [
+    "Water Conditions: Water Clarity: 0-0.25m",
+    "Water Conditions: Water Clarity: 0.25-0.5m",
+    "Water Conditions: Water Clarity: 0.5-1.0m",
+    "Water Conditions: Water Clarity: 1-3m",
+    "Water Conditions: Water Clarity: 3m to bottom",
+]
+
+CHECKBOX_GROUPS = [
+    water_level_list,
+    weather_brightness_list,
+    weather_cloudy_list,
+    precipitation_type_list,
+    precipitation_intensity_list,
+    fish_visibility_list,
+    water_clarity_list,
+]
+
+
+# =============================================================================
 # Configuration Models
 # =============================================================================
 
@@ -210,6 +273,123 @@ def extract_object(typed_dict: Dict[str, Any]) -> Dict[str, Any]:
 # =============================================================================
 # DI Result → Typed Tree Adapter (prebuilt & custom)
 # =============================================================================
+
+def _normalize_content_value(val):
+    """
+    1) Ø/ø -> "0"
+    2) :selected:/ :unselected: -> strip colons
+    """
+    if not isinstance(val, str):
+        return val
+    v = val.strip()
+    if v in O_SLASH_ALIASES:
+        return "0"
+    # strip colon-wrapped selection tokens
+    if v in SELECTION_TOKENS:
+        return SELECTION_TOKENS[v]
+    # also handle cases where content contains these tokens in longer strings (rare)
+    for k, repl in SELECTION_TOKENS.items():
+        if k in v:
+            v = v.replace(k, repl)
+    return v
+
+
+def _walk_and_patch_content_inplace(node, warnings):
+    """
+    Recursively traverse the simplified JSON and normalize leaf 'content'.
+    A 'leaf' looks like: {"content": <str>, "confidence": <float>, "polygon": [...]}
+    """
+    if isinstance(node, dict):
+        # If this dict *is* a leaf, patch its content
+        if "content" in node and isinstance(node["content"], (str, int, float)):
+            node["content"] = _normalize_content_value(node["content"])
+        # Recurse into children
+        for k, v in list(node.items()):
+            _walk_and_patch_content_inplace(v, warnings)
+    elif isinstance(node, list):
+        for item in node:
+            _walk_and_patch_content_inplace(item, warnings)
+
+
+def _collect_group_refs(root_obj: dict, names: list[str]) -> list[tuple[str, dict]]:
+    """
+    Find references to checkbox fields by *key name* anywhere in the tree.
+    Returns a list of (field_name, leaf_dict) where leaf_dict has 'content'/'confidence'.
+    """
+    found = []
+
+    def _recurse(obj):
+        if isinstance(obj, dict):
+            for k, v in obj.items():
+                # If this key is a target, and the value looks like a leaf, collect it
+                if k in names and isinstance(v, dict) and "content" in v:
+                    found.append((k, v))
+                # Recurse into nested structures
+                _recurse(v)
+        elif isinstance(obj, list):
+            for item in obj:
+                _recurse(item)
+
+    _recurse(root_obj)
+    return found
+
+
+def _enforce_single_selection_in_group(root_obj: dict, names: list[str], warnings: list[str]):
+    """
+    Ensure at most one item in 'names' is 'selected'.
+    - If multiple selected: keep the one with highest confidence; flip others to 'unselected'.
+    - If none selected: leave as-is (warn).
+    """
+    refs = _collect_group_refs(root_obj, names)
+    if not refs:
+        return  # group not present in this document
+
+    # Normalize content for safety (select/unselect tokens)
+    for _, leaf in refs:
+        if "content" in leaf:
+            leaf["content"] = _normalize_content_value(leaf["content"])
+
+    selected = [(name, leaf) for name, leaf in refs if str(leaf.get("content", "")).lower() == "selected"]
+
+    if len(selected) <= 1:
+        if len(selected) == 0:
+            warnings.append(f"[WARN] No selection in group: {names[0].split(':')[0]} … ({len(names)} options)")
+        return
+
+    # multiple selected -> keep one with highest confidence
+    def conf(leaf):
+        c = leaf[1].get("confidence", 0.0)
+        try:
+            return float(c) if c is not None else 0.0
+        except Exception:
+            return 0.0
+
+    # winner is tuple (name, leaf)
+    winner = max(selected, key=conf)
+    winner_name = winner[0]
+
+    for name, leaf in selected:
+        if name != winner_name:
+            leaf["content"] = "unselected"
+
+    warnings.append(f"[FIX] Multiple selections in group; kept '{winner_name}', unselected others.")
+
+
+def apply_content_patchers_inplace(extracted: dict) -> list[str]:
+    """
+    Run all normalization & checkbox enforcement on the simplified JSON tree.
+    Returns a list of warnings/fixes applied.
+    """
+    warnings: list[str] = []
+
+    # 1) Normalize content globally
+    _walk_and_patch_content_inplace(extracted, warnings)
+
+    # 2) Enforce single-selection per checkbox group
+    for group in CHECKBOX_GROUPS:
+        _enforce_single_selection_in_group(extracted, group, warnings)
+
+    return warnings
 
 def _polygon_to_pairs(poly: Any) -> List[List[float]]:
     """Normalize DI polygon: [x1,y1,x2,y2,...] → [[x,y], ...]."""
@@ -498,6 +678,9 @@ def save_analyzed_result(result: Any,
         raise ValueError("AnalyzeResult reports zero pages.")
 
     extracted = extract_object(typed_root["valueObject"])
+    patch_notes = apply_content_patchers_inplace(extracted)
+    for note in patch_notes:
+        print(note)
     out_dir = os.path.join(os.getcwd(), "json", output_container)
     local_path = write_json_locally(extracted, out_dir, f"{output_basename}.json")
 

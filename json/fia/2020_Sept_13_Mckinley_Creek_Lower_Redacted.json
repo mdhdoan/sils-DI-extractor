@@ -1,0 +1,1177 @@
+{
+  "Date": {
+    "content": "Sest 13/20/",
+    "confidence": 0.74,
+    "polygon": [
+      [
+        0.5271,
+        0.1482
+      ],
+      [
+        1.4218,
+        0.1768
+      ],
+      [
+        1.4166,
+        0.3408
+      ],
+      [
+        0.5219,
+        0.3123
+      ]
+    ]
+  },
+  "Observer(s)": {
+    "content": "A. Bruno",
+    "confidence": 0.484,
+    "polygon": [
+      [
+        4.8826,
+        0.2402
+      ],
+      [
+        5.5632,
+        0.266
+      ],
+      [
+        5.5574,
+        0.4204
+      ],
+      [
+        4.8768,
+        0.3945
+      ]
+    ]
+  },
+  "Survey Type: Ground": {
+    "content": "selected",
+    "confidence": 0.97,
+    "polygon": [
+      [
+        4.1587,
+        0.4467
+      ],
+      [
+        4.2503,
+        0.4467
+      ],
+      [
+        4.2503,
+        0.5309
+      ],
+      [
+        4.1587,
+        0.5309
+      ]
+    ]
+  },
+  "Survey Time: Start": {
+    "content": "1006/",
+    "confidence": 0.738,
+    "polygon": [
+      [
+        5.7369,
+        0.5025
+      ],
+      [
+        6.4086,
+        0.5209
+      ],
+      [
+        6.4041,
+        0.6867
+      ],
+      [
+        5.7323,
+        0.6682
+      ]
+    ]
+  },
+  "Water Level: % Bankfill: <25%": {
+    "content": "unselected",
+    "confidence": 0.976,
+    "polygon": [
+      [
+        5.5745,
+        1.2127
+      ],
+      [
+        5.6544,
+        1.2133
+      ],
+      [
+        5.6539,
+        1.2911
+      ],
+      [
+        5.574,
+        1.2906
+      ]
+    ]
+  },
+  "Water Level: % Bankfill: 50-75%": {
+    "content": "selected",
+    "confidence": 0.974,
+    "polygon": [
+      [
+        6.215,
+        1.2278
+      ],
+      [
+        6.2982,
+        1.2293
+      ],
+      [
+        6.2967,
+        1.3087
+      ],
+      [
+        6.2135,
+        1.3071
+      ]
+    ]
+  },
+  "Water Level: % Bankfill: +100%": {
+    "content": "unselected",
+    "confidence": 0.974,
+    "polygon": [
+      [
+        6.0652,
+        1.4129
+      ],
+      [
+        6.144,
+        1.4136
+      ],
+      [
+        6.1434,
+        1.4916
+      ],
+      [
+        6.0646,
+        1.4909
+      ]
+    ]
+  },
+  "Water Level: Gauge: Area": {
+    "content": "5",
+    "confidence": 0.835,
+    "polygon": [
+      [
+        6.125,
+        1.6098
+      ],
+      [
+        6.2261,
+        1.6113
+      ],
+      [
+        6.2234,
+        1.7903
+      ],
+      [
+        6.1224,
+        1.7888
+      ]
+    ]
+  },
+  "Weather: Brightness: Bright": {
+    "content": "unselected",
+    "confidence": 0.978,
+    "polygon": [
+      [
+        5.7253,
+        2.1001
+      ],
+      [
+        5.8031,
+        2.1006
+      ],
+      [
+        5.8027,
+        2.1781
+      ],
+      [
+        5.7248,
+        2.1776
+      ]
+    ]
+  },
+  "Weather: Brightness: Dark": {
+    "content": "unselected",
+    "confidence": 0.55,
+    "polygon": [
+      [
+        6.2715,
+        2.1153
+      ],
+      [
+        6.3503,
+        2.1149
+      ],
+      [
+        6.3506,
+        2.1919
+      ],
+      [
+        6.2718,
+        2.1922
+      ]
+    ]
+  },
+  "Weather: %Cloudy: 25%": {
+    "content": "unselected",
+    "confidence": 0.966,
+    "polygon": [
+      [
+        5.683,
+        2.3608
+      ],
+      [
+        5.7595,
+        2.361
+      ],
+      [
+        5.7593,
+        2.4391
+      ],
+      [
+        5.6828,
+        2.4389
+      ]
+    ]
+  },
+  "Weather: %Cloudy: 75%": {
+    "content": "selected",
+    "confidence": 0.971,
+    "polygon": [
+      [
+        6.0759,
+        2.3692
+      ],
+      [
+        6.1594,
+        2.3709
+      ],
+      [
+        6.1577,
+        2.4518
+      ],
+      [
+        6.0742,
+        2.4501
+      ]
+    ]
+  },
+  "Precipitation: Type: Rain": {
+    "content": "unselected",
+    "confidence": 0.976,
+    "polygon": [
+      [
+        5.5035,
+        2.8189
+      ],
+      [
+        5.5821,
+        2.8193
+      ],
+      [
+        5.5817,
+        2.8952
+      ],
+      [
+        5.5031,
+        2.8948
+      ]
+    ]
+  },
+  "Precipitation: Type: None": {
+    "content": "selected",
+    "confidence": 0.978,
+    "polygon": [
+      [
+        6.1957,
+        2.8355
+      ],
+      [
+        6.2804,
+        2.8359
+      ],
+      [
+        6.2801,
+        2.9138
+      ],
+      [
+        6.1954,
+        2.9134
+      ]
+    ]
+  },
+  "Precipitation: Intensity: Medium": {
+    "content": "unselected",
+    "confidence": 0.976,
+    "polygon": [
+      [
+        5.8172,
+        3.1124
+      ],
+      [
+        5.8935,
+        3.1123
+      ],
+      [
+        5.8936,
+        3.1901
+      ],
+      [
+        5.8173,
+        3.1902
+      ]
+    ]
+  },
+  "Water Conditions: Fish Visibility: Low": {
+    "content": "unselected",
+    "confidence": 0.973,
+    "polygon": [
+      [
+        5.5946,
+        3.5817
+      ],
+      [
+        5.6731,
+        3.5828
+      ],
+      [
+        5.6721,
+        3.6596
+      ],
+      [
+        5.5936,
+        3.6585
+      ]
+    ]
+  },
+  "Water Conditions: Fish Visibility: High": {
+    "content": "selected",
+    "confidence": 0.978,
+    "polygon": [
+      [
+        6.1681,
+        3.5964
+      ],
+      [
+        6.2482,
+        3.5988
+      ],
+      [
+        6.2459,
+        3.6771
+      ],
+      [
+        6.1658,
+        3.6747
+      ]
+    ]
+  },
+  "Water Conditions: Water Clarity: 0-0.25m": {
+    "content": "unselected",
+    "confidence": 0.978,
+    "polygon": [
+      [
+        5.2671,
+        4.1641
+      ],
+      [
+        5.3468,
+        4.1643
+      ],
+      [
+        5.3466,
+        4.2451
+      ],
+      [
+        5.2669,
+        4.2449
+      ]
+    ]
+  },
+  "Water Conditions: Water Clarity: 0.5-1.0m": {
+    "content": "unselected",
+    "confidence": 0.976,
+    "polygon": [
+      [
+        6.005,
+        4.1827
+      ],
+      [
+        6.0862,
+        4.183
+      ],
+      [
+        6.0859,
+        4.2634
+      ],
+      [
+        6.0047,
+        4.2631
+      ]
+    ]
+  },
+  "Water Conditions: Water Clarity: 3m to bottom": {
+    "content": "selected",
+    "confidence": 0.978,
+    "polygon": [
+      [
+        5.9193,
+        4.3792
+      ],
+      [
+        5.9948,
+        4.3793
+      ],
+      [
+        5.9947,
+        4.4635
+      ],
+      [
+        5.9192,
+        4.4634
+      ]
+    ]
+  },
+  "Recoveries Comments": {
+    "content": "* NO\nSlan\nof Sockeye\nin Creek",
+    "confidence": 0.383,
+    "polygon": [
+      [
+        3.5673,
+        2.0028
+      ],
+      [
+        7.7156,
+        1.9654
+      ],
+      [
+        7.718,
+        2.2271
+      ],
+      [
+        3.5697,
+        2.2644
+      ]
+    ]
+  },
+  "SK_Count_data": [
+    {
+      "item": {
+        "Area": {
+          "content": "Mouth",
+          "confidence": 0.89,
+          "polygon": [
+            [
+              0.2028,
+              1.1117
+            ],
+            [
+              0.7467,
+              1.1231
+            ],
+            [
+              0.7429,
+              1.3089
+            ],
+            [
+              0.1989,
+              1.2976
+            ]
+          ]
+        },
+        "Live Count (incl. live tags)": {
+          "content": "0",
+          "confidence": 0.295,
+          "polygon": [
+            [
+              1.0751,
+              1.1246
+            ],
+            [
+              1.2534,
+              1.1208
+            ],
+            [
+              1.2575,
+              1.3145
+            ],
+            [
+              1.0792,
+              1.3183
+            ]
+          ]
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "70%",
+          "confidence": 0.623,
+          "polygon": [
+            [
+              1.5942,
+              1.131
+            ],
+            [
+              1.8837,
+              1.1369
+            ],
+            [
+              1.8801,
+              1.3169
+            ],
+            [
+              1.5906,
+              1.311
+            ]
+          ]
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "% Spawning": {
+          "content": null,
+          "confidence": 0.954
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.946
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.952
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.949
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "1",
+          "confidence": 0.734,
+          "polygon": [
+            [
+              0.4585,
+              1.3853
+            ],
+            [
+              0.5292,
+              1.3862
+            ],
+            [
+              0.5271,
+              1.5549
+            ],
+            [
+              0.4564,
+              1.554
+            ]
+          ]
+        },
+        "Live Count (incl. live tags)": {
+          "content": "0",
+          "confidence": 0.098,
+          "polygon": [
+            [
+              1.1151,
+              1.3834
+            ],
+            [
+              1.2634,
+              1.3831
+            ],
+            [
+              1.2637,
+              1.5863
+            ],
+            [
+              1.1154,
+              1.5866
+            ]
+          ]
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "/70%",
+          "confidence": 0.184,
+          "polygon": [
+            [
+              1.4186,
+              1.3825
+            ],
+            [
+              1.8239,
+              1.3861
+            ],
+            [
+              1.822,
+              1.5981
+            ],
+            [
+              1.4167,
+              1.5945
+            ]
+          ]
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "% Spawning": {
+          "content": null,
+          "confidence": 0.954
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.946
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.952
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.949
+        }
+      }
+    }
+  ],
+  "SK_Count_data_3": [],
+  "Stream": {
+    "content": "ower Mckinley Creek,",
+    "confidence": 0.413,
+    "polygon": [
+      [
+        2.0695,
+        0.1974
+      ],
+      [
+        3.9664,
+        0.2313
+      ],
+      [
+        3.9636,
+        0.3883
+      ],
+      [
+        2.0667,
+        0.3544
+      ]
+    ]
+  },
+  "Survey Type: Aerial": {
+    "content": "unselected",
+    "confidence": 0.971,
+    "polygon": [
+      [
+        4.6087,
+        0.4539
+      ],
+      [
+        4.6923,
+        0.4544
+      ],
+      [
+        4.6918,
+        0.534
+      ],
+      [
+        4.6082,
+        0.5335
+      ]
+    ]
+  },
+  "Survey Time: End": {
+    "content": "1016/",
+    "confidence": 0.759,
+    "polygon": [
+      [
+        5.7295,
+        0.7207
+      ],
+      [
+        6.4517,
+        0.7697
+      ],
+      [
+        6.4392,
+        0.9542
+      ],
+      [
+        5.717,
+        0.9052
+      ]
+    ]
+  },
+  "Water Level: % Bankfill: 25-50%": {
+    "content": "unselected",
+    "confidence": 0.974,
+    "polygon": [
+      [
+        5.9031,
+        1.2208
+      ],
+      [
+        5.9801,
+        1.221
+      ],
+      [
+        5.9799,
+        1.2981
+      ],
+      [
+        5.9029,
+        1.2979
+      ]
+    ]
+  },
+  "Water Level: % Bankfill: 75-100%": {
+    "content": "unselected",
+    "confidence": 0.976,
+    "polygon": [
+      [
+        5.7162,
+        1.4049
+      ],
+      [
+        5.7937,
+        1.4047
+      ],
+      [
+        5.7939,
+        1.4847
+      ],
+      [
+        5.7164,
+        1.4849
+      ]
+    ]
+  },
+  "Water Level: Gauge": {
+    "content": "0.859",
+    "confidence": 0.877,
+    "polygon": [
+      [
+        5.1954,
+        1.5885
+      ],
+      [
+        5.6635,
+        1.5992
+      ],
+      [
+        5.6593,
+        1.7843
+      ],
+      [
+        5.1912,
+        1.7737
+      ]
+    ]
+  },
+  "Weather: Brightness: Full": {
+    "content": "selected",
+    "confidence": 0.978,
+    "polygon": [
+      [
+        5.4911,
+        2.0964
+      ],
+      [
+        5.5742,
+        2.0968
+      ],
+      [
+        5.5738,
+        2.1761
+      ],
+      [
+        5.4907,
+        2.1756
+      ]
+    ]
+  },
+  "Weather: Brightness: Medium": {
+    "content": "unselected",
+    "confidence": 0.976,
+    "polygon": [
+      [
+        6.001,
+        2.1055
+      ],
+      [
+        6.0797,
+        2.106
+      ],
+      [
+        6.0792,
+        2.1841
+      ],
+      [
+        6.0005,
+        2.1836
+      ]
+    ]
+  },
+  "Weather: %Cloudy: 0%": {
+    "content": "unselected",
+    "confidence": 0.967,
+    "polygon": [
+      [
+        5.4875,
+        2.3552
+      ],
+      [
+        5.5679,
+        2.3555
+      ],
+      [
+        5.5676,
+        2.435
+      ],
+      [
+        5.4872,
+        2.4346
+      ]
+    ]
+  },
+  "Weather: %Cloudy: 50%": {
+    "content": "unselected",
+    "confidence": 0.966,
+    "polygon": [
+      [
+        5.9013,
+        2.3653
+      ],
+      [
+        5.9792,
+        2.366
+      ],
+      [
+        5.9785,
+        2.4451
+      ],
+      [
+        5.9006,
+        2.4445
+      ]
+    ]
+  },
+  "Weather: %Cloudy: 100%": {
+    "content": "unselected",
+    "confidence": 0.963,
+    "polygon": [
+      [
+        6.2591,
+        2.3761
+      ],
+      [
+        6.3377,
+        2.3771
+      ],
+      [
+        6.3368,
+        2.4537
+      ],
+      [
+        6.2582,
+        2.4527
+      ]
+    ]
+  },
+  "Precipitation: Type: Snow": {
+    "content": "unselected",
+    "confidence": 0.976,
+    "polygon": [
+      [
+        5.8239,
+        2.827
+      ],
+      [
+        5.9017,
+        2.8277
+      ],
+      [
+        5.901,
+        2.9037
+      ],
+      [
+        5.8232,
+        2.903
+      ]
+    ]
+  },
+  "Precipitation: Intensity: Light": {
+    "content": "unselected",
+    "confidence": 0.973,
+    "polygon": [
+      [
+        5.4963,
+        3.1063
+      ],
+      [
+        5.574,
+        3.1066
+      ],
+      [
+        5.5737,
+        3.1843
+      ],
+      [
+        5.496,
+        3.184
+      ]
+    ]
+  },
+  "Precipitation: Intensity: Heavy": {
+    "content": "unselected",
+    "confidence": 0.973,
+    "polygon": [
+      [
+        6.1954,
+        3.1236
+      ],
+      [
+        6.2722,
+        3.1247
+      ],
+      [
+        6.271,
+        3.2009
+      ],
+      [
+        6.1942,
+        3.1997
+      ]
+    ]
+  },
+  "Water Conditions: Fish Visibility: Medium": {
+    "content": "unselected",
+    "confidence": 0.978,
+    "polygon": [
+      [
+        5.8812,
+        3.5864
+      ],
+      [
+        5.9561,
+        3.5868
+      ],
+      [
+        5.9557,
+        3.6637
+      ],
+      [
+        5.8808,
+        3.6633
+      ]
+    ]
+  },
+  "Water Conditions: Water Temperature": {
+    "content": "/2,5",
+    "confidence": 0.648,
+    "polygon": [
+      [
+        5.8258,
+        3.8151
+      ],
+      [
+        6.1379,
+        3.8207
+      ],
+      [
+        6.1349,
+        3.9874
+      ],
+      [
+        5.8228,
+        3.9819
+      ]
+    ]
+  },
+  "Water Conditions: Water Clarity: 0.25-0.5m": {
+    "content": "unselected",
+    "confidence": 0.978,
+    "polygon": [
+      [
+        5.6327,
+        4.1728
+      ],
+      [
+        5.7141,
+        4.1734
+      ],
+      [
+        5.7136,
+        4.2528
+      ],
+      [
+        5.6322,
+        4.2523
+      ]
+    ]
+  },
+  "Water Conditions: Water Clarity: 1-3m": {
+    "content": "unselected",
+    "confidence": 0.978,
+    "polygon": [
+      [
+        5.427,
+        4.3694
+      ],
+      [
+        5.5062,
+        4.37
+      ],
+      [
+        5.5056,
+        4.4488
+      ],
+      [
+        5.4264,
+        4.4482
+      ]
+    ]
+  },
+  "SK_Count_data_2": [
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "1",
+          "confidence": 0.792,
+          "polygon": [
+            [
+              2.2952,
+              1.0366
+            ],
+            [
+              2.3739,
+              1.0345
+            ],
+            [
+              2.3792,
+              1.2298
+            ],
+            [
+              2.3005,
+              1.2319
+            ]
+          ]
+        },
+        "Male": {
+          "content": "0",
+          "confidence": 0.206,
+          "polygon": [
+            [
+              2.9433,
+              1.0303
+            ],
+            [
+              3.1251,
+              1.0234
+            ],
+            [
+              3.1329,
+              1.2302
+            ],
+            [
+              2.9511,
+              1.237
+            ]
+          ]
+        },
+        "Female": {
+          "content": "8",
+          "confidence": 0.055,
+          "polygon": [
+            [
+              3.627,
+              0.9863
+            ],
+            [
+              3.8411,
+              0.9852
+            ],
+            [
+              3.8422,
+              1.2069
+            ],
+            [
+              3.6281,
+              1.2079
+            ]
+          ]
+        },
+        "Female % Spawn: N.R.": {
+          "content": null,
+          "confidence": 0.949
+        },
+        "Female % Spawn: 0%": {
+          "content": null,
+          "confidence": 0.951
+        },
+        "Female % Spawn: 50%": {
+          "content": null,
+          "confidence": 0.95
+        },
+        "Female % Spawn: 100%": {
+          "content": null,
+          "confidence": 0.951
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.954
+        },
+        "Unsexed": {
+          "content": null,
+          "confidence": 0.977
+        }
+      }
+    }
+  ],
+  "3rd Observer": {
+    "content": null,
+    "confidence": 0.961
+  },
+  "Visual Surveys Comments": {
+    "content": null,
+    "confidence": 0.966
+  },
+  "General Comments": {
+    "content": null,
+    "confidence": 0.954
+  },
+  "_docType": {
+    "content": "fia-roving-ground-1",
+    "confidence": null
+  },
+  "_documentPolygon": {
+    "content": "",
+    "confidence": null,
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        8.5,
+        0.0
+      ],
+      [
+        8.5,
+        5.5
+      ],
+      [
+        0.0,
+        5.5
+      ]
+    ]
+  }
+}
