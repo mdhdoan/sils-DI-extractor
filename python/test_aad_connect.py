@@ -108,8 +108,8 @@ def get_aad_token():
 
 # ---------- Document Intelligence (REST, key header only) ----------
 def di_list_models(di_endpoint, di_key, timeout_sec=10):
-    # url = urljoin(di_endpoint + "/", "documentintelligence/documentModels")
-    url = "https://"+"10.177.70.6"+"/" + "documentintelligence/documentModels"
+    url = urljoin(di_endpoint + "/", "documentintelligence/documentModels")
+    # url = "https://"+"10.177.70.6"+"/" + "documentintelligence/documentModels"
     params = {"api-version": "2024-11-30"}
     headers = {"Ocp-Apim-Subscription-Key": di_key, "Accept": "application/json"}
     try:
