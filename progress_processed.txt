@@ -311,3 +311,5 @@ azure::fia/ground-pdf/2022_Sept_6_Quesnel_Lake_North_Arm_Shore_West_Redacted.pdf
 azure::fia/ground-pdf/2022_Sept_9_Horsefly_River_Lower_Redacted.pdf	2	2025-10-07T19:04:13.465254+00:00	OK
 azure::fia/ground-pdf/2022_Sept_2_Horsefly_River_Redacted.pdf	2	2025-10-07T19:04:15.578933+00:00	OK
 azure::fia/ground-pdf/2022_Sept_21_Quesnel_Lake_North_Arm_Shore_West_Redacted.pdf	2	2025-10-07T19:04:16.735342+00:00	OK
+local::A20_Gordon_River_2023-10-05_Lower.pdf	8	2025-10-23T18:13:16.905877+00:00	OK
+local::A20_Renfrew_Creek_2023-10-16.pdf	16	2025-10-23T18:13:44.249345+00:00	OK

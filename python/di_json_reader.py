@@ -680,5 +680,5 @@ if __name__ == "__main__":
 # # Custom progress file
 # python di_json_reader.py --mode local --model-id prebuilt-read --progress-file ./my_progress.txt
 
-# python python/test.py --mode azure --model-id fia-roving-aerial-1 --container fia --prefix aerial/pdf --output-container fia/aerial --output-prefix update_jsons --uplo
-# ad-output --max-worker 16 --tps-limit 8 --retries 3 --reset
+# python python/test.py --mode azure --model-id fia-roving-aerial-1 --container fia --prefix aerial/pdf --output-container fia/aerial --output-prefix update_jsons 
+# --upload-output --max-worker 16 --tps-limit 8 --retries 3 --reset
