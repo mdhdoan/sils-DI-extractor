@@ -8,6 +8,7 @@ from azure.ai.documentintelligence.models import AnalyzeDocumentRequest
 from azure.core.credentials import AzureKeyCredential
 
 from azure.storage.blob import BlobServiceClient
+from dataclasses import dataclass
 from itertools import tee
 
 ####### - SETUP CONNECTIONS - #######
@@ -18,6 +19,13 @@ connection_details = {}
 with open(connection_file, "r+") as connection_data:
     connection_details = json.load(connection_data)
 
+@dataclass
+class ConnectionsConfig:
+    """Connection settings loaded from connections.json."""
+    di_endpoint: str
+    di_key: str
+    storage_account_url: str
+    
 # set `<your-endpoint>` and `<your-key>` variables with the values from the Document Intelligence  
 endpoint = connection_details['DI-Endpoint'] 
 key = connection_details['DI-Key']
@@ -25,13 +33,13 @@ key = connection_details['DI-Key']
 # Options for mode: local, azure
 # local: reads all files in directory specified by "directory_path"
 # azure: reads all files in blob container in Azure storage account specified by "connection_string" and "container_name"
-mode = "azure"
+mode = "local"
  
 # If using a local directory, set directory here. Make sure to use forward slashes (/) and not backslashs (\)
 directory_path = "./tempdata"
  
 # Azure blob container setttings, set `<connection_string>` and `<container_name>` for blob container in storage account
-connection_string = connection_details['SA-enpoint']
+connection_string = connection_details['SA-endpoint']
 container_name = "test-upload"
 
 # Azure blob output container setttings, set `<connection_string>` and `<container_name>` for blob container in storage account you want to write a JSON output too
@@ -41,7 +49,7 @@ output_connection_string = connection_string
 output_container_name = "/raw_jsons" 
 
 # Determine model to be used here. Check with Document Intelligence Studio for the name of the model used:
-extraction_model_id = ""
+extraction_model_id = "wcvi-sil-2"
 
 # This is a custom serialization function to convert object type BoundingRegion and polygon into a JSON format
 # JSON library has no built-in support for serializing arbitrary Python objects such as BoundingRegion
@@ -108,6 +116,7 @@ def extract_object(dict_data):
 def print_analyzed_contents(result, file_name):
     doc_data = result['documents'][0]['fields']
     analyzed_data = extract_object(doc_data)
+    print(analyzed_data)
     # Initiate connection to blob storage - if `output_azure` is set to true - and retrieve the output container connection details
     container_client = None
     if output_azure:
@@ -147,8 +156,11 @@ def print_analyzed_contents(result, file_name):
 # function reads local files from a directory, connect to a DI model from DI resource in Azure cloud and runs print_analyzed_contents() on them.
 def analyze_local_documents():
     # Connect to DI resource on Azure cloud. Also verifies permission here.
-    document_analysis_client = DocumentIntelligenceClient(endpoint=endpoint, credential=AzureKeyCredential(key))
-
+    # document_analysis_client = DocumentIntelligenceClient(endpoint=endpoint, credential=AzureKeyCredential(key))
+    document_analysis_client = DocumentIntelligenceClient(
+        endpoint=cfg.di_endpoint,
+        credential=AzureKeyCredential(cfg.di_key),
+    )
     # Going through files the directory_path from above
     for filename in os.listdir(directory_path):
         # Only check for the following file format. These are also only the current formats supported. Check DI blogpost for update when run.
@@ -201,8 +213,11 @@ def poller_list_create(document_analysis_client, container_client, list_of_blob,
 # function reads files from an azure blob container - available at container level - directory, connect to a DI model from DI resource in Azure cloud and runs print_analyzed_contents() on them.
 def analyze_azure_documents():
     # Connect to DI resource on Azure cloud. Also verifies permission here.
-    document_analysis_client = DocumentIntelligenceClient(endpoint=endpoint, credential=AzureKeyCredential(key))
-
+    # document_analysis_client = DocumentIntelligenceClient(endpoint=endpoint, credential=AzureKeyCredential(key))
+    document_analysis_client = DocumentIntelligenceClient(
+        endpoint=cfg.di_endpoint,
+        credential=AzureKeyCredential(cfg.di_key),
+    )
     # Connect to blob resource on Azure cloud. Connecting to the resource by connection_string, and to the exact container via container_name
     blob_service_client = BlobServiceClient.from_connection_string(connection_string)
     container_client = blob_service_client.get_container_client(container_name)
@@ -255,8 +270,36 @@ def analyze_azure_documents():
     reader_end_time = datetime.now()
     seconds = (reader_end_time - reader_start_time).total_seconds()
     print(f"ALL files Executed in {seconds} secs.", flush=True)
- 
+
+def load_connections_config() -> ConnectionsConfig:
+    """
+    Load ./connections.json (CWD). Expects:
+      - DI-Key
+      - DI-Endpoint (or legacy DI_Endpoint)
+      - SA-endpoint (account URL, https://<storage>.blob.core.windows.net)
+    """
+    config_path = os.path.join(os.getcwd(), "connections.json")
+    with open(config_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    di_endpoint = (data.get("DI-Endpoint") or data.get("DI_Endpoint"))
+    if not di_endpoint:
+        raise ValueError("connections.json missing 'DI-Endpoint' (or 'DI_Endpoint').")
+    di_key = data.get("DI-Key")
+    if not di_key:
+        raise ValueError("connections.json missing 'DI-Key'.")
+    storage_account_url = (data.get("SA-endpoint") or data.get("SA-endpoint"))
+    if not storage_account_url:
+        raise ValueError("connections.json missing 'SA-endpoint'.")
+
+    return ConnectionsConfig(
+        di_endpoint=di_endpoint.rstrip("/"),
+        di_key=di_key,
+        storage_account_url=storage_account_url.rstrip("/"),
+    )
+
 if __name__ == "__main__": 
+    cfg = load_connections_config()
     match mode:
         # Check if running local file OCR or cloud (azure) file OCR
         case "local":
