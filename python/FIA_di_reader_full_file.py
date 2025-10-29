@@ -501,7 +501,7 @@ def _map_document_field(field_obj: Any) -> Dict[str, Any]:
             arr = getattr(field_obj, "value_array", None)
             if arr:
                 for element in arr:
-                    items.append(_typed_object({"item": _map_document_field(element)}))
+                    items.append(_map_document_field(element))
             return _typed_array(items)
 
         if field_type == "object":
