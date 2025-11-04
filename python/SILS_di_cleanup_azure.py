@@ -390,7 +390,7 @@ def main():
     ap.add_argument("--src-prefix",     default=SOURCE_PREFIX,      help="Prefix to read from")
     ap.add_argument("--dst-prefix",     default=TARGET_PREFIX,      help="Prefix to write cleaned files to")
     ap.add_argument("--report-blob",    default=REPORT_BLOB_NAME,   help="Where to upload the summary report")
-    ap.add_argument("--report-blob",    default="report.json",      help="Blob name (path) to write report.json to")
+    ap.add_argument("--report-file",    default="report.json",      help="Blob name (path) to write report.json to")
 
     args = ap.parse_args()
 
@@ -447,7 +447,7 @@ def main():
         except Exception as e:
             print(f"{ERR} Failed to upload cleaned {base_name}: {e}")
             # still record errors
-        report_data[blob_name] = errors
+        report_data[blob_name.split('/')[-1]] = errors
         if errors:
             print(f"{ERR} {blob_name} -> {len(errors)} issues")
         else:

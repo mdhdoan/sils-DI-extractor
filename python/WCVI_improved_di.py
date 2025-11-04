@@ -71,7 +71,7 @@ def extract_object(dict_data):
         elif dict_data_type == "array":
             if "content" in attribute_check_list or "valueArray" in attribute_check_list:
                 inner_object = attributes["valueArray"]
-                result_dict_data[field] = {"item": extract_object_array(field, inner_object)}
+                result_dict_data[field] = extract_object_array(field, inner_object)
 
         else:
             if "content" in attribute_check_list:
