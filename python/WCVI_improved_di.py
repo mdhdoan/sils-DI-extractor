@@ -1,433 +1,380 @@
-import os
-import json
-import time
+# wcvi_di_runner.py
+# Run like:
+#   python .\python\WCVI_improved_di.py --mode azure --model wcvi-sil-4 --container wcvi --input_dir wcvi-sil-2023/pdf --output_dir wcvi-sil-2023/update_json
+from __future__ import annotations
+
+import argparse, os, json, time, math, threading
 from datetime import datetime, timezone
-from itertools import tee
+from typing import Any, Dict, List, Set, Tuple
 
-from azure.identity import DefaultAzureCredential, ClientSecretCredential
+# Azure DI
 from azure.ai.documentintelligence import DocumentIntelligenceClient
-from azure.ai.documentintelligence.models import AnalyzeDocumentRequest
-from azure.storage.blob import BlobServiceClient
 from azure.core.credentials import AzureKeyCredential
+# Azure Storage (AAD)
+from azure.identity import DefaultAzureCredential
+from azure.storage.blob import BlobServiceClient, ContainerClient
+from azure.core.exceptions import ServiceRequestError, ServiceResponseError, HttpResponseError
 
+# ------------- Defaults (kept from your old CLI) -------------
+DEFAULT_INPUT_DIR  = "./pdf/test"
+DEFAULT_OUTPUT_DIR = "./json/update_jsons"
 PROGRESS_FILE = "progress_processed.txt"
 
-# ------------------------------------------------------------
-# helpers to serialize DI polygons / bounding regions
-# ------------------------------------------------------------
-def serialize(obj):
-    # If object is BoundingRegion-like
-    if hasattr(obj, "page_number") and hasattr(obj, "polygon"):
-        return {
-            "page_number": obj.page_number,
-            "polygon": serialize(obj.polygon),
-        }
-    # If object is list of points
-    elif isinstance(obj, list) and all(hasattr(p, "x") and hasattr(p, "y") for p in obj):
-        # just return raw points; json.dumps will fail if you leave Point objects,
-        # so convert to dicts
-        return [{"x": p.x, "y": p.y} for p in obj]
-    # If it's a JSON-native type, return as-is
-    elif isinstance(obj, (dict, list, str, int, float, bool, type(None))):
-        return obj
-    else:
-        raise TypeError(f"Object of type '{type(obj).__name__}' is not JSON serializable")
-
-
-# ------------------------------------------------------------
-# your extraction helpers (kept as-is, just formatting)
-# ------------------------------------------------------------
-def content_field(value):
-    result_content = {
-        "content": value["content"],
-        "confidence": value["confidence"],
-    }
-    for region in value.bounding_regions:
-        result_content["polygon"] = region["polygon"]
-    return result_content
-
-
-def extract_object_array(field, dict_data):
-    result_list = []
-    for data in dict_data:
-        holder = {field: data}
-        holder_dict = extract_object(holder)
-        for _, holder_value in holder_dict.items():
-            result_list.append(holder_value)
-    return result_list
-
-
-def extract_object(dict_data):
-    result_dict_data = {}
-    for field, attributes in dict_data.items():
-        dict_data_type = attributes["type"]
-        attribute_check_list = attributes.keys()
-
-        if dict_data_type == "object":
-            if "content" in attribute_check_list or "valueObject" in attribute_check_list:
-                inner_object = attributes["valueObject"]
-                result_dict_data[field] = extract_object(inner_object)
-
-        elif dict_data_type == "array":
-            if "content" in attribute_check_list or "valueArray" in attribute_check_list:
-                inner_object = attributes["valueArray"]
-                result_dict_data[field] = extract_object_array(field, inner_object)
-
-        else:
-            if "content" in attribute_check_list:
-                result_dict_data[field] = content_field(attributes)
-
-    return result_dict_data
-
-
-# ------------------------------------------------------------
-# progress file helpers
-# ------------------------------------------------------------
-def read_processed_from_progress(path: str = PROGRESS_FILE) -> set[str]:
+# ------------- Helpers: progress -------------
+def read_processed_from_progress(path: str = PROGRESS_FILE) -> Set[str]:
     """
-    Read progress_processed.txt and return a set of PDF/blob names that
-    were successfully processed (status == 'OK').
-
-    Expected line format:
-        mode::BLOB_NAME\tpages\ttimestamp\tSTATUS
+    Returns set of ids marked OK in TSV: "<mode>::<id>\t<PAGES>\t<ISO8601>\tOK"
     """
-    done = set()
-    if not os.path.exists(path):
-        return done
-
+    done: Set[str] = set()
+    if not os.path.exists(path): return done
     with open(path, "r", encoding="utf-8") as f:
         for line in f:
             line = line.strip()
-            if not line:
-                continue
+            if not line: continue
             parts = line.split("\t")
-            if len(parts) < 4:
-                continue
-            left = parts[0]  # e.g. "aad::pdf/myfile.pdf"
-            status = parts[3]
-            if status != "OK":
-                continue
-            mode_and_name = left.split("::", 1)
-            if len(mode_and_name) != 2:
-                continue
-            blob_name = mode_and_name[1]
-            done.add(blob_name)
+            if len(parts) < 4: continue
+            status = parts[3].upper()
+            if status != "OK": continue
+            done.add(parts[0])  # e.g., "azure::wcvi/wcvi-sil-2023/pdf/abc.pdf" or "local::abc.pdf"
     return done
 
-
-def log_progress(mode: str, blob_name: str, pages: int, status: str, path: str = PROGRESS_FILE):
+def log_progress(mode: str, id_token: str, pages: int, status: str, path: str = PROGRESS_FILE):
     ts = datetime.now(timezone.utc).isoformat()
-    line = f"{mode}::{blob_name}\t{pages}\t{ts}\t{status}\n"
     with open(path, "a", encoding="utf-8") as f:
-        f.write(line)
+        f.write(f"{mode}::{id_token}\t{pages}\t{ts}\t{status}\n")
 
-
-# ------------------------------------------------------------
-# config / clients
-# ------------------------------------------------------------
+# ------------- Helpers: config / clients -------------
 def load_connections_config() -> dict:
     """
-    Load ../connections.json relative to this file (since your script
-    lives in python/ and connections.json is one level up).
+    ./connections.json:
+      {
+        "DI-Endpoint": "https://<di>.cognitiveservices.azure.com/",
+        "DI-Key": "...",                # OR omit to use AAD
+        "SA-endpoint": "https://<acct>.blob.core.windows.net"
+      }
     """
-    this_dir = os.path.dirname(os.path.abspath(__file__))
-    root_dir = os.path.dirname(this_dir)
-    config_path = os.path.join(root_dir, "connections.json")
-    with open(config_path, "r", encoding="utf-8") as f:
-        return json.load(f)
+    with open(os.path.join(os.getcwd(), "connections.json"), "r", encoding="utf-8") as f:
+        data = json.load(f)
+    return data
 
+def build_di_client(cfg: dict) -> DocumentIntelligenceClient:
+    endpoint = (cfg.get("DI-Endpoint") or cfg.get("DI_Endpoint") or "").rstrip("/")
+    key = cfg.get("DI-Key")
+    if key:
+        return DocumentIntelligenceClient(endpoint=endpoint, credential=AzureKeyCredential(key))
+    # AAD fallback if no key
+    return DocumentIntelligenceClient(endpoint=endpoint, credential=DefaultAzureCredential())
 
-def build_di_client_from_config(cfg: dict) -> tuple[DocumentIntelligenceClient, str]:
-    """
-    Build a Document Intelligence client.
-    Priority:
-    1. If tenant/client/secret are present -> AAD (mode 'aad')
-    2. elif DI-Key present -> key (mode 'azure-key')
-    3. else -> DefaultAzureCredential (mode 'aad')
-    """
-    endpoint = cfg.get("DI-Endpoint") or cfg.get("DI_Endpoint")
-    if not endpoint:
-        raise ValueError("connections.json missing DI-Endpoint / DI_Endpoint")
-
-    tenant_id = cfg.get("tenant_id")
-    client_id = cfg.get("client_id")
-    client_secret = cfg.get("client_secret")
-
-    if tenant_id and client_id and client_secret:
-        credential = ClientSecretCredential(tenant_id, client_id, client_secret)
-        mode = "aad"
-    elif "DI-Key" in cfg:
-        credential = AzureKeyCredential(cfg["DI-Key"])
-        mode = "azure-key"
-    else:
-        credential = DefaultAzureCredential(exclude_interactive_browser_credential=False)
-        mode = "aad"
-
-    client = DocumentIntelligenceClient(endpoint=endpoint.rstrip("/"), credential=credential)
-    return client, mode
-
-
-def build_blob_client_from_config(cfg: dict, container_name: str):
-    account_url = (
-        cfg.get("SA-endpoint")
-        or cfg.get("storage_account_url")
-        or cfg.get("SA_endpoint")
-    )
-    if not account_url:
-        raise ValueError("connections.json missing storage account url (SA-endpoint).")
-
+def build_container_client(cfg: dict, container: str) -> ContainerClient:
+    sa = (cfg.get("SA-endpoint") or cfg.get("SA_endpoint") or "").rstrip("/")
     cred = DefaultAzureCredential()
-    blob_service = BlobServiceClient(account_url=account_url, credential=cred)
-    return blob_service.get_container_client(container_name)
+    return BlobServiceClient(account_url=sa, credential=cred).get_container_client(container)
 
+# ------------- Sanitizers / path mappers -------------
+def sanitize_blob_name(name: str) -> str:
+    s = (name or "").replace("\\", "/").lstrip("./")
+    while "//" in s: s = s.replace("//", "/")
+    if s.endswith("/"): raise ValueError(f"Blob name may not end with '/': {s}")
+    for ch in s:
+        if ord(ch) < 32: raise ValueError(f"Invalid control character in blob name: {repr(ch)}")
+    return s
 
-# ------------------------------------------------------------
-# azure poller builder
-# ------------------------------------------------------------
-def poller_list_create(
-    document_analysis_client: DocumentIntelligenceClient,
-    container_client,
-    list_of_blob,
-    processed_blob_set: set[str],
-    mode: str,
-    extraction_model_id: str,
-):
-    pollers: list = []
-    targets: list[str] = []
-
-    start_time = datetime.now()
-    for blob_name in list_of_blob:
-        # we only care about pdfs
-        if not blob_name.endswith(".pdf"):
-            continue
-
-        # skip if processed (from progress file)
-        if blob_name in processed_blob_set:
-            continue
-
-        blob_client = container_client.get_blob_client(blob_name)
-        blob_url = blob_client.url
-
-        # we don't know page count yet -> 0
-        log_progress(mode, blob_name, 0, "START")
-
-        try:
-            poller = document_analysis_client.begin_analyze_document(
-                extraction_model_id,
-                AnalyzeDocumentRequest(url_source=blob_url),
-            )
-            pollers.append(poller)
-
-            # e.g. pdf/myfile.pdf -> myfile.json
-            if "/" in blob_name:
-                output_name = blob_name.split("/", 1)[1][:-4] + ".json"
-            else:
-                output_name = blob_name[:-4] + ".json"
-
-            targets.append((blob_name, output_name))
-            print(".", end="", flush=True)
-        except Exception as e:
-            # record failure to start
-            log_progress(mode, blob_name, 0, f"ERROR:{type(e).__name__}")
-            print(f"\nencountered error -- skipping: {blob_name} ({e})")
-            continue
-
-    secs = (datetime.now() - start_time).total_seconds()
-    print(f"\nPL TIME: {secs} secs.", flush=True)
-    return pollers, targets
-
-
-# ------------------------------------------------------------
-# write result (local + optional azure)
-# ------------------------------------------------------------
-def print_analyzed_contents(
-    result,
-    file_name: str,
-    output_azure: bool = False,
-    output_dir=None,
-    container_client=None,
-    output_container_name: str | None = None,
-):
+def make_output_blob_key(orig_pdf_key: str, input_prefix: str, output_dir_prefix: str) -> str:
     """
-    Write analyzed_data to local json/<container>/file_name
-    and optionally upload to Azure Blob.
+    Map 'wcvi-sil-2023/pdf/ABC.pdf' + (input_prefix='wcvi-sil-2023/pdf')
+        → 'wcvi-sil-2023/update_json/ABC.json'  (if output_dir_prefix is 'wcvi-sil-2023/update_json')
+    If output_dir_prefix is a plain leaf like 'update_json', we place at that leaf.
     """
-    # ---- turn DI result into your dict structure ----
-    # result is an AnalyzeResult object, not a dict
-    analyzed_data: dict = {}
+    orig_pdf_key = sanitize_blob_name(orig_pdf_key)
+    input_prefix = sanitize_blob_name(input_prefix) if input_prefix else ""
+    output_dir_prefix = sanitize_blob_name(output_dir_prefix) if output_dir_prefix else "update_json"
+
+    base = os.path.splitext(os.path.basename(orig_pdf_key))[0] + ".json"
+    # If output_dir_prefix looks like 'wcvi-sil-2023/update_json', just join
+    return sanitize_blob_name(f"{output_dir_prefix}/{base}")
+
+# ------------- Serialize & extraction (minimal) -------------
+def serialize(obj: Any) -> Any:
+    if isinstance(obj, list) and obj and hasattr(obj[0], "x") and hasattr(obj[0], "y"):
+        return [[p.x, p.y] for p in obj]
+    if isinstance(obj, (dict, list, str, int, float, bool, type(None))):
+        return obj
+    raise TypeError(f"Not JSON serializable: {type(obj).__name__}")
+
+def content_field(node: Dict[str, Any]) -> Dict[str, Any]:
+    out: Dict[str, Any] = {"content": node.get("content", ""), "confidence": node.get("confidence")}
+    if "polygon" in node: out["polygon"] = node["polygon"]
+    return out
+
+def extract_object_array(field_name: str, arr: List[Dict[str, Any]]) -> List[Any]:
+    out: List[Any] = []
+    for el in arr:
+        holder = {field_name: el}
+        for _, v in extract_object(holder).items():
+            out.append(v)
+    return out
+
+def extract_object(typed_dict: Dict[str, Any]) -> Dict[str, Any]:
+    simplified: Dict[str, Any] = {}
+    for field, attrs in typed_dict.items():
+        node_type = attrs.get("type")
+        if node_type == "object":
+            inner = attrs.get("valueObject")
+            if isinstance(inner, dict): simplified[field] = extract_object(inner)
+        elif node_type == "array":
+            inner = attrs.get("valueArray")
+            if isinstance(inner, list): simplified[field] = extract_object_array(field, inner)
+        else:
+            if "content" in attrs: simplified[field] = content_field(attrs)
+    return simplified
+
+def analyze_result_to_typed_tree(result: Any) -> Tuple[Dict[str, Any], int]:
     docs = getattr(result, "documents", None)
-    if docs:
-        for doc in docs:
-            if not getattr(doc, "fields", None):
-                continue
-            # doc.fields is a dict-like of FieldValue objects
-            # your extract_object() expects dict in DI REST shape
-            # so we convert-ish by using doc.fields._to_generated()
-            generated_fields = doc.fields  # type: ignore
-            doc_data_analyzed = extract_object(generated_fields)
-            for field, value in doc_data_analyzed.items():
-                analyzed_data[field] = value
+    if docs and len(docs) > 0 and getattr(docs[0], "fields", None):
+        root_fields: Dict[str, Any] = {}
+        doc0 = docs[0]
+        for key, field_obj in doc0.fields.items():
+            # minimal scalar mapping
+            content = getattr(field_obj, "content", None)
+            conf = getattr(field_obj, "confidence", None)
+            poly = None
+            brs = getattr(field_obj, "bounding_regions", None) or []
+            if brs:
+                poly = [[p.x, p.y] for p in brs[0].polygon] if hasattr(brs[0].polygon[0], "x") else brs[0].polygon
+            node = {"type": "string", "content": content}
+            if conf is not None: node["confidence"] = conf
+            if poly is not None: node["polygon"] = node.get("polygon", poly)
+            root_fields[key] = node
+        pages = getattr(result, "pages", []) or []
+        return {"type": "object", "valueObject": root_fields}, len(pages)
+    # prebuilt fallback
+    pages = getattr(result, "pages", []) or []
+    root = {"type": "object", "valueObject": {"content": {"type": "string", "content": getattr(result, "content", "")}}}
+    return root, len(pages)
 
-    # 1. local path
-    if output_dir is None:
-        target_directory = os.path.join(os.getcwd(), "json", output_container_name or "default")
-    else:
-        target_directory = output_dir
-    os.makedirs(target_directory, exist_ok=True)
-    output_file = os.path.join(target_directory, file_name)
-
-    # 2. to JSON string
-    json_data = json.dumps(analyzed_data, default=serialize, indent=4)
-
-    # 3. write local
-    with open(output_file, "w", encoding="utf-8") as f:
-        f.write(json_data)
-
-    # 4. optional upload
-    if output_azure:
-        if container_client is None:
-            raise ValueError("output_azure=True but container_client is None")
-
-        with open(output_file, "rb") as data:
-            container_client.upload_blob(name=file_name, data=data, overwrite=True)
-
-
-# ------------------------------------------------------------
-# local mode
-# ------------------------------------------------------------
-def analyze_local_documents(input_dir: str, output_dir: str, extraction_model_id: str):
-    """
-    Run Document Intelligence locally against PDFs in input_dir.
-    Outputs JSONs into output_dir.
-    """
-    cfg = load_connections_config()
-    di_client, mode = build_di_client_from_config(cfg)
-
+# ------------- Output -------------
+def write_json_locally(payload: Dict[str, Any], output_dir: str, filename: str) -> str:
     os.makedirs(output_dir, exist_ok=True)
+    path = os.path.join(output_dir, filename)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2, default=serialize)
+    print(f"[OK] wrote: {path}")
+    return path
 
-    processed = read_processed_from_progress()
+def upload_json_via_aad(storage_account_url: str, container: str, local_path: str, blob_name: str, overwrite: bool=True) -> None:
+    cred = DefaultAzureCredential()
+    svc = BlobServiceClient(account_url=storage_account_url, credential=cred)
+    cc = svc.get_container_client(container)
+    try: cc.create_container()
+    except Exception: pass
+    with open(local_path, "rb") as data:
+        cc.upload_blob(name=blob_name, data=data, overwrite=overwrite)
+    print(f"[OK] uploaded: {container}/{blob_name}")
 
-    for fname in sorted(os.listdir(input_dir)):
-        if not fname.lower().endswith(".pdf"):
-            continue
+# ------------- Azure rate limiter (simple) -------------
+class Rate:
+    def __init__(self, tps:int=8):
+        self.tps=max(1,tps); self.win=1.0; self.lock=threading.Lock(); self.bucket=[]
+    def _prune(self, now): 
+        cutoff=now-self.win
+        while self.bucket and self.bucket[0]<cutoff: self.bucket.pop(0)
+    def acquire(self):
+        while True:
+            with self.lock:
+                now=time.time(); self._prune(now)
+                if len(self.bucket)<self.tps:
+                    self.bucket.append(now); return
+                sleep_for=(self.bucket[0]+self.win)-now
+            if sleep_for>0: time.sleep(sleep_for)
 
-        pdf_path = os.path.join(input_dir, fname)
+def is_transient(exc: Exception) -> bool:
+    if isinstance(exc, (ServiceRequestError, ServiceResponseError)): return True
+    if isinstance(exc, HttpResponseError):
+        code=getattr(exc,"status_code",None) or getattr(exc,"status",None)
+        return code in (429,500,502,503,504)
+    return False
 
-        # progress file uses just the filename in local mode
-        if fname in processed:
-            continue
+# ------------- Pipelines -------------
+def save_result_to_outputs(result: Any,
+                           output_basename: str,
+                           local_output_dir: str,
+                           do_upload: bool,
+                           storage_account_url: str,
+                           output_container: str,
+                           output_blob_name: str,
+                           overwrite: bool) -> Tuple[str,int]:
+    typed_root, pages = analyze_result_to_typed_tree(result)
+    if pages<=0: raise ValueError("AnalyzeResult has zero pages.")
+    extracted = extract_object(typed_root["valueObject"])
+    local_path = write_json_locally(extracted, local_output_dir, f"{output_basename}.json")
+    if do_upload:
+        upload_json_via_aad(storage_account_url, output_container, local_path, output_blob_name, overwrite=overwrite)
+    return local_path, pages
 
-        log_progress(mode, fname, 0, "START")
+def run_local(di: DocumentIntelligenceClient,
+              model_id: str,
+              input_dir: str,
+              output_dir: str,
+              progress_path: str) -> None:
+    if not os.path.isdir(input_dir): raise FileNotFoundError(f"Input dir not found: {input_dir}")
+    processed = read_processed_from_progress(progress_path)
+    files = sorted([f for f in os.listdir(input_dir) if f.lower().endswith(".pdf")])
+    new = [f for f in files if f"local::{f}" not in processed]
+    if not new: print("[INFO] All PDFs already processed."); return
+
+    ok=err=0; start=time.time()
+    for fname in new:
+        token=f"local::{fname}"
+        pdf_path=os.path.join(input_dir,fname)
         try:
-            with open(pdf_path, "rb") as f:
-                poller = di_client.begin_analyze_document(
-                    extraction_model_id, f, content_type="application/pdf"
-                )
-                result = poller.result()
-
-            json_name = os.path.splitext(fname)[0] + ".json"
-
-            print_analyzed_contents(
+            with open(pdf_path,"rb") as fh:
+                poller=di.begin_analyze_document(model_id, fh)
+                result=poller.result()
+            base=os.path.splitext(fname)[0]
+            _, pages = save_result_to_outputs(
                 result,
-                json_name,
-                output_azure=False,
-                output_dir=output_dir,
+                output_basename=base,
+                local_output_dir=output_dir,
+                do_upload=False,
+                storage_account_url="",  # unused
+                output_container="",
+                output_blob_name="",
+                overwrite=True
             )
-
-            log_progress(mode, fname, 0, "OK")
-            print(f"[OK] {fname} -> {os.path.join(output_dir, json_name)}")
+            log_progress("local", fname, pages, "OK", progress_path)
+            ok+=1
         except Exception as e:
-            log_progress(mode, fname, 0, f"ERROR:{type(e).__name__}")
+            log_progress("local", fname, 0, f"ERR:{e}", progress_path); err+=1
             print(f"[ERR] {fname}: {e}")
+    elapsed=time.time()-start
+    print(f"[DONE] local processed={ok}, errors={err}, elapsed={elapsed:.2f}s")
 
+def run_azure(di: DocumentIntelligenceClient,
+              cfg: dict,
+              container: str,
+              input_prefix: str,
+              output_dir_prefix: str,
+              model_id: str,
+              tps:int,
+              progress_path:str,
+              overwrite: bool) -> None:
+    sa = (cfg.get("SA-endpoint") or cfg.get("SA_endpoint") or "").rstrip("/")
+    cc = build_container_client(cfg, container)
 
-# ------------------------------------------------------------
-# azure mode
-# ------------------------------------------------------------
-def analyze_azure_documents(container_name: str, extraction_model_id: str):
-    cfg = load_connections_config()
+    input_prefix = sanitize_blob_name(input_prefix) if input_prefix else ""
+    output_dir_prefix = sanitize_blob_name(output_dir_prefix) if output_dir_prefix else "update_json"
 
-    # 1) clients
-    di_client, mode = build_di_client_from_config(cfg)
-    container_client = build_blob_client_from_config(cfg, container_name)
+    # enumerate
+    processed = read_processed_from_progress(progress_path)
+    candidates=[]
+    for b in cc.list_blobs(name_starts_with=input_prefix or None):
+        if not b.name.lower().endswith(".pdf"): continue
+        token=f"azure::{container}/{b.name}"
+        if token in processed: continue
+        candidates.append(b.name)
 
-    # 2) output container (create once if uploading results)
-    # use a CLEAN name, not "/update_jsons"
-    output_container_name = cfg.get("output_container_name") or "update_jsons"
-    account_url = (
-        cfg.get("SA-endpoint")
-        or cfg.get("storage_account_url")
-        or cfg.get("SA_endpoint")
-    )
-    output_container_client = BlobServiceClient(
-        account_url=account_url,
-        credential=DefaultAzureCredential()
-    ).get_container_client(output_container_name)
+    if not candidates:
+        print("[INFO] Nothing to process."); return
 
-    # 3) already done set
-    processed_blob_set = read_processed_from_progress()
+    rate=Rate(tps); ok=err=0; start=time.time()
+    out_local_dir = DEFAULT_OUTPUT_DIR if output_dir_prefix=="" else os.path.join(".", output_dir_prefix.replace("/", os.sep))
+    os.makedirs(out_local_dir, exist_ok=True)
 
-    # 4) build pollers
-    blob_list = container_client.list_blob_names()
-    poller_list, targets = poller_list_create(
-        di_client,
-        container_client,
-        blob_list,
-        processed_blob_set,
-        mode,
-        extraction_model_id,
-    )
-
-    # 5) run pollers + write/upload results
-    for poller, (orig_blob_name, json_name) in zip(poller_list, targets):
+    for name in candidates:
+        token=f"azure::{container}/{name}"
         try:
+            # download PDF bytes
+            pdf_bytes = cc.get_blob_client(name).download_blob().readall()
+            # rate-limit+submit
+            rate.acquire()
+            poller = di.begin_analyze_document(model_id, pdf_bytes)
             result = poller.result()
-            print_analyzed_contents(
+
+            json_base  = os.path.splitext(os.path.basename(name))[0]
+            json_blob  = make_output_blob_key(name, input_prefix, output_dir_prefix)  # where to upload in container
+            local_path, pages = save_result_to_outputs(
                 result,
-                file_name=json_name,
-                output_azure=True,
-                container_client=output_container_client,
-                output_container_name=output_container_name,
+                output_basename=json_base,
+                local_output_dir=out_local_dir,                   # local mirror of output dir
+                do_upload=True,
+                storage_account_url=sa,
+                output_container=container,
+                output_blob_name=json_blob,
+                overwrite=overwrite
             )
-            log_progress(mode, orig_blob_name, 0, "OK")
+            log_progress("azure", f"{container}/{name}", pages, "OK", progress_path)
+            print(f"[OK] {name} (pages={pages}) → {json_blob}")
+            ok+=1
         except Exception as e:
-            log_progress(mode, orig_blob_name, 0, f"ERROR:{type(e).__name__}")
+            log_progress("azure", f"{container}/{name}", 0, f"ERR:{e}", progress_path)
+            print(f"[ERR] {name}: {e}")
+            if not is_transient(e):
+                pass
+    elapsed=time.time()-start
+    print(f"[DONE] azure processed={ok}, errors={err}, elapsed={elapsed:.2f}s")
 
+# ------------- CLI -------------
+def parse_args():
+    p = argparse.ArgumentParser("WCVI DI runner (local/azure) with progress + prefix mapping")
+    p.add_argument("--mode", choices=["local","azure"], default="local")
+    # keep your legacy flag names:
+    p.add_argument("--model", dest="model_id", required=True, help="DI model id (e.g., wcvi-sil-4)")
+    p.add_argument("--container", default="wcvi", help="Azure Blob container (azure mode)")
+    p.add_argument("--input_dir", default=DEFAULT_INPUT_DIR,
+                   help="local: folder of PDFs | azure: input prefix, e.g. 'wcvi-sil-2023/pdf'")
+    p.add_argument("--output_dir", default=DEFAULT_OUTPUT_DIR,
+                   help="local: folder for JSON | azure: output prefix in container, e.g. 'wcvi-sil-2023/update_json'")
+    p.add_argument("--tps", type=int, default=8, help="simple TPS limiter (azure)")
+    p.add_argument("--overwrite", action="store_true", help="overwrite JSON blobs in azure")
+    p.add_argument("--no-overwrite", dest="overwrite", action="store_false")
+    p.set_defaults(overwrite=True)
+    p.add_argument("--reset", action="store_true", help="delete progress TSV before run")
+    p.add_argument("--progress_file", default=PROGRESS_FILE)
+    return p.parse_args()
 
-# ------------------------------------------------------------
-# entrypoint
-# ------------------------------------------------------------
+def main():
+    args = parse_args()
+    cfg = load_connections_config()
+    if args.reset and os.path.exists(args.progress_file):
+        os.remove(args.progress_file); print(f"[INFO] progress reset: {args.progress_file}")
+
+    di = build_di_client(cfg)
+
+    if args.mode == "local":
+        # local: input_dir is filesystem, output_dir is filesystem
+        run_local(
+            di=di,
+            model_id=args.model_id,
+            input_dir=args.input_dir,
+            output_dir=args.output_dir,
+            progress_path=args.progress_file
+        )
+    else:
+        # azure: input_dir is blob prefix, output_dir is output prefix inside same container
+        run_azure(
+            di=di,
+            cfg=cfg,
+            container=args.container,
+            input_prefix=args.input_dir,
+            output_dir_prefix=args.output_dir,
+            model_id=args.model_id,
+            tps=args.tps,
+            progress_path=args.progress_file,
+            overwrite=args.overwrite
+        )
+
 if __name__ == "__main__":
-    import argparse
+    main()
 
-    parser = argparse.ArgumentParser(description="WCVI DI Schema Extractor")
-    parser.add_argument("--mode", choices=["local", "azure"], default="local",
-                        help="Run locally on PDFs or on Azure blobs (default: local)")
-    parser.add_argument("--input_dir", default="./pdf/test",
-                        help="Local input directory for PDF files (used in local mode)")
-    parser.add_argument("--output_dir", default="./json/update_jsons",
-                        help="Local output directory for JSON files (used in local mode)")
-    parser.add_argument("--container", default=None,
-                        help="Azure container name for PDFs (used in azure mode)")
-    parser.add_argument("--model", default="prebuilt-layout",
-                        help="Model ID for DI extraction (default: prebuilt-layout)")
-    args = parser.parse_args()
+# Local:
+# python ./python/WCVI_improved_di.py --mode azure --model wcvi-sil-4 --container wcvi --input_dir wcvi-sil-2023/pdf --output_dir wcvi-sil-2023/update_json
 
-    # we just need it for both modes; keeps the "file one level up" check honest
-    _ = load_connections_config()
 
-    match args.mode:
-        case "local":
-            print(f"Running LOCAL mode\nInput: {args.input_dir}\nOutput: {args.output_dir}")
-            analyze_local_documents(
-                input_dir=args.input_dir,
-                output_dir=args.output_dir,
-                extraction_model_id=args.model,
-            )
-        case "azure":
-            print("Running AZURE mode")
-            container_name = args.container or "raw_pdf"
-            analyze_azure_documents(
-                container_name=container_name,
-                extraction_model_id=args.model,
-            )
+# Azure: 
+# python ./python/WCVI_improved_di.py --mode local --model wcvi-sil-4 --input_dir wcvi-sil-2023/pdf --output_dir wcvi-sil-2023/update_json
+
+#RESET:
+#python ./python/WCVI_improved_di.py --mode azure --model wcvi-sil-4 --container wcvi --input_dir wcvi-sil-2023/pdf --output_dir wcvi-sil-2023/update_json --reset
+
+# No overwrite:
+# python ./python/WCVI_improved_di.py --mode azure --model wcvi-sil-4 --container wcvi --input_dir wcvi-sil-2023/pdf --output_dir wcvi-sil-2023/update_json --no-overwrite

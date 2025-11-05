@@ -1,6 +1,7 @@
 # import libraries 
-from datetime import datetime
-import os
+from datetime import datetime, timezone
+import os, requests
+from urllib.parse import quote
 import json
 import time
 from azure.identity import DefaultAzureCredential
@@ -37,20 +38,26 @@ key = connection_details['DI-Key']
 mode = "local"
  
 # If using a local directory, set directory here. Make sure to use forward slashes (/) and not backslashs (\)
-directory_path = "./tempdata"
+directory_path = "./pdf/test-wcvi"
  
 # Azure blob container setttings, set `<connection_string>` and `<container_name>` for blob container in storage account
 connection_string = connection_details['SA-endpoint']
-container_name = "wcvi/wcvi-sil-2023"
+container_name = "wcvi"
 
 # Azure blob output container setttings, set `<connection_string>` and `<container_name>` for blob container in storage account you want to write a JSON output too
 # Script will only attempt to upload to a blob container if output_azure is set to True
 output_azure = False
 output_connection_string = connection_string
-output_container_name = "/update_jsons" 
+output_container_name = "wcvi"
+output_directory_name = "wcvi-sil-2023/update_jsons"
 
 # Determine model to be used here. Check with Document Intelligence Studio for the name of the model used:
-extraction_model_id = "wcvi-sil-2"
+extraction_model_id = "wcvi-sil-5"
+
+OK, ERR = "[OK]", "[ERR]"
+
+def _rfc1123_now():
+    return datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
 
 # This is a custom serialization function to convert object type BoundingRegion and polygon into a JSON format
 # JSON library has no built-in support for serializing arbitrary Python objects such as BoundingRegion
@@ -74,23 +81,63 @@ def serialize(obj):
     else:  
         raise TypeError(f"Object of type '{type(obj).__name__}' is not JSON serializable")
 
+def upload_file_to_blob_via_aad(sa_endpoint: str, container: str, directory: str, local_path: str, timeout: int = 30) -> str:
+    """
+    Uploads local_path to https://<account>.blob.core.windows.net/<container>/<directory>/<basename(local_path)>
+    using AAD (Bearer token). Overwrites if it exists. Returns the blob URL.
+    """
+    # Acquire token
+    token = DefaultAzureCredential().get_token("https://storage.azure.com/.default").token
+
+    # Build target URL
+    blob_name = f"{directory.strip('/')}/{os.path.basename(local_path)}"
+    url = f"{sa_endpoint.rstrip('/')}/{container}/{quote(blob_name)}"
+
+    # Read file bytes
+    with open(local_path, "rb") as f:
+        body = f.read()
+
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "x-ms-version": "2021-10-04",
+        "x-ms-date": _rfc1123_now(),
+        "x-ms-blob-type": "BlockBlob",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": str(len(body)),
+    }
+
+    r = requests.put(url, headers=headers, data=body, timeout=timeout)
+    if r.status_code != 201:
+        raise RuntimeError(f"Upload failed {r.status_code}: {r.text[:300]}")
+    return url
+
+def chunk_list(lst, size):
+    return [lst[i:i+size] for i in range(0, len(lst), size)]
+
 def content_field(value):
     # print(field, value['content'])
     result_content = {}
     result_content["content"] = value['content']
     result_content["confidence"] = value['confidence']
     for region in value.bounding_regions:
-        result_content["polygon"] = region['polygon']
+        polygon_list = region["polygon"]
+        if len(polygon_list) != 8:
+            result_content["polygon"] = polygon_list
+        else:
+            for value in region:
+                result_content["polygon"] = chunk_list(polygon_list, 2)
     return result_content
 
 def extract_object_array(field, dict_data):
-    result_list = []
+    # result_list = []
+    result_dict = {}
     for data in dict_data:
         holder = {field: data}
         holder_dict = extract_object(holder)
         for holder_field, holder_value in holder_dict.items():
-            result_list.append(holder_value)
-    return result_list
+            for field_name, field_value in holder_value.items():
+                result_dict[field_name] = field_value
+    return result_dict
 
 def extract_object(dict_data):
     result_dict_data = {}
@@ -125,25 +172,34 @@ def extract_object(dict_data):
 def print_analyzed_contents(result, file_name):
     analyzed_data = {}
     for doc in result['documents']:
-        doc_data_analyzed = {}
-        if doc['fields'] is None:
-            continue        
-        doc_data = doc['fields']
-        for field, value in doc_data.items():
-            # print('KEY:', field, 'value:', value.content, 'confidence:', value.confidence)
-            # if value.content is None:
-            #     continue
-            # for region in value.bounding_regions:
-                # print('polygon:', region.polygon)
-            doc_data_analyzed = extract_object(doc_data)
-        for field, value in doc_data_analyzed.items():
-            analyzed_data[field] = value
-    print(analyzed_data)
-    # Initiate connection to blob storage - if `output_azure` is set to true - and retrieve the output container connection details
-    container_client = None
-    if output_azure:
-        blob_service_client = BlobServiceClient.from_connection_string(output_connection_string)
-        container_client = blob_service_client.get_container_client(output_container_name)
+        doc_type = doc.doc_type
+        page = doc.bounding_regions[0]['pageNumber']
+        confidence = doc.confidence
+        doc_data = {}
+        doc_data['page'] = page
+        doc_data ['confidence'] = confidence
+        doc_field = extract_object(doc.fields)
+        for field, value in doc_field.items():
+            doc_data[field] = value
+        if doc_type not in analyzed_data:
+            analyzed_data[doc_type] = [doc_data]
+        else:
+            analyzed_data[doc_type].append(doc_data)
+    # for doc in result['documents']:
+    #     doc_data_analyzed = {}
+    #     if doc['fields'] is None:
+    #         continue        
+    #     doc_data = doc['fields']
+    #     for field, value in doc_data.items():
+    #         # print('KEY:', field, 'value:', value.content, 'confidence:', value.confidence)
+    #         # if value.content is None:
+    #         #     continue
+    #         # for region in value.bounding_regions:
+    #             # print('polygon:', region.polygon)
+    #         doc_data_analyzed = extract_object(doc_data)
+    #     for field, value in doc_data_analyzed.items():
+    #         analyzed_data[field] = value
+    # print(analyzed_data)
     
     ### Check container for existing result and redownload the result for no rewrite. Use this if you do not want to overwrite content above. 
     # Else if all runs are to rewrite, comment out the code block
@@ -168,12 +224,35 @@ def print_analyzed_contents(result, file_name):
     # print(f"Analysis data appended to: {output_file}")
     
         # If output_azure is true, then proceed to upload output_file to the target blob container
+    # If output_azure is true, upload output_file to Azure Blob
     if output_azure:
-        with open(output_file, "rb") as data:
-            # upload_file_to_blob_via_aad(cfg.storage_account_url, container_name, output_container_name)
-            container_client.upload_blob(name=file_name, data=data, overwrite=True)
-        # print(f"Analysis data uploaded to Azure Blob: {file_name}")
+        try:
+            blob_url = upload_file_to_blob_via_aad(
+                sa_endpoint=cfg.storage_account_url,   # e.g. "https://<account>.blob.core.windows.net"
+                container=output_container_name,
+                directory=output_directory_name,
+                local_path=output_file
+            )
+            print(f"{OK} Analysis data uploaded to Azure Blob: {blob_url}")
+        except Exception as e:
+            print(f"{ERR} Failed to upload to Azure: {e}")
 
+def printdict(dictdata):
+    for key, value in dictdata.items():
+        print('KEY:', key)
+        if type(value) is dict:
+            print('\n\t', end = '')
+            printdict(value)
+        elif type(value) is list:
+            for item in value:
+                if type(item) is dict:
+                    print('\n\t', end = '')
+                    printdict(item)
+                else:
+                    print('\n\tVALUE:', item)
+        else:
+            print('\n\tVALUE:', value)
+                    
 
 # function analyzed_local_documents()
 # function reads local files from a directory, connect to a DI model from DI resource in Azure cloud and runs print_analyzed_contents() on them.
@@ -194,7 +273,7 @@ def analyze_local_documents():
                 # Change the model name to fit with the corresponding model. Default is: prebuilt-document
                 # currently only read pdf files
                 if filename.endswith(".pdf"): 
-                    print("extract pdf")
+                    print(".", end='', flush=True)
                     poller = document_analysis_client.begin_analyze_document(extraction_model_id, file)
                 # If not, then treat the rest as an image and proceed as such
                 else:  
@@ -204,6 +283,9 @@ def analyze_local_documents():
                 # Defining an appropriate file_name to be produced.
                 # file_name = "local " + filename.replace(' ', '') + " " + "analyzed_data.json"
                 file_name = filename[:-4]+".json"
+                # for page in result.pages:
+                #     printdict(page)
+                # print(result.paragraphs)
                 print_analyzed_contents(result, file_name)
 
 def poller_list_create(document_analysis_client, container_client, list_of_blob, processed_blob_list):

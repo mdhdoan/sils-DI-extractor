@@ -337,4 +337,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# python clean_local_nested.py --in-dir local_input --out-dir out_cleaned
+# python SILS_di_cleanup_local.py --in-dir ... --out-dir ...

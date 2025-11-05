@@ -175,19 +175,31 @@ water_clarity_list = ['Water Conditions: Water Clarity: 0-0.25m','Water Conditio
                     'Water Conditions: Water Clarity: 3m to bottom']
 
 NUMERIC_FIELDS = [
-    "Live Count (incl. live tags):",
-    "Live Count 2 (incl. live tags):",
-    "% O.E. (Observer Efficiency):",
-    "% Holding / Migrating:",
-    "% Spawning:",
-    "% Spawned Out:",
-    "Dead:",
-    "Dead 2:",
-    "Other species:",
-    "Other species 2:",
+    "Live Count (incl. live tags)",
+    "Live Count 2 (incl. live tags)",
+    "% O.E. (Observer Efficiency)",
+    "% Holding / Migrating",
+    "% Spawning",
+    "% Spawned Out",
+    "Dead",
+    "Dead 2",
+    "Other species",
+    "Other species 2",
+    "Male",
+    "Female % Spawn: N.R.",
+    "Female % Spawn: 0%",
+    "Female % Spawn: 50%",
+    "Female % Spawn: 100%",
+    "Unsexed",
+    "Female",
+    "Jack",
+    "Water Level: Gauge",
+    "Water Level: Gauge: Area", 
+    "Water Conditions: Water Temperature",
 ]
 
-PERCENT_TRIO = ["% Holding / Migrating:", "% Spawning:", "% Spawned Out:"]
+PERCENT_TRIO = ["% Holding / Migrating", "% Spawning", "% Spawned Out",
+                "Female % Spawn: N.R.", "Female % Spawn: 0%", "Female % Spawn: 50%", "Female % Spawn: 100%"]
 
 def clean_selected_flag(v: str) -> str:
     if not isinstance(v, str):
@@ -332,52 +344,171 @@ def validate_numeric_fields(cleaned_data: dict):
             errs[field_name] = f"Field '{field_name}' should be numeric but got '{val}'."
     return errs
 
-def validate_percentage_trio(cleaned_data: dict):
-    vals = []
-    for f in PERCENT_TRIO:
-        v = get_content_from_cleaned(cleaned_data, f)
-        num = parse_number_from_content(v)
-        vals.append(num)
-    if all(v is None for v in vals):
-        return {}
-    total = sum(v if v is not None else 0 for v in vals)
-    if abs(total - 100) <= 0.5 or abs(total - 1) <= 0.01:
-        return {}
-    return {"percent_trio": f"Percent trio ({', '.join(PERCENT_TRIO)}) should sum to 100 or 1, got {total}"}
+def validate_sk_count_data(cleaned_data: dict):
+    errs = {}
+    sk1 = cleaned_data.get("SK_Count_data")
+    if not isinstance(sk1, list) or not sk1:
+        return errs
+
+    for i, row in enumerate(sk1):
+        if not isinstance(row, dict):
+            continue
+
+        # IMPORTANT: fields live under "item"
+        r = row.get("item") if isinstance(row.get("item"), dict) else row
+        row_errs = {}
+        parsed = {}
+        for key in NUMERIC_FIELDS:
+            cell = r.get(key)
+            if not (isinstance(cell, dict) and "content" in cell):
+                parsed[key] = None
+                continue
+
+            s = cell["content"]
+            if s is None:
+                parsed[key] = None
+                continue
+
+            s = str(s).strip()
+            if s == "":
+                parsed[key] = None
+                continue
+
+            # allow % for percent fields by stripping it first
+            if key.startswith("%"):
+                s_clean = s.replace("%", "").strip()
+            else:
+                s_clean = s
+
+            # quick non-numeric screens (symbols/letters)
+            if any(c in s_clean for c in ["/", "€"]) or any(ch.isalpha() for ch in s_clean):
+                row_errs[key] = "non-numeric or invalid symbol detected"
+                parsed[key] = None
+                continue
+
+            # try numeric parse
+            try:
+                parsed[key] = float(s_clean)
+            except Exception:
+                row_errs[key] = "not numeric"
+                parsed[key] = None
+
+        # percent sum rule (only if all three numbers are present)
+        h, sp, so = parsed.get("% Holding / Migrating"), parsed.get("% Spawning"), parsed.get("% Spawned Out")
+        if all(isinstance(x, (int, float)) for x in (h, sp, so)):
+            total = h + sp + so
+            if abs(total - 100.0) > 0.5:
+                row_errs["% Sum"] = f"Percentages do not total 100% (sum={total})"
+
+        if row_errs:
+            errs[f"row_{i}"] = row_errs
+
+    return {"Visual Surveys": errs} if errs else {}
 
 def validate_sk_count_data_2(cleaned_data: dict):
     errs = {}
-    sk2 = cleaned_data.get("SK_Count_data_2")
-    if not isinstance(sk2, list) or len(sk2) == 0:
-        return errs
-    first = sk2[0]
-    if not isinstance(first, dict):
+    rows = cleaned_data.get("SK_Count_data_2")
+    if not isinstance(rows, list) or not rows:
         return errs
 
-    def getnum(d, key_options):
-        for k in key_options:
-            v = d.get(k)
-            if isinstance(v, dict) and "content" in v:
-                num = parse_number_from_content(v["content"])
-                if num is not None:
-                    return num
-        return None
+    for i, row in enumerate(rows):
+        if not isinstance(row, dict):
+            continue
+        r = row.get("item") if isinstance(row.get("item"), dict) else row
+        row_errs = {}
 
-    female = getnum(first, ["Female", "Females", "female", "females"])
-    nr = getnum(first, ["NR", "Nr", "nr"])
-    p0 = getnum(first, ["0%", "0 %", "Zero", "zero"])
-    p50 = getnum(first, ["50%", "50 %"])
-    p100 = getnum(first, ["100%", "100 %"])
+        # All numeric fields in SK2 (counts only; '%' is invalid anywhere here)
+        keys_all = [
+            "Female", "Females", "female", "females",
+            "NR", "Nr", "nr",
+            "0%", "0 %", "Zero", "zero",
+            "50%", "50 %",
+            "100%", "100 %",
+            "Jack", "Unsexed",
+            "Female % Spawn: 100%"
+        ]
 
-    if female is None:
+        parsed = {}
+        for k in keys_all:
+            cell = r.get(k)
+            if not (isinstance(cell, dict) and "content" in cell):
+                parsed[k] = None
+                continue
+            s = cell["content"]
+            if s is None:
+                parsed[k] = None
+                continue
+            s = str(s).strip()
+            if s == "":
+                parsed[k] = None
+                continue
+            # reject %, slash, euro, or any letters
+            if "%" in s or "/" in s or "€" in s or any(ch.isalpha() for ch in s):
+                row_errs[k] = "non-numeric or invalid symbol detected"
+                parsed[k] = None
+                continue
+            # try numeric
+            v = parse_number_from_content(s)
+            if v is None:
+                row_errs[k] = "not numeric"
+                parsed[k] = None
+            else:
+                parsed[k] = float(v)
+
+        # Female == NR + 0% + 50% + 100% (using whichever Female key is present)
+        female = None
+        for fk in ["Female", "Females", "female", "females"]:
+            if isinstance(parsed.get(fk), (int, float)):
+                female = parsed.get(fk)
+                break
+        parts_keys = ["NR", "Nr", "nr", "0%", "0 %", "Zero", "zero", "50%", "50 %", "100%", "100 %"]
+        part_vals = [parsed[k] for k in parts_keys if isinstance(parsed.get(k), (int, float))]
+        if isinstance(female, (int, float)) and part_vals:
+            total = sum(part_vals)
+            if abs(female - total) > 0.01:
+                row_errs["Female"] = f"Female ({female}) != NR+0%+50%+100% ({total})"
+
+        if row_errs:
+            errs[f"row_{i}"] = row_errs
+
+    return {"SOCKEYE UNTAGGED RECOVERIES": errs} if errs else {}
+
+def validate_sk_count_data_3(cleaned_data: dict):
+    errs = {}
+    rows = cleaned_data.get("SK_Count_data_3")
+    if not isinstance(rows, list) or not rows:
         return errs
-    parts = [nr, p0, p50, p100]
-    if all(p is None for p in parts):
-        return errs
-    expected = sum(p for p in parts if p is not None)
-    if abs(female - expected) > 0.01:
-        errs["SK_Count_data_2"] = f"Female ({female}) != NR+0%+50%+100% ({expected})"
-    return errs
+
+    for i, row in enumerate(rows):
+        if not isinstance(row, dict):
+            continue
+        r = row.get("item") if isinstance(row.get("item"), dict) else row
+        row_errs = {}
+
+        for k, cell in r.items():
+            if k == "Area":
+                continue  # Area allowed non-numeric
+            if not (isinstance(cell, dict) and "content" in cell):
+                continue
+            s = cell["content"]
+            if s is None:
+                continue
+            s = str(s).strip()
+            if s == "":
+                continue
+            # All SK3 fields except Area must be numeric; '%' invalid here too
+            if "%" in s or "/" in s or "€" in s or any(ch.isalpha() for ch in s):
+                row_errs[k] = "non-numeric or invalid symbol detected"
+                continue
+            v = parse_number_from_content(s)
+            if v is None:
+                row_errs[k] = "not numeric"
+
+        if row_errs:
+            errs[f"row_{i}"] = row_errs
+
+    return {"SOCKEYE TAGGED RECOVERIES": errs} if errs else {}
+
 
 # ---------------------------------------------------------------------
 # Main
@@ -435,8 +566,9 @@ def main():
         errors = {}
         errors.update(validate_selection_groups(cleaned))
         errors.update(validate_numeric_fields(cleaned))
-        errors.update(validate_percentage_trio(cleaned))
+        errors.update(validate_sk_count_data(cleaned))
         errors.update(validate_sk_count_data_2(cleaned))
+        errors.update(validate_sk_count_data_3(cleaned))
 
         # upload cleaned json
         base_name = os.path.basename(blob_name)
@@ -447,11 +579,14 @@ def main():
         except Exception as e:
             print(f"{ERR} Failed to upload cleaned {base_name}: {e}")
             # still record errors
-        report_data[blob_name.split('/')[-1]] = errors
+        # filename should not have extension, nor prefix
+        filename = blob_name.split('/')[-1][:-5]
+        report_data[filename] = errors
         if errors:
             print(f"{ERR} {blob_name} -> {len(errors)} issues")
         else:
             print(f"{OK} {blob_name} -> passes all checks")
+            report_data[filename] = {'summary': filename +' passed preliminary check.'}
 
         # 5) upload report.json
     from datetime import datetime, timezone
@@ -474,12 +609,12 @@ def main():
     except Exception as e:
         print(f"{ERR} Failed to upload report.json to {report_blob_name}: {e}")
 
-    # OPTIONAL: also drop a flat copy at container root for easy access
-    try:
-        upload_blob_aad(sa_endpoint, args.container, "report.json", bearer, report_bytes)
-        print(f"{OK} Uploaded flat report.json to container root")
-    except Exception as e:
-        print(f"{ERR} Failed to upload root report.json: {e}")
+    # # OPTIONAL: also drop a flat copy at container root for easy access
+    # try:
+    #     upload_blob_aad(sa_endpoint, args.container, "report.json", bearer, report_bytes)
+    #     print(f"{OK} Uploaded flat report.json to container root")
+    # except Exception as e:
+    #     print(f"{ERR} Failed to upload root report.json: {e}")
 
 
 
