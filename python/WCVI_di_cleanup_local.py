@@ -138,6 +138,7 @@ def clean_node(node, current_key_path=""):
 # Utility parsers
 # ---------------------------------------------------------------------
 def get_content_from_cleaned(data: dict, field_name: str):
+    print(data)
     v = data.get(field_name)
     if isinstance(v, dict) and "content" in v:
         return v["content"]
@@ -225,11 +226,12 @@ def main():
 
     for name in files:
         file_report_name = name[:-5]
-        condition_pages = {}
+        # condition_pages = {}
         src_path = os.path.join(args.in_dir, name)
         try:
             with open(src_path, "r", encoding="utf-8") as f:
                 raw = json.load(f)
+                print(name, "loaded")
                 # condition_pages = raw['C1-1']
         except Exception as e:
             print(f"{ERR} {name} -> cannot read JSON: {e}")
@@ -237,14 +239,19 @@ def main():
             continue
 
         cleaned = {}
-        if condition_pages == {}:
-            continue
-        for key, page in raw:
-            cleaned = clean_node(page)
-            # print(cleaned)
-            errors = {}
-            errors.update(validate_selection_groups(cleaned))
-            raw[key] = cleaned
+        # if condition_pages == {}:
+        #     continue
+        errors = {}
+        for key, pages in raw.items():
+            for page in pages:
+                cleaned = clean_node(page)
+                if page == cleaned:
+                    print(key, page['page'],'allgood')
+                    continue
+                # print(cleaned)
+                errors.update(validate_selection_groups(cleaned))
+                print("error updated")
+                raw[key] = cleaned
             # raw['C1-1'] += cleaned
 
         out_path = os.path.join(args.out_dir, name)
