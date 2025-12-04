@@ -5,7 +5,7 @@
             "confidence": 0.189,
             "STREAM NAME": {
                 "content": "Lens Creek",
-                "confidence": 0.864,
+                "confidence": 0.863,
                 "polygon": [
                     [
                         2.368,
@@ -71,7 +71,7 @@
             },
             "SEGMENTS/AREA SURVEYED": {
                 "content": "from",
-                "confidence": 0.38,
+                "confidence": 0.36,
                 "polygon": [
                     [
                         3.2386,
@@ -93,7 +93,7 @@
             },
             "DISTANCE SURVEYED": {
                 "content": "canyon\n6000",
-                "confidence": 0.224,
+                "confidence": 0.201,
                 "polygon": [
                     [
                         2.8284,
@@ -115,7 +115,7 @@
             },
             "START TIME": {
                 "content": "9:00 AM",
-                "confidence": 0.304,
+                "confidence": 0.222,
                 "polygon": [
                     [
                         5.0516,
@@ -137,7 +137,7 @@
             },
             "END TIME": {
                 "content": "11:45",
-                "confidence": 0.866,
+                "confidence": 0.875,
                 "polygon": [
                     [
                         6.9423,
@@ -269,7 +269,7 @@
             },
             "WATER CON - CLEAR": {
                 "content": "selected",
-                "confidence": 0.961,
+                "confidence": 0.96,
                 "polygon": [
                     [
                         2.6091,
@@ -313,7 +313,7 @@
             },
             "WATER CON - SILT": {
                 "content": "unselected",
-                "confidence": 0.962,
+                "confidence": 0.959,
                 "polygon": [
                     [
                         2.5802,
@@ -423,7 +423,7 @@
             },
             "WATER LEVEL - BELOW NORM": {
                 "content": "unselected",
-                "confidence": 0.856,
+                "confidence": 0.912,
                 "polygon": [
                     [
                         4.1623,
@@ -511,7 +511,7 @@
             },
             "CLOUD COVER - CLEAR": {
                 "content": "unselected",
-                "confidence": 0.884,
+                "confidence": 0.95,
                 "polygon": [
                     [
                         5.4996,
@@ -533,7 +533,7 @@
             },
             "CLOUD COVER - PART CLOUDY": {
                 "content": "unselected",
-                "confidence": 0.97,
+                "confidence": 0.969,
                 "polygon": [
                     [
                         5.4711,
@@ -577,7 +577,7 @@
             },
             "CLOUD COVER - OVERCAST": {
                 "content": "unselected",
-                "confidence": 0.967,
+                "confidence": 0.968,
                 "polygon": [
                     [
                         5.4418,
@@ -598,30 +598,30 @@
                 ]
             },
             "LIGHT LEVEL - FULL": {
-                "content": "selected",
-                "confidence": 0.508,
+                "content": "unselected",
+                "confidence": 0.543,
                 "polygon": [
                     [
-                        5.4863,
-                        3.5155
+                        6.8947,
+                        3.4139
                     ],
                     [
-                        5.5877,
-                        3.5224
+                        7.0026,
+                        3.4204
                     ],
                     [
-                        5.5808,
-                        3.6233
+                        6.9963,
+                        3.5253
                     ],
                     [
-                        5.4794,
-                        3.6164
+                        6.8884,
+                        3.5188
                     ]
                 ]
             },
             "LIGHT LEVEL - BRIGHT": {
                 "content": "unselected",
-                "confidence": 0.719,
+                "confidence": 0.958,
                 "polygon": [
                     [
                         6.8814,
@@ -643,7 +643,7 @@
             },
             "LIGHT LEVEL - MEDIUM": {
                 "content": "selected",
-                "confidence": 0.899,
+                "confidence": 0.939,
                 "polygon": [
                     [
                         6.8667,
@@ -665,7 +665,7 @@
             },
             "LIGHT LEVEL - DARK": {
                 "content": "unselected",
-                "confidence": 0.961,
+                "confidence": 0.967,
                 "polygon": [
                     [
                         6.854,
@@ -709,7 +709,7 @@
             },
             "TARGET SPECIES - COHO": {
                 "content": "selected",
-                "confidence": 0.961,
+                "confidence": 0.962,
                 "polygon": [
                     [
                         1.2042,
@@ -753,7 +753,7 @@
             },
             "TARGET SPECIES - CHUM": {
                 "content": "selected",
-                "confidence": 0.966,
+                "confidence": 0.964,
                 "polygon": [
                     [
                         2.0017,
@@ -775,7 +775,7 @@
             },
             "TARGET SPECIES - CHINOOK": {
                 "content": "selected",
-                "confidence": 0.96,
+                "confidence": 0.95,
                 "polygon": [
                     [
                         2.7944,
@@ -797,7 +797,7 @@
             },
             "PRECIPITATION - NONE": {
                 "content": "selected",
-                "confidence": 0.97,
+                "confidence": 0.971,
                 "polygon": [
                     [
                         4.0784,
@@ -819,7 +819,7 @@
             },
             "PRECIPITATION - RAIN": {
                 "content": "unselected",
-                "confidence": 0.951,
+                "confidence": 0.966,
                 "polygon": [
                     [
                         4.0631,
@@ -841,7 +841,7 @@
             },
             "PRECIPITATION - SNOW": {
                 "content": "unselected",
-                "confidence": 0.86,
+                "confidence": 0.912,
                 "polygon": [
                     [
                         4.0462,
@@ -863,7 +863,7 @@
             },
             "PRECIPITATION - LIGHT": {
                 "content": "unselected",
-                "confidence": 0.892,
+                "confidence": 0.898,
                 "polygon": [
                     [
                         4.8807,
@@ -885,7 +885,7 @@
             },
             "PRECIPITATION - MEDIUM": {
                 "content": "unselected",
-                "confidence": 0.78,
+                "confidence": 0.905,
                 "polygon": [
                     [
                         4.8675,
@@ -907,7 +907,7 @@
             },
             "PRECIPITATION - HEAVY": {
                 "content": "unselected",
-                "confidence": 0.646,
+                "confidence": 0.942,
                 "polygon": [
                     [
                         4.8519,
@@ -929,7 +929,7 @@
             },
             "WATER TEMP": {
                 "content": "9,5",
-                "confidence": 0.735,
+                "confidence": 0.736,
                 "polygon": [
                     [
                         6.391,
@@ -951,7 +951,7 @@
             },
             "FISH VIS - LOW": {
                 "content": "unselected",
-                "confidence": 0.963,
+                "confidence": 0.964,
                 "polygon": [
                     [
                         5.6771,
@@ -973,7 +973,7 @@
             },
             "FISH VIS - MEDIUM": {
                 "content": "selected",
-                "confidence": 0.951,
+                "confidence": 0.961,
                 "polygon": [
                     [
                         6.5096,
@@ -995,7 +995,7 @@
             },
             "FISH VIS - HIGH": {
                 "content": "unselected",
-                "confidence": 0.961,
+                "confidence": 0.962,
                 "polygon": [
                     [
                         7.3433,
@@ -1106,6 +1106,28 @@
                             [
                                 2.2296,
                                 5.6295
+                            ]
+                        ]
+                    },
+                    "RUN 2": {
+                        "content": "2",
+                        "confidence": 0.982,
+                        "polygon": [
+                            [
+                                2.4851,
+                                5.5514
+                            ],
+                            [
+                                2.5524,
+                                5.5611
+                            ],
+                            [
+                                2.5388,
+                                5.6555
+                            ],
+                            [
+                                2.4715,
+                                5.6458
                             ]
                         ]
                     }
@@ -1441,7 +1463,7 @@
             "confidence": 0.965,
             "STREAM NAME": {
                 "content": "Lens Creek",
-                "confidence": 0.708,
+                "confidence": 0.729,
                 "polygon": [
                     [
                         2.7486,
@@ -1463,7 +1485,7 @@
             },
             "DATE": {
                 "content": "oct 13/23",
-                "confidence": 0.7,
+                "confidence": 0.704,
                 "polygon": [
                     [
                         4.1929,
@@ -1483,9 +1505,9 @@
                     ]
                 ]
             },
-            "REF NO.": {
+            "REF NO": {
                 "content": "000",
-                "confidence": 0.405,
+                "confidence": 0.332,
                 "polygon": [
                     [
                         5.4037,
@@ -1507,7 +1529,7 @@
             },
             "COMMENTS": {
                 "content": "15m Vis",
-                "confidence": 0.762,
+                "confidence": 0.777,
                 "polygon": [
                     [
                         1.5373,
@@ -1526,98 +1548,6 @@
                         5.9924
                     ]
                 ]
-            },
-            "DATA": {
-                "item": {
-                    "LIVE/DEAD": {
-                        "content": "Dead",
-                        "confidence": 0.738,
-                        "polygon": [
-                            [
-                                3.2736,
-                                5.1366
-                            ],
-                            [
-                                3.5454,
-                                5.1301
-                            ],
-                            [
-                                3.5476,
-                                5.2237
-                            ],
-                            [
-                                3.2758,
-                                5.2302
-                            ]
-                        ]
-                    },
-                    "CHINOOK ADULT": {
-                        "content": "0",
-                        "confidence": 0.689,
-                        "polygon": [
-                            [
-                                6.3542,
-                                4.1979
-                            ],
-                            [
-                                6.4912,
-                                4.1971
-                            ],
-                            [
-                                6.4921,
-                                4.3616
-                            ],
-                            [
-                                6.3551,
-                                4.3624
-                            ]
-                        ]
-                    },
-                    "CHINOOK JACK": {
-                        "content": "0",
-                        "confidence": 0.689,
-                        "polygon": [
-                            [
-                                6.3542,
-                                4.1979
-                            ],
-                            [
-                                6.4912,
-                                4.1971
-                            ],
-                            [
-                                6.4921,
-                                4.3616
-                            ],
-                            [
-                                6.3551,
-                                4.3624
-                            ]
-                        ]
-                    },
-                    "COHO ADULT": {
-                        "content": "1",
-                        "confidence": 0.783,
-                        "polygon": [
-                            [
-                                4.4606,
-                                4.4839
-                            ],
-                            [
-                                4.532,
-                                4.4807
-                            ],
-                            [
-                                4.5384,
-                                4.6238
-                            ],
-                            [
-                                4.467,
-                                4.627
-                            ]
-                        ]
-                    }
-                }
             },
             "ROW REF": {
                 "ROW_REF_1": {
@@ -1938,37 +1868,97 @@
                         ]
                     }
                 }
+            },
+            "DATA": {
+                "LIVE 1": {},
+                "% SP 1": {},
+                "DEAD 1": {},
+                "LIVE 2": {},
+                "% SP 2": {},
+                "DEAD 2": {},
+                "LIVE 3": {},
+                "% SP 3": {},
+                "DEAD 3": {
+                    "CHINOOK ADULT": {
+                        "content": "1",
+                        "confidence": 0.958,
+                        "polygon": [
+                            [
+                                6.329,
+                                4.0181
+                            ],
+                            [
+                                6.4078,
+                                4.0005
+                            ],
+                            [
+                                6.4432,
+                                4.1589
+                            ],
+                            [
+                                6.3644,
+                                4.1765
+                            ]
+                        ]
+                    }
+                },
+                "LIVE 4": {
+                    "CHINOOK JACK": {
+                        "content": "0",
+                        "confidence": 0.918,
+                        "polygon": [
+                            [
+                                6.3542,
+                                4.1979
+                            ],
+                            [
+                                6.4912,
+                                4.1971
+                            ],
+                            [
+                                6.4921,
+                                4.3616
+                            ],
+                            [
+                                6.3551,
+                                4.3624
+                            ]
+                        ]
+                    }
+                },
+                "% SP 4": {
+                    "COHO ADULT": {
+                        "content": "1",
+                        "confidence": 0.881,
+                        "polygon": [
+                            [
+                                4.4606,
+                                4.4839
+                            ],
+                            [
+                                4.532,
+                                4.4807
+                            ],
+                            [
+                                4.5384,
+                                4.6238
+                            ],
+                            [
+                                4.467,
+                                4.627
+                            ]
+                        ]
+                    }
+                },
+                "DEAD 4": {},
+                "LIVE 5": {},
+                "% SP 5": {},
+                "DEAD 5": {}
             }
         },
         {
             "page": 4,
             "confidence": 0.966,
-            "DATA": {
-                "item": {
-                    "LIVE/DEAD": {
-                        "content": "Dead",
-                        "confidence": 0.737,
-                        "polygon": [
-                            [
-                                6.0487,
-                                2.3175
-                            ],
-                            [
-                                5.7795,
-                                2.335
-                            ],
-                            [
-                                5.7734,
-                                2.242
-                            ],
-                            [
-                                6.0427,
-                                2.2244
-                            ]
-                        ]
-                    }
-                }
-            },
             "ROW REF": {
                 "ROW_REF_1": {
                     "ROW_REF": {
@@ -1994,8 +1984,7 @@
                         ]
                     }
                 },
-                "ROW_REF_2": {},
-                "ROW_REF_3": {
+                "ROW_REF_2": {
                     "ROW_REF": {
                         "content": "8",
                         "confidence": 0.951,
@@ -2019,50 +2008,51 @@
                         ]
                     }
                 },
-                "ROW_REF_4": {
+                "ROW_REF_3": {
                     "ROW_REF": {
-                        "content": "9\n10",
-                        "confidence": 0.925,
+                        "content": "9",
+                        "confidence": 0.975,
                         "polygon": [
                             [
-                                7.8758,
-                                3.5539
+                                7.8621,
+                                3.5541
                             ],
                             [
-                                7.6686,
-                                3.5572
+                                7.724,
+                                3.5563
                             ],
                             [
-                                7.6552,
-                                2.7325
+                                7.7197,
+                                3.2871
                             ],
                             [
-                                7.8624,
-                                2.7291
+                                7.8577,
+                                3.2849
                             ]
                         ]
                     }
                 },
+                "ROW_REF_4": {},
                 "ROW_REF_5": {
                     "ROW_REF": {
-                        "content": "16",
-                        "confidence": 0.132,
+                        "content": "10\n16",
+                        "confidence": 0.125,
                         "polygon": [
                             [
-                                7.7928,
-                                2.4353
+                                7.869,
+                                2.9566
                             ],
                             [
-                                7.6613,
-                                2.4339
+                                7.6589,
+                                2.9627
                             ],
                             [
-                                7.6644,
-                                2.1498
+                                7.6354,
+                                2.1506
                             ],
                             [
-                                7.796,
-                                2.1512
+                                7.8455,
+                                2.1446
                             ]
                         ]
                     }
@@ -2196,14 +2186,53 @@
                         ]
                     }
                 }
+            },
+            "DATA": {
+                "LIVE 1": {},
+                "% SP 1": {},
+                "DEAD 1": {},
+                "LIVE 2": {},
+                "% SP 2": {},
+                "DEAD 2": {},
+                "LIVE 3": {},
+                "% SP 3": {},
+                "DEAD 3": {},
+                "LIVE 4": {},
+                "% SP 4": {},
+                "DEAD 4": {},
+                "LIVE 5": {},
+                "% SP 5": {},
+                "DEAD 5": {}
             }
         },
         {
             "page": 5,
             "confidence": 0.961,
+            "STREAM NAME": {
+                "content": "WCVI SIL",
+                "confidence": 0.467,
+                "polygon": [
+                    [
+                        0.9226,
+                        2.4607
+                    ],
+                    [
+                        1.7942,
+                        2.4665
+                    ],
+                    [
+                        1.793,
+                        2.6465
+                    ],
+                    [
+                        0.9214,
+                        2.6407
+                    ]
+                ]
+            },
             "DATE": {
                 "content": "Oct 13/23",
-                "confidence": 0.617,
+                "confidence": 0.624,
                 "polygon": [
                     [
                         3.919,
@@ -2244,32 +2273,6 @@
                         6.5125
                     ]
                 ]
-            },
-            "DATA": {
-                "item": {
-                    "LIVE/DEAD": {
-                        "content": "Dead",
-                        "confidence": 0.733,
-                        "polygon": [
-                            [
-                                2.7822,
-                                5.7408
-                            ],
-                            [
-                                3.0497,
-                                5.7421
-                            ],
-                            [
-                                3.0492,
-                                5.8403
-                            ],
-                            [
-                                2.7817,
-                                5.839
-                            ]
-                        ]
-                    }
-                }
             },
             "ROW REF": {
                 "ROW_REF_1": {
@@ -2544,81 +2547,28 @@
                         ]
                     }
                 }
+            },
+            "DATA": {
+                "LIVE 1": {},
+                "% SP 1": {},
+                "DEAD 1": {},
+                "LIVE 2": {},
+                "% SP 2": {},
+                "DEAD 2": {},
+                "LIVE 3": {},
+                "% SP 3": {},
+                "DEAD 3": {},
+                "LIVE 4": {},
+                "% SP 4": {},
+                "DEAD 4": {},
+                "LIVE 5": {},
+                "% SP 5": {},
+                "DEAD 5": {}
             }
         },
         {
             "page": 6,
             "confidence": 0.984,
-            "DATA": {
-                "item": {
-                    "LIVE/DEAD": {
-                        "content": "Dead",
-                        "confidence": 0.737,
-                        "polygon": [
-                            [
-                                3.2961,
-                                4.3352
-                            ],
-                            [
-                                3.5649,
-                                4.3382
-                            ],
-                            [
-                                3.5638,
-                                4.4404
-                            ],
-                            [
-                                3.295,
-                                4.4374
-                            ]
-                        ]
-                    },
-                    "OT": {
-                        "content": "4",
-                        "confidence": 0.016,
-                        "polygon": [
-                            [
-                                7.6598,
-                                2.5568
-                            ],
-                            [
-                                7.7216,
-                                2.5555
-                            ],
-                            [
-                                7.723,
-                                2.6171
-                            ],
-                            [
-                                7.6612,
-                                2.6185
-                            ]
-                        ]
-                    },
-                    "CHINOOK ADULT": {
-                        "content": "100",
-                        "confidence": 0.665,
-                        "polygon": [
-                            [
-                                6.3034,
-                                4.1252
-                            ],
-                            [
-                                6.6628,
-                                4.1241
-                            ],
-                            [
-                                6.6633,
-                                4.2793
-                            ],
-                            [
-                                6.3039,
-                                4.2803
-                            ]
-                        ]
-                    }
-                }
-            },
             "ROW REF": {
                 "ROW_REF_1": {
                     "ROW_REF": {
@@ -2869,14 +2819,168 @@
                     }
                 },
                 "ROW_REF_5": {}
+            },
+            "DATA": {
+                "LIVE 1": {},
+                "% SP 1": {},
+                "DEAD 1": {},
+                "LIVE 2": {},
+                "% SP 2": {
+                    "OT": {
+                        "content": "4",
+                        "confidence": 0.107,
+                        "polygon": [
+                            [
+                                7.6598,
+                                2.5568
+                            ],
+                            [
+                                7.7216,
+                                2.5555
+                            ],
+                            [
+                                7.723,
+                                2.6171
+                            ],
+                            [
+                                7.6612,
+                                2.6185
+                            ]
+                        ]
+                    }
+                },
+                "DEAD 2": {},
+                "LIVE 3": {},
+                "% SP 3": {},
+                "DEAD 3": {},
+                "LIVE 4": {
+                    "CHINOOK ADULT": {
+                        "content": "1",
+                        "confidence": 0.986,
+                        "polygon": [
+                            [
+                                6.3199,
+                                3.391
+                            ],
+                            [
+                                6.458,
+                                3.3898
+                            ],
+                            [
+                                6.4594,
+                                3.5461
+                            ],
+                            [
+                                6.3213,
+                                3.5473
+                            ]
+                        ]
+                    }
+                },
+                "% SP 4": {
+                    "CHINOOK ADULT": {
+                        "content": "100",
+                        "confidence": 0.987,
+                        "polygon": [
+                            [
+                                6.3035,
+                                3.5702
+                            ],
+                            [
+                                6.6605,
+                                3.5772
+                            ],
+                            [
+                                6.6572,
+                                3.7463
+                            ],
+                            [
+                                6.3002,
+                                3.7393
+                            ]
+                        ]
+                    }
+                },
+                "DEAD 4": {},
+                "LIVE 5": {
+                    "CHINOOK ADULT": {
+                        "content": "2",
+                        "confidence": 0.986,
+                        "polygon": [
+                            [
+                                6.3385,
+                                3.9213
+                            ],
+                            [
+                                6.4967,
+                                3.9205
+                            ],
+                            [
+                                6.4975,
+                                4.0856
+                            ],
+                            [
+                                6.3393,
+                                4.0864
+                            ]
+                        ]
+                    }
+                },
+                "% SP 5": {
+                    "CHINOOK ADULT": {
+                        "content": "100",
+                        "confidence": 0.886,
+                        "polygon": [
+                            [
+                                6.3034,
+                                4.1252
+                            ],
+                            [
+                                6.6628,
+                                4.1241
+                            ],
+                            [
+                                6.6633,
+                                4.2793
+                            ],
+                            [
+                                6.3039,
+                                4.2803
+                            ]
+                        ]
+                    }
+                },
+                "DEAD 5": {}
             }
         },
         {
             "page": 7,
             "confidence": 0.977,
+            "STREAM NAME": {
+                "content": "WCVI SIL",
+                "confidence": 0.564,
+                "polygon": [
+                    [
+                        1.3406,
+                        2.5732
+                    ],
+                    [
+                        2.208,
+                        2.5633
+                    ],
+                    [
+                        2.21,
+                        2.7405
+                    ],
+                    [
+                        1.3426,
+                        2.7504
+                    ]
+                ]
+            },
             "DATE": {
                 "content": "Oct 13/23",
-                "confidence": 0.702,
+                "confidence": 0.712,
                 "polygon": [
                     [
                         4.3372,
@@ -2898,7 +3002,7 @@
             },
             "COMMENTS": {
                 "content": "LC bridge cleared intake good",
-                "confidence": 0.332,
+                "confidence": 0.339,
                 "polygon": [
                     [
                         1.5348,
@@ -2917,76 +3021,6 @@
                         6.5539
                     ]
                 ]
-            },
-            "DATA": {
-                "item": {
-                    "LIVE/DEAD": {
-                        "content": "Dead",
-                        "confidence": 0.734,
-                        "polygon": [
-                            [
-                                3.2846,
-                                5.8034
-                            ],
-                            [
-                                3.5583,
-                                5.8006
-                            ],
-                            [
-                                3.5593,
-                                5.8991
-                            ],
-                            [
-                                3.2856,
-                                5.9019
-                            ]
-                        ]
-                    },
-                    "CHINOOK ADULT": {
-                        "content": "100",
-                        "confidence": 0.74,
-                        "polygon": [
-                            [
-                                6.2349,
-                                4.4546
-                            ],
-                            [
-                                6.6185,
-                                4.4403
-                            ],
-                            [
-                                6.6233,
-                                4.5684
-                            ],
-                            [
-                                6.2397,
-                                4.5827
-                            ]
-                        ]
-                    },
-                    "CHINOOK JACK": {
-                        "content": "100",
-                        "confidence": 0.74,
-                        "polygon": [
-                            [
-                                6.6998,
-                                4.4166
-                            ],
-                            [
-                                7.0557,
-                                4.4109
-                            ],
-                            [
-                                7.0578,
-                                4.5392
-                            ],
-                            [
-                                6.7019,
-                                4.545
-                            ]
-                        ]
-                    }
-                }
             },
             "ROW REF": {
                 "ROW_REF_1": {
@@ -3113,52 +3147,29 @@
             "SEGMENT": {
                 "ROW_REF_1": {
                     "SEGMENT": {
-                        "content": "LC",
-                        "confidence": 0.987,
-                        "polygon": [
-                            [
-                                1.7204,
-                                3.3121
-                            ],
-                            [
-                                1.9645,
-                                3.3108
-                            ],
-                            [
-                                1.9653,
-                                3.46
-                            ],
-                            [
-                                1.7212,
-                                3.4612
-                            ]
-                        ]
-                    }
-                },
-                "ROW_REF_2": {
-                    "SEGMENT": {
-                        "content": "bridge",
-                        "confidence": 0.666,
+                        "content": "LC bridge",
+                        "confidence": 0.664,
                         "polygon": [
                             [
                                 1.717,
-                                3.513
+                                3.3121
                             ],
                             [
-                                2.2246,
-                                3.5079
+                                2.2236,
+                                3.3095
                             ],
                             [
-                                2.2266,
-                                3.7055
+                                2.2256,
+                                3.7065
                             ],
                             [
                                 1.719,
-                                3.7105
+                                3.7091
                             ]
                         ]
                     }
                 },
+                "ROW_REF_2": {},
                 "ROW_REF_3": {},
                 "ROW_REF_4": {},
                 "ROW_REF_5": {}
@@ -3284,37 +3295,118 @@
                         ]
                     }
                 }
+            },
+            "DATA": {
+                "LIVE 1": {},
+                "% SP 1": {},
+                "DEAD 1": {},
+                "LIVE 2": {},
+                "% SP 2": {},
+                "DEAD 2": {
+                    "CHINOOK ADULT": {
+                        "content": "6",
+                        "confidence": 0.987,
+                        "polygon": [
+                            [
+                                6.3128,
+                                4.2346
+                            ],
+                            [
+                                6.4746,
+                                4.2254
+                            ],
+                            [
+                                6.4851,
+                                4.4108
+                            ],
+                            [
+                                6.3233,
+                                4.42
+                            ]
+                        ]
+                    },
+                    "CHINOOK JACK": {
+                        "content": "/",
+                        "confidence": 0.516,
+                        "polygon": [
+                            [
+                                6.772,
+                                4.2321
+                            ],
+                            [
+                                6.8352,
+                                4.2326
+                            ],
+                            [
+                                6.8343,
+                                4.3462
+                            ],
+                            [
+                                6.7711,
+                                4.3457
+                            ]
+                        ]
+                    }
+                },
+                "LIVE 3": {
+                    "CHINOOK ADULT": {
+                        "content": "100",
+                        "confidence": 0.987,
+                        "polygon": [
+                            [
+                                6.2349,
+                                4.4546
+                            ],
+                            [
+                                6.6185,
+                                4.4403
+                            ],
+                            [
+                                6.6233,
+                                4.5684
+                            ],
+                            [
+                                6.2397,
+                                4.5827
+                            ]
+                        ]
+                    },
+                    "CHINOOK JACK": {
+                        "content": "100",
+                        "confidence": 0.986,
+                        "polygon": [
+                            [
+                                6.6998,
+                                4.4166
+                            ],
+                            [
+                                7.0557,
+                                4.4109
+                            ],
+                            [
+                                7.0578,
+                                4.5392
+                            ],
+                            [
+                                6.7019,
+                                4.545
+                            ]
+                        ]
+                    }
+                },
+                "% SP 3": {},
+                "DEAD 3": {},
+                "LIVE 4": {},
+                "% SP 4": {},
+                "DEAD 4": {},
+                "LIVE 5": {},
+                "% SP 5": {},
+                "DEAD 5": {}
             }
         },
         {
             "page": 8,
             "confidence": 0.984,
-            "DATA": {
-                "item": {
-                    "LIVE/DEAD": {
-                        "content": "Dead",
-                        "confidence": 0.737,
-                        "polygon": [
-                            [
-                                3.262,
-                                4.3812
-                            ],
-                            [
-                                3.5271,
-                                4.38
-                            ],
-                            [
-                                3.5275,
-                                4.4733
-                            ],
-                            [
-                                3.2624,
-                                4.4745
-                            ]
-                        ]
-                    }
-                }
-            },
             "ROW REF": {
                 "ROW_REF_1": {
                     "ROW_REF": {
@@ -3565,6 +3657,23 @@
                         ]
                     }
                 }
+            },
+            "DATA": {
+                "LIVE 1": {},
+                "% SP 1": {},
+                "DEAD 1": {},
+                "LIVE 2": {},
+                "% SP 2": {},
+                "DEAD 2": {},
+                "LIVE 3": {},
+                "% SP 3": {},
+                "DEAD 3": {},
+                "LIVE 4": {},
+                "% SP 4": {},
+                "DEAD 4": {},
+                "LIVE 5": {},
+                "% SP 5": {},
+                "DEAD 5": {}
             }
         },
         {
@@ -3572,7 +3681,7 @@
             "confidence": 0.969,
             "STREAM NAME": {
                 "content": "WCVI SIL",
-                "confidence": 0.334,
+                "confidence": 0.491,
                 "polygon": [
                     [
                         1.2279,
@@ -3594,7 +3703,7 @@
             },
             "DATE": {
                 "content": "Oct 13/23",
-                "confidence": 0.711,
+                "confidence": 0.721,
                 "polygon": [
                     [
                         4.1888,
@@ -3616,7 +3725,7 @@
             },
             "COMMENTS": {
                 "content": "15m Vis",
-                "confidence": 0.479,
+                "confidence": 0.492,
                 "polygon": [
                     [
                         1.0097,
@@ -3635,32 +3744,6 @@
                         5.4443
                     ]
                 ]
-            },
-            "DATA": {
-                "item": {
-                    "LIVE/DEAD": {
-                        "content": "Dead",
-                        "confidence": 0.734,
-                        "polygon": [
-                            [
-                                2.7853,
-                                4.787
-                            ],
-                            [
-                                3.0581,
-                                4.8128
-                            ],
-                            [
-                                3.049,
-                                4.9089
-                            ],
-                            [
-                                2.7762,
-                                4.8831
-                            ]
-                        ]
-                    }
-                }
             },
             "ROW REF": {
                 "ROW_REF_1": {
@@ -3912,59 +3995,28 @@
                         ]
                     }
                 }
+            },
+            "DATA": {
+                "LIVE 1": {},
+                "% SP 1": {},
+                "DEAD 1": {},
+                "LIVE 2": {},
+                "% SP 2": {},
+                "DEAD 2": {},
+                "LIVE 3": {},
+                "% SP 3": {},
+                "DEAD 3": {},
+                "LIVE 4": {},
+                "% SP 4": {},
+                "DEAD 4": {},
+                "LIVE 5": {},
+                "% SP 5": {},
+                "DEAD 5": {}
             }
         },
         {
             "page": 10,
             "confidence": 0.98,
-            "DATA": {
-                "item": {
-                    "LIVE/DEAD": {
-                        "content": "Dead",
-                        "confidence": 0.737,
-                        "polygon": [
-                            [
-                                2.9209,
-                                4.9031
-                            ],
-                            [
-                                3.1889,
-                                4.9236
-                            ],
-                            [
-                                3.1812,
-                                5.0241
-                            ],
-                            [
-                                2.9132,
-                                5.0035
-                            ]
-                        ]
-                    },
-                    "CHINOOK ADULT": {
-                        "content": "100",
-                        "confidence": 0.737,
-                        "polygon": [
-                            [
-                                5.9758,
-                                4.3792
-                            ],
-                            [
-                                6.3268,
-                                4.4023
-                            ],
-                            [
-                                6.3169,
-                                4.552
-                            ],
-                            [
-                                5.9659,
-                                4.5289
-                            ]
-                        ]
-                    }
-                }
-            },
             "ROW REF": {
                 "ROW_REF_1": {
                     "ROW_REF": {
@@ -4192,6 +4244,92 @@
                     }
                 },
                 "ROW_REF_5": {}
+            },
+            "DATA": {
+                "LIVE 1": {},
+                "% SP 1": {},
+                "DEAD 1": {},
+                "LIVE 2": {},
+                "% SP 2": {},
+                "DEAD 2": {},
+                "LIVE 3": {
+                    "CHINOOK ADULT": {
+                        "content": "100",
+                        "confidence": 0.719,
+                        "polygon": [
+                            [
+                                6.0456,
+                                3.8555
+                            ],
+                            [
+                                6.3345,
+                                3.8646
+                            ],
+                            [
+                                6.3307,
+                                3.9859
+                            ],
+                            [
+                                6.0418,
+                                3.9769
+                            ]
+                        ]
+                    }
+                },
+                "% SP 3": {
+                    "CHINOOK ADULT": {
+                        "content": "2",
+                        "confidence": 0.986,
+                        "polygon": [
+                            [
+                                6.0566,
+                                3.6401
+                            ],
+                            [
+                                6.2113,
+                                3.6473
+                            ],
+                            [
+                                6.2035,
+                                3.8143
+                            ],
+                            [
+                                6.0488,
+                                3.8071
+                            ]
+                        ]
+                    }
+                },
+                "DEAD 3": {},
+                "LIVE 4": {},
+                "% SP 4": {
+                    "CHINOOK ADULT": {
+                        "content": "5\n100",
+                        "confidence": 0.979,
+                        "polygon": [
+                            [
+                                5.9879,
+                                4.1952
+                            ],
+                            [
+                                6.3389,
+                                4.2183
+                            ],
+                            [
+                                6.3169,
+                                4.552
+                            ],
+                            [
+                                5.9659,
+                                4.5289
+                            ]
+                        ]
+                    }
+                },
+                "DEAD 4": {},
+                "LIVE 5": {},
+                "% SP 5": {},
+                "DEAD 5": {}
             }
         },
         {
@@ -4199,7 +4337,7 @@
             "confidence": 0.971,
             "STREAM NAME": {
                 "content": "WCVI SIL",
-                "confidence": 0.302,
+                "confidence": 0.315,
                 "polygon": [
                     [
                         1.4088,
@@ -4221,7 +4359,7 @@
             },
             "DATE": {
                 "content": "Oct 13/23",
-                "confidence": 0.716,
+                "confidence": 0.689,
                 "polygon": [
                     [
                         4.4112,
@@ -4240,76 +4378,6 @@
                         2.3783
                     ]
                 ]
-            },
-            "DATA": {
-                "item": {
-                    "LIVE/DEAD": {
-                        "content": "Dead",
-                        "confidence": 0.737,
-                        "polygon": [
-                            [
-                                3.1615,
-                                5.4154
-                            ],
-                            [
-                                3.4246,
-                                5.4231
-                            ],
-                            [
-                                3.4219,
-                                5.517
-                            ],
-                            [
-                                3.1588,
-                                5.5094
-                            ]
-                        ]
-                    },
-                    "CHINOOK ADULT": {
-                        "content": "0",
-                        "confidence": 0.497,
-                        "polygon": [
-                            [
-                                6.22,
-                                4.223
-                            ],
-                            [
-                                6.3662,
-                                4.2259
-                            ],
-                            [
-                                6.3639,
-                                4.3473
-                            ],
-                            [
-                                6.2176,
-                                4.3444
-                            ]
-                        ]
-                    },
-                    "CHUM ADULT": {
-                        "content": "7",
-                        "confidence": 0.154,
-                        "polygon": [
-                            [
-                                6.2507,
-                                4.0268
-                            ],
-                            [
-                                6.3829,
-                                4.0288
-                            ],
-                            [
-                                6.3805,
-                                4.1908
-                            ],
-                            [
-                                6.2483,
-                                4.1888
-                            ]
-                        ]
-                    }
-                }
             },
             "ROW REF": {
                 "ROW_REF_1": {
@@ -4446,6 +4514,115 @@
                 "ROW_REF_3": {},
                 "ROW_REF_4": {},
                 "ROW_REF_5": {}
+            },
+            "DATA": {
+                "LIVE 1": {
+                    "CHINOOK ADULT": {
+                        "content": "1",
+                        "confidence": 0.788,
+                        "polygon": [
+                            [
+                                6.3503,
+                                2.9383
+                            ],
+                            [
+                                6.4897,
+                                2.9422
+                            ],
+                            [
+                                6.4857,
+                                3.0878
+                            ],
+                            [
+                                6.3463,
+                                3.0839
+                            ]
+                        ]
+                    }
+                },
+                "% SP 1": {
+                    "CHINOOK ADULT": {
+                        "content": "0",
+                        "confidence": 0.808,
+                        "polygon": [
+                            [
+                                6.3397,
+                                3.1284
+                            ],
+                            [
+                                6.4989,
+                                3.1312
+                            ],
+                            [
+                                6.4967,
+                                3.2565
+                            ],
+                            [
+                                6.3375,
+                                3.2537
+                            ]
+                        ]
+                    }
+                },
+                "DEAD 1": {},
+                "LIVE 2": {},
+                "% SP 2": {},
+                "DEAD 2": {},
+                "LIVE 3": {
+                    "CHINOOK ADULT": {
+                        "content": "7",
+                        "confidence": 0.868,
+                        "polygon": [
+                            [
+                                6.2507,
+                                4.0268
+                            ],
+                            [
+                                6.3829,
+                                4.0288
+                            ],
+                            [
+                                6.3805,
+                                4.1908
+                            ],
+                            [
+                                6.2483,
+                                4.1888
+                            ]
+                        ]
+                    }
+                },
+                "% SP 3": {
+                    "CHINOOK ADULT": {
+                        "content": "0",
+                        "confidence": 0.662,
+                        "polygon": [
+                            [
+                                6.22,
+                                4.223
+                            ],
+                            [
+                                6.3662,
+                                4.2259
+                            ],
+                            [
+                                6.3639,
+                                4.3473
+                            ],
+                            [
+                                6.2176,
+                                4.3444
+                            ]
+                        ]
+                    }
+                },
+                "DEAD 3": {},
+                "LIVE 4": {},
+                "% SP 4": {},
+                "DEAD 4": {},
+                "LIVE 5": {},
+                "% SP 5": {},
+                "DEAD 5": {}
             }
         }
     ],

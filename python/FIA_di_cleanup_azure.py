@@ -620,3 +620,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# python .\python\FIA_di_cleanup_azure.py --container fia --src-prefix ground/update_jsons --dst-prefix ground/update_jsons --report-blob ground/
+# python python/FIA_di_reader_full_file.py --mode azure --model-id fia-roving-aerial-1 --container fia --prefix aerial/upload --output-container fia --output-prefix aerial/update_jsons --upload-output --max-worker 16 --tps-limit 8 --retries 3

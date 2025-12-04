@@ -260,7 +260,7 @@ def extract_object(typed_dict: Dict[str, Any]) -> Dict[str, Any]:
         if node_type == "object":
             inner = attrs.get("valueObject")
             if isinstance(inner, dict):
-                simplified[field] = extract_object(inner)
+                simplified[field] = {"item": extract_object(inner)}
         elif node_type == "array":
             inner = attrs.get("valueArray")
             if isinstance(inner, list):
@@ -933,7 +933,7 @@ def parse_args() -> RunOptions:
                    help="Target container for JSON outputs.")
     p.add_argument("--tps-limit", type=int, default=8,
                    help="Simple TPS throttle (results collection) for azure mode.")
-    p.add_argument("--progress-file", default="./progress_processed.txt",
+    p.add_argument("--progress-file", default="./fia_progress_processed.txt",
                    help="Path to the progress TSV file.")
     p.add_argument("--reset", action="store_true",
                    help="Delete the progress file before running.")
@@ -1010,9 +1010,4 @@ def main() -> None:
 if __name__ == "__main__":
     main()
     # Run command:
-    # python python/test.py --mode azure --model-id fia-roving-aerial-1 --container fia --prefix aerial-pdf 
-    # --output-container fia --output-prefix json-test --upload-output --max-worker 16 --tps-limit 8 --retries 3 --reset
-
-    # python python/test.py --mode azure --model-id wcvi-sil-1 --container wcvi --prefix wcvi-sil-2023/pdf 
-    # --output-container wcvi --output-prefix wcvi-sil-2023/update_jsons
-    # --upload-output --max-worker 16 --tps-limit 8 --retries 3 --reset
+    # python python/FIA_di_reader_full_file.py --mode azure --model-id fia-roving-aerial-1 --container fia --prefix ground/upload --output-container fia --output-prefix ground/update_jsons --upload-output --max-worker 16 --tps-limit 8 --retries 3 --reset

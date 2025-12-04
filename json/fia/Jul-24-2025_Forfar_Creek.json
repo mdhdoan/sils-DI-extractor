@@ -1,0 +1,2565 @@
+{
+  "Date": {
+    "content": "July 24, 2025",
+    "confidence": 0.822,
+    "polygon": [
+      [
+        0.4949,
+        0.2365
+      ],
+      [
+        1.4657,
+        0.241
+      ],
+      [
+        1.4649,
+        0.4132
+      ],
+      [
+        0.4941,
+        0.4087
+      ]
+    ]
+  },
+  "Observer(s)": {
+    "content": "T. Palmer, B. Mattress",
+    "confidence": 0.026,
+    "polygon": [
+      [
+        4.7529,
+        0.2485
+      ],
+      [
+        6.4235,
+        0.2735
+      ],
+      [
+        6.4207,
+        0.4626
+      ],
+      [
+        4.7501,
+        0.4376
+      ]
+    ]
+  },
+  "Survey Time: Start": {
+    "content": "8:10",
+    "confidence": 0.976,
+    "polygon": [
+      [
+        5.677,
+        0.4936
+      ],
+      [
+        6.1349,
+        0.5056
+      ],
+      [
+        6.1301,
+        0.6891
+      ],
+      [
+        5.6722,
+        0.6771
+      ]
+    ]
+  },
+  "Water Level: % Bankfill: <25%": {
+    "content": "unselected",
+    "confidence": 0.97,
+    "polygon": [
+      [
+        5.5464,
+        1.2225
+      ],
+      [
+        5.6238,
+        1.2226
+      ],
+      [
+        5.6238,
+        1.2997
+      ],
+      [
+        5.5463,
+        1.2997
+      ]
+    ]
+  },
+  "Water Level: % Bankfill: 50-75%": {
+    "content": "unselected",
+    "confidence": 0.975,
+    "polygon": [
+      [
+        6.1834,
+        1.2364
+      ],
+      [
+        6.2576,
+        1.2368
+      ],
+      [
+        6.2572,
+        1.313
+      ],
+      [
+        6.183,
+        1.3126
+      ]
+    ]
+  },
+  "Water Level: % Bankfill: +100%": {
+    "content": "unselected",
+    "confidence": 0.97,
+    "polygon": [
+      [
+        6.0334,
+        1.413
+      ],
+      [
+        6.1111,
+        1.4134
+      ],
+      [
+        6.1107,
+        1.4877
+      ],
+      [
+        6.033,
+        1.4873
+      ]
+    ]
+  },
+  "Weather: Brightness: Bright": {
+    "content": "selected",
+    "confidence": 0.964,
+    "polygon": [
+      [
+        5.7099,
+        2.1203
+      ],
+      [
+        5.7865,
+        2.1197
+      ],
+      [
+        5.7871,
+        2.1964
+      ],
+      [
+        5.7105,
+        2.197
+      ]
+    ]
+  },
+  "Weather: Brightness: Dark": {
+    "content": "unselected",
+    "confidence": 0.961,
+    "polygon": [
+      [
+        6.2365,
+        2.1318
+      ],
+      [
+        6.3136,
+        2.132
+      ],
+      [
+        6.3135,
+        2.2067
+      ],
+      [
+        6.2364,
+        2.2065
+      ]
+    ]
+  },
+  "Weather: %Cloudy: 25%": {
+    "content": "selected",
+    "confidence": 0.963,
+    "polygon": [
+      [
+        5.661,
+        2.3609
+      ],
+      [
+        5.74,
+        2.3604
+      ],
+      [
+        5.7404,
+        2.4361
+      ],
+      [
+        5.6614,
+        2.4365
+      ]
+    ]
+  },
+  "Weather: %Cloudy: 75%": {
+    "content": "unselected",
+    "confidence": 0.963,
+    "polygon": [
+      [
+        6.0594,
+        2.3681
+      ],
+      [
+        6.1354,
+        2.3694
+      ],
+      [
+        6.1342,
+        2.4441
+      ],
+      [
+        6.0582,
+        2.4428
+      ]
+    ]
+  },
+  "Precipitation: Type: Rain": {
+    "content": "unselected",
+    "confidence": 0.954,
+    "polygon": [
+      [
+        5.4908,
+        2.8102
+      ],
+      [
+        5.5691,
+        2.8107
+      ],
+      [
+        5.5687,
+        2.8872
+      ],
+      [
+        5.4904,
+        2.8867
+      ]
+    ]
+  },
+  "Precipitation: Type: None": {
+    "content": "selected",
+    "confidence": 0.75,
+    "polygon": [
+      [
+        6.1758,
+        2.8222
+      ],
+      [
+        6.2531,
+        2.8216
+      ],
+      [
+        6.2537,
+        2.8961
+      ],
+      [
+        6.1764,
+        2.8967
+      ]
+    ]
+  },
+  "Precipitation: Intensity: Medium": {
+    "content": "unselected",
+    "confidence": 0.968,
+    "polygon": [
+      [
+        5.8103,
+        3.093
+      ],
+      [
+        5.8872,
+        3.0928
+      ],
+      [
+        5.8873,
+        3.1679
+      ],
+      [
+        5.8104,
+        3.1681
+      ]
+    ]
+  },
+  "Water Conditions: Fish Visibility: Low": {
+    "content": "unselected",
+    "confidence": 0.966,
+    "polygon": [
+      [
+        5.6076,
+        3.5834
+      ],
+      [
+        5.6852,
+        3.5838
+      ],
+      [
+        5.6848,
+        3.6601
+      ],
+      [
+        5.6072,
+        3.6597
+      ]
+    ]
+  },
+  "Water Conditions: Fish Visibility: High": {
+    "content": "unselected",
+    "confidence": 0.966,
+    "polygon": [
+      [
+        6.1754,
+        3.5927
+      ],
+      [
+        6.2502,
+        3.5933
+      ],
+      [
+        6.2496,
+        3.6685
+      ],
+      [
+        6.1748,
+        3.6679
+      ]
+    ]
+  },
+  "Water Conditions: Water Clarity: 0-0.25m": {
+    "content": "unselected",
+    "confidence": 0.97,
+    "polygon": [
+      [
+        5.2745,
+        4.1222
+      ],
+      [
+        5.3538,
+        4.1223
+      ],
+      [
+        5.3538,
+        4.2
+      ],
+      [
+        5.2745,
+        4.1999
+      ]
+    ]
+  },
+  "Water Conditions: Water Clarity: 0.5-1.0m": {
+    "content": "unselected",
+    "confidence": 0.97,
+    "polygon": [
+      [
+        6.0024,
+        4.1303
+      ],
+      [
+        6.0813,
+        4.1309
+      ],
+      [
+        6.0808,
+        4.2055
+      ],
+      [
+        6.0019,
+        4.2049
+      ]
+    ]
+  },
+  "Water Conditions: Water Clarity: 3m to bottom": {
+    "content": "unselected",
+    "confidence": 0.978,
+    "polygon": [
+      [
+        5.9245,
+        4.2898
+      ],
+      [
+        6.0006,
+        4.2903
+      ],
+      [
+        6.0001,
+        4.3653
+      ],
+      [
+        5.924,
+        4.3648
+      ]
+    ]
+  },
+  "Recoveries Comments": {
+    "content": "3000-Falls\nIM PSC + DNA taken from\nA2\nAll Samples included\nIn\nIM PSC + DNA taken from A3\nrecovery data\n2F PSC & DNA taken from A6",
+    "confidence": 0.057,
+    "polygon": [
+      [
+        2.0803,
+        2.5677
+      ],
+      [
+        7.8764,
+        2.5395
+      ],
+      [
+        7.8809,
+        3.4669
+      ],
+      [
+        2.0848,
+        3.4951
+      ]
+    ]
+  },
+  "SK_Count_data": [
+    {
+      "item": {
+        "Area": {
+          "content": "mouth - 500",
+          "confidence": 0.758,
+          "polygon": [
+            [
+              0.1501,
+              1.1598
+            ],
+            [
+              0.964,
+              1.166
+            ],
+            [
+              0.9629,
+              1.3076
+            ],
+            [
+              0.149,
+              1.3014
+            ]
+          ]
+        },
+        "Live Count (incl. live tags)": {
+          "content": "85",
+          "confidence": 0.623,
+          "polygon": [
+            [
+              1.0103,
+              1.1387
+            ],
+            [
+              1.2451,
+              1.1382
+            ],
+            [
+              1.2454,
+              1.2947
+            ],
+            [
+              1.0106,
+              1.2952
+            ]
+          ]
+        },
+        "% Spawning": {
+          "content": "100",
+          "confidence": 0.627,
+          "polygon": [
+            [
+              1.7074,
+              1.1854
+            ],
+            [
+              1.9949,
+              1.1899
+            ],
+            [
+              1.9922,
+              1.3611
+            ],
+            [
+              1.7047,
+              1.3566
+            ]
+          ]
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": null,
+          "confidence": 0.312
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.672
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.62
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.957
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "500-1000",
+          "confidence": 0.887,
+          "polygon": [
+            [
+              0.1307,
+              1.4591
+            ],
+            [
+              0.8508,
+              1.458
+            ],
+            [
+              0.851,
+              1.6084
+            ],
+            [
+              0.1309,
+              1.6095
+            ]
+          ]
+        },
+        "Live Count (incl. live tags)": {
+          "content": "916",
+          "confidence": 0.566,
+          "polygon": [
+            [
+              1.0073,
+              1.3966
+            ],
+            [
+              1.2327,
+              1.392
+            ],
+            [
+              1.2358,
+              1.5434
+            ],
+            [
+              1.0104,
+              1.548
+            ]
+          ]
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "61\n720",
+          "confidence": 0.046,
+          "polygon": [
+            [
+              1.3527,
+              1.2243
+            ],
+            [
+              1.5942,
+              1.2211
+            ],
+            [
+              1.5999,
+              1.6442
+            ],
+            [
+              1.3583,
+              1.6474
+            ]
+          ]
+        },
+        "% Spawning": {
+          "content": "100",
+          "confidence": 0.709,
+          "polygon": [
+            [
+              1.6961,
+              1.4235
+            ],
+            [
+              1.9589,
+              1.4159
+            ],
+            [
+              1.9635,
+              1.5738
+            ],
+            [
+              1.7006,
+              1.5814
+            ]
+          ]
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.672
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.62
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.957
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "1000-1500",
+          "confidence": 0.789,
+          "polygon": [
+            [
+              0.1494,
+              1.7255
+            ],
+            [
+              0.9048,
+              1.7216
+            ],
+            [
+              0.9056,
+              1.867
+            ],
+            [
+              0.1502,
+              1.871
+            ]
+          ]
+        },
+        "Live Count (incl. live tags)": {
+          "content": "789",
+          "confidence": 0.597,
+          "polygon": [
+            [
+              1.0496,
+              1.6426
+            ],
+            [
+              1.3517,
+              1.6234
+            ],
+            [
+              1.3623,
+              1.7907
+            ],
+            [
+              1.0602,
+              1.8098
+            ]
+          ]
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "627",
+          "confidence": 0.517,
+          "polygon": [
+            [
+              1.3221,
+              1.7517
+            ],
+            [
+              1.6436,
+              1.745
+            ],
+            [
+              1.6468,
+              1.8966
+            ],
+            [
+              1.3252,
+              1.9033
+            ]
+          ]
+        },
+        "% Spawning": {
+          "content": "100",
+          "confidence": 0.626,
+          "polygon": [
+            [
+              1.7019,
+              1.7045
+            ],
+            [
+              1.9551,
+              1.7051
+            ],
+            [
+              1.9548,
+              1.8555
+            ],
+            [
+              1.7016,
+              1.8549
+            ]
+          ]
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.672
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.62
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.957
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "1500- 2000",
+          "confidence": 0.924,
+          "polygon": [
+            [
+              0.1483,
+              1.9807
+            ],
+            [
+              0.9595,
+              1.9851
+            ],
+            [
+              0.9587,
+              2.1338
+            ],
+            [
+              0.1475,
+              2.1294
+            ]
+          ]
+        },
+        "Live Count (incl. live tags)": {
+          "content": "963\n291",
+          "confidence": 0.057,
+          "polygon": [
+            [
+              0.9968,
+              1.8938
+            ],
+            [
+              1.3074,
+              1.8883
+            ],
+            [
+              1.3149,
+              2.3109
+            ],
+            [
+              1.0043,
+              2.3164
+            ]
+          ]
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": "982",
+          "confidence": 0.529,
+          "polygon": [
+            [
+              1.3328,
+              1.9906
+            ],
+            [
+              1.5979,
+              1.9891
+            ],
+            [
+              1.5988,
+              2.1532
+            ],
+            [
+              1.3337,
+              2.1546
+            ]
+          ]
+        },
+        "% Spawning": {
+          "content": "100",
+          "confidence": 0.627,
+          "polygon": [
+            [
+              1.7061,
+              1.9514
+            ],
+            [
+              2.0129,
+              1.9514
+            ],
+            [
+              2.0129,
+              2.1253
+            ],
+            [
+              1.7061,
+              2.1253
+            ]
+          ]
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.672
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.62
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.957
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "2000 - 2500",
+          "confidence": 0.738,
+          "polygon": [
+            [
+              0.1289,
+              2.2118
+            ],
+            [
+              0.956,
+              2.2191
+            ],
+            [
+              0.9546,
+              2.3774
+            ],
+            [
+              0.1275,
+              2.3701
+            ]
+          ]
+        },
+        "Live Count (incl. live tags)": {
+          "content": "317",
+          "confidence": 0.599,
+          "polygon": [
+            [
+              1.3219,
+              2.2386
+            ],
+            [
+              1.6187,
+              2.2345
+            ],
+            [
+              1.6209,
+              2.3945
+            ],
+            [
+              1.3241,
+              2.3986
+            ]
+          ]
+        },
+        "% Spawning": {
+          "content": "100\n-",
+          "confidence": 0.161,
+          "polygon": [
+            [
+              1.6966,
+              2.1991
+            ],
+            [
+              2.6891,
+              2.206
+            ],
+            [
+              2.6879,
+              2.3809
+            ],
+            [
+              1.6954,
+              2.3739
+            ]
+          ]
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": null,
+          "confidence": 0.312
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.672
+        },
+        "% Spawned Out": {
+          "content": null,
+          "confidence": 0.62
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.957
+        }
+      }
+    },
+    {
+      "item": {
+        "Area": {
+          "content": "2500-3000\n3000-Falls",
+          "confidence": 0.037,
+          "polygon": [
+            [
+              0.1243,
+              2.4781
+            ],
+            [
+              0.9719,
+              2.4816
+            ],
+            [
+              0.9701,
+              2.8967
+            ],
+            [
+              0.1226,
+              2.8932
+            ]
+          ]
+        },
+        "Live Count (incl. live tags)": {
+          "content": "1428 1439",
+          "confidence": 0.164,
+          "polygon": [
+            [
+              0.9957,
+              2.4044
+            ],
+            [
+              1.5773,
+              2.3855
+            ],
+            [
+              1.5862,
+              2.6594
+            ],
+            [
+              1.0046,
+              2.6783
+            ]
+          ]
+        },
+        "% Spawning": {
+          "content": "1000\n-\n-\n-",
+          "confidence": 0.032,
+          "polygon": [
+            [
+              1.723,
+              2.4557
+            ],
+            [
+              2.7102,
+              2.4551
+            ],
+            [
+              2.7104,
+              2.8828
+            ],
+            [
+              1.7233,
+              2.8834
+            ]
+          ]
+        },
+        "% Spawned Out": {
+          "content": "-",
+          "confidence": 0.289,
+          "polygon": [
+            [
+              3.1709,
+              2.7871
+            ],
+            [
+              3.4331,
+              2.7893
+            ],
+            [
+              3.4324,
+              2.8683
+            ],
+            [
+              3.1703,
+              2.8661
+            ]
+          ]
+        },
+        "% O.E. (Observer Efficiency)": {
+          "content": null,
+          "confidence": 0.312
+        },
+        "% Holding / Migrating": {
+          "content": null,
+          "confidence": 0.672
+        },
+        "Live Tagged": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "Other Species": {
+          "content": null,
+          "confidence": 0.957
+        }
+      }
+    }
+  ],
+  "SK_Count_data_3": [],
+  "Stream": {
+    "content": "Forfar Creek",
+    "confidence": 0.95,
+    "polygon": [
+      [
+        2.0448,
+        0.2432
+      ],
+      [
+        3.0154,
+        0.2557
+      ],
+      [
+        3.0132,
+        0.4275
+      ],
+      [
+        2.0426,
+        0.415
+      ]
+    ]
+  },
+  "Survey Type: Aerial": {
+    "content": "selected",
+    "confidence": 0.951,
+    "polygon": [
+      [
+        4.5229,
+        0.4923
+      ],
+      [
+        4.6051,
+        0.4922
+      ],
+      [
+        4.6052,
+        0.5702
+      ],
+      [
+        4.523,
+        0.5703
+      ]
+    ]
+  },
+  "Visual Surveys Comments": {
+    "content": "DE= 70\n~ 1400\nFish holding\nat\nlarge\npool\nAchind\nbeaver dam @ 2700m\nisturned back after 2:00 m",
+    "confidence": 0.154,
+    "polygon": [
+      [
+        0.164,
+        3.2129
+      ],
+      [
+        4.6857,
+        3.2534
+      ],
+      [
+        4.677,
+        4.2194
+      ],
+      [
+        0.1553,
+        4.1789
+      ]
+    ]
+  },
+  "Survey Time: End": {
+    "content": "13:25",
+    "confidence": 0.974,
+    "polygon": [
+      [
+        5.6469,
+        0.7458
+      ],
+      [
+        6.0747,
+        0.7596
+      ],
+      [
+        6.0697,
+        0.9132
+      ],
+      [
+        5.6419,
+        0.8994
+      ]
+    ]
+  },
+  "Water Level: % Bankfill: 25-50%": {
+    "content": "selected",
+    "confidence": 0.973,
+    "polygon": [
+      [
+        5.8696,
+        1.2312
+      ],
+      [
+        5.9488,
+        1.2306
+      ],
+      [
+        5.9493,
+        1.3044
+      ],
+      [
+        5.8701,
+        1.305
+      ]
+    ]
+  },
+  "Water Level: % Bankfill: 75-100%": {
+    "content": "unselected",
+    "confidence": 0.97,
+    "polygon": [
+      [
+        5.6861,
+        1.4079
+      ],
+      [
+        5.7662,
+        1.4075
+      ],
+      [
+        5.7665,
+        1.4836
+      ],
+      [
+        5.6864,
+        1.484
+      ]
+    ]
+  },
+  "Weather: Brightness: Full": {
+    "content": "unselected",
+    "confidence": 0.957,
+    "polygon": [
+      [
+        5.4717,
+        2.1186
+      ],
+      [
+        5.5522,
+        2.119
+      ],
+      [
+        5.5519,
+        2.196
+      ],
+      [
+        5.4714,
+        2.1956
+      ]
+    ]
+  },
+  "Weather: Brightness: Medium": {
+    "content": "unselected",
+    "confidence": 0.966,
+    "polygon": [
+      [
+        5.9939,
+        2.1263
+      ],
+      [
+        6.0697,
+        2.1266
+      ],
+      [
+        6.0694,
+        2.2015
+      ],
+      [
+        5.9936,
+        2.2012
+      ]
+    ]
+  },
+  "Weather: %Cloudy: 0%": {
+    "content": "unselected",
+    "confidence": 0.965,
+    "polygon": [
+      [
+        5.4705,
+        2.3574
+      ],
+      [
+        5.5504,
+        2.3582
+      ],
+      [
+        5.5496,
+        2.4345
+      ],
+      [
+        5.4697,
+        2.4337
+      ]
+    ]
+  },
+  "Weather: %Cloudy: 50%": {
+    "content": "unselected",
+    "confidence": 0.967,
+    "polygon": [
+      [
+        5.8778,
+        2.3678
+      ],
+      [
+        5.9545,
+        2.3681
+      ],
+      [
+        5.9542,
+        2.4432
+      ],
+      [
+        5.8775,
+        2.4429
+      ]
+    ]
+  },
+  "Weather: %Cloudy: 100%": {
+    "content": "unselected",
+    "confidence": 0.964,
+    "polygon": [
+      [
+        6.2355,
+        2.372
+      ],
+      [
+        6.3119,
+        2.3727
+      ],
+      [
+        6.3112,
+        2.4471
+      ],
+      [
+        6.2348,
+        2.4463
+      ]
+    ]
+  },
+  "Precipitation: Type: Snow": {
+    "content": "unselected",
+    "confidence": 0.969,
+    "polygon": [
+      [
+        5.8121,
+        2.815
+      ],
+      [
+        5.8865,
+        2.8151
+      ],
+      [
+        5.8863,
+        2.8913
+      ],
+      [
+        5.8119,
+        2.8911
+      ]
+    ]
+  },
+  "Precipitation: Intensity: Light": {
+    "content": "unselected",
+    "confidence": 0.963,
+    "polygon": [
+      [
+        5.4872,
+        3.0892
+      ],
+      [
+        5.5658,
+        3.0894
+      ],
+      [
+        5.5656,
+        3.1635
+      ],
+      [
+        5.487,
+        3.1633
+      ]
+    ]
+  },
+  "Precipitation: Intensity: Heavy": {
+    "content": "unselected",
+    "confidence": 0.963,
+    "polygon": [
+      [
+        6.1782,
+        3.0987
+      ],
+      [
+        6.2532,
+        3.0991
+      ],
+      [
+        6.2528,
+        3.1725
+      ],
+      [
+        6.1778,
+        3.1721
+      ]
+    ]
+  },
+  "Water Conditions: Fish Visibility: Medium": {
+    "content": "selected",
+    "confidence": 0.969,
+    "polygon": [
+      [
+        5.8879,
+        3.5857
+      ],
+      [
+        5.9642,
+        3.5863
+      ],
+      [
+        5.9636,
+        3.6617
+      ],
+      [
+        5.8873,
+        3.6611
+      ]
+    ]
+  },
+  "Water Conditions: Water Temperature": {
+    "content": "10.6",
+    "confidence": 0.756,
+    "polygon": [
+      [
+        5.88,
+        3.7918
+      ],
+      [
+        6.1687,
+        3.7898
+      ],
+      [
+        6.1699,
+        3.958
+      ],
+      [
+        5.8812,
+        3.96
+      ]
+    ]
+  },
+  "Water Conditions: Water Clarity: 0.25-0.5m": {
+    "content": "unselected",
+    "confidence": 0.97,
+    "polygon": [
+      [
+        5.6376,
+        4.1268
+      ],
+      [
+        5.7146,
+        4.1275
+      ],
+      [
+        5.714,
+        4.2014
+      ],
+      [
+        5.637,
+        4.2008
+      ]
+    ]
+  },
+  "Water Conditions: Water Clarity: 1-3m": {
+    "content": "selected",
+    "confidence": 0.975,
+    "polygon": [
+      [
+        5.439,
+        4.2844
+      ],
+      [
+        5.5135,
+        4.2839
+      ],
+      [
+        5.514,
+        4.3605
+      ],
+      [
+        5.4395,
+        4.3609
+      ]
+    ]
+  },
+  "General Comments": {
+    "content": "Comments\n280 miles)Unusual edpditionspreventspeak of spain)\nremoved dam @ 900m\nLots of bear activity on Creek",
+    "confidence": 0.006,
+    "polygon": [
+      [
+        5.6256,
+        3.5294
+      ],
+      [
+        8.1611,
+        3.507
+      ],
+      [
+        8.1693,
+        4.4262
+      ],
+      [
+        5.6337,
+        4.4485
+      ]
+    ]
+  },
+  "SK_Count_data_2": [
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "Mouth\n500",
+          "confidence": 0.547,
+          "polygon": [
+            [
+              2.0825,
+              1.0454
+            ],
+            [
+              2.7496,
+              1.0563
+            ],
+            [
+              2.7476,
+              1.1835
+            ],
+            [
+              2.0804,
+              1.1726
+            ]
+          ]
+        },
+        "Male": {
+          "content": "0",
+          "confidence": 0.071,
+          "polygon": [
+            [
+              2.9579,
+              0.975
+            ],
+            [
+              3.1915,
+              0.9637
+            ],
+            [
+              3.2035,
+              1.2132
+            ],
+            [
+              2.97,
+              1.2245
+            ]
+          ]
+        },
+        "Female": {
+          "content": "0\n0",
+          "confidence": 0.004,
+          "polygon": [
+            [
+              3.7092,
+              0.9955
+            ],
+            [
+              3.9636,
+              0.9927
+            ],
+            [
+              3.9689,
+              1.4685
+            ],
+            [
+              3.7145,
+              1.4714
+            ]
+          ]
+        },
+        "Female % Spawn: N.R.": {
+          "content": "-",
+          "confidence": 0.485,
+          "polygon": [
+            [
+              4.4037,
+              1.0758
+            ],
+            [
+              4.6128,
+              1.0798
+            ],
+            [
+              4.6111,
+              1.1664
+            ],
+            [
+              4.402,
+              1.1624
+            ]
+          ]
+        },
+        "Female % Spawn: 0%": {
+          "content": "-",
+          "confidence": 0.274,
+          "polygon": [
+            [
+              5.1525,
+              1.0709
+            ],
+            [
+              5.3836,
+              1.0723
+            ],
+            [
+              5.3831,
+              1.1521
+            ],
+            [
+              5.152,
+              1.1507
+            ]
+          ]
+        },
+        "Female % Spawn: 50%": {
+          "content": "-",
+          "confidence": 0.573,
+          "polygon": [
+            [
+              5.9021,
+              1.0267
+            ],
+            [
+              6.1677,
+              1.0276
+            ],
+            [
+              6.1675,
+              1.1053
+            ],
+            [
+              5.9019,
+              1.1044
+            ]
+          ]
+        },
+        "Female % Spawn: 100%": {
+          "content": "-\n6",
+          "confidence": 0.038,
+          "polygon": [
+            [
+              6.5467,
+              1.0149
+            ],
+            [
+              7.3569,
+              1.0287
+            ],
+            [
+              7.3502,
+              1.418
+            ],
+            [
+              6.5401,
+              1.4042
+            ]
+          ]
+        },
+        "Jack": {
+          "content": "0",
+          "confidence": 0.069,
+          "polygon": [
+            [
+              7.2201,
+              1.0008
+            ],
+            [
+              7.4291,
+              0.9911
+            ],
+            [
+              7.4384,
+              1.1899
+            ],
+            [
+              7.2293,
+              1.1996
+            ]
+          ]
+        },
+        "Unsexed": {
+          "content": "y",
+          "confidence": 0.059,
+          "polygon": [
+            [
+              7.9179,
+              0.9834
+            ],
+            [
+              8.1182,
+              0.974
+            ],
+            [
+              8.126,
+              1.1403
+            ],
+            [
+              7.9258,
+              1.1498
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "500-1000",
+          "confidence": 0.621,
+          "polygon": [
+            [
+              2.0849,
+              1.3363
+            ],
+            [
+              2.6533,
+              1.3415
+            ],
+            [
+              2.6521,
+              1.4763
+            ],
+            [
+              2.0837,
+              1.4711
+            ]
+          ]
+        },
+        "Male": {
+          "content": "1",
+          "confidence": 0.908,
+          "polygon": [
+            [
+              2.9749,
+              1.3209
+            ],
+            [
+              3.0422,
+              1.3201
+            ],
+            [
+              3.0438,
+              1.4554
+            ],
+            [
+              2.9765,
+              1.4562
+            ]
+          ]
+        },
+        "Female % Spawn: N.R.": {
+          "content": "-",
+          "confidence": 0.593,
+          "polygon": [
+            [
+              4.4834,
+              1.3107
+            ],
+            [
+              4.6601,
+              1.3118
+            ],
+            [
+              4.6596,
+              1.3906
+            ],
+            [
+              4.4829,
+              1.3895
+            ]
+          ]
+        },
+        "Female % Spawn: 0%": {
+          "content": "-",
+          "confidence": 0.61,
+          "polygon": [
+            [
+              5.3268,
+              1.3053
+            ],
+            [
+              5.4204,
+              1.3047
+            ],
+            [
+              5.4207,
+              1.3583
+            ],
+            [
+              5.3271,
+              1.3589
+            ]
+          ]
+        },
+        "Female % Spawn: 50%": {
+          "content": "-",
+          "confidence": 0.7,
+          "polygon": [
+            [
+              5.9207,
+              1.3069
+            ],
+            [
+              6.0886,
+              1.3066
+            ],
+            [
+              6.0887,
+              1.3823
+            ],
+            [
+              5.9208,
+              1.3826
+            ]
+          ]
+        },
+        "Female % Spawn: 100%": {
+          "content": "-",
+          "confidence": 0.23,
+          "polygon": [
+            [
+              6.5224,
+              1.295
+            ],
+            [
+              6.6921,
+              1.296
+            ],
+            [
+              6.6918,
+              1.3515
+            ],
+            [
+              6.5221,
+              1.3505
+            ]
+          ]
+        },
+        "Unsexed": {
+          "content": "2",
+          "confidence": 0.808,
+          "polygon": [
+            [
+              7.9312,
+              1.2568
+            ],
+            [
+              8.1306,
+              1.2544
+            ],
+            [
+              8.1325,
+              1.4112
+            ],
+            [
+              7.9331,
+              1.4136
+            ]
+          ]
+        },
+        "Female": {
+          "content": null,
+          "confidence": 0.754
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.7
+        }
+      }
+    },
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "1000-1500",
+          "confidence": 0.812,
+          "polygon": [
+            [
+              2.0948,
+              1.5946
+            ],
+            [
+              2.7006,
+              1.5948
+            ],
+            [
+              2.7006,
+              1.716
+            ],
+            [
+              2.0948,
+              1.7158
+            ]
+          ]
+        },
+        "Male": {
+          "content": "1",
+          "confidence": 0.929,
+          "polygon": [
+            [
+              2.9971,
+              1.5203
+            ],
+            [
+              3.0796,
+              1.5148
+            ],
+            [
+              3.0911,
+              1.6881
+            ],
+            [
+              3.0086,
+              1.6936
+            ]
+          ]
+        },
+        "Female": {
+          "content": "0",
+          "confidence": 0.073,
+          "polygon": [
+            [
+              3.6921,
+              1.5568
+            ],
+            [
+              3.8639,
+              1.5479
+            ],
+            [
+              3.8736,
+              1.7337
+            ],
+            [
+              3.7017,
+              1.7426
+            ]
+          ]
+        },
+        "Female % Spawn: N.R.": {
+          "content": "-",
+          "confidence": 0.707,
+          "polygon": [
+            [
+              4.3562,
+              1.5752
+            ],
+            [
+              4.5626,
+              1.5781
+            ],
+            [
+              4.5613,
+              1.6687
+            ],
+            [
+              4.355,
+              1.6658
+            ]
+          ]
+        },
+        "Female % Spawn: 0%": {
+          "content": "-",
+          "confidence": 0.694,
+          "polygon": [
+            [
+              5.2319,
+              1.5794
+            ],
+            [
+              5.4047,
+              1.5811
+            ],
+            [
+              5.4038,
+              1.6678
+            ],
+            [
+              5.2311,
+              1.6661
+            ]
+          ]
+        },
+        "Female % Spawn: 100%": {
+          "content": "-\n-",
+          "confidence": 0.239,
+          "polygon": [
+            [
+              6.6619,
+              1.5195
+            ],
+            [
+              7.4522,
+              1.5353
+            ],
+            [
+              7.45,
+              1.6438
+            ],
+            [
+              6.6597,
+              1.628
+            ]
+          ]
+        },
+        "Unsexed": {
+          "content": "1",
+          "confidence": 0.601,
+          "polygon": [
+            [
+              7.9764,
+              1.5085
+            ],
+            [
+              8.0518,
+              1.5079
+            ],
+            [
+              8.053,
+              1.663
+            ],
+            [
+              7.9777,
+              1.6636
+            ]
+          ]
+        },
+        "Female % Spawn: 50%": {
+          "content": null,
+          "confidence": 0.947
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.7
+        }
+      }
+    },
+    {
+      "item": {
+        "Male": {
+          "content": "0",
+          "confidence": 0.073,
+          "polygon": [
+            [
+              2.9345,
+              1.7351
+            ],
+            [
+              3.146,
+              1.7258
+            ],
+            [
+              3.1565,
+              1.966
+            ],
+            [
+              2.945,
+              1.9753
+            ]
+          ]
+        },
+        "Female": {
+          "content": "1",
+          "confidence": 0.863,
+          "polygon": [
+            [
+              3.715,
+              1.764
+            ],
+            [
+              3.8184,
+              1.7594
+            ],
+            [
+              3.826,
+              1.9298
+            ],
+            [
+              3.7226,
+              1.9344
+            ]
+          ]
+        },
+        "Female % Spawn: N.R.": {
+          "content": "0",
+          "confidence": 0.072,
+          "polygon": [
+            [
+              4.4412,
+              1.7615
+            ],
+            [
+              4.6277,
+              1.752
+            ],
+            [
+              4.6378,
+              1.9505
+            ],
+            [
+              4.4513,
+              1.96
+            ]
+          ]
+        },
+        "Female % Spawn: 0%": {
+          "content": "1",
+          "confidence": 0.639,
+          "polygon": [
+            [
+              5.1619,
+              1.7465
+            ],
+            [
+              5.2378,
+              1.7444
+            ],
+            [
+              5.2425,
+              1.9115
+            ],
+            [
+              5.1666,
+              1.9136
+            ]
+          ]
+        },
+        "Female % Spawn: 50%": {
+          "content": "0",
+          "confidence": 0.061,
+          "polygon": [
+            [
+              5.8562,
+              1.7271
+            ],
+            [
+              6.0388,
+              1.7242
+            ],
+            [
+              6.0419,
+              1.9231
+            ],
+            [
+              5.8593,
+              1.926
+            ]
+          ]
+        },
+        "Female % Spawn: 100%": {
+          "content": "6",
+          "confidence": 0.039,
+          "polygon": [
+            [
+              7.2369,
+              1.715
+            ],
+            [
+              7.4167,
+              1.7114
+            ],
+            [
+              7.4205,
+              1.9022
+            ],
+            [
+              7.2407,
+              1.9058
+            ]
+          ]
+        },
+        "Area (Untagged)": {
+          "content": null,
+          "confidence": 0.008
+        },
+        "Jack": {
+          "content": null,
+          "confidence": 0.7
+        },
+        "Unsexed": {
+          "content": null,
+          "confidence": 0.962
+        }
+      }
+    },
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "1500- 2000\n2000-2500",
+          "confidence": 0.273,
+          "polygon": [
+            [
+              2.0831,
+              1.8486
+            ],
+            [
+              2.7171,
+              1.8449
+            ],
+            [
+              2.7192,
+              2.2056
+            ],
+            [
+              2.0852,
+              2.2092
+            ]
+          ]
+        },
+        "Male": {
+          "content": "0",
+          "confidence": 0.245,
+          "polygon": [
+            [
+              3.0226,
+              2.0214
+            ],
+            [
+              3.1957,
+              2.0174
+            ],
+            [
+              3.2007,
+              2.2334
+            ],
+            [
+              3.0276,
+              2.2374
+            ]
+          ]
+        },
+        "Female": {
+          "content": "2",
+          "confidence": 0.982,
+          "polygon": [
+            [
+              3.6969,
+              2.0421
+            ],
+            [
+              3.8516,
+              2.0398
+            ],
+            [
+              3.8542,
+              2.2132
+            ],
+            [
+              3.6995,
+              2.2155
+            ]
+          ]
+        },
+        "Female % Spawn: N.R.": {
+          "content": "0",
+          "confidence": 0.587,
+          "polygon": [
+            [
+              4.4502,
+              2.0046
+            ],
+            [
+              4.6401,
+              1.9991
+            ],
+            [
+              4.6469,
+              2.2323
+            ],
+            [
+              4.457,
+              2.2378
+            ]
+          ]
+        },
+        "Female % Spawn: 0%": {
+          "content": "2",
+          "confidence": 0.909,
+          "polygon": [
+            [
+              5.1648,
+              2.0218
+            ],
+            [
+              5.2841,
+              2.0223
+            ],
+            [
+              5.2834,
+              2.1863
+            ],
+            [
+              5.1641,
+              2.1858
+            ]
+          ]
+        },
+        "Female % Spawn: 50%": {
+          "content": "0",
+          "confidence": 0.198,
+          "polygon": [
+            [
+              5.8355,
+              1.9932
+            ],
+            [
+              6.0596,
+              1.9872
+            ],
+            [
+              6.0654,
+              2.2034
+            ],
+            [
+              5.8413,
+              2.2094
+            ]
+          ]
+        },
+        "Female % Spawn: 100%": {
+          "content": "0",
+          "confidence": 0.203,
+          "polygon": [
+            [
+              6.5778,
+              1.9992
+            ],
+            [
+              6.844,
+              1.9937
+            ],
+            [
+              6.8483,
+              2.2013
+            ],
+            [
+              6.5822,
+              2.2068
+            ]
+          ]
+        },
+        "Jack": {
+          "content": "0",
+          "confidence": 0.349,
+          "polygon": [
+            [
+              7.2484,
+              1.9735
+            ],
+            [
+              7.4167,
+              1.972
+            ],
+            [
+              7.4182,
+              2.1445
+            ],
+            [
+              7.25,
+              2.146
+            ]
+          ]
+        },
+        "Unsexed": {
+          "content": "1\n$",
+          "confidence": 0.03,
+          "polygon": [
+            [
+              7.9151,
+              1.7464
+            ],
+            [
+              8.1047,
+              1.7421
+            ],
+            [
+              8.1139,
+              2.1459
+            ],
+            [
+              7.9243,
+              2.1502
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "item": {
+        "Area (Untagged)": {
+          "content": "2500-3000",
+          "confidence": 0.73,
+          "polygon": [
+            [
+              2.0903,
+              2.3359
+            ],
+            [
+              2.7559,
+              2.3328
+            ],
+            [
+              2.7565,
+              2.4709
+            ],
+            [
+              2.0909,
+              2.474
+            ]
+          ]
+        },
+        "Male": {
+          "content": "0",
+          "confidence": 0.445,
+          "polygon": [
+            [
+              2.9859,
+              2.2578
+            ],
+            [
+              3.1543,
+              2.2527
+            ],
+            [
+              3.1605,
+              2.4583
+            ],
+            [
+              2.9922,
+              2.4634
+            ]
+          ]
+        },
+        "Female": {
+          "content": "0",
+          "confidence": 0.195,
+          "polygon": [
+            [
+              3.7387,
+              2.2643
+            ],
+            [
+              3.9719,
+              2.2561
+            ],
+            [
+              3.9793,
+              2.4662
+            ],
+            [
+              3.7461,
+              2.4745
+            ]
+          ]
+        },
+        "Female % Spawn: 0%": {
+          "content": "-",
+          "confidence": 0.049,
+          "polygon": [
+            [
+              4.4915,
+              2.3191
+            ],
+            [
+              4.6235,
+              2.3176
+            ],
+            [
+              4.6248,
+              2.4283
+            ],
+            [
+              4.4928,
+              2.4298
+            ]
+          ]
+        },
+        "Female % Spawn: 50%": {
+          "content": "-",
+          "confidence": 0.181,
+          "polygon": [
+            [
+              5.9807,
+              2.2883
+            ],
+            [
+              6.211,
+              2.2921
+            ],
+            [
+              6.209,
+              2.4158
+            ],
+            [
+              5.9787,
+              2.412
+            ]
+          ]
+        },
+        "Female % Spawn: 100%": {
+          "content": "-",
+          "confidence": 0.572,
+          "polygon": [
+            [
+              6.633,
+              2.3221
+            ],
+            [
+              6.782,
+              2.3227
+            ],
+            [
+              6.7817,
+              2.3909
+            ],
+            [
+              6.6327,
+              2.3902
+            ]
+          ]
+        },
+        "Jack": {
+          "content": "0",
+          "confidence": 0.287,
+          "polygon": [
+            [
+              7.3009,
+              2.2143
+            ],
+            [
+              7.5457,
+              2.2147
+            ],
+            [
+              7.5454,
+              2.3992
+            ],
+            [
+              7.3006,
+              2.3988
+            ]
+          ]
+        },
+        "Unsexed": {
+          "content": "0",
+          "confidence": 0.286,
+          "polygon": [
+            [
+              7.9547,
+              2.2325
+            ],
+            [
+              8.1804,
+              2.2282
+            ],
+            [
+              8.184,
+              2.416
+            ],
+            [
+              7.9583,
+              2.4204
+            ]
+          ]
+        },
+        "Female % Spawn: N.R.": {
+          "content": null,
+          "confidence": 0.957
+        }
+      }
+    }
+  ],
+  "3rd Observer": {
+    "content": null,
+    "confidence": 0.963
+  },
+  "Survey Type: Ground": {
+    "content": null,
+    "confidence": 0.963
+  },
+  "Water Level: Gauge": {
+    "content": null,
+    "confidence": 0.981
+  },
+  "Water Level: Gauge: Area": {
+    "content": null,
+    "confidence": 0.98
+  },
+  "_docType": {
+    "content": "fia-roving-ground-1",
+    "confidence": null
+  },
+  "_documentPolygon": {
+    "content": "",
+    "confidence": null,
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        8.5,
+        0.0
+      ],
+      [
+        8.5,
+        5.5
+      ],
+      [
+        0.0,
+        5.5
+      ]
+    ]
+  }
+}

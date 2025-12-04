@@ -1,47 +1,152 @@
 {
   "A20_Gordon_River_2023-10-05_Lower": {
-    "summary": "A20_Gordon_River_2023-10-05_Lower passed preliminary check."
+    "method_list": "Group 'method_list' has no selected values.",
+    "water_level_list": "Group 'water_level_list' has no selected values.",
+    "weather_brightness_list": "Group 'weather_brightness_list' has no selected values.",
+    "target_species_list": "Group 'target_species_list' has no selected values.",
+    "weather_cloudy_list": "Group 'weather_cloudy_list' has no selected values.",
+    "precipitation_type_list": "Group 'precipitation_type_list' has no selected values.",
+    "fish_visibility_list": "Group 'fish_visibility_list' has no selected values.",
+    "water_con_list": "Group 'water_con_list' has no selected values."
   },
   "A20_Harris_Creek_2023-10-30": {
-    "summary": "A20_Harris_Creek_2023-10-30 passed preliminary check."
+    "method_list": "Group 'method_list' has no selected values.",
+    "water_level_list": "Group 'water_level_list' has no selected values.",
+    "weather_brightness_list": "Group 'weather_brightness_list' has no selected values.",
+    "target_species_list": "Group 'target_species_list' has no selected values.",
+    "weather_cloudy_list": "Group 'weather_cloudy_list' has no selected values.",
+    "precipitation_type_list": "Group 'precipitation_type_list' has no selected values.",
+    "fish_visibility_list": "Group 'fish_visibility_list' has no selected values.",
+    "water_con_list": "Group 'water_con_list' has no selected values."
   },
   "A20_Lens_Creek_2023-10-13": {
-    "summary": "A20_Lens_Creek_2023-10-13 passed preliminary check."
+    "weather_cloudy_list": "Group 'weather_cloudy_list' has no selected values.",
+    "method_list": "Group 'method_list' has no selected values.",
+    "water_level_list": "Group 'water_level_list' has no selected values.",
+    "weather_brightness_list": "Group 'weather_brightness_list' has no selected values.",
+    "target_species_list": "Group 'target_species_list' has no selected values.",
+    "precipitation_type_list": "Group 'precipitation_type_list' has no selected values.",
+    "fish_visibility_list": "Group 'fish_visibility_list' has no selected values.",
+    "water_con_list": "Group 'water_con_list' has no selected values."
   },
   "A20_Lens_Creek_2023-10-31": {
-    "summary": "A20_Lens_Creek_2023-10-31 passed preliminary check."
+    "fish_visibility_list": "Group 'fish_visibility_list' has no selected values.",
+    "method_list": "Group 'method_list' has no selected values.",
+    "water_level_list": "Group 'water_level_list' has no selected values.",
+    "weather_brightness_list": "Group 'weather_brightness_list' has no selected values.",
+    "target_species_list": "Group 'target_species_list' has no selected values.",
+    "weather_cloudy_list": "Group 'weather_cloudy_list' has no selected values.",
+    "precipitation_type_list": "Group 'precipitation_type_list' has no selected values.",
+    "water_con_list": "Group 'water_con_list' has no selected values."
   },
   "A20_Renfrew_Creek_2023-10-16": {
-    "summary": "A20_Renfrew_Creek_2023-10-16 passed preliminary check."
+    "method_list": "Group 'method_list' has no selected values.",
+    "water_level_list": "Group 'water_level_list' has no selected values.",
+    "weather_brightness_list": "Group 'weather_brightness_list' has no selected values.",
+    "target_species_list": "Group 'target_species_list' has no selected values.",
+    "weather_cloudy_list": "Group 'weather_cloudy_list' has no selected values.",
+    "precipitation_type_list": "Group 'precipitation_type_list' has no selected values.",
+    "fish_visibility_list": "Group 'fish_visibility_list' has no selected values.",
+    "water_con_list": "Group 'water_con_list' has no selected values."
   },
   "A20_Renfrew_Creek_2023-11-08": {
-    "summary": "A20_Renfrew_Creek_2023-11-08 passed preliminary check."
+    "method_list": "Group 'method_list' has no selected values.",
+    "water_level_list": "Group 'water_level_list' has no selected values.",
+    "weather_brightness_list": "Group 'weather_brightness_list' has no selected values.",
+    "target_species_list": "Group 'target_species_list' has no selected values.",
+    "weather_cloudy_list": "Group 'weather_cloudy_list' has no selected values.",
+    "precipitation_type_list": "Group 'precipitation_type_list' has no selected values.",
+    "fish_visibility_list": "Group 'fish_visibility_list' has no selected values.",
+    "water_con_list": "Group 'water_con_list' has no selected values."
   },
   "A20_San_Juan_2023-10-10_Mid": {
-    "summary": "A20_San_Juan_2023-10-10_Mid passed preliminary check."
+    "method_list": "Group 'method_list' has no selected values.",
+    "water_level_list": "Group 'water_level_list' has no selected values.",
+    "weather_brightness_list": "Group 'weather_brightness_list' has no selected values.",
+    "target_species_list": "Group 'target_species_list' has no selected values.",
+    "weather_cloudy_list": "Group 'weather_cloudy_list' has no selected values.",
+    "precipitation_type_list": "Group 'precipitation_type_list' has no selected values.",
+    "fish_visibility_list": "Group 'fish_visibility_list' has no selected values.",
+    "water_con_list": "Group 'water_con_list' has no selected values."
   },
   "A20_San_Juan_2023-10-11_Lower": {
-    "summary": "A20_San_Juan_2023-10-11_Lower passed preliminary check."
+    "method_list": "Group 'method_list' has no selected values.",
+    "water_level_list": "Group 'water_level_list' has no selected values.",
+    "weather_brightness_list": "Group 'weather_brightness_list' has no selected values.",
+    "target_species_list": "Group 'target_species_list' has no selected values.",
+    "weather_cloudy_list": "Group 'weather_cloudy_list' has no selected values.",
+    "precipitation_type_list": "Group 'precipitation_type_list' has no selected values.",
+    "fish_visibility_list": "Group 'fish_visibility_list' has no selected values.",
+    "water_con_list": "Group 'water_con_list' has no selected values."
   },
   "A20_San_Juan_2023-10-12_Upper": {
-    "summary": "A20_San_Juan_2023-10-12_Upper passed preliminary check."
+    "method_list": "Group 'method_list' has no selected values.",
+    "water_level_list": "Group 'water_level_list' has no selected values.",
+    "weather_brightness_list": "Group 'weather_brightness_list' has no selected values.",
+    "target_species_list": "Group 'target_species_list' has no selected values.",
+    "weather_cloudy_list": "Group 'weather_cloudy_list' has no selected values.",
+    "precipitation_type_list": "Group 'precipitation_type_list' has no selected values.",
+    "fish_visibility_list": "Group 'fish_visibility_list' has no selected values.",
+    "water_con_list": "Group 'water_con_list' has no selected values."
   },
   "A20_San_Juan_2023-10-27_Upper ": {
-    "summary": "A20_San_Juan_2023-10-27_Upper  passed preliminary check."
+    "method_list": "Group 'method_list' has no selected values.",
+    "water_level_list": "Group 'water_level_list' has no selected values.",
+    "weather_brightness_list": "Group 'weather_brightness_list' has no selected values.",
+    "target_species_list": "Group 'target_species_list' has no selected values.",
+    "weather_cloudy_list": "Group 'weather_cloudy_list' has no selected values.",
+    "precipitation_type_list": "Group 'precipitation_type_list' has no selected values.",
+    "fish_visibility_list": "Group 'fish_visibility_list' has no selected values.",
+    "water_con_list": "Group 'water_con_list' has no selected values."
   },
   "A20_San_Juan_2023-10-28_Mid": {
-    "summary": "A20_San_Juan_2023-10-28_Mid passed preliminary check."
+    "method_list": "Group 'method_list' has no selected values.",
+    "water_level_list": "Group 'water_level_list' has no selected values.",
+    "weather_brightness_list": "Group 'weather_brightness_list' has no selected values.",
+    "target_species_list": "Group 'target_species_list' has no selected values.",
+    "weather_cloudy_list": "Group 'weather_cloudy_list' has no selected values.",
+    "precipitation_type_list": "Group 'precipitation_type_list' has no selected values.",
+    "fish_visibility_list": "Group 'fish_visibility_list' has no selected values.",
+    "water_con_list": "Group 'water_con_list' has no selected values."
   },
   "A20_San_Juan_2023-10-29_Lower": {
-    "summary": "A20_San_Juan_2023-10-29_Lower passed preliminary check."
+    "method_list": "Group 'method_list' has no selected values.",
+    "water_level_list": "Group 'water_level_list' has no selected values.",
+    "weather_brightness_list": "Group 'weather_brightness_list' has no selected values.",
+    "target_species_list": "Group 'target_species_list' has no selected values.",
+    "weather_cloudy_list": "Group 'weather_cloudy_list' has no selected values.",
+    "precipitation_type_list": "Group 'precipitation_type_list' has no selected values.",
+    "fish_visibility_list": "Group 'fish_visibility_list' has no selected values.",
+    "water_con_list": "Group 'water_con_list' has no selected values."
   },
   "A20_San_Juan_2023-10-3_Lower": {
-    "summary": "A20_San_Juan_2023-10-3_Lower passed preliminary check."
+    "fish_visibility_list": "Group 'fish_visibility_list' has no selected values.",
+    "method_list": "Group 'method_list' has no selected values.",
+    "water_level_list": "Group 'water_level_list' has no selected values.",
+    "weather_brightness_list": "Group 'weather_brightness_list' has no selected values.",
+    "target_species_list": "Group 'target_species_list' has no selected values.",
+    "weather_cloudy_list": "Group 'weather_cloudy_list' has no selected values.",
+    "precipitation_type_list": "Group 'precipitation_type_list' has no selected values.",
+    "water_con_list": "Group 'water_con_list' has no selected values."
   },
   "A20_San_Juan_2023-10-4_Upper": {
-    "summary": "A20_San_Juan_2023-10-4_Upper passed preliminary check."
+    "method_list": "Group 'method_list' has no selected values.",
+    "water_level_list": "Group 'water_level_list' has no selected values.",
+    "weather_brightness_list": "Group 'weather_brightness_list' has no selected values.",
+    "target_species_list": "Group 'target_species_list' has no selected values.",
+    "weather_cloudy_list": "Group 'weather_cloudy_list' has no selected values.",
+    "precipitation_type_list": "Group 'precipitation_type_list' has no selected values.",
+    "fish_visibility_list": "Group 'fish_visibility_list' has no selected values.",
+    "water_con_list": "Group 'water_con_list' has no selected values."
   },
   "Cayeghle_2023-09-02": {
-    "summary": "Cayeghle_2023-09-02 passed preliminary check."
+    "method_list": "Group 'method_list' has no selected values.",
+    "water_level_list": "Group 'water_level_list' has no selected values.",
+    "weather_brightness_list": "Group 'weather_brightness_list' has no selected values.",
+    "target_species_list": "Group 'target_species_list' has no selected values.",
+    "weather_cloudy_list": "Group 'weather_cloudy_list' has no selected values.",
+    "precipitation_type_list": "Group 'precipitation_type_list' has no selected values.",
+    "fish_visibility_list": "Group 'fish_visibility_list' has no selected values.",
+    "water_con_list": "Group 'water_con_list' has no selected values."
   }
 }

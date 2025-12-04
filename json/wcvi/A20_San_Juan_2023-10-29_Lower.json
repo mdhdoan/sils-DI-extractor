@@ -5,7 +5,7 @@
             "confidence": 0.257,
             "STREAM NAME": {
                 "content": "San Juan",
-                "confidence": 0.944,
+                "confidence": 0.94,
                 "polygon": [
                     [
                         1.9793,
@@ -49,7 +49,7 @@
             },
             "OBSERVER(S)": {
                 "content": "HJJJ",
-                "confidence": 0.578,
+                "confidence": 0.577,
                 "polygon": [
                     [
                         1.9153,
@@ -93,7 +93,7 @@
             },
             "DISTANCE SURVEYED": {
                 "content": "0000",
-                "confidence": 0.795,
+                "confidence": 0.794,
                 "polygon": [
                     [
                         2.4054,
@@ -181,7 +181,7 @@
             },
             "METHOD - SNORKLE": {
                 "content": "selected",
-                "confidence": 0.964,
+                "confidence": 0.961,
                 "polygon": [
                     [
                         0.9485,
@@ -225,7 +225,7 @@
             },
             "METHOD - BOAT": {
                 "content": "unselected",
-                "confidence": 0.968,
+                "confidence": 0.967,
                 "polygon": [
                     [
                         0.9712,
@@ -511,7 +511,7 @@
             },
             "CLOUD COVER - SCATTERED": {
                 "content": "unselected",
-                "confidence": 0.968,
+                "confidence": 0.967,
                 "polygon": [
                     [
                         5.1964,
@@ -643,7 +643,7 @@
             },
             "LIGHT LEVEL - MEDIUM": {
                 "content": "unselected",
-                "confidence": 0.968,
+                "confidence": 0.967,
                 "polygon": [
                     [
                         6.6175,
@@ -665,7 +665,7 @@
             },
             "LIGHT LEVEL - DARK": {
                 "content": "unselected",
-                "confidence": 0.975,
+                "confidence": 0.974,
                 "polygon": [
                     [
                         6.6219,
@@ -687,7 +687,7 @@
             },
             "TARGET SPECIES - SOCKEYE": {
                 "content": "unselected",
-                "confidence": 0.974,
+                "confidence": 0.968,
                 "polygon": [
                     [
                         1.0156,
@@ -709,7 +709,7 @@
             },
             "TARGET SPECIES - COHO": {
                 "content": "selected",
-                "confidence": 0.958,
+                "confidence": 0.957,
                 "polygon": [
                     [
                         1.0279,
@@ -731,7 +731,7 @@
             },
             "TARGET SPECIES - PINK": {
                 "content": "unselected",
-                "confidence": 0.973,
+                "confidence": 0.971,
                 "polygon": [
                     [
                         1.8163,
@@ -753,7 +753,7 @@
             },
             "TARGET SPECIES - CHUM": {
                 "content": "selected",
-                "confidence": 0.523,
+                "confidence": 0.481,
                 "polygon": [
                     [
                         1.8213,
@@ -775,7 +775,7 @@
             },
             "TARGET SPECIES - CHINOOK": {
                 "content": "unselected",
-                "confidence": 0.971,
+                "confidence": 0.967,
                 "polygon": [
                     [
                         2.6075,
@@ -1549,54 +1549,6 @@
                     ]
                 ]
             },
-            "DATA": {
-                "item": {
-                    "LIVE/DEAD": {
-                        "content": "Dead",
-                        "confidence": 0.735,
-                        "polygon": [
-                            [
-                                2.7979,
-                                5.5435
-                            ],
-                            [
-                                3.0565,
-                                5.5407
-                            ],
-                            [
-                                3.0574,
-                                5.63
-                            ],
-                            [
-                                2.7989,
-                                5.6328
-                            ]
-                        ]
-                    },
-                    "COHO ADULT": {
-                        "content": "1",
-                        "confidence": 0.078,
-                        "polygon": [
-                            [
-                                4.1226,
-                                4.4231
-                            ],
-                            [
-                                4.1947,
-                                4.4131
-                            ],
-                            [
-                                4.2163,
-                                4.5694
-                            ],
-                            [
-                                4.1443,
-                                4.5794
-                            ]
-                        ]
-                    }
-                }
-            },
             "ROW REF": {
                 "ROW_REF_1": {},
                 "ROW_REF_2": {},
@@ -1732,81 +1684,97 @@
                         ]
                     }
                 }
+            },
+            "DATA": {
+                "LIVE 1": {
+                    "COHO ADULT": {
+                        "content": "12",
+                        "confidence": 0.655,
+                        "polygon": [
+                            [
+                                3.9668,
+                                3.0434
+                            ],
+                            [
+                                4.1891,
+                                3.0428
+                            ],
+                            [
+                                4.1895,
+                                3.1938
+                            ],
+                            [
+                                3.9672,
+                                3.1944
+                            ]
+                        ]
+                    }
+                },
+                "% SP 1": {
+                    "COHO ADULT": {
+                        "content": "100",
+                        "confidence": 0.75,
+                        "polygon": [
+                            [
+                                3.9595,
+                                3.2415
+                            ],
+                            [
+                                4.2706,
+                                3.2354
+                            ],
+                            [
+                                4.2742,
+                                3.4192
+                            ],
+                            [
+                                3.9631,
+                                3.4253
+                            ]
+                        ]
+                    }
+                },
+                "DEAD 1": {},
+                "LIVE 2": {},
+                "% SP 2": {},
+                "DEAD 2": {},
+                "LIVE 3": {},
+                "% SP 3": {
+                    "COHO ADULT": {
+                        "content": "1",
+                        "confidence": 0.1,
+                        "polygon": [
+                            [
+                                4.1226,
+                                4.4231
+                            ],
+                            [
+                                4.1947,
+                                4.4131
+                            ],
+                            [
+                                4.2163,
+                                4.5694
+                            ],
+                            [
+                                4.1443,
+                                4.5794
+                            ]
+                        ]
+                    }
+                },
+                "DEAD 3": {},
+                "LIVE 4": {},
+                "% SP 4": {},
+                "DEAD 4": {},
+                "LIVE 5": {},
+                "% SP 5": {},
+                "DEAD 5": {}
             }
         },
         {
             "page": 4,
             "confidence": 0.984,
-            "DATA": {
-                "item": {
-                    "LIVE/DEAD": {
-                        "content": "Dead",
-                        "confidence": 0.737,
-                        "polygon": [
-                            [
-                                2.6936,
-                                5.0212
-                            ],
-                            [
-                                2.956,
-                                5.0238
-                            ],
-                            [
-                                2.9551,
-                                5.1207
-                            ],
-                            [
-                                2.6927,
-                                5.1181
-                            ]
-                        ]
-                    },
-                    "CHINOOK ADULT": {
-                        "content": "2",
-                        "confidence": 0.433,
-                        "polygon": [
-                            [
-                                5.7461,
-                                4.4789
-                            ],
-                            [
-                                5.866,
-                                4.479
-                            ],
-                            [
-                                5.8659,
-                                4.6416
-                            ],
-                            [
-                                5.746,
-                                4.6415
-                            ]
-                        ]
-                    },
-                    "OT": {
-                        "content": "A",
-                        "confidence": 0.084,
-                        "polygon": [
-                            [
-                                7.4138,
-                                3.0939
-                            ],
-                            [
-                                7.485,
-                                3.0959
-                            ],
-                            [
-                                7.4818,
-                                3.211
-                            ],
-                            [
-                                7.4106,
-                                3.209
-                            ]
-                        ]
-                    }
-                }
-            },
             "ROW REF": {
                 "ROW_REF_1": {
                     "ROW_REF": {
@@ -1833,30 +1801,7 @@
                     }
                 },
                 "ROW_REF_2": {},
-                "ROW_REF_3": {
-                    "ROW_REF": {
-                        "content": "2)",
-                        "confidence": 0.608,
-                        "polygon": [
-                            [
-                                1.3887,
-                                4.1935
-                            ],
-                            [
-                                1.71,
-                                4.1835
-                            ],
-                            [
-                                1.72,
-                                4.506
-                            ],
-                            [
-                                1.3987,
-                                4.516
-                            ]
-                        ]
-                    }
-                },
+                "ROW_REF_3": {},
                 "ROW_REF_4": {
                     "ROW_REF": {
                         "content": "0",
@@ -2011,6 +1956,92 @@
                         ]
                     }
                 }
+            },
+            "DATA": {
+                "LIVE 1": {},
+                "% SP 1": {},
+                "DEAD 1": {
+                    "CHINOOK ADULT": {
+                        "content": "2",
+                        "confidence": 0.958,
+                        "polygon": [
+                            [
+                                5.6936,
+                                2.8848
+                            ],
+                            [
+                                5.876,
+                                2.8899
+                            ],
+                            [
+                                5.8713,
+                                3.0582
+                            ],
+                            [
+                                5.6889,
+                                3.0532
+                            ]
+                        ]
+                    }
+                },
+                "LIVE 2": {
+                    "OT": {
+                        "content": "A",
+                        "confidence": 0.112,
+                        "polygon": [
+                            [
+                                7.4138,
+                                3.0939
+                            ],
+                            [
+                                7.485,
+                                3.0959
+                            ],
+                            [
+                                7.4818,
+                                3.211
+                            ],
+                            [
+                                7.4106,
+                                3.209
+                            ]
+                        ]
+                    }
+                },
+                "% SP 2": {},
+                "DEAD 2": {},
+                "LIVE 3": {},
+                "% SP 3": {},
+                "DEAD 3": {},
+                "LIVE 4": {},
+                "% SP 4": {},
+                "DEAD 4": {
+                    "CHINOOK ADULT": {
+                        "content": "2",
+                        "confidence": 0.578,
+                        "polygon": [
+                            [
+                                5.7461,
+                                4.4789
+                            ],
+                            [
+                                5.866,
+                                4.479
+                            ],
+                            [
+                                5.8659,
+                                4.6416
+                            ],
+                            [
+                                5.746,
+                                4.6415
+                            ]
+                        ]
+                    }
+                },
+                "LIVE 5": {},
+                "% SP 5": {},
+                "DEAD 5": {}
             }
         },
         {
@@ -2018,7 +2049,7 @@
             "confidence": 0.983,
             "STREAM NAME": {
                 "content": "hss",
-                "confidence": 0.205,
+                "confidence": 0.206,
                 "polygon": [
                     [
                         3.0213,
@@ -2040,7 +2071,7 @@
             },
             "DATE": {
                 "content": "23-10-29",
-                "confidence": 0.538,
+                "confidence": 0.539,
                 "polygon": [
                     [
                         4.3084,
@@ -2060,9 +2091,9 @@
                     ]
                 ]
             },
-            "REF NO.": {
+            "REF NO": {
                 "content": "C.2",
-                "confidence": 0.654,
+                "confidence": 0.465,
                 "polygon": [
                     [
                         6.9995,
@@ -2081,98 +2112,6 @@
                         1.5814
                     ]
                 ]
-            },
-            "DATA": {
-                "item": {
-                    "LIVE/DEAD": {
-                        "content": "Dead",
-                        "confidence": 0.737,
-                        "polygon": [
-                            [
-                                2.9511,
-                                4.605
-                            ],
-                            [
-                                3.2251,
-                                4.6269
-                            ],
-                            [
-                                3.2174,
-                                4.723
-                            ],
-                            [
-                                2.9434,
-                                4.7011
-                            ]
-                        ]
-                    },
-                    "CHUM ADULT": {
-                        "content": "98",
-                        "confidence": 0.063,
-                        "polygon": [
-                            [
-                                5.4913,
-                                4.6008
-                            ],
-                            [
-                                5.7757,
-                                4.6174
-                            ],
-                            [
-                                5.7661,
-                                4.7808
-                            ],
-                            [
-                                5.4818,
-                                4.7642
-                            ]
-                        ]
-                    },
-                    "CHINOOK ADULT": {
-                        "content": "2",
-                        "confidence": 0.665,
-                        "polygon": [
-                            [
-                                6.0679,
-                                3.7243
-                            ],
-                            [
-                                6.2461,
-                                3.7346
-                            ],
-                            [
-                                6.2367,
-                                3.8971
-                            ],
-                            [
-                                6.0585,
-                                3.8867
-                            ]
-                        ]
-                    },
-                    "COHO ADULT": {
-                        "content": "100",
-                        "confidence": 0.592,
-                        "polygon": [
-                            [
-                                4.1899,
-                                4.484
-                            ],
-                            [
-                                4.5362,
-                                4.5036
-                            ],
-                            [
-                                4.5264,
-                                4.6771
-                            ],
-                            [
-                                4.18,
-                                4.6574
-                            ]
-                        ]
-                    }
-                }
             },
             "ROW REF": {
                 "ROW_REF_1": {},
@@ -2309,59 +2248,279 @@
                         ]
                     }
                 }
+            },
+            "DATA": {
+                "LIVE 1": {},
+                "% SP 1": {
+                    "CHINOOK ADULT": {
+                        "content": "3",
+                        "confidence": 0.663,
+                        "polygon": [
+                            [
+                                5.7391,
+                                2.2528
+                            ],
+                            [
+                                5.8871,
+                                2.2575
+                            ],
+                            [
+                                5.8825,
+                                2.3996
+                            ],
+                            [
+                                5.7346,
+                                2.3949
+                            ]
+                        ]
+                    }
+                },
+                "DEAD 1": {
+                    "CHUM ADULT": {
+                        "content": "100",
+                        "confidence": 0.918,
+                        "polygon": [
+                            [
+                                5.6635,
+                                2.4547
+                            ],
+                            [
+                                5.8864,
+                                2.4643
+                            ],
+                            [
+                                5.8824,
+                                2.5582
+                            ],
+                            [
+                                5.6595,
+                                2.5487
+                            ]
+                        ]
+                    }
+                },
+                "LIVE 2": {
+                    "CHINOOK ADULT": {
+                        "content": "2",
+                        "confidence": 0.964,
+                        "polygon": [
+                            [
+                                6.1277,
+                                2.645
+                            ],
+                            [
+                                6.2814,
+                                2.652
+                            ],
+                            [
+                                6.2754,
+                                2.7846
+                            ],
+                            [
+                                6.1217,
+                                2.7776
+                            ]
+                        ]
+                    }
+                },
+                "% SP 2": {},
+                "DEAD 2": {},
+                "LIVE 3": {},
+                "% SP 3": {
+                    "COHO ADULT": {
+                        "content": "6\n100",
+                        "confidence": 0.945,
+                        "polygon": [
+                            [
+                                4.3291,
+                                3.2332
+                            ],
+                            [
+                                4.6405,
+                                3.2522
+                            ],
+                            [
+                                4.6207,
+                                3.5786
+                            ],
+                            [
+                                4.3093,
+                                3.5597
+                            ]
+                        ]
+                    },
+                    "CHINOOK ADULT": {
+                        "content": "1",
+                        "confidence": 0.61,
+                        "polygon": [
+                            [
+                                5.7726,
+                                3.339
+                            ],
+                            [
+                                5.8429,
+                                3.3458
+                            ],
+                            [
+                                5.8271,
+                                3.5083
+                            ],
+                            [
+                                5.7569,
+                                3.5015
+                            ]
+                        ]
+                    }
+                },
+                "DEAD 3": {
+                    "CHINOOK ADULT": {
+                        "content": "100",
+                        "confidence": 0.928,
+                        "polygon": [
+                            [
+                                5.777,
+                                3.5606
+                            ],
+                            [
+                                5.948,
+                                3.5676
+                            ],
+                            [
+                                5.9434,
+                                3.6819
+                            ],
+                            [
+                                5.7723,
+                                3.6748
+                            ]
+                        ]
+                    }
+                },
+                "LIVE 4": {
+                    "CHINOOK ADULT": {
+                        "content": "2",
+                        "confidence": 0.886,
+                        "polygon": [
+                            [
+                                6.0679,
+                                3.7243
+                            ],
+                            [
+                                6.2461,
+                                3.7346
+                            ],
+                            [
+                                6.2367,
+                                3.8971
+                            ],
+                            [
+                                6.0585,
+                                3.8867
+                            ]
+                        ]
+                    }
+                },
+                "% SP 4": {},
+                "DEAD 4": {},
+                "LIVE 5": {
+                    "COHO ADULT": {
+                        "content": "2",
+                        "confidence": 0.648,
+                        "polygon": [
+                            [
+                                4.2219,
+                                4.3073
+                            ],
+                            [
+                                4.4395,
+                                4.3144
+                            ],
+                            [
+                                4.4324,
+                                4.5331
+                            ],
+                            [
+                                4.2148,
+                                4.526
+                            ]
+                        ]
+                    }
+                },
+                "% SP 5": {
+                    "COHO ADULT": {
+                        "content": "100",
+                        "confidence": 0.674,
+                        "polygon": [
+                            [
+                                4.1899,
+                                4.484
+                            ],
+                            [
+                                4.5362,
+                                4.5036
+                            ],
+                            [
+                                4.5264,
+                                4.6771
+                            ],
+                            [
+                                4.18,
+                                4.6574
+                            ]
+                        ]
+                    },
+                    "CHUM ADULT": {
+                        "content": "56",
+                        "confidence": 0.976,
+                        "polygon": [
+                            [
+                                5.4882,
+                                4.4174
+                            ],
+                            [
+                                5.7809,
+                                4.434
+                            ],
+                            [
+                                5.7716,
+                                4.5986
+                            ],
+                            [
+                                5.4789,
+                                4.582
+                            ]
+                        ]
+                    }
+                },
+                "DEAD 5": {
+                    "CHUM ADULT": {
+                        "content": "98",
+                        "confidence": 0.983,
+                        "polygon": [
+                            [
+                                5.4913,
+                                4.6008
+                            ],
+                            [
+                                5.7757,
+                                4.6174
+                            ],
+                            [
+                                5.7661,
+                                4.7808
+                            ],
+                            [
+                                5.4818,
+                                4.7642
+                            ]
+                        ]
+                    }
+                }
             }
         },
         {
             "page": 6,
             "confidence": 0.988,
-            "DATA": {
-                "item": {
-                    "LIVE/DEAD": {
-                        "content": "Dead",
-                        "confidence": 0.736,
-                        "polygon": [
-                            [
-                                2.657,
-                                4.5052
-                            ],
-                            [
-                                2.9249,
-                                4.5055
-                            ],
-                            [
-                                2.9248,
-                                4.6004
-                            ],
-                            [
-                                2.6569,
-                                4.6001
-                            ]
-                        ]
-                    },
-                    "CHINOOK ADULT": {
-                        "content": "3",
-                        "confidence": 0.74,
-                        "polygon": [
-                            [
-                                5.6535,
-                                2.2252
-                            ],
-                            [
-                                5.8105,
-                                2.2225
-                            ],
-                            [
-                                5.8131,
-                                2.3722
-                            ],
-                            [
-                                5.6561,
-                                2.3749
-                            ]
-                        ]
-                    }
-                }
-            },
             "ROW REF": {
                 "ROW_REF_1": {},
                 "ROW_REF_2": {},
@@ -2405,6 +2564,46 @@
                 "ROW_REF_3": {},
                 "ROW_REF_4": {},
                 "ROW_REF_5": {}
+            },
+            "DATA": {
+                "LIVE 1": {},
+                "% SP 1": {
+                    "CHINOOK ADULT": {
+                        "content": "3",
+                        "confidence": 0.987,
+                        "polygon": [
+                            [
+                                5.6535,
+                                2.2252
+                            ],
+                            [
+                                5.8105,
+                                2.2225
+                            ],
+                            [
+                                5.8131,
+                                2.3722
+                            ],
+                            [
+                                5.6561,
+                                2.3749
+                            ]
+                        ]
+                    }
+                },
+                "DEAD 1": {},
+                "LIVE 2": {},
+                "% SP 2": {},
+                "DEAD 2": {},
+                "LIVE 3": {},
+                "% SP 3": {},
+                "DEAD 3": {},
+                "LIVE 4": {},
+                "% SP 4": {},
+                "DEAD 4": {},
+                "LIVE 5": {},
+                "% SP 5": {},
+                "DEAD 5": {}
             }
         }
     ],

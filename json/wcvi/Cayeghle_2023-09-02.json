@@ -3,9 +3,9 @@
         {
             "page": 1,
             "confidence": 0.181,
-            "REF NO.": {
+            "REF NO": {
                 "content": "CAY080223",
-                "confidence": 0.898,
+                "confidence": 0.897,
                 "polygon": [
                     [
                         29.3671,
@@ -93,7 +93,7 @@
             },
             "SEGMENTS/AREA SURVEYED": {
                 "content": "6-1",
-                "confidence": 0.854,
+                "confidence": 0.843,
                 "polygon": [
                     [
                         17.6206,
@@ -115,7 +115,7 @@
             },
             "DISTANCE SURVEYED": {
                 "content": "3000",
-                "confidence": 0.959,
+                "confidence": 0.923,
                 "polygon": [
                     [
                         14.2078,
@@ -291,7 +291,7 @@
             },
             "WATER CON - CLEAR": {
                 "content": "selected",
-                "confidence": 0.973,
+                "confidence": 0.951,
                 "polygon": [
                     [
                         12.1474,
@@ -313,7 +313,7 @@
             },
             "WATER CON - TEA": {
                 "content": "unselected",
-                "confidence": 0.966,
+                "confidence": 0.964,
                 "polygon": [
                     [
                         12.1168,
@@ -555,7 +555,7 @@
             },
             "CLOUD COVER - SCATTERED": {
                 "content": "unselected",
-                "confidence": 0.966,
+                "confidence": 0.965,
                 "polygon": [
                     [
                         31.5239,
@@ -665,7 +665,7 @@
             },
             "LIGHT LEVEL - BRIGHT": {
                 "content": "unselected",
-                "confidence": 0.969,
+                "confidence": 0.968,
                 "polygon": [
                     [
                         40.5755,
@@ -709,7 +709,7 @@
             },
             "LIGHT LEVEL - DARK": {
                 "content": "unselected",
-                "confidence": 0.964,
+                "confidence": 0.965,
                 "polygon": [
                     [
                         40.862,
@@ -841,7 +841,7 @@
             },
             "PRECIPITATION - NONE": {
                 "content": "selected",
-                "confidence": 0.968,
+                "confidence": 0.97,
                 "polygon": [
                     [
                         22.821,
@@ -863,7 +863,7 @@
             },
             "PRECIPITATION - RAIN": {
                 "content": "unselected",
-                "confidence": 0.968,
+                "confidence": 0.969,
                 "polygon": [
                     [
                         22.8761,
@@ -885,7 +885,7 @@
             },
             "PRECIPITATION - SNOW": {
                 "content": "unselected",
-                "confidence": 0.954,
+                "confidence": 0.959,
                 "polygon": [
                     [
                         22.9053,
@@ -929,7 +929,7 @@
             },
             "PRECIPITATION - MEDIUM": {
                 "content": "unselected",
-                "confidence": 0.961,
+                "confidence": 0.956,
                 "polygon": [
                     [
                         28.4263,
@@ -949,31 +949,9 @@
                     ]
                 ]
             },
-            "PRECIPITATION - HEAVY": {
-                "content": "unselected",
-                "confidence": 0.85,
-                "polygon": [
-                    [
-                        28.5025,
-                        26.2701
-                    ],
-                    [
-                        29.0834,
-                        26.2639
-                    ],
-                    [
-                        29.0897,
-                        26.851
-                    ],
-                    [
-                        28.5088,
-                        26.8573
-                    ]
-                ]
-            },
             "WATER TEMP": {
                 "content": "10",
-                "confidence": 0.893,
+                "confidence": 0.894,
                 "polygon": [
                     [
                         38.2675,
@@ -1017,7 +995,7 @@
             },
             "FISH VIS - MEDIUM": {
                 "content": "unselected",
-                "confidence": 0.899,
+                "confidence": 0.956,
                 "polygon": [
                     [
                         39.7569,
@@ -1397,7 +1375,7 @@
             "confidence": 0.988,
             "STREAM NAME": {
                 "content": "CAY",
-                "confidence": 0.821,
+                "confidence": 0.823,
                 "polygon": [
                     [
                         13.9664,
@@ -1419,7 +1397,7 @@
             },
             "DATE": {
                 "content": "02 SEP 23",
-                "confidence": 0.678,
+                "confidence": 0.682,
                 "polygon": [
                     [
                         23.4164,
@@ -1439,9 +1417,9 @@
                     ]
                 ]
             },
-            "REF NO.": {
+            "REF NO": {
                 "content": "CAY 080223",
-                "confidence": 0.673,
+                "confidence": 0.678,
                 "polygon": [
                     [
                         32.4927,
@@ -1460,98 +1438,6 @@
                         8.4098
                     ]
                 ]
-            },
-            "DATA": {
-                "item": {
-                    "LIVE/DEAD": {
-                        "content": "Dead",
-                        "confidence": 0.737,
-                        "polygon": [
-                            [
-                                16.2711,
-                                27.9224
-                            ],
-                            [
-                                18.0846,
-                                27.9194
-                            ],
-                            [
-                                18.0857,
-                                28.599
-                            ],
-                            [
-                                16.2722,
-                                28.602
-                            ]
-                        ]
-                    },
-                    "SOCKEYE ADULT": {
-                        "content": "4",
-                        "confidence": 0.74,
-                        "polygon": [
-                            [
-                                19.1806,
-                                25.3191
-                            ],
-                            [
-                                20.1628,
-                                25.3152
-                            ],
-                            [
-                                20.167,
-                                26.3724
-                            ],
-                            [
-                                19.1849,
-                                26.3763
-                            ]
-                        ]
-                    },
-                    "COHO ADULT": {
-                        "content": "4\n2",
-                        "confidence": 0.321,
-                        "polygon": [
-                            [
-                                24.4599,
-                                25.0228
-                            ],
-                            [
-                                29.3423,
-                                25.0278
-                            ],
-                            [
-                                29.3411,
-                                26.1513
-                            ],
-                            [
-                                24.4588,
-                                26.1463
-                            ]
-                        ]
-                    },
-                    "CHINOOK JACK": {
-                        "content": "3",
-                        "confidence": 0.739,
-                        "polygon": [
-                            [
-                                38.4934,
-                                24.698
-                            ],
-                            [
-                                39.5091,
-                                24.6817
-                            ],
-                            [
-                                39.5272,
-                                25.8145
-                            ],
-                            [
-                                38.5115,
-                                25.8308
-                            ]
-                        ]
-                    }
-                }
             },
             "ROW REF": {
                 "ROW_REF_1": {
@@ -1918,6 +1804,90 @@
                         ]
                     }
                 }
+            },
+            "DATA": {
+                "LIVE 1": {},
+                "% SP 1": {},
+                "DEAD 1": {},
+                "LIVE 2": {},
+                "% SP 2": {},
+                "DEAD 2": {},
+                "LIVE 3": {},
+                "% SP 3": {},
+                "DEAD 3": {},
+                "LIVE 4": {},
+                "% SP 4": {},
+                "DEAD 4": {},
+                "LIVE 5": {
+                    "SOCKEYE ADULT": {
+                        "content": "4",
+                        "confidence": 0.986,
+                        "polygon": [
+                            [
+                                19.1806,
+                                25.3191
+                            ],
+                            [
+                                20.1628,
+                                25.3152
+                            ],
+                            [
+                                20.167,
+                                26.3724
+                            ],
+                            [
+                                19.1849,
+                                26.3763
+                            ]
+                        ]
+                    },
+                    "COHO ADULT": {
+                        "content": "4\n2",
+                        "confidence": 0.427,
+                        "polygon": [
+                            [
+                                24.4599,
+                                25.0228
+                            ],
+                            [
+                                29.3423,
+                                25.0278
+                            ],
+                            [
+                                29.3411,
+                                26.1513
+                            ],
+                            [
+                                24.4588,
+                                26.1463
+                            ]
+                        ]
+                    },
+                    "CHINOOK JACK": {
+                        "content": "3",
+                        "confidence": 0.985,
+                        "polygon": [
+                            [
+                                38.4934,
+                                24.698
+                            ],
+                            [
+                                39.5091,
+                                24.6817
+                            ],
+                            [
+                                39.5272,
+                                25.8145
+                            ],
+                            [
+                                38.5115,
+                                25.8308
+                            ]
+                        ]
+                    }
+                },
+                "% SP 5": {},
+                "DEAD 5": {}
             }
         }
     ],
@@ -1927,7 +1897,7 @@
             "confidence": 0.891,
             "STREAM NAME": {
                 "content": "CAY",
-                "confidence": 0.894,
+                "confidence": 0.876,
                 "polygon": [
                     [
                         15.5096,
@@ -1949,7 +1919,7 @@
             },
             "DATE": {
                 "content": "02SEP23",
-                "confidence": 0.825,
+                "confidence": 0.819,
                 "polygon": [
                     [
                         24.7509,
@@ -1969,9 +1939,9 @@
                     ]
                 ]
             },
-            "REF NO.": {
+            "REF NO": {
                 "content": "CAY080223",
-                "confidence": 0.692,
+                "confidence": 0.678,
                 "polygon": [
                     [
                         32.5947,
@@ -1993,7 +1963,7 @@
             },
             "COMMENTS": {
                 "content": "GOOD WEATHER + SURVEY CONDITIONS\nEXTREME INFILLING THROUGHOUT - 1.5K STRETCHES I NO WATER OVER ANKLE DEEPNO\n2\nTWO IMPASSABLE BARRIERS-DRY GRAVEL\nBARS 8 m + LONG.",
-                "confidence": 0.072,
+                "confidence": 0.078,
                 "polygon": [
                     [
                         7.1361,

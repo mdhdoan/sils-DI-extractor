@@ -203,7 +203,7 @@ def validate_selection_groups(cleaned_data: dict):
 # ---------------------------------------------------------------------
 def main():
     import argparse
-    ap = argparse.ArgumentParser(description="Local BC16 cleaner/validator with report.json output.")
+    ap = argparse.ArgumentParser(description="Local WCVI cleaner/validator with report.json output.")
     ap.add_argument("-f", "--file", default="connections.json", help="connections.json path")
     ap.add_argument("--in-dir", default="local_input", help="Folder with raw JSONs")
     ap.add_argument("--out-dir", default="out_cleaned", help="Folder for cleaned JSONs")

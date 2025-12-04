@@ -52,7 +52,7 @@ output_container_name = "wcvi"
 output_directory_name = "wcvi-sil-2023/update_jsons"
 
 # Determine model to be used here. Check with Document Intelligence Studio for the name of the model used:
-extraction_model_id = "wcvi-sil-5"
+extraction_model_id = "wcvi-sil-6"
 
 OK, ERR = "[OK]", "[ERR]"
 
