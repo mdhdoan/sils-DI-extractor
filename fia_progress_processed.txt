@@ -7,7 +7,8 @@ azure::fia/aerial/upload/Aug-07-2025_Driftwood_River.pdf	2	2025-12-04T21:37:28.4
 azure::fia/aerial/upload/Aug-08-2025_Gluske_Creek.pdf	2	2025-12-04T21:37:31.148141+00:00	OK
 azure::fia/aerial/upload/Aug-07-2025_Porter_Creek.pdf	2	2025-12-04T21:37:31.148255+00:00	OK
 azure::fia/aerial/upload/Aug-07-2025_Kotsine_Creek.pdf	2	2025-12-04T21:37:31.191723+00:00	OK
-azure::fia/aerial/upload/Aug-07-2025_Lion_Creek.pdf	2	2025-12-04T21:37:32.176672+00:00	OKazure::fia/ground/upload/Aug-01-2025_O'_Ne-Ell_Creek.pdf	2	2025-12-04T21:40:29.321955+00:00	OK
+azure::fia/aerial/upload/Aug-07-2025_Lion_Creek.pdf	2	2025-12-04T21:37:32.176672+00:00	OK
+azure::fia/ground/upload/Aug-01-2025_O'_Ne-Ell_Creek.pdf	2	2025-12-04T21:40:29.321955+00:00	OK
 azure::fia/ground/upload/Aug-01-2025_Forfar_Creek.pdf	2	2025-12-04T21:40:29.825189+00:00	OK
 azure::fia/ground/upload/Aug-10-2025_Kazchek_Creek.pdf	2	2025-12-04T21:40:30.223074+00:00	OK
 azure::fia/ground/upload/Aug-02-2025_Forfar_Creek.pdf	2	2025-12-04T21:40:31.769679+00:00	OK

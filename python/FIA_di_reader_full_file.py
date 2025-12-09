@@ -876,27 +876,40 @@ def analyze_azure_pdfs(di_client: DocumentIntelligenceClient,
 # =============================================================================
 # CLI / Entrypoint
 # =============================================================================
-
 def load_connections_config() -> ConnectionsConfig:
     """
-    Load ./connections.json (CWD). Expects:
-      - DI-Key
-      - DI-Endpoint (or legacy DI_Endpoint)
-      - SA-endpoint (account URL, https://<storage>.blob.core.windows.net)
+    Load ./connections.json (from current working directory) and return
+    connection settings for Document Intelligence and Blob Storage.
+
+    Expected keys (with some tolerant fallbacks):
+      - "DI-Endpoint"   (or legacy "DI_Endpoint")
+      - "DI-Key"
+      - "SA-endpoint"   (or "SA_endpoint" / "SA-Endpoint")
     """
     config_path = os.path.join(os.getcwd(), "connections.json")
     with open(config_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    di_endpoint = (data.get("DI-Endpoint") or data.get("DI_Endpoint"))
+    # DI endpoint (with legacy fallback)
+    di_endpoint = data.get("DI-Endpoint") or data.get("DI_Endpoint")
     if not di_endpoint:
         raise ValueError("connections.json missing 'DI-Endpoint' (or 'DI_Endpoint').")
+
+    # DI key (API key for Document Intelligence)
     di_key = data.get("DI-Key")
     if not di_key:
         raise ValueError("connections.json missing 'DI-Key'.")
-    storage_account_url = (data.get("SA-endpoint") or data.get("SA-endpoint"))
+
+    # Storage account endpoint, with a couple of spelling variants
+    storage_account_url = (
+        data.get("SA-endpoint")
+        or data.get("SA_endpoint")
+        or data.get("SA-Endpoint")
+    )
     if not storage_account_url:
-        raise ValueError("connections.json missing 'SA-endpoint'.")
+        raise ValueError(
+            "connections.json missing 'SA-endpoint' (or 'SA_endpoint' / 'SA-Endpoint')."
+        )
 
     return ConnectionsConfig(
         di_endpoint=di_endpoint.rstrip("/"),
@@ -1004,8 +1017,6 @@ def main() -> None:
             retries=opts.retries,
             download_dir=opts.download_dir,
 )
-
-
 
 if __name__ == "__main__":
     main()
